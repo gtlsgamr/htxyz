@@ -1,0 +1,56 @@
+baseurl = "https://www.example.org/"
+title = "ht.xyz"
+copyright = "Copyright &copy; 2021 - Hitarth Thummar"
+canonifyurls = true
+theme = "hugo-kiera"
+menu = "main"
+meta = "false"
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+#disqusShortname = "myShortName"
+
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    name = "Hitarth"
+    github = "gtlsgamr"
+    #gitlab = "username"
+    #linkedin = "username"
+    #facebook = "username"
+    #twitter = "ds_says"
+    instagram = "addnoiseoriginal"
+    #stackoverflow = "username"
+    #youtube = "user/username" # or channel/channelname
+    #devto = "username"
+
+[params]
+    tagline = "Hitarth Thummar's internet property"
+    description = "for sharing of creative outputs and other content."
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    favicon = "images/favicon.ico"
+    #utterancesRepo = "username/repository"
+    #utterancesIssueTerm = "pathname"
+    #homepageLength = 10
+    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
+    #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
+    #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
+    #google_fonts = ["Staatliches"] # Adds additional google fonts
+    #disableDarkModeCSS = false # disables css style for users using dark-mode
+
+# uncomment to enable the Tags link on the main toolbar
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 1
+
+# uncomment to enable the Categories link on the main toolbar
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 1
