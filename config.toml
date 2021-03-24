@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "ht.xyz"
+title = "tyler durden's site"
 copyright = "Copyright &copy; 2021 - Hitarth Thummar"
 canonifyurls = true
 theme = "hugo-kiera"
