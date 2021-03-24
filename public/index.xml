@@ -8,15 +8,6 @@
     <copyright> Hitarth Thummar</copyright>
     <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>I am Hitarth Thummar. Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing. You can email me at hittarth91@gmail.</description>
-    </item>
-    
-    <item>
       <title>Small Fry</title>
       <link>/posts/smallfry/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
@@ -24,6 +15,15 @@
       <guid>/posts/smallfry/</guid>
       <description>Universes die. Then what am I? A measly human, a small fry.
 Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I am Hitarth Thummar. Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing. You can email me at hittarth91@gmail.</description>
     </item>
     
     <item>

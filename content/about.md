@@ -1,8 +1,6 @@
 +++
 title = "About"
 date = "2021-03-21"
-menu = "main"
-weight = "20"
 meta = "false"
 +++
 

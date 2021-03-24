@@ -3,8 +3,6 @@ title = "ht.xyz"
 copyright = " Hitarth Thummar"
 canonifyurls = true
 theme = "cactus"
-menu = "main"
-meta = "false"
 paginate = 3
 
 summaryLength = 30
@@ -41,6 +39,26 @@ pygmentsCodeFences = true
     #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
     #disableDarkModeCSS = false # disables css style for users using dark-mode
+
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 4
 
 # uncomment to enable the Tags link on the main toolbar
 #  [[menu.main]]

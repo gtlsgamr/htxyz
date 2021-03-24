@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/about/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,6 +14,9 @@
     <loc>/categories/poetry/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/smallfry/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,6 +25,9 @@
   </url><url>
     <loc>/tags/writing/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/blogging/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
