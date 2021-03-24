@@ -2,31 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.example.org/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/categories/blogging/</loc>
+    <loc>/categories/blogging/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/tags/first-post/</loc>
+    <loc>/tags/first-post/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/posts/firstpost/</loc>
+    <loc>/posts/firstpost/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/tags/gtlsgamr/</loc>
+    <loc>/tags/god/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/</loc>
+    <loc>/tags/gtlsgamr/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.example.org/tags/</loc>
+    <loc>/tags/hindu/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hinduism/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/religion/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/religion/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/religion_and_people/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/religious/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/writing/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url>
 </urlset>
