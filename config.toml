@@ -1,8 +1,8 @@
 baseurl = "/"
 title = "ht.xyz"
-copyright = "Copyright &copy; 2021 - Hitarth Thummar"
+copyright = " Hitarth Thummar"
 canonifyurls = true
-theme = "hugo-kiera"
+theme = "cactus"
 menu = "main"
 meta = "false"
 paginate = 3

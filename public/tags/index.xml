@@ -1,33 +1,83 @@
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
- <channel>
-   <title>Tags on ht.xyz</title>
-   <link>/tags/</link>
-   <description>Recent content in Tags on ht.xyz</description>
-   <generator>Hugo -- gohugo.io</generator>
-   <copyright>Copyright &amp;copy; 2021 - Hitarth Thummar</copyright>
-   <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate>
-   
-       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-   
-   
-     <item>
-       <title>First Post</title>
-       <link>/posts/firstpost/</link>
-       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-       
-       <guid>/posts/firstpost/</guid>
-       <description>&lt;h3 id=&#34;first-post&#34;&gt;First Post&lt;/h3&gt;&lt;p&gt;This is the first post in what I hope will be a long list of many. I&amp;rsquo;ve always wanted to start a blog. It means I could have a place of my own, a place where my opinions are not owned by anyone else other than me. A place where censorship/fear of others doesn&amp;rsquo;t exist. Hoping to add more posts here, where I can share all kinds of stuff, including art, poetry, tutorials, writings, and whatnot.&lt;/p&gt;</description>
-     </item>
-   
-     <item>
-       <title>Religion and its reasons</title>
-       <link>/posts/religion_and_people/</link>
-       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-       
-       <guid>/posts/religion_and_people/</guid>
-       <description>&lt;p&gt;I was an atheist in the past. It was less because of my personal beliefs and more because all the cool kids did it, but other than that, my religion was liberal in that matter. It allowed us to do as we wish, to follow who we want.&lt;/p&gt;&lt;p&gt;Not knowing what it was to have someone to look to for support, someone who you have never met irl and yet they are the strongest power you know, is something that I only realized after I got out of the atheist phase. Everyone needs a god in life. Someone who is immortal, forever there for you to share your problems with. Someone who does not judge a lot, someone who is a constant source of energy and courage. This is what god is.&lt;/p&gt;&lt;p&gt;Not a single person who is religious, is doing it out of blind devotion for god. They want something in return. Sometimes it&amp;rsquo;s material gains, sometimes it&amp;rsquo;s just the surity that they have someone to talk to when they&amp;rsquo;re down in life.&lt;/p&gt;</description>
-     </item>
-   
- </channel>
+  <channel>
+    <title>Tags on ht.xyz</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> Hitarth Thummar</copyright>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>/tags/first-post/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>god</title>
+      <link>/tags/god/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/god/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GtlsGamr</title>
+      <link>/tags/gtlsgamr/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gtlsgamr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hindu</title>
+      <link>/tags/hindu/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hindu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hinduism</title>
+      <link>/tags/hinduism/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hinduism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>religion</title>
+      <link>/tags/religion/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>religious</title>
+      <link>/tags/religious/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/religious/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
