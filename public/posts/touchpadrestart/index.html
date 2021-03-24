@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> [FIX] ELan touchpad stops working at boot | ht.xyz</title>
+  <meta name="description" content="for sharing of creative outputs and other content.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="[FIX] ELan touchpad stops working at boot" />
+<meta property="og:description" content="There was this issue that I faced in my system (HP Pavilion Gaming 15 Laptop) in which the touchpad (ElanTech) would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/touchpadrestart/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-21T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-21T00:00:00&#43;00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[FIX] ELan touchpad stops working at boot"/>
+<meta name="twitter:description" content="There was this issue that I faced in my system (HP Pavilion Gaming 15 Laptop) in which the touchpad (ElanTech) would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="/css/style-light.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="/images/favicon.ico" />
+
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">home</a></li>
+         
+        <li><a href="/posts">posts</a></li>
+         
+        <li><a href="/tags">tags</a></li>
+         
+        <li><a href="/about">about</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" /about/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="/posts/smallfry/">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=%2fposts%2ftouchpadrestart%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=%2fposts%2ftouchpadrestart%2f&text=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=%2fposts%2ftouchpadrestart%2f&title=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=%2fposts%2ftouchpadrestart%2f&is_video=false&description=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot&body=Check out this article: %2fposts%2ftouchpadrestart%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=%2fposts%2ftouchpadrestart%2f&title=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=%2fposts%2ftouchpadrestart%2f&name=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot&description=There%20was%20this%20issue%20that%20I%20faced%20in%20my%20system%20%28HP%20Pavilion%20Gaming%2015%20Laptop%29%20in%20which%20the%20touchpad%20%28ElanTech%29%20would%20stop%20working%20when%20the%20laptop%20booted%2c%20the%20fix%20to%20which%20was%20to%20move%20my%20finger%20on%20the%20touchpad%20when%20the%20system%20was%20booting%20up.">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents"></nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        [FIX] ELan touchpad stops working at boot
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2021-03-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-21</time>
+          
+        </div>
+        
+        <div class="article-category">
+            <i class="fas fa-archive"></i>
+            
+            
+            <a class="category-link" href="/categories/tech">Tech</a>
+            
+             ,  
+            <a class="category-link" href="/categories/linux">Linux</a>
+            
+             ,  
+            <a class="category-link" href="/categories/unix">unix</a>
+            
+             ,  
+            <a class="category-link" href="/categories/fix">Fix</a>
+            
+        </div>
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/arch-linux" rel="tag">Arch Linux</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/linux" rel="tag">Linux</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/tech" rel="tag">Tech</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/technology" rel="tag">technology</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/unix" rel="tag">unix</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>There was this issue that I faced in my system <strong>(HP Pavilion Gaming 15 Laptop)</strong> in which the touchpad <strong>(ElanTech)</strong> would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up. Doing this every time was not convenient, so it took me a while, but this is what I did.</p>
+<p>Create a script, called <code>touchpadrestart.sh</code> and put the below code in it.</p>
+<pre><code>#!/bin/sh
+rmmod i2c_hid &amp;&amp; modprobe i2c_hid
+</code></pre><p>What the code does is, it disables the driver for the touchpad, and then enables it again. Put this in the path and run it whenever you need your touchpad to start working again. But this solution itself is not very efficient as it needs root access to run. We can make the process more streamlined by turning this into a systemd service.</p>
+<p>First create the file <code>/etc/systemd/system/touchpadrestart.service</code>. After that, make sure the path in ExecStart points to our script location.</p>
+<pre><code>[Unit]
+Description=TouchPad Restart
+
+[Service]
+User=root
+Type=oneshot
+ExecStart=/home/gtlsgamr/.local/bin/touchpadrestart.sh
+
+[Install]
+WantedBy=multi-user.target
+
+</code></pre><p>Once this file is saved, all you need to do is start and enable the service.</p>
+<p><code># systemctl start touchpadrestart</code></p>
+<p><code># systemctl enable touchpadrestart</code></p>
+<p>That&rsquo;s it! Quick and easy fix. (For touchpads other than this one, you can find the device driver name using <code>lspci</code> and change it in the script. )</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">home</a></li>
+         
+          <li><a href="/posts">posts</a></li>
+         
+          <li><a href="/tags">tags</a></li>
+         
+          <li><a href="/about">about</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=%2fposts%2ftouchpadrestart%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=%2fposts%2ftouchpadrestart%2f&text=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=%2fposts%2ftouchpadrestart%2f&title=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=%2fposts%2ftouchpadrestart%2f&is_video=false&description=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot&body=Check out this article: %2fposts%2ftouchpadrestart%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=%2fposts%2ftouchpadrestart%2f&title=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=%2fposts%2ftouchpadrestart%2f&name=%5bFIX%5d%20ELan%20touchpad%20stops%20working%20at%20boot&description=There%20was%20this%20issue%20that%20I%20faced%20in%20my%20system%20%28HP%20Pavilion%20Gaming%2015%20Laptop%29%20in%20which%20the%20touchpad%20%28ElanTech%29%20would%20stop%20working%20when%20the%20laptop%20booted%2c%20the%20fix%20to%20which%20was%20to%20move%20my%20finger%20on%20the%20touchpad%20when%20the%20system%20was%20booting%20up.">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2021   Hitarth Thummar 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">home</a></li>
+         
+        <li><a href="/posts">posts</a></li>
+         
+        <li><a href="/tags">tags</a></li>
+         
+        <li><a href="/about">about</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
