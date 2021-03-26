@@ -6,7 +6,25 @@
     <description>Recent content on ht.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> Hitarth Thummar</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>अंतर</title>
+      <link>/posts/antar/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/antar/</guid>
+      <description>उदासी तुझमें है, तनहाई मेरे भी अंदर है, लोग वही है, समय बस अलग है। काल चक्र का कोई जादू सा मंतर है। कैसे बताऊं मै? कोई अदृश्य अक्षर है। बातें वही है, बस शब्दों में कुछ अंतर है।</description>
+    </item>
+    
+    <item>
+      <title>[FIX] ELan touchpad stops working at boot</title>
+      <link>/posts/touchpadrestart/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/touchpadrestart/</guid>
+      <description>There was this issue that I faced in my system (HP Pavilion Gaming 15 Laptop) in which the touchpad (ElanTech) would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up.</description>
+    </item>
+    
     <item>
       <title>Small Fry</title>
       <link>/posts/smallfry/</link>
@@ -15,15 +33,6 @@
       <guid>/posts/smallfry/</guid>
       <description>Universes die. Then what am I? A measly human, a small fry.
 Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time.</description>
-    </item>
-    
-    <item>
-      <title>[FIX] ELan touchpad stops working at boot</title>
-      <link>/posts/touchpadrestart/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/touchpadrestart/</guid>
-      <description>There was this issue that I faced in my system (HP Pavilion Gaming 15 Laptop) in which the touchpad (ElanTech) would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up.</description>
     </item>
     
     <item>

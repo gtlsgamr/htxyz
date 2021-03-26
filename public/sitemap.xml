@@ -3,36 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/poetry/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/poetry/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/writing/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/antar/</loc>
+    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/touchpadrestart/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/arch-linux/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/fix/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tech/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/tech/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/technology/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/unix/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/unix/</loc>
+    <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/smallfry/</loc>
     <lastmod>2021-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/writing/</loc>
-    <lastmod>2021-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/touchpadrestart/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/about/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/arch-linux/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/blogging/</loc>
@@ -42,9 +69,6 @@
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/firstpost/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/fix/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/god/</loc>
@@ -59,12 +83,6 @@
     <loc>/tags/hinduism/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/religion/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,21 +93,6 @@
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/religious/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/tech/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/tech/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/technology/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/unix/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/unix/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url>
 </urlset>
