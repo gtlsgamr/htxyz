@@ -6,7 +6,25 @@
     <description>Recent content in Tags on ht.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> Hitarth Thummar</copyright>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>poetry</title>
+      <link>/tags/poetry/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/poetry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>/tags/writing/</link>
+      <pubDate>Sun, 28 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/writing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>coding</title>
       <link>/tags/coding/</link>
@@ -49,24 +67,6 @@
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/tcs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>poetry</title>
-      <link>/tags/poetry/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/poetry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>writing</title>
-      <link>/tags/writing/</link>
-      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/writing/</guid>
       <description></description>
     </item>
     

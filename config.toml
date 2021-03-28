@@ -3,7 +3,6 @@ title = "ht.xyz"
 copyright = " Hitarth Thummar"
 canonifyurls = true
 theme = "cactus"
-paginate = 3
 
 summaryLength = 30
 enableEmoji = true
@@ -25,6 +24,7 @@ pygmentsCodeFences = true
     #devto = "username"
 
 [params]
+    rss = true
     colortheme = "light"
     tagline = "Hitarth Thummar's internet property"
     description = "for sharing of creative outputs and other content."
@@ -32,8 +32,10 @@ pygmentsCodeFences = true
     customCSS = []  #Optional Customised CSS
     favicon = "images/favicon.ico"
     #utterancesRepo = "username/repository"
+    mainSection = "posts"
     #utterancesIssueTerm = "pathname"
-    #homepageLength = 10
+    showAllPostsOnHomePage = true
+    postsOnHomePage = 100
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
     #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
     #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
