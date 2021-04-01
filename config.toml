@@ -25,7 +25,7 @@ pygmentsCodeFences = true
 
 [params]
     rss = true
-    colortheme = "light"
+    #colortheme = "light"
     tagline = "Hitarth Thummar's internet property"
     description = "for sharing of creative outputs and other content."
     #images = [""] #This is used for opengraph/twitter cards.
