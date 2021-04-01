@@ -82,6 +82,7 @@ Tulsidas maarutsut mahima, prabhu apne mukh se gaayi
 **The glory of lord hanuman is sung by Shri Ram himself**
 भरतभाई! कपि से उरिन हम नाही || ५ ||
 
+***Here is a picture of the gate of Hanuman mandir where I go to pray in my village***
 ![Vanar](/images/HAN.jpg)
 
 
