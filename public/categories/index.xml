@@ -6,7 +6,16 @@
     <description>Recent content in Categories on ht.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> Hitarth Thummar</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>religion</title>
+      <link>/categories/religion/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/religion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>poetry</title>
       <link>/categories/poetry/</link>
@@ -67,15 +76,6 @@
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/categories/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>religion</title>
-      <link>/categories/religion/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/religion/</guid>
       <description></description>
     </item>
     

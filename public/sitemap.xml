@@ -3,12 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/death_of_a_tree/</loc>
-    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+    <loc>/tags/god/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hindu/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/hinduism/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/joy_of_hanuman/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/religion/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/religion/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/religious/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/death_of_a_tree/</loc>
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/poetry/</loc>
@@ -17,14 +44,11 @@
     <loc>/categories/poetry/</loc>
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/writing/</loc>
     <lastmod>2021-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/mangoes/</loc>
+    <lastmod>2021-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/mangoes_in_cardboard_boxes/</loc>
     <lastmod>2021-03-28T00:00:00+00:00</lastmod>
@@ -98,28 +122,10 @@
     <loc>/posts/firstpost/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/god/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/gtlsgamr/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/hindu/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/hinduism/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/religion/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/religion/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/religion_and_people/</loc>
-    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/religious/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -2,8 +2,8 @@
 title = "Mangoes in cardboard boxes"
 description = ""
 tags = [
-	"writing",
-	"poetry"
+	"poetry",
+	"mangoes",
 ]
 date = "2021-03-28"
 categories = [
