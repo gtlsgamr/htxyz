@@ -24,7 +24,7 @@ I will try to post here weekly, and before each discussion, we will have a recap
 
 The iconic line that we are going to hear every episode rings true even in today's time. Time is unmoved, undefeatable. It is Duryodhan, it is Arjun, it is the battlefield, and it is the battle iself. It is omnipresent, omniscient, and yet somehow we are lucky enough to listen to this tale in its own words.
 
-![King Bharat](/images/mahabharat/ep_1_bharat.png)
+{{< figure src="/images/mahabharat/ep_1_bharat.png" title="King Bharat" >}}
 
 Our story starts in the royal court of Hastinapur, where our king Bharat rules benevolently over his people. The great nation of Bharat was named after this king, and not only because he spread the boundries of his kingdom to lands far away, but also because he sowed the seeds of democracy in this land. Right from the first dialogue, we are told that king Bharat is not going to be long in this story. The royal priest/minister informs the king that while the kingdom reaches far and wide, it is time to choose the royal heir.
 
