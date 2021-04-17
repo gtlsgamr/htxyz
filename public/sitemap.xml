@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/mahabharat_episode_1/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,6 +23,9 @@
     <loc>/posts/joy_of_hanuman/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/mahabharat/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,6 +39,9 @@
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tv/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/death_of_a_tree/</loc>
