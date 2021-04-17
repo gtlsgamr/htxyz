@@ -6,13 +6,22 @@
     <description>Recent content in Categories on ht.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> Hitarth Thummar</copyright>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mahabharat</title>
       <link>/categories/mahabharat/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/categories/mahabharat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tv review</title>
+      <link>/categories/tv-review/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tv-review/</guid>
       <description></description>
     </item>
     
@@ -67,15 +76,6 @@
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unix</title>
-      <link>/categories/unix/</link>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/unix/</guid>
       <description></description>
     </item>
     

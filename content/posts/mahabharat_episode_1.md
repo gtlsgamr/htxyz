@@ -6,10 +6,12 @@ tags = [
 	"hinduism",
 	"tv",
 ]
-date = "2021-04-01"
+date = "2021-04-17"
 categories = [
     "Mahabharat",
+    "tv review"
 ]
+
 images = ["images/mahabharat/ep_1_bharat.png"]
 +++
 # Intro

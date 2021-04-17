@@ -12,7 +12,6 @@ date = "2021-03-24"
 categories = [
     "Tech",
     "Linux",
-    "unix",
     "Fix"
 ]
 images = []

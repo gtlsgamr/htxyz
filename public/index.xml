@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ht.xyz</title>
+    <title>Home on ht.xyz</title>
     <link>/</link>
-    <description>Recent content on ht.xyz</description>
+    <description>Recent content in Home on ht.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright> Hitarth Thummar</copyright>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Mahabharat][EPISODE 1, part 1] The story of king Bharat</title>
       <link>/posts/mahabharat_episode_1/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>/posts/mahabharat_episode_1/</guid>
       <description>Intro This is the first of the many reviews I will be posting of the much loved Mahabharat television series that aired on DD National when I did not even exist.</description>
@@ -81,15 +81,6 @@ I scoured the universe, in search of salvation while my god&amp;rsquo;s abode wa
       <guid>/posts/smallfry/</guid>
       <description>Universes die. Then what am I? A measly human, a small fry.
 Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>I am Hitarth Thummar. Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing. You can email me at hittarth91@gmail.</description>
     </item>
     
     <item>
