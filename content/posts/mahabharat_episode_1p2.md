@@ -42,7 +42,7 @@ Who is Shantanu supposed to be at this point? The husband Shantanu, with feeling
 {{< figure src="/images/mahabharat/ep1_sd.webp" title="Ganga Drowns her child" >}}
 How long can he hold true to his word? five of his children are dead on arrival. Some of the dialogue in this episode is so fantastic, it is a stark contrast to some dumb lines you will hear in the future. Discussing every line in this episode will take a seperate article, so I won't go into that, but I hope you will give it a good listen.
 
-Thus ends episode 1, and this review. Shantanu's mouth is sewn shut by his promise, his eyes teary, his mind in shambles. Ganga is as heartless as we saw her, and now we wait if Shantanu stands up to her.
+Thus ends episode 1, and this review. Shantanu's mouth is sewn shut by his promise, his eyes teary, his mind in shambles. Ganga is as heartless as we saw her, and now we wait and see if Shantanu stands up to her.
 
 Some moving lines from this episode
 >Maharaj, I came to mourn the death of the fourth child.
