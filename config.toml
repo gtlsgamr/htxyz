@@ -21,7 +21,7 @@ summaryLength = 30
     favicon = "images/favicon.ico"
     showAllPostsOnHomePage = true
     postsOnHomePage = 100
-
+    footer="Copyleft 2021, Hitarth Thummar"
 
 [[menu.main]]
 name = "Posts"
