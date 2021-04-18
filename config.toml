@@ -2,7 +2,7 @@ baseurl = "/"
 title = "ht.xyz"
 copyright = " Hitarth Thummar"
 canonifyurls = true
-theme = "hugo-xmin"
+theme = "hugo-bearblog"
 summaryLength = 30
 
 
