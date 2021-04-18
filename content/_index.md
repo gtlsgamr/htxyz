@@ -6,7 +6,7 @@ meta = "false"
 
 <img
   id="main-image"
-  src="/images/loader.gif"
+  src="images/loader.gif"
   alt="htxyz"/>
 ## I am Hitarth Thummar.
 
