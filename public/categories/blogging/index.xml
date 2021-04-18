@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogging on ht.xyz</title>
+    <link>/categories/blogging/</link>
+    <description>Recent content in blogging on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> Hitarth Thummar</copyright>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>/posts/firstpost/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/firstpost/</guid>
+      <description>First Post This is the first post in what I hope will be a long list of many. I&amp;rsquo;ve always wanted to start a blog. It means I could have a place of my own, a place where my opinions are not owned by anyone else other than me.</description>
+    </item>
+    
+  </channel>
+</rss>

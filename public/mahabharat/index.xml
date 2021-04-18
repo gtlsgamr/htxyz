@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mahabharats on ht.xyz</title>
+    <link>/mahabharat/</link>
+    <description>Recent content in Mahabharats on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright> Hitarth Thummar</copyright>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/mahabharat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[EPISODE 1] The story of king bharat</title>
+      <link>/mahabharat/episode_1/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/mahabharat/episode_1/</guid>
+      <description>#Intro
+This is the first of many reviews I will be posting of the much loved Mahabharat television series that aired on DD National when I did not even exist.</description>
+    </item>
+    
+  </channel>
+</rss>

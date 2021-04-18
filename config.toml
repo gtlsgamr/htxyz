@@ -1,0 +1,40 @@
+baseurl = "/"
+title = "ht.xyz"
+copyright = " Hitarth Thummar"
+canonifyurls = true
+theme = "hugo-bearblog"
+summaryLength = 30
+
+
+[author]
+    name = "Hitarth"
+    github = "gtlsgamr"
+    instagram = "addnoiseoriginal"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+[params]
+    rss = true
+    tagline = "Hitarth Thummar's internet property"
+    description = "for sharing of creative outputs and other content."
+    customCSS = []  #Optional Customised CSS
+    favicon = "images/favicon.ico"
+    showAllPostsOnHomePage = true
+    postsOnHomePage = 100
+
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories"
+weight = 1
