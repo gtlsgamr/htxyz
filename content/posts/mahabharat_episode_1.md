@@ -1,5 +1,5 @@
 +++
-title = "[Mahabharat][EPISODE 1, part 1] The story of king Bharat"
+title = "Mahabharat - Episode 1, part 1 - The story of king Bharat"
 description = ""
 tags = [
 	"religious",

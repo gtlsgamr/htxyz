@@ -1,5 +1,5 @@
 +++
-title = "[Mahabharat][EPISODE 1, part 2] The wedding of Shantanu"
+title = "Mahabharat - Episode 1, part 2 - The wedding of Shantanu"
 description = ""
 tags = [
 	"religious",
