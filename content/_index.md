@@ -7,7 +7,7 @@ meta = "false"
 <img
   id="main-image"
   src="/images/loader.gif"
-  alt="htxyz">
+  alt="htxyz"/>
 ## I am Hitarth Thummar.
 
 Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing.
