@@ -44,24 +44,6 @@
     </item>
     
     <item>
-      <title>programming</title>
-      <link>/categories/programming/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>/categories/tech/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fix</title>
       <link>/categories/fix/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
@@ -76,6 +58,15 @@
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>/categories/tech/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tech/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@ baseurl = "/"
 title = "ht.xyz"
 copyright = " Hitarth Thummar"
 canonifyurls = true
-theme = "hugo-classic"
+theme = "hugo-bearblog"
 summaryLength = 30
 
 
@@ -21,7 +21,7 @@ summaryLength = 30
     favicon = "images/favicon.ico"
     showAllPostsOnHomePage = true
     postsOnHomePage = 100
-    footer="Copyleft &#127279; 2021, Hitarth Thummar"
+    footer="Copyleft 2021, Hitarth Thummar"
 
 [[menu.main]]
 name = "Posts"

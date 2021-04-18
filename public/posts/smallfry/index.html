@@ -1,80 +1,233 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+<html lang="en-US">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/images/site.webmanifest">
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<title>Small Fry | ht.xyz</title>
+<meta name="title" content="Small Fry" />
+<meta name="description" content="Universes die. Then what am I? A measly human, a small fry.
+Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time." />
+<meta name="keywords" content="writing,poetry," />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="for sharing of creative outputs and other content.">
-    <title>Small Fry | ht.xyz</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    
-    <header>
 
-  <nav>
-    <ul>
-      
-      
-      <li class="pull-left ">
-        <a href="/">~/ht.xyz</a>
-      </li>
-      
-      
-      <li class="pull-left ">
-        <a href="/categories">~/categories</a>
-      </li>
-      
-      
-      <li class="pull-left current">
-        <a href="/posts">~/posts</a>
-      </li>
-      
-      
-      <li class="pull-left ">
-        <a href="/tags">~/tags</a>
-      </li>
-      
+<meta property="og:title" content="Small Fry" />
+<meta property="og:description" content="Universes die. Then what am I? A measly human, a small fry.
+Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/smallfry/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-22T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-22T00:00:00&#43;00:00" />
 
-      
 
-    </ul>
-  </nav>
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Small Fry"/>
+<meta name="twitter:description" content="Universes die. Then what am I? A measly human, a small fry.
+Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time."/>
+
+
+
+<meta itemprop="name" content="Small Fry">
+<meta itemprop="description" content="Universes die. Then what am I? A measly human, a small fry.
+Life gives and life takes. And the rest of it, death rakes. Civilizations are devoured, Myths forgotten, Languages are lost In the jaws of time."><meta itemprop="datePublished" content="2021-03-22T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-03-22T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="61">
+<meta itemprop="keywords" content="writing,poetry," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: initial;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>ht.xyz</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/categories">Categories</a>
+
+<a href="/posts">Posts</a>
+
+<a href="/tags">Tags</a>
+
+
+</nav>
 </header>
-
-  </head>
-
-  <body>
-    <br/>
-
-<div class="article-meta">
-<h1><span class="title">Small Fry</span></h1>
-
-<h2 class="date">2021/03/22</h2>
-<p class="terms">
-  
-  
-  Categories: <a href="/categories/poetry">poetry</a> 
-  
-  
-  
-  Tags: <a href="/tags/writing">writing</a> <a href="/tags/poetry">poetry</a> 
-  
-  
-</p>
-</div>
-
-
-<div class="content-wrapper">
   <main>
-    <p>Universes die. <br>
+
+<content>
+  <p>Universes die. <br>
 Then what am I? <br>
 A measly human, a small fry.</p>
 <p>Life gives and life takes. <br>
@@ -91,39 +244,20 @@ not so great anymore.</p>
 Then what am I? <br>
 A measly human, a small fry.</p>
 
-    <a href="/"> >> Home</a>
+</content>
+<p>
+  
+  <a href="/tags/writing/">#writing</a>
+  
+  <a href="/tags/poetry/">#poetry</a>
+  
+</p>
+
   </main>
-</div>
-    <footer>
-      
-<script>
-(function() {
-  function center_el(tagName) {
-    var tags = document.getElementsByTagName(tagName), i, tag;
-    for (i = 0; i < tags.length; i++) {
-      tag = tags[i];
-      var parent = tag.parentElement;
-      
-      if (parent.childNodes.length === 1) {
-        
-        if (parent.nodeName === 'A') {
-          parent = parent.parentElement;
-          if (parent.childNodes.length != 1) continue;
-        }
-        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
-      }
-    }
-  }
-  var tagNames = ['img', 'embed', 'object'];
-  for (var i = 0; i < tagNames.length; i++) {
-    center_el(tagNames[i]);
-  }
-})();
-</script>
+  <footer>Copyleft &#127279; 2021, Hitarth Thummar <br>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
 
-      
-    </footer>
     
-  </body>
-</html>
+</body>
 
+</html>
