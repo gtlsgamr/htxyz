@@ -25,9 +25,10 @@ Create a script, called ```touchpadrestart.sh``` and put the below code in it.
 #!/bin/sh
 rmmod i2c_hid && modprobe i2c_hid
 ```
+Make sure the touchpadrestart script is in your path.
 What the code does is, it disables the driver for the touchpad, and then enables it again. Put this in the path and run it whenever you need your touchpad to start working again. But this solution itself is not very efficient as it needs root access to run. We can make the process more streamlined by turning this into a systemd service.
 
-First create the file ```/etc/systemd/system/touchpadrestart.service```. After that, make sure the path in ExecStart has the same command as our script.
+First create the file ```/etc/systemd/system/touchpadrestart.service```. After that, make sure the path in ExecStart points to our script.
 
 
 ```
@@ -37,7 +38,7 @@ Description=TouchPad Restart
 [Service]
 User=root
 Type=oneshot
-ExecStart="rmmod i2c_hid && modprobe i2c_hid"
+ExecStart="/usr/local/bin/touchpadrestart.sh"
 
 [Install]
 WantedBy=multi-user.target
