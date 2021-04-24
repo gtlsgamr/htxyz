@@ -31,7 +31,7 @@
 <meta itemprop="name" content="[FIX] ELan touchpad stops working at boot">
 <meta itemprop="description" content="There was this issue that I faced in my system (HP Pavilion Gaming 15 Laptop) in which the touchpad (ElanTech) would stop working when the laptop booted, the fix to which was to move my finger on the touchpad when the system was booting up."><meta itemprop="datePublished" content="2021-03-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-03-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="224">
+<meta itemprop="wordCount" content="232">
 <meta itemprop="keywords" content="Arch Linux,Linux,Tech,technology,unix," />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -227,15 +227,16 @@
 <p>Create a script, called <code>touchpadrestart.sh</code> and put the below code in it.</p>
 <pre><code>#!/bin/sh
 rmmod i2c_hid &amp;&amp; modprobe i2c_hid
-</code></pre><p>What the code does is, it disables the driver for the touchpad, and then enables it again. Put this in the path and run it whenever you need your touchpad to start working again. But this solution itself is not very efficient as it needs root access to run. We can make the process more streamlined by turning this into a systemd service.</p>
-<p>First create the file <code>/etc/systemd/system/touchpadrestart.service</code>. After that, make sure the path in ExecStart points to our script location.</p>
+</code></pre><p>Make sure the touchpadrestart script is in your path.
+What the code does is, it disables the driver for the touchpad, and then enables it again. Put this in the path and run it whenever you need your touchpad to start working again. But this solution itself is not very efficient as it needs root access to run. We can make the process more streamlined by turning this into a systemd service.</p>
+<p>First create the file <code>/etc/systemd/system/touchpadrestart.service</code>. After that, make sure the path in ExecStart points to our script.</p>
 <pre><code>[Unit]
 Description=TouchPad Restart
 
 [Service]
 User=root
 Type=oneshot
-ExecStart=/home/gtlsgamr/.local/bin/touchpadrestart.sh
+ExecStart=&quot;/usr/local/bin/touchpadrestart.sh&quot;
 
 [Install]
 WantedBy=multi-user.target
