@@ -27,7 +27,7 @@ In this episode we will see Shantanu choose between his love for his wife and hi
 Welcome to the twisted world of Hastinapur, where the maids wonder loudly about their masters' personal lives. They feel pity for the king and disgust for their queen. Just as this is happening, Ganga comes out with the eighth child. Shantanu, unable to contain the rage that was bubbling since the death of seven of his children, does what he always feared he would do.
 He stops her.
 
-The moment that we waited for arrives, and like all most of the stories during that time, this has a link to previous birth. Ganga tells Shantanu how both of them are living out a curse, and how she is freeing those babies from that curse. We get a flashback scene in Lord Indra's heavenly court. The effect of the heavens reflecting on the floor where the apsaras are dancing is so beautiful, I had to do a double take to see how they did it.
+The moment that we waited for arrives, and like most of the stories during that time, this has a link to previous birth. Ganga tells Shantanu how both of them are living out a curse, and how she is freeing those babies from that curse. We get a flashback scene in Lord Indra's heavenly court. The effect of the heavens reflecting on the floor where the apsaras are dancing is so beautiful, I had to do a double take to see how they did it.
 
 
 {{< figure src="/images/mahabharat/ep2_2.webp" title="Heavenly Skies" >}}
