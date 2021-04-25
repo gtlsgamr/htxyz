@@ -37,7 +37,7 @@ The cred that the producers get from that scene is lost in the next scene where 
 
 So back to the story, when Ganga and Shantanu cross eyes in the heavenly court, wind starts blowing and exposes Ganga's body. While all the *devs* lower their eyes out of respect, Shantanu keeps staring, and obviously Ganga's father lord Brahma gets angry at them. Yes I said them. At Shantanu for staring and at Ganga for letting him stare. He cursed both of them to be banished to Earth. Honestly, the writing of this show falls so low sometimes, it's surprising to me that it's the same show as the previous episode. The guy who played Brahma seemed like he forgot his lines and improvised on the spot.
 
-Now that Shantanu broke his promise, Ganga has to leave her. She explains to him that the seven infants were elemental gods banished to earth as well, as part of a different curse. Ganga had promised them that she will birth them and kill them to relieve their pain.
+Now that Shantanu broke his promise, Ganga has to leave him. She explains to him that the seven infants were elemental gods banished to earth as well, as part of a different curse. Ganga had promised them that she will birth them and kill them to relieve their pain.
 
 Since our king stopped her from killing the child, she asks him to let her keep the child. She will return the child when the time comes. We can already see the child is destined for great things. 
 
