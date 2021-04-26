@@ -1,9 +1,0 @@
-[submodule "themes/hugo-classic"]
-	path = themes/hugo-classic
-	url = https://github.com/goodroot/hugo-classic.git
-[submodule "themes/hugo-xmin"]
-	path = themes/hugo-xmin
-	url = https://github.com/yihui/hugo-xmin
-[submodule "themes/hugo-bearblog"]
-	path = themes/hugo-bearblog
-	url = https://github.com/janraasch/hugo-bearblog.git
