@@ -41,7 +41,7 @@ Again, Shantanu has some poetic lines when it comes to women he falls in love wi
 
 {{< figure src="/images/mahabharat/ep3_2.webp" title="Satyavati" >}}
 
-Shantanu goes to her father *Dashraj* to ask her hand in marriage. After some back to back lines shrouded in vague definitions with her father, Shantanu asks for her hand. Her father reveals that in reality, knew that Shantanu would come because her kundli predicted her rule over a kingdom. Other than that, Dashraj had one more condition. Satyavati's children should rule the kingdom. Yes, the democratic kingdom of Hastinapur, instead of the heir to the throne. 
+Shantanu goes to her father *Dashraj* to ask her hand in marriage. After some back to back lines shrouded in vague definitions with her father, Shantanu asks for her hand. Her father reveals that in reality, he knew that Shantanu would come because her kundli predicted her rule over a kingdom. Other than that, Dashraj had one more condition. Satyavati's children should rule the kingdom. Yes, the democratic kingdom of Hastinapur, instead of the heir to the throne. 
 
 From what we know about Shantanu so far, we know he will go to any lengths to get what he wants but this time he does the opposite. He denies Dashraj's request and angrily leaves, saying that the king of Hastinapur cannot take one's right and give it to another. This makes him look like the good guy to us, right? Shantanu is not a bad person, he is just a weak one. He goes back to camp that they set up when they came hunting.
 
