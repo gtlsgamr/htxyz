@@ -20,7 +20,7 @@ After a two weeks of inactivity, here I am again. Two weeks ago we saw how Devvr
 
 # Ichchha Mrityu
 
->"...shanti aur ashanti ke daurahe par khada ye Shantanu tumhe ye vardaan deta hai.. jab tak tum swayam ichchha na karo, mrityu log ko nahi tyagoge.."
+>"...shanti aur ashanti ke daurahe par khada ye Shantanu tumhe ye vardaan deta hai.. jab tak tum swayam ichchha na karo, mrityu lok ko nahi tyagoge.."
 
 >"Bhishma ko ichchha maran ka vardaan dene vala ye Shantanu, aaj apne maran ka vardaan kis se maange?"
 
