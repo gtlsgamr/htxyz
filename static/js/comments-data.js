@@ -1,1 +1,1 @@
-var commentsobj = [{},]
+var commentsobj = [{"postId":"https://www.hitarththummar.xyz/posts/mangoes_in_cardboard_boxes/","time":"Wed May 12 2021 23:43:14 GMT+0530 (India Standard Time)","alias":"Gtlsgamr","body":" First comment on this site!"},]
