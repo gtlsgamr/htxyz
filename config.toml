@@ -23,12 +23,6 @@ summaryLength = 30
     postsOnHomePage = 100
     footer="Copyleft 2021, Hitarth Thummar"
 
-[Params.color]
-bg     = "white"
-border = "black"
-link   = "#3d84ff"
-text   = "black"
-
 [[menu.main]]
 name = "Posts"
 url = "/posts"
