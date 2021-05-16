@@ -10,7 +10,7 @@ images = ["images/mahabharat/ep_6_1.webp","images/mahabharat/ep_6_2.webp"]
 ## NOTE: 
 ***I have added a commenting functionality to the site, it is for mail-in comments so it may or may not be up your lane. Try it if you feel like!***
 
-After feedback from the exactly three people that read this website, I have discovered that the series seems like a story retelling and not a discussion. So from now on all the episdode discussions that are posted on this site will have three sections, viz. Synopsis, Discussion, and dialogue. I will not follow the story scene by scene but rather give a short synopsis of that episode and then the discussion section will have the questions that arise in the audience's minds. It will also feature tidbits about the production quality of the show. The extras section will have notable dialogue and scenes, if any.
+After feedback from the exactly three people that read this website, I have discovered that the series seems like a story retelling and not a discussion. So after this one, all the episdode discussions that are posted on this site will have three sections, viz. Synopsis, Discussion, and dialogue. I will not follow the story scene by scene but rather give a short synopsis of that episode and then the discussion section will have the questions that arise in the audience's minds. It will also feature tidbits about the production quality of the show. The extras section will have notable dialogue and scenes, if any.
 
 # Recap
 
