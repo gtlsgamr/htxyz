@@ -1,5 +1,4 @@
-+++ title = "Mahabharat - Episode 6 - The birth of Pandu, Dhritrashtra and
-Vidur"
++++ title = "Mahabharat - Episode 6 - The birth of Pandu, Dhritrashtra and Vidur"
 description = "" 
 tags = [ "religious", "hinduism", "tv", ] 
 date ="2021-05-16" 
