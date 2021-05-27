@@ -22,7 +22,7 @@ Well, before you go on, you might be wondering, what is a commenting engine? A c
 I didn't know anything about how commenting engines worked, but I had a goal in mind, to have a commenting engine that supported the given definition. I made a repo and started working. Soon I realised that the engine has to be dependent on javascript since that was the only way to have it serverless. Initially the definition contained the phrase 
 >doesn't require wonky workarounds
 
-which had to be removed, because no way in hell was I going to make something that fit that definition without workarounds. Thus was born, [comments](comments.github.io).
+which had to be removed, because no way in hell was I going to make something that fit that definition without workarounds. Thus was born, [comments](https://github.com/gtlsgamr/comments).
 
 ## how it works
 
