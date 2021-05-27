@@ -27,18 +27,20 @@ which had to be removed, because no way in hell was I going to make something th
 ## how it works
 
 ***comments*** basically works as a middleman to help the commenter compose the comment and the site owner to have a nicely formatted json to add to the site. 
-	1. The Commenter enters the comment on a post.
-	2. ***comments*** takes the time, date, the post on which the comment was made, nickname for the commenter and creates a json object and passes it in a `mailto` link which will open the mail client of the commenter.
-	3. It will have a preformatted email that the commenter just has to send.
-	4. The site owner receives the mail and looks at the comment. They will then copy the json and paste it inside the *comments-data.json* file in their static site directory.
-	5. Every time a page on the site loads, comments will parse that json file and display the comments accordingly!
+
+1. The Commenter enters the comment on a post.
+2. ***comments*** takes the time, date, the post on which the comment was made, nickname for the commenter and creates a json object and passes it in a `mailto` link which will open the mail client of the commenter.
+3. It will have a preformatted email that the commenter just has to send.
+4. The site owner receives the mail and looks at the comment. They will then copy the json and paste it inside the *comments-data.json* file in their static site directory.
+5. Every time a page on the site loads, comments will parse that json file and display the comments accordingly!
 	
 
 ## how you can help!
 
 It works fine by itself for now but I want to make it a bit more feature rich. Here are some things that might make this project a *little* bit better.
-	1. A github pages or some kind of landing page.
-	2. Nested comments and a show more button to hide comments if there are more than x amount of comments.
-	3. ✨ CSS Styles! ✨ Currently the default style is very basic looking (the way i prefer) but the project will be much more feature-rich if the users could have different theming options for their comments.
+
+1. A github pages or some kind of landing page.
+2. Nested comments and a show more button to hide comments if there are more than x amount of comments.
+3. ✨ CSS Styles! ✨ Currently the default style is very basic looking (the way i prefer) but the project will be much more feature-rich if the users could have different theming options for their comments.
 
 Honestly, it was a lot of fun making this. I hope people use it to display comments on their websites and help improve this project! 
