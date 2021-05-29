@@ -68,7 +68,7 @@ the show, but after some reading it seems that Gandhari had a boon that she
 would birth a hundred sons, and that Bhishma chose her so that he would never
 have to go looking for someone to sit on the throne and Satyavati would stop pestering him for children to sit on the throne. 
 
-One thing that I would like to draw your attention to, is that the tile of this
+One thing that I would like to draw your attention to, is that the title of this
 episode is misleading. Instead of it being about the birth of Karn, in reality
 it is about the insecurities of Dhritrashtra. It is about the seeds of envy and
 hate that will grow into trees whose roots will destroy the land of Hastinapur.
