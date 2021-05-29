@@ -82,7 +82,7 @@ babies being drowned in rivers, and a lot of undesired children!
 
 A thing to note in this episode, is that during Kunti's swayamvar, we come to
 know that she was the daughter of yadu king, and was adopted by Kuntibhoj. This
-makes her an aunt of lord Krishna himself! It was a good episode overall. The speed at which some parts are being skipped is understandable since the source material is too large to fit into a TV show format, but some quality episodes make up for that lack up extensive detailing.
+makes her an aunt of lord Krishna himself! It was a good episode overall. The speed at which some parts are being skipped is understandable since the source material is too large to fit into a TV show format, but some quality episodes make up for the lack of extensive detailing.
 
 {{< figure src="/images/mahabharat/ep_7_2.webp" title="The child with the golden armor" >}}
 
