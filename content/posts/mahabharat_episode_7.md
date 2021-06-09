@@ -68,7 +68,7 @@ the show, but after some reading it seems that Gandhari had a boon that she
 would birth a hundred sons, and that Bhishma chose her so that he would never
 have to go looking for someone to sit on the throne and Satyavati would stop pestering him for children to sit on the throne. 
 
-One thing that I would like to draw your attention to, is that the tile of this
+One thing that I would like to draw your attention to, is that the title of this
 episode is misleading. Instead of it being about the birth of Karn, in reality
 it is about the insecurities of Dhritrashtra. It is about the seeds of envy and
 hate that will grow into trees whose roots will destroy the land of Hastinapur.
@@ -82,7 +82,7 @@ babies being drowned in rivers, and a lot of undesired children!
 
 A thing to note in this episode, is that during Kunti's swayamvar, we come to
 know that she was the daughter of yadu king, and was adopted by Kuntibhoj. This
-makes her an aunt of lord Krishna himself! It was a good episode overall. The speed at which some parts are being skipped is understandable since the source material is too large to fit into a TV show format, but some quality episodes make up for that lack up extensive detailing.
+makes her an aunt of lord Krishna himself! It was a good episode overall. The speed at which some parts are being skipped is understandable since the source material is too large to fit into a TV show format, but some quality episodes make up for the lack of extensive detailing.
 
 {{< figure src="/images/mahabharat/ep_7_2.webp" title="The child with the golden armor" >}}
 
