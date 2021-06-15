@@ -6,7 +6,7 @@ meta = "false"
 
 ## I am Hitarth Thummar.
 Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing.
-You can email me at    ***[hittarth91@gmail.com](mailto:hittarth91@gmail.com)***.
+You can email me at    ***hittarth91 [at] gmail [dot] com***.
 You can see some of my artwork at ***[@addnoiseoriginal](https://www.instagram.com/addnoiseoriginal)*** on instagram.
 I share some amateur poetry at ***[@idiotscantread](https://www.instagram.com/idiotscantread)*** on instagram **(migrating all these soon to this website).**
 
