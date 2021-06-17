@@ -21,6 +21,7 @@ You might have heard of [0x0](https://0x0.st), the no-bullshit file hosting serv
 For example, 
 
 If you want to share a file called `test.json` with someone, all you have to do is type 
+
 	curl -F file=@test.json 0x0.st
 and it will respond with a url that will point to that file.
 
