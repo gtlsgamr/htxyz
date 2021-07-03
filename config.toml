@@ -11,6 +11,10 @@ title = "ht.xyz"
 post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 1
+[[menu.main]]
 name = "Projects"
 url = "/projects/"
 weight = 1
