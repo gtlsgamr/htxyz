@@ -26,20 +26,15 @@ summaryLength = 30
 [[menu.main]]
 name = "Posts"
 url = "/posts"
-weight = 2
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 3
 
 [[menu.main]]
 name = "Mahabharat Series Discussions"
 url = "/mahabharat"
 weight = 2
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
-
-[[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories"
-weight = 1
