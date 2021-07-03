@@ -1,94 +1,66 @@
 +++ 
-title = "Mahabharat - Episode 9 - Dhritrashtra is king"
+title = "Mahabharat - Episode 10 - The prophecy"
 tags = [ "religious", "hinduism", "tv", ] 
-date ="2021-06-24" 
+date ="2021-07-03" 
 categories = [ "Mahabharat", "tv review" ]
-draft = true
-images = ["images/mahabharat/ep_9_2.webp"]
+images = ["images/mahabharat/ep_10_1.webp"]
 +++ 
 
 # Recap 
-Last we saw Pandu in the woods, enjoying a well deserved vacation with his
-queens. His wives by his side, things look good for him. Meanwhile,
-Dhritrashtra seems to be ready to take over the  throne as king himself.
+Previously we saw the birth of the main players in this story, the Pandavs
+and Kauravs. Now we move on to the exploits of everyone's favorite
+little god, Shree Krishna. 
 
-# The blind king
-
-> Hatya tum kar nahi sakte, aur durghatna pe tumhara vash nahi.
+# The Prophecy
+> Meri ladai to Brahma se hai
 
 ## Synopsis
-Satyavati calls for Pandu's return to the royal court. Before returning, Madri
-asks Pandu to hunt a tiger for her. While hunting the tiger, Pandu accidentally
-shoots sage kindama and his wife who were making love. Kindama curses Pandu
-that the moment he tries to have children, he will die.
+Taking a break from Hastinapur and the kuru vansh, we are introduced to
+Kansa, the prince of Mathura as he overthrows his father and takes over the
+royal throne. 
 
-As penance for committing the sin of killing a sage, Pandu sentences himself
-into exile, with Kunti and Madri by his side. Dhritrashtra is finally crowned
-king. 
-
-Pandu, with his new sage friends, dreams that he cannot get into brahmlok with
-them because he hasn't yet paid the debt of his ancestors. Kunti works around
-the curse and uses the gift that she got in her younger days to get three
-children as a blessing from the gods. Madri gives birth to Nakul and Sahdev.
-
-***Vasudev is born.***
+He arranges for the marriage of his sister Devaki and his friend Vasudev.
+After the wedding, a sage stops their chariot and talks about a prophecy
+that the eighth child of Vasudev and Devaki will be the end of Kansa's
+tyranny. Naturally Kansa plans to kill them, but Vasudev convinces him to
+imprison both of them and kill their children one by one.
 
 ## Discussion
+This episode was more like a prologue to the story of Shri Krishna. It does not
+have much in the name of content like the previous one but since I have started
+this series and plan to finish it, I will write a review for this one as well.
+Kansa is instantly recognizable as the personification of evil. The evil that
+does not have any justification of it's actions other than the fact that it
+just is. Even though on some occasions we see the human side of him, it is
+quickly covered up by his immeasurable cruelty. 
 
-Plot-wise and content-wise this episode was very bland. Not a lot to write
-about honestly. One thing I have noticed about Dhritrashtra is that he is not
-only lying to Gandhari and others, but also himself. He is clearly hurt over
-not getting to be king and yet acts like he is the bigger man and is happy with
-Pandu on the royal throne. But as the episodes go by, we can see his mask
-cracking. A word here, a sigh there and we can see that he so desperately wants
-to be king.
+{{< figure src="/images/mahabharat/ep_10_1.webp" title="Kansa" >}}
 
-Little tidbit: Dhritrashtra has such powerful hearing that he can recognize who enters a room just by listening to the footsteps.
+He imprisons the same sister that he just happily married to his best friend
+without second thought. Kansa is comically evil, almost as if he is a satirical
+character. In this show, that is. In the actual story, he had better
+motivations and justifiable actions. He is also shown as having a god complex, a
+mere mortal picking a fight with gods. The prophecy will obviously come true
+and we will see the death of him, but at one point you also want to see what
+plans he comes up with to fight god.
 
-{{< figure src="/images/mahabharat/ep_9_1.webp" title="Pandu kills kindama" >}}
+The past two episodes have been lackluster and I sincerely hope that future
+ones come up to be better than what we got here. It gets hard to squeeze out content
+if there is nothing to squeeze it out of. Maybe I will merge a few episodes if need be.
 
-The story of sage Kindama has many variants. In this one they were in human
-form, but in many other versions, they were making love as a deer and a doe and
-Shantanu could see them as deer and shot them. I guess showing that on
-television during that time must not have been feasible and that's why they
-changed the story.
-
-Pandu exiling himself was the final nail in the coffin. Dhritrashtra
-is now king. The future of Hastinapur is now in the hands of a blind
-man Actually, it is worse than a blind man, it is in the hands of a
-weak willed man. Dhritrashtra will be the death of what the great king Bharat
-imagined this kingdom to be.
-
-The first of the main characters of this saga are born now.
-Yudhishthir and Bhim are here. Another one is on the way. None other
-than shree Krishna himself will be coming to earth to witness this
-great battle. That takes me to the next part of this discussion. A
-few episodes from now will focus less on Hastinapur and more on
-Gokul-Mathura. Shree Krishna's story is starting to unfold. 
-
-
-{{< figure src="/images/mahabharat/ep_9_2.webp" title="The blind king" >}}
+{{< figure src="/images/mahabharat/ep_10_2.webp" title="Vasudev and Devaki are imprisoned" >}}
 
 ## Notable dialogue:
-> Mai darti hoon ki kahin aapko rajmukut ki aadat na pad jaaye.
-> Maine dekhne ko tyaga hai aryaputra, sochne ko nahi.
-> Bahot si baatein bhulne yogya hi hoti hai aryaputra
 
-> Bhishma: Matashri ka sandesh hai ki Pandu ko bulva liya jaaye
-> Dhritrashtra: Ye, Sandesh hai ki aadesh?
-> Bhishma: Bado ka sandesh bhi aadesh hi hota hai.
+> Aap ko raja banakar itihaas ne mathura ka apmaan kiya hai
 
-> Mann koi mrig thodi hai, jo baan chala ke maar loon.
+> Manushya ka sabse bada dushman krodh hai, kyunki krodh sabse pehle tark ki hatyaa karta hai
 
-> Tumne apne adhikaro ki seema ka ullanghan kiya hai.
-> Meri vansh rekha kaatne vaale rajan, mai tumhe shraap deta hoon.
-
-> Kehna mera karm nahi hai.
-
-> Mamta ko itna nirbal nahi hona chahiye.
-
-> Mai apne saare aashirvaad tumhe de chuki hoon Gangaputra.
-
+> Aadesh dijiye Maharaj
+>
+> Mitron ko aadesh nahi diya jaata, ek sujaav hai
+>
+> Mitra ke liye Mitra ka sujaav bhi aadesh hi hota hai
 
 ## To be continued
 
