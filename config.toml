@@ -29,6 +29,11 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Mahabharat Series Discussions"
+url = "/mahabharat"
+weight = 2
+
+[[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 3
