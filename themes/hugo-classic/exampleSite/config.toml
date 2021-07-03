@@ -5,18 +5,18 @@ googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 languageCode = "en-us"
 theme = "hugo-classic"
-title = "ht.xyz"
+title = "Classic"
 
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
-name = "Projects"
-url = "/projects/"
+name = "Categories"
+url = "/categories/"
 weight = 1
 [[menu.main]]
-name = "Mahabharat"
-url = "/mahabharat/"
+name = "Tags"
+url = "/tags/"
 weight = 2
 [[menu.feed]]
 name = "Subscribe"

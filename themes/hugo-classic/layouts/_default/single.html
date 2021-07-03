@@ -1,22 +1,23 @@
-{{ define "main" }}
-{{ if eq .Type "blog" }}{{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
-<p>
-  <i>
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
-  </i>
-</p>
-{{ end }}{{ end }}
-<content>
-  {{ .Content }}
-</content>
-<p>
-  {{ range (.GetTerms "tags") }}
-  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+{{ partial "header.html" . }}
+<div class="article-meta">
+<h1><span class="title">{{ .Title | markdownify }}</span></h1>
+{{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
+{{ if .Params.date }}<h2 class="date">{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+<p class="terms">
+  {{ range $i := (slice "categories" "tags") }}
+  {{ with ($.Param $i) }}
+  {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+  {{ end }}
   {{ end }}
 </p>
+</div>
+
+{{ if .Params.toc }}
+{{ .TableOfContents }}
+{{ end }}
+<div class="content-wrapper">
+  <main>
+    {{ .Content }}
 
 <form name="comments" class='comments-form'>
 	<div><h3>Post a Comment</h3></div>
@@ -32,4 +33,7 @@
 	<div><p style="color:green;font-size:smaller;">The comments in are mail-in form. The site will auto-generate a mail for you, after that you just have to press send. If you don't have a mail client on your computer, please use a phone. The comment will also be copied to your clipboard if you want to send it manually or via temporary email of your choice.</p></div>
 </form>
 <div id='solution' class='commentslist'></div>
-{{ end }}
+    <a href="/"> >> Home</a>
+  </main>
+</div>
+{{ partial "footer.html" . }}

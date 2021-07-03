@@ -19,3 +19,8 @@ You can read my posts [here](/posts)
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
 
 {{<figure src="/images/guycomputer.gif">}}
+
+------
+
+
+
