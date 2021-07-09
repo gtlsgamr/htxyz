@@ -12,10 +12,6 @@ I share some amateur poetry at ***[@idiotscantread](https://www.instagram.com/id
 
 You can read my posts [here](/posts)
 
-* Current job position: SysAdmin
-* Stuff I like: Coding, Unix systems, graphic design, running
-* Age: 22
-
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
 
 {{<figure src="/images/guycomputer.gif">}}
