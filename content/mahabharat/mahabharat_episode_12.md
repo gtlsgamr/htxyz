@@ -16,7 +16,8 @@ The eighth child of Devaki was saved by divine intervention. He is now the child
 Realizing that the eighth child is a girl and not a boy, Kansa tries to kill
 her, but the child flies away from his hand and screams from the sky that his
 destroyer is already born. Kansa sets on the
-search to find the real eighth child of Devaki. Gokul celebrates the birth of Krishna.
+search to find the real eighth child of Devaki while Gokul celebrates
+the birth of Krishna.
 A spy informs him that the
 eighth child is in Gokul village. Kansa sends Putana, his childhood nanny and a
 demoness to kill all the children born on the same night as the eighth child.
