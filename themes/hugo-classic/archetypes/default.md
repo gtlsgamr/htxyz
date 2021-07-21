@@ -1,6 +1,0 @@
----
-title: ''
-date: ''
-description: ''
-author: ''
----

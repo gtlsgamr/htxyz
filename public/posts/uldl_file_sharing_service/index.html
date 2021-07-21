@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Development] ul.dl, the no-bullshit file hosting service | ht.xyz</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/posts/">Posts</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+      <li><a href="/mahabharat/">Mahabharat</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">[Development] ul.dl, the no-bullshit file hosting service</span></h1>
+
+<h2 class="date">2021/06/17</h2>
+</div>
+
+<main>
+<h1 id="uldl-the-no-bullshit-file-hosting-service">ul.dl, the no-bullshit file hosting service</h1>
+<p>You might have heard of <a href="https://0x0.st">0x0</a>, the no-bullshit file hosting service. It is a service for quickly sharing files right from your command line without having to point or click anywhere. What you do is, you send a POST request to the site with the file and the site will respond with a url that has the raw content of that file.</p>
+<p>For example,</p>
+<p>If you want to share a file called <code>test.json</code> with someone, all you have to do is type</p>
+<pre><code>curl -F file=@test.json 0x0.st
+</code></pre>
+<p>and it will respond with a url that will point to that file.</p>
+<p>I myself tried hosting my own instance of 0x0 but unfortunately it was written in python and hosting a whole flask server with database was too much work for my raspberry pi. So I wrote my own version of it! It is not as nuanced as 0x0 with no file type checking or neural networks to scan for explicit content, but it does one thing and it does it good. It stores files.</p>
+<p>You can host your own <a href="https://github.com/gtlsgamr/ul.dl">ul.dl</a> instance if you want. It is a good way to quickly share files from the command line without worrying about any third party accessing it.</p>
+<p>I will be adding more features to it, and you can send a PR too, if you want. If you have any questions related to deploying your own instance of it, you can email me by commenting below.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  Copyleft 2021 | <a href="https://github.com/gtlsgamr/htxyz">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

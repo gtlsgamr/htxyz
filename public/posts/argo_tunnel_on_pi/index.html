@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi | ht.xyz</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/posts/">Posts</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+      <li><a href="/mahabharat/">Mahabharat</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi</span></h1>
+
+<h2 class="date">2021/06/09</h2>
+</div>
+
+<main>
+<h1 id="setting-up-cloudflare-argo-tunnel-on-my-raspberry-pi">Setting up Cloudflare Argo Tunnel on my Raspberry Pi</h1>
+<p>This is a way to set up cloudflare argo tunnel on your Raspberry Pi to host your own webserver without port forwarding.</p>
+<h3 id="keep-in-mind-that-this-is-not-recommended-for-sensitive-data-as-it-will-be-passing-through-cloudflare-servers">KEEP IN MIND THAT THIS IS NOT RECOMMENDED FOR SENSITIVE DATA AS IT WILL BE PASSING THROUGH CLOUDFLARE SERVERS.</h3>
+<h2 id="what-is-argo-tunnel">What is argo tunnel?</h2>
+<p>It is a tunneling service provided by Cloudflare to help users tunnel connections to their servers via the cloudflare network. It has multiple use cases but here we will only use it for one thing:</p>
+<h2 id="why-argo-tunnel">Why argo tunnel?</h2>
+<p>It is used to tunnel your webserver to the internet. Usually if you want your web app hosted on your PC to be accessible by the world, you need to have your ports open for incoming requests. If your ISP is restrictive like mine, they give you an in-network IP that is not accessible from anywhere else, so your regular port forwarding settings won&rsquo;t work. Think of it like your router is itself connected to a bigger router.</p>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li>A <a href="https://dash.cloudflare.com/sign-up/">cloudflare</a> account.</li>
+<li>A domain name, it&rsquo;s nameservers pointing to cloudflare (preferably the whole domain managed by cloudflare).</li>
+<li>A Raspberry Pi</li>
+<li>A webpage/site/server that you want to open to the world.</li>
+</ol>
+<h2 id="how-to-set-up-one">How to set up one?</h2>
+<ol>
+<li>Download the latest binary of <code>cloudflared</code> tool for your device.
+<em><strong>Note: for the raspberry pi, the newer versions have trouble installing. I personally use an older version which is available at the following link.</strong></em></li>
+</ol>
+<p><code>wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-arm.tgz</code></p>
+<ol start="2">
+<li>
+<p>put the binary in your PATH so that it can be called upon.</p>
+</li>
+<li>
+<p>use the <code>cloudflared</code> binary to log in to your cloudflared account.</p>
+</li>
+<li>
+<p>type <code>cloudflared login</code>, and it will give you a link.</p>
+</li>
+<li>
+<p>Copy that link and open it in your browser to authorise the log in.</p>
+</li>
+<li>
+<p>Create a test tunnel by following this syntax:
+<code>cloudflared --hostname yourdomain.xyz --url http://localhost</code></p>
+</li>
+<li>
+<p>Once this is done, you can copy the cert file that is created <code># cp ~/.cloudflared/cert.pem /etc/cloudflared</code></p>
+</li>
+<li>
+<p>use your editor to create <code>/etc/cloudflared/config.yml</code></p>
+</li>
+<li>
+<p>You can fill it like this:</p>
+<pre><code>hostname: your_domain.xyz
+url: http://localhost
+
+</code></pre></li>
+<li>
+<p>Install the cloudflared service</p>
+<p><code># cloudflared service install --legacy</code>
+(Make sure the legacy flag is active because we are using an older version of cloudflared)</p>
+</li>
+</ol>
+<p>Hope this tutorial helped you. Now your local webserver will be accessible from your domain!</p>
+<h2 id="done">Done</h2>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  Copyleft 2021 | <a href="https://github.com/gtlsgamr/htxyz">Github</a>
+  
+  </footer>
+  </body>
+</html>
+

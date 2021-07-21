@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on ht.xyz</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ul.dl, the no-bullshit file hosting service</title>
+      <link>/projects/uldl_file_sharing_service/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uldl_file_sharing_service/</guid>
+      <description>ul.dl, the no-bullshit file hosting service You might have heard of 0x0, the no-bullshit file hosting service. It is a service for quickly sharing files right from your command line without having to point or click anywhere. What you do is, you send a POST request to the site with the file and the site will respond with a url that has the raw content of that file.
+For example,</description>
+    </item>
+    
+    <item>
+      <title>comments.js, a lightweight serverless commenting engine</title>
+      <link>/projects/commenting_engine/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/commenting_engine/</guid>
+      <description>How I made my own commenting engine Well, before you go on, you might be wondering, what is a commenting engine? A commenting engine is a piece of code that handles comments on a website or app and the likes. On this website, before this point, there was no option for comments. After that I tried messing with some commenting engines such as Disqus and Staticman and many more. My core issue with most of these was that either they were hosted by third party, or they needed some sort of hosting by the site owner.</description>
+    </item>
+    
+  </channel>
+</rss>
