@@ -12,6 +12,8 @@ I share some amateur poetry at ***[@idiotscantread](https://www.instagram.com/id
 
 You can read my posts [here](/posts)
 
+I watch and discuss the 1988 TV Series *Mahabharat* episode by episode right [here](/mahabharat).
+
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
 
 {{<figure src="/images/guycomputer.gif">}}
