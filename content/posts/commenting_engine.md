@@ -13,6 +13,8 @@ categories = [
 images = []
 +++
 
+# Update: I don't use this anymore because frankly it is kind of hacky. I hope people might find better use for this.
+
 # How I made my own commenting engine
 
 Well, before you go on, you might be wondering, what is a commenting engine? A commenting engine is a piece of code that handles comments on a website or app and the likes. On this website, before this point, there was no option for comments. After that I tried messing with some commenting engines such as [Disqus](https://blog.disqus.com/) and [Staticman](https://staticman.net) and many more. My core issue with most of these was that either they were hosted by third party, or they needed some sort of hosting by the site owner. I was looking for a free solution (free as in both free speech and free food), that could handle comments. Then I found [utterances!](https://utteranc.es/) It was everything I needed. It wasn't hosted by some shady third party, it was free and didn't require me to host anything. Yet, there was one ***issue***. Yes, I made that pun. *utterances* used GitHub issues to act as storage for comments. It was a very intuitive interface, but its reliance on GitHub bugged me. Hence, I set out to make my own commenting engine that was ***A FREE/Libre commenting engine that is lightweight, serverless, and possibly ~~doesn't~~ requires wonky workarounds.***
