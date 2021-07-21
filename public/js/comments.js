@@ -4,10 +4,8 @@ const SITE = "htxyz"
 var url = encodeURI(window.location.href.split('#')[0]);
 //Code to add comments recursively
 $(document).ready(function () {
-	var commentslist = document.querySelector('.commentslist');
 	var converter = new showdown.Converter();
-
-	if (commentsobj[0].alias != undefined) {
+	console.log(commentsobj);
 
 
 		for (key of commentsobj) {
@@ -26,12 +24,10 @@ $(document).ready(function () {
 				</div>
 				<hr class='class-1'>
 				</div>`;
-				commentslist.insertAdjacentHTML('beforeend', txt);
+				$('#solution').insertAdjacentHTML('beforeend', txt);
 			}
 
 		}
-
-	}
 
 
 

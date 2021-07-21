@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<script src="/js/comments-data.js"></script>
+<script src="/js/comments.js"></script>
+
   </head>
 
   <body>
@@ -45,8 +50,21 @@
 <p>You can host your own <a href="https://github.com/gtlsgamr/ul.dl">ul.dl</a> instance if you want. It is a good way to quickly share files from the command line without worrying about any third party accessing it.</p>
 <p>I will be adding more features to it, and you can send a PR too, if you want. If you have any questions related to deploying your own instance of it, you can email me by commenting below.</p>
 
-</main>
+<form name="comments" class='comments-form'>
+	<div><h3>Post a Comment</h3></div>
+	<div>
+		<input type="text" class='comment-field' name="alias" placeholder="Enter your name here"  id="alias" style="width:100%" required />
+	</div>
+	<div>
+		<textarea type="text"  name="comment" placeholder="Enter your comment here"  id="comment" placeholder=" Enter comments, Markdown is supported" required > </textarea>
+	</div><div>    
+		<button type="button" onclick="jsonCreator(alias.value,comment.value)" id="comment-button">Mail-in Comment</button>
+	</div>
 
+	<div><p style="color:green;font-size:smaller;">The comments in are mail-in form. The site will auto-generate a mail for you, after that you just have to press send. If you don't have a mail client on your computer, please use a phone. The comment will also be copied to your clipboard if you want to send it manually or via temporary email of your choice.</p></div>
+</form>
+<div id='solution' class='commentslist'></div>
+</main>
   <footer>
   
   
