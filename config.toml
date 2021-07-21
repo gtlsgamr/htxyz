@@ -4,18 +4,14 @@ footnotereturnlinkcontents = "↩"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 languageCode = "en-us"
-theme = "hugo-xmin"
+theme = "hugo-bearblog"
 title = "ht.xyz"
 
 [permalinks]
 post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
-name = "Posts"
+name = "Writings"
 url = "/posts/"
 weight = 1
 [[menu.main]]
