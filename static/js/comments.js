@@ -25,8 +25,7 @@ function commenthtmlgen(header,time,content){
 }
 
 function displaycomments(){
-	var url = encodeURI(window.location.href.split('#')[0]);
-	console.log(commentsdata.length);
+	var url = window.location.pathname;
 	for(let i=0;i<commentsdata.length;i++){
 			if(commentsdata[i].postId == url){
 			var commentslist = 	document.getElementById("solution");
@@ -42,7 +41,7 @@ function displaycomments(){
 function postcomments(){
 	var alias = document.getElementById('alias').value;
 	var comment = document.getElementById('comment').value;
-	var url = encodeURI(window.location.href.split('#')[0]);
+	var url = window.location.pathname;
 	var result = {
 		"postId": url,
 		"time": new Date().toString(),
