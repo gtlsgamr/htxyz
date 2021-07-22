@@ -26,6 +26,7 @@ function commenthtmlgen(header,time,content){
 
 function displaycomments(){
 	var url = encodeURI(window.location.href.split('#')[0]);
+	console.log(commentsdata.length);
 	for(let i=0;i<commentsdata.length;i++){
 			if(commentsdata[i].postId == url){
 			var commentslist = 	document.getElementById("solution");
@@ -34,7 +35,6 @@ function displaycomments(){
 			txt = commenthtmlgen(cd.alias,cd.time,converter.makeHtml(cd.body));
 			console.log(txt);
 			commentslist.append(txt);
-			commentslist.insertAdjacentHTML("beforeend",txt);
 	}
 }
 }
