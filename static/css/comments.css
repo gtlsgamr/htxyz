@@ -1,0 +1,49 @@
+textarea
+{width: 100%; 
+background: #F9F9F9; 
+padding: 5px 10px; 
+resize: vertical;
+overflow: auto;
+height: auto;
+margin-top: 15px;
+}
+
+.comment-field
+{width: 50%; 
+background: #F9F9F9; 
+padding: 5px 10px; 
+margin-top: 15px;
+}
+
+div.commentslist{
+	background-color: white;
+	
+}
+
+div.commentslist > * {
+
+	background-color: #F9F9F9;
+}
+
+.comments-dest{
+	background-color:#F9F9F9;
+	padding: 5px 10px; 
+	margin: 20px 0px;
+	border-radius: 15px;
+}
+
+.comments-header{
+	font-weight:bold;
+	font-style: italic;
+	padding: 1px;
+	margin-bottom: 1px;
+}
+
+.comments-time{
+	margin-top: 1px;
+	font-size:small;
+}
+
+hr.class-1 {
+	border-top: 5px solid #8c8b8b;
+}
