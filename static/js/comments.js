@@ -34,7 +34,7 @@ function displaycomments(){
 			var cd = commentsdata[i];
 			txt = commenthtmlgen(cd.alias,cd.time,converter.makeHtml(cd.body));
 			console.log(txt);
-			commentslist.append(txt);
+			commentslist.innerHTML += txt;
 	}
 }
 }
