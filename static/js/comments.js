@@ -9,6 +9,7 @@ function displaycomments(){
 	var url = encodeURI(window.location.href.split('#')[0]);
 	for(let i=0;i<commentsdata.length;i++){
 			//do the comment display thing
+		if(commentsdata[i].postID == url){
 			var commentslist = 	document.getElementById("solution");
 			var converter = new showdown.Converter();
 			var txt = `
@@ -28,6 +29,7 @@ function displaycomments(){
 		console.log(txt);
 			commentslist.insertAdjacentHTML("beforeend",txt);
 	}
+}
 }
 
 function postcomments(){
