@@ -51,7 +51,7 @@ function postcomments(){
 	var message = JSON.stringify(result);
 	var place = document.getElementById('comment');
 	var text = place.value;
-	place.value = message;
+	place.value = message+',';
 	place.select();
 	place.setSelectionRange(0, 99999);
 	document.execCommand("copy");
