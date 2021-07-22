@@ -5,28 +5,34 @@ var script = document.createElement('script');
 script.src = "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js";
 document.head.appendChild(script)
 
-function displaycomments(){
-	var url = encodeURI(window.location.href.split('#')[0]);
-	for(let i=0;i<commentsdata.length;i++){
-			//do the comment display thing
-		if(commentsdata[i].postId == url){
-			var commentslist = 	document.getElementById("solution");
-			var converter = new showdown.Converter();
+function commenthtmlgen(header,time,content){
 			var txt = `
 			<div class='comments-dest'>
 				<p class='comments-header'>
-					${commentsdata[i].alias}
+					${header}
 				</p>
 				<p class='comments-time'>
-					${commentsdata[i].time}
+					${time}
 				</p>
 				<hr>
 			<div class='comments-content'>
-				${converter.makeHtml(commentsdata[i].body)}
+				${content}
 			</div>
 			<hr class='class-1'>
 			</div>`;
-		console.log(txt);
+
+	return txt;
+}
+
+function displaycomments(){
+	var url = encodeURI(window.location.href.split('#')[0]);
+	for(let i=0;i<commentsdata.length;i++){
+			if(commentsdata[i].postId == url){
+			var commentslist = 	document.getElementById("solution");
+			var converter = new showdown.Converter();
+			var cd = commentsdata[i];
+			txt = commenthtmlgen(cd.alias,cd.time,converter.makeHtml(cd.body));
+			console.log(txt);
 			commentslist.insertAdjacentHTML("beforeend",txt);
 	}
 }
