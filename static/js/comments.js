@@ -9,7 +9,7 @@ function displaycomments(){
 	var url = encodeURI(window.location.href.split('#')[0]);
 	for(let i=0;i<commentsdata.length;i++){
 			//do the comment display thing
-		if(commentsdata[i].postID == url){
+		if(commentsdata[i].postId == url){
 			var commentslist = 	document.getElementById("solution");
 			var converter = new showdown.Converter();
 			var txt = `
