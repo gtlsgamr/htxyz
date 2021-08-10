@@ -1,6 +1,6 @@
----
-title: "Do_cavemen_dream"
-draft: false
++++
+title = "Do_cavemen_dream"
+draft = false
 tags = [
 	"writing",
 	"poetry"
@@ -9,7 +9,7 @@ date = "2021-08-10"
 categories = [
     "poetry",
 ]
----
++++
 
 What do cavemen think
 
