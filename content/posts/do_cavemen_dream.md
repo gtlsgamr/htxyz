@@ -27,4 +27,4 @@ where they could shout their truth aloud.
 Or do they live just like us?     
 In fear of what we must become,     
 to live out till seventy one     
-and lose the will to have any fun.     
+and lose the will to have some fun.     
