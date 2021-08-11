@@ -28,7 +28,7 @@ to live out till seventy one
 and lose the will to have any fun.     
 
 Every day I hope they do     
-and that all those dreams may come true.     
+and that all those dreams come true.     
 Just so I can know they lived     
 and felt like they had their win.     
 because frankly I could never dream      
