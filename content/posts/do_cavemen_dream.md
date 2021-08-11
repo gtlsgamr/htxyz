@@ -30,6 +30,6 @@ and lose the will to have any fun.
 Every day I hope they do     
 and that all those dreams may come true.     
 Just so I can know they lived     
-and feel like they had their win.     
-Just because I never dreamed     
+and felt like they had their win.     
+because frankly I could never dream      
 of clear skies and peace within.     
