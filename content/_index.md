@@ -14,6 +14,8 @@ You can read my posts [here](/posts)
 
 I watch and discuss the 1988 TV Series *Mahabharat* episode by episode right [here](/mahabharat).
 
+To see my list of links worth sharing, go ![here](/posts/interesting_links)
+
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
 
 {{<figure src="/images/guycomputer.gif">}}
