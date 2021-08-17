@@ -2,6 +2,8 @@
 title = "Things that I find worth sharing"
 description = "This is a list of links and stuff that I felt was worth sharing"
 tags = [
+"technology",
+"tech",
 "software",
 "learning",
 "computers",
