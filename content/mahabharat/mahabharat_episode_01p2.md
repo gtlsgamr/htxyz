@@ -6,7 +6,7 @@ tags = [
 	"hinduism",
 	"tv",
 ]
-date = "2021-04-17"
+date = "2021-04-18"
 categories = [
     "Mahabharat",
     "tv review"
