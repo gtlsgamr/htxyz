@@ -1,4 +1,4 @@
-const EMAIL = 'hittarththummarcoc@gmail.com';
+const EMAIL = 'hitarth.thummar' + '@' + 'prot' + 'onmail' + '.com';
 const SITE = 'ht.xyz';
 
 var script = document.createElement('script');
