@@ -18,7 +18,6 @@ function commenthtmlgen(header,time,content){
 			<div class='comments-content'>
 				${content}
 			</div>
-			<hr class='class-1'>
 			</div>`;
 
 	return txt;

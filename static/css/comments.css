@@ -24,6 +24,7 @@ div.commentslist > * {
 	padding: 5px 10px; 
 	margin: 20px 0px;
 	border-radius: 15px;
+	border: solid lightgray 2px;
 }
 
 .comments-header{
@@ -31,6 +32,8 @@ div.commentslist > * {
 	font-style: italic;
 	padding: 1px;
 	margin-bottom: 1px;
+	font-size: large;
+	color: cadetblue;
 }
 
 .comments-time{
@@ -38,5 +41,3 @@ div.commentslist > * {
 	font-size:small;
 }
 
-hr.class-1 {
-}

@@ -13,7 +13,7 @@ categories = [
 images = []
 +++
 
-# Update: I don't use this anymore because frankly it is kind of hacky. I hope people might find better use for this.
+~~Update: I don't use this anymore because frankly it is kind of hacky. I hope people might find better use for this.~~
 
 # How I made my own commenting engine
 

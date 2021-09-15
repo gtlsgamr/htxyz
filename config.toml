@@ -22,10 +22,6 @@ weight = 1
 name = "Mahabharat"
 url = "/mahabharat/"
 weight = 2
-[[menu.main]]
-name = "Subscribe"
-url = "/index.xml"
-weight = 2
 
 [params]
 custom_css = ["css/theme-override.css"]

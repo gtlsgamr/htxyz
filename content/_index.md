@@ -5,18 +5,21 @@ meta = "false"
 +++
 
 ## I am Hitarth Thummar.
-Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing.    
-You can email me at    ***hitarth [dot] thummar [at] protonmail [dot] com***. You can find my public pgp key [here.](/key.txt)      
-You can see some of my artwork at ***[@addnoiseoriginal](https://www.instagram.com/addnoiseoriginal)*** on instagram.       
-I share some amateur poetry at ***[@idiotscantread](https://www.instagram.com/idiotscantread)*** on instagram **(migrating all these soon to this website).**      
+- Welcome to my website. This is a place where I plan to share everything that I find interesting, amusing, helpful or worth sharing.    
 
-You can read my posts [here](/posts)
+- You can see some of my artwork at ***[@addnoiseoriginal](https://www.instagram.com/addnoiseoriginal)*** on instagram.       
+- I share some amateur poetry at ***[@idiotscantread](https://www.instagram.com/idiotscantread)*** on instagram **(migrating all these soon to this website).**      
 
-I watch and discuss the 1988 TV Series *Mahabharat* episode by episode right [here](/mahabharat).
+- You can read my writings [here](/posts)
 
-To see my list of links worth sharing, go [here](/posts/interesting_links)
+- I watch and discuss the 1988 TV Series *Mahabharat* episode by episode right [here](/mahabharat).
+
+- To see my list of links worth sharing, go [here](/posts/interesting_links)
 
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
+
+You can email me at    ***hitarth [dot] thummar [at] protonmail [dot] com***. 
+[pgp](/key.txt)      
 
 {{<figure src="/images/guycomputer.gif">}}
 
