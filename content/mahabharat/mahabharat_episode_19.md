@@ -4,6 +4,7 @@ tags = [ "religious", "hinduism", "tv", ]
 date ="2021-08-19" 
 categories = [ "Mahabharat", "tv review" ]
 images = ["images/mahabharat/ep_18_2.webp"]
+draft = true
 +++ 
 
 # Recap 
