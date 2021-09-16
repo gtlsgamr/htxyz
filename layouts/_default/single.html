@@ -1,23 +1,42 @@
 {{ define "main" }}
-{{ if eq .Type "blog" }}{{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
-<p>
-  <i>
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
-  </i>
-</p>
-{{ end }}{{ end }}
-<content>
-  {{ .Content }}
-</content>
-<p>
-  {{ range (.GetTerms "tags") }}
-  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-  {{ end }}
-</p>
-<hr>
+<style>
+img {
+  object-fit:cover;
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+				figcaption{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+				}
+</style>
+	<main>
+		<article>
+			<h1>{{ .Title }}</h1>
+			<time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+			<div>
+				{{ .Content }}
+			</div>
+			{{ with .Params.tags }}
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+			{{ with .Site.DisqusShortname }}
+			<div>
+				{{ template "_internal/disqus.html" . }}
+			</div>
+			{{ end }}
+		</article>
+	</main>
 <form name="comments" class='comments-form'>
 	<div><h3>Post Comment</h3></div>
 	<div>
@@ -32,4 +51,5 @@
 
 </form>
 <div id='solution'></div>
+{{ partial "sidebar.html" . }}
 {{ end }}
