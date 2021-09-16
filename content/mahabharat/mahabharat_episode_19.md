@@ -1,7 +1,7 @@
 +++ 
 title = "Mahabharat - Episode 19 - An uncertain future"
 tags = [ "religious", "hinduism", "tv", ] 
-date ="2021-09-17" 
+date ="2021-09-16" 
 categories = [ "Mahabharat", "tv review" ]
 images = ["images/mahabharat/ep_19_2.webp"]
 +++ 
