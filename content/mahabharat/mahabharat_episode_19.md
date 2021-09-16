@@ -1,74 +1,92 @@
 +++ 
-title = "Mahabharat - Episode 19 - Satyavati, Ambika and Ambalika take their leave"
+title = "Mahabharat - Episode 19 - An uncertain future"
 tags = [ "religious", "hinduism", "tv", ] 
-date ="2021-08-19" 
+date ="2021-09-17" 
 categories = [ "Mahabharat", "tv review" ]
-images = ["images/mahabharat/ep_18_2.webp"]
-draft = true
+images = ["images/mahabharat/ep_19_2.webp"]
 +++ 
 
 # Recap 
-Krishna spends his childhood in Vrindavan performing leelas and kills the evil king Kansa.
+The story of Krishna ends and the focus comes back to Hastinapur. Pandu dies
+and Madri with him, while Kunti takes his five sons to Hastinapur.
 
-# Pandu's death 
-> Mera kanha kaha hai? Kaha hai mera Kanha? Bolte kyon nahi?
->
->Ab vo tumhari chhoti si godi me nahi sama sakta yashoda
+# An uncertain future 
+> Mai shok mana raha hoon unn jeevan moolyo ka jinki mrityu meri aankhon ke saamne ho rahi hai. Main shok mana raha hoon uss ujli rekha ka jo hamare purvajo ne satya aur asatya ke beech kheechi thi maa. Mai ro raha hoon uss kathor sachchai par, ki maine pitashri ko jis singhasan ki raksha karne ka vachan diya tha, jis singhasan ko nishtha ki shapath di thi.. uss singhasan ko Dhritrashtra ka putra bahu apmaanit kar raha hai. Lobh ne uske vivek ki aankho par patti baandh dhi hai, aur abhimaan uske sar chad kar bol raha hai, aur meri vivashta ye hai ki mai pandu putro ko sneh ke alava kuch nahi de sakta.
 
 ## Synopsis
-After killing Kansa and fulfilling the prophecy, Krishna frees his biological parents Vasudev and Devaki from the palace dungeons as well as the former king Ugrasen. Ugrasen is crowned the king of Mathura again and Krishna and Balram are sent to sage sandipani for education. Yashoda is heartbroken at the non return of Krishna. In the other parts of the world, Pandu is living in the forest with his two wives Kunti and Madri, as well as his five children, the Pandavs. After seeing Madri bathe in the open, Pandu tries to get physical with her and dies due to Sage Kindama's curse. Madri who blamed herself for Pandu's death, dies on the pyre with Pandu,leaving Kunti to raise the five kids by herself. Kunti returns to Hastinapur where everyone express their pain at the loss of Pandu.
+Seeing Kunti come home with Pandavs, Dhritrashtra starts feeling the throne
+slip away from his grip once again. Maharshi Vyas visits Satyavati and takes
+her along with Amba and Ambalika to live an ascetic life, hinting that the
+future was bleak and she will not be able to bear it. Shakuni starts making his
+moves to make sure that Dhritrashtra's son gets the throne and not the rightful
+heir Duryodhan.
 
 
 ## Discussion
 
-{{< figure src="/images/mahabharat/ep_18_1.webp" title="Yashoda learns the truth" >}}
+{{< figure src="/images/mahabharat/ep_19_1.webp" title="Vyas meets Satyavati" >}}
 
-This episode, while titled about the death of Pandu focuses on motherhood. What
-makes a mother? Is it the right of giving birth that makes a mother or is it
-the raising of children that makes one? Who has more value, Yashoda or Devaki?
-These are the questions that are subtly asked in the beginning of the episode
-when Devaki finally meets the son that she had waited so long to hold in her
-arms. Krishna wants to go back to Yashoda but it slowly dawns on him that going
-back will mean that he won't be able to come back. When Krishna left Vrindavan,
-Nandraj rightly said    
+Maharshi Vyas was trikal gyaani. He knew the past, present and the future. He
+knew what was about to come and how it would shape the future of Bharatvarsh,
+and yet all he did was take his mother out of there so she doesn't have to see
+the bloodshed. He cites a reason for this, the future is inevitable and that is
+why the future is not shown to materialistic people. Vyas hints multiple times
+to Dhritrashtra, Satyavati and Bhishma about the things that are about to come,
+but Satyavati doesn't have to worry about it, Dhritrashtra is too blinded by
+his greed and Bhishma is bound by his vow. 
 
-> Vo to saare trilok ka hai
+Dhritrashtra stroking the crown will never get old. From the moment that scene
+comes on you just know what he is thinking. The man is obsessed with the
+throne. At one point he tells Gandhari that she will never understand what it
+is to lose something that you value a lot. He tells this to the same Gandhari
+that gave up her eyes for him. Dhritrashtra is blind, metaphorically as well.
+He is blinded by his greed and his never ending thirst for power. While he
+himself is going to be king for life,he cannot accept that happily. He wants to
+take the throne from it's rightful heir Yudhishthir and give it to his own son.
+Many texts mention that Dhritrashtra's love for his son was the cause for
+Mahabharat, but in my opinion he was just a weak man. It was not love, but
+second hand greed that took him and his hundred sons with him. Adding to that, 
+it looks like Shakuni is training Duryodhan to be just like himself. They both
+plant the seed of doubt in Dhritrashtra's mind and leave him wondering.
 
-Krishna reluctantly agrees to stay in Mathura and then move on to study under
-Rishi Sandipani. Seeing Yashoda look for a Kanha that wasn't there was
-heartbreaking. The moment I saw Nandraj's face I realized the peril he was in.
-What a painful task it must be to tell Yashoda that her Krishna won't be coming
-back? The Yashoda that would believe her son over a whole village? The Yashoda
-that will forever be known as the mother to Krishna. The mother that will be
-etched in history as the definition of motherhood. Played beautifully by both
-actors, it was a very fresh scene from the usual humdrum acting of this show.
-Although it may or may not be shown in the show, Krishna will meet Yashoda once
-again when she is on her death bed.
+This episode has two monologues, one by Dhritrashtra to Gandhari and the other
+by Bhishma to Ganga. The better half of the episode ends with the Bhishma
+monologue and it is worth it. Writing wise this episode is a gem. Bhishma, the
+terrible vow taker stands helpless before his mother who can do nothing but
+tell him to face his present and the future. He tries to find reason with Vidur
+for a while, but is left with nothing but more confusion as Vidur leaves him
+with the harsh decision he has to take. In the end, he enrolls the Pandavs to
+Gurukul to be trained as kings, knowing he made the right decision. I think
+this is a gem of an episode in this series and a must watch. 
 
-{{< figure src="/images/mahabharat/ep_18_2.webp" title="Kunti and the Pandavs" >}}
+**Here's to hoping I write more frequently!**
 
-This brings me back to the original topic, what makes a mother, a mother? If we
-say Yashoda, then is Devaki's life spent in the dungeons wasted? Is her love
-not good enough or on par with Yashoda? According to Nand, **God ka mahatva
-kokh se adhik hota hai**, but I think both of those have their own values.
-After all, keeping a child in their bellies for nine months is a form of love
-as well. Love and devotion.
+{{< figure src="/images/mahabharat/ep_19_2.webp" title="Satyavati leaves with Amba and Ambalika" >}}
 
-Talking about the pain of mothers losing a child, Satyavati cries about having
-to see the death of her husband, her son and her grandchild as well. Truly a
-tragedy when the old have to light the funeral pyre for the young. We also get
-a glimpse of young Duryodhan, and he establishes himself as the villain with
-his first line. Typical Duryodhan. Other than that, nothing of note comes to mind. 
-Overall, it was a very good episode, closed many plot points and established new story lines to come. Until next time!
+{{< figure src="/images/mahabharat/ep_19_3.webp" title="Dhritrashtra and his crown" >}}
 
+{{< figure src="/images/mahabharat/ep_19_4.webp" title="Shakuni conspires against Pandavs" >}}
 
+{{< figure src="/images/mahabharat/ep_19_5.webp" title="Helpless Bhishma asks Vidur for advice" >}}
 
 ## Notable dialogue:
-> God ka mahatva kokh se adhik hota hai Yashoda
 
-> Bharat Varsh ki, Jay!
+> Samay to ek nadi ki tarah behta rehta hai, aur shareer, nauka samaan sthir nahi reh sakta.. aur aatma ek yatri hai jo apne ghaat, apne lakshya ko nirantar khojta rehta hai.
 
-> Bachcho ko hath karne ka adhikaar hai
+> Dhritrashtra Netraheen hai maata, vo to dekh hi nahi sakega. Aur aap se dekha na jayega
+
+> Sanyaas apne aap se bhaagne ka naam nahi hai, sanyaas apne aap apne aham ka saamna karne ka naam hai.
+
+> Rajneeti netraheen ho gai hai. 
+
+> Jab kisaan apne hi khet ke ankuro se shatruta kar baithem to uss khet pe kya beetegi
+
+> Mai vartamaan se asantusht, aur bhavishy se atyant chintit hoon
+
+> Aayushmaan bhava!
+> ye aashirwaad na dijiye maate. Mai pehle hi se pitashri ke vardaan ki dor me jakda hua hoon
+> Itne dukhi naa ho putra
+> Dukh ki to koi seema hi nai maate. Ek kaaran ho to bataun.
 
 ## To be continued
 
