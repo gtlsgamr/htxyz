@@ -42,7 +42,7 @@ is to lose something that you value a lot. He tells this to the same Gandhari
 that gave up her eyes for him. Dhritrashtra is blind, metaphorically as well.
 He is blinded by his greed and his never ending thirst for power. While he
 himself is going to be king for life,he cannot accept that happily. He wants to
-take the throne from it's rightful heir Yudhishthir and give it to his own son.
+take the throne from its rightful heir Yudhishthir and give it to his own son.
 Many texts mention that Dhritrashtra's love for his son was the cause for
 Mahabharat, but in my opinion he was just a weak man. It was not love, but
 second hand greed that took him and his hundred sons with him. Adding to that, 
