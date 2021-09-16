@@ -29,12 +29,7 @@ This is a list of links that I keep and update regularly. It might be of use to 
 - https://github.com/marcotrosi/C | C programming practical kind of guide
 - https://keybr.com | Typing practice
 - https://monkeytype.com | same as above, but for improving speed imo
-- **INTERVIEW QUESTIONS**
-	-  https://github.com/donnemartin/system-design-primer | System Design Primer
-	-  https://github.com/Olshansk/interview 	
-	-  https://github.com/DopplerHQ/awesome-interview-questions
-	-  https://github.com/jwasham/coding-interview-university
-	-  https://github.com/yangshun/tech-interview-handbook 
+- http://xahlee.info/ | Pretty cool website with LOTS of tutorials
 
 ## Other Stuff worth mentioning
 
