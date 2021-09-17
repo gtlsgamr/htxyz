@@ -21,6 +21,7 @@ img {
 				{{ .Content }}
 			</div>
 			{{ with .Params.tags }}
+			<hr>
 			<div>
 				<ul id="tags">
 					{{ range . }}
@@ -31,6 +32,7 @@ img {
 			{{ end }}
 		</article>
 	</main>
+	<hr>
 <form name="comments" class='comments-form'>
 	<div><h3>Post Comment</h3></div>
 	<div>
@@ -45,5 +47,6 @@ img {
 
 </form>
 <div id='solution'></div>
+<hr>
 {{ partial "sidebar.html" . }}
 {{ end }}
