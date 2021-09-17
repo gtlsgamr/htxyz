@@ -50,7 +50,7 @@ ul#navbar {
 ul#tags li{
 	display:inline-block; 
 	margin: 0px 7px;
-	background-color:grey;
+	background-color:lightgray;
 	padding:4px 10px;
 	border-radius:5px;
 	margin-bottom: 10px;
