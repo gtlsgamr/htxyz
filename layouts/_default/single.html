@@ -22,7 +22,7 @@ img {
 			</div>
 			{{ with .Params.tags }}
 			<div>
-				<ul id="navbar">
+				<ul id="tags">
 					{{ range . }}
 					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a></li>
 					{{ end }}
