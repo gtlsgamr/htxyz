@@ -1,3 +1,10 @@
+@media (pointer:coarse) {
+body{ 
+	width: 90%;
+	margin:auto;
+	background-color:#E6EEF7;
+}
+}
 body{ 
 	width: 70%;
 	margin:auto;
