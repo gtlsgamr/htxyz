@@ -19,7 +19,7 @@ slip away from his grip once again. Maharshi Vyas visits Satyavati and takes
 her along with Amba and Ambalika to live an ascetic life, hinting that the
 future was bleak and she will not be able to bear it. Shakuni starts making his
 moves to make sure that Dhritrashtra's son gets the throne and not the rightful
-heir Duryodhan.
+heir Yudhishthir.
 
 
 ## Discussion
