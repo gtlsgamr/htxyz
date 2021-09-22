@@ -1,22 +1,8 @@
 {{ define "main" }}
-<style>
-img {
-  width:100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-				figcaption{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-				}
-</style>
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<time>{{ .Date.Format "02.01.2006" }}</time>
+			<h5><time>{{ .Date.Format "Monday, Jan 2, 2006" }}</time></h5>
 			<div>
 				{{ .Content }}
 			</div>
