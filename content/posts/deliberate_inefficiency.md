@@ -1,6 +1,7 @@
 +++
 title = "Deliberate inefficiency"
 description = "The deep rooted habits of deliberate inefficiency in the Indian beaurocracy"
+draft='true'
 tags = [
 "writing"
 ]
