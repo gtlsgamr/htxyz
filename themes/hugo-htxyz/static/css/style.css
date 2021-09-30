@@ -181,4 +181,9 @@ ul#navbar li{
 a:hover {
   color: tan;
 }
+@media only screen and (hover: none) and (pointer: coarse){
+body{ 
+	width: 90%;
+}
+}
 }
