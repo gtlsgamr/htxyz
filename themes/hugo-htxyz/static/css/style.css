@@ -18,7 +18,7 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
-}
+tan}
 blockquote p {
   display: inline;
   font-style:italic;
@@ -125,5 +125,60 @@ h1#pagetitle{
 @media only screen and (hover: none) and (pointer: coarse){
 body{ 
 	width: 90%;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+
+body{ 
+	width: 60%;
+	margin:auto;
+	background-color:#292929;
+	font-size:18px;
+	color: #f2f3f4;
+}
+
+blockquote {
+  background: #303030;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #f2f3f4
+}
+ul#tags li{
+	display:inline-block; 
+	margin: 0px 7px;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+
+ul#navbar li{
+	display:inline-block; 
+	margin: 0px 7px;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	background-color: rgba(0,0,0,0);
+}
+
+/* visited link */
+
+#pagetitlecontainer{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius: 15px;
+	border-bottom: solid 6px black;
+	border-top: solid 6px black;
+	border-color: rgba(255,255,255,0.2);
+}
+
+a:hover {
+  color: tan;
 }
 }
