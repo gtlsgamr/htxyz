@@ -183,7 +183,7 @@ a:hover {
 }
 @media only screen and (hover: none) and (pointer: coarse){
 body{ 
-	width: 90%;
+	width: 90% !important;
 }
 }
 }
