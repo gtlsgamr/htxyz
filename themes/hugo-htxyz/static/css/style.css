@@ -4,6 +4,9 @@ body{
 	background-color:#F2F3F4;
 	font-size:18px;
 }
+pre {
+	overflow:auto;
+}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
