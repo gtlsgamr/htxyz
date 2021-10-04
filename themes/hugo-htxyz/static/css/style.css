@@ -1,3 +1,10 @@
+li.listspancont {
+	display:flex;
+}
+.listspan {
+    flex: 0 0 130px;
+}
+
 body{ 
 	width: 60%;
 	margin:auto;

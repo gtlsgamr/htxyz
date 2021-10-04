@@ -8,8 +8,8 @@
   {{ end }}
   <ul class="blog-posts">
     {{ range .Pages }}
-    <li>
-      <span>
+    <li class='listspancont'>
+      <span class='listspan'>
         <i>
           <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
             {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
