@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on ht.xyz</title>
+    <link>/tags/web/</link>
+    <description>Recent content in web on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo htxyz, a hugo theme</title>
+      <link>/projects/hugo-htxyz/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/hugo-htxyz/</guid>
+      <description>Hugo-htxyz [Hugo](gohugo.io) is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.  Hugo has multiple themes that can be used to generate static sites. The sites can be minimal or pretty much full fledged, depending on the templates and the build time is FAST. Since I have been using a hugo for a while, I thought I should make my own theme.</description>
+    </item>
+    
+  </channel>
+</rss>

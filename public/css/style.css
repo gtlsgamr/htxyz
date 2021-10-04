@@ -1,0 +1,192 @@
+body{ 
+	width: 60%;
+	margin:auto;
+	background-color:#F2F3F4;
+	font-size:18px;
+}
+pre {
+	overflow:auto;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+tan}
+blockquote p {
+  display: inline;
+  font-style:italic;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 99%;
+  max-height: 99%;
+}
+figcaption{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+ul#navbar li{
+	display:inline-block; 
+	margin: 0px 7px;
+	background-color:tan;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+
+ul#navbar li :hover{
+	border-radius:5px;
+	font-weight:bold;
+}
+
+ul#navbar {
+	border-bottom: 2px solid grey;
+}
+
+ul#tags li{
+	display:inline-block; 
+	margin: 0px 7px;
+	background-color:lightgray;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+
+ul#tags li :hover{
+	border-radius:5px;
+	font-weight:bold;
+}
+
+ul#tags {
+	border-bottom: 2px solid grey;
+}
+
+/* unvisited link */
+a:link {
+  color: sienna;
+}
+
+/* visited link */
+a:visited {
+  color: indianred;
+}
+
+/* mouse over link */
+a:hover {
+  color: maroon;
+}
+
+a{
+	text-decoration:none;
+}
+
+h1#pagetitle{
+	font-size:xx-large;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom:0;
+}
+
+#pagetitlecontainer{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius: 15px;
+	border-bottom: solid 6px black;
+	border-top: solid 6px black;
+	border-color: rgba(0,0,0,0.2);
+}
+
+#pagedate{
+	margin-top:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+body{ 
+	width: 90%;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+
+body{ 
+	width: 60%;
+	margin:auto;
+	background-color:#292929;
+	font-size:18px;
+	color: #f2f3f4;
+}
+
+blockquote {
+  background: #303030;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #f2f3f4
+}
+ul#tags li{
+	display:inline-block; 
+	margin: 0px 7px;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+
+ul#navbar li{
+	display:inline-block; 
+	margin: 0px 7px;
+	padding:4px 10px;
+	border-radius:5px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	background-color: rgba(0,0,0,0);
+}
+
+/* visited link */
+
+#pagetitlecontainer{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border-radius: 15px;
+	border-bottom: solid 6px black;
+	border-top: solid 6px black;
+	border-color: rgba(255,255,255,0.2);
+}
+
+a:hover {
+  color: tan;
+}
+@media only screen and (hover: none) and (pointer: coarse){
+body{ 
+	width: 90% !important;
+}
+}
+}

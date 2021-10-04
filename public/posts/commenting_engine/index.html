@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>[Development] My own commenting engine!</title>
+	<meta name="description" content="Hitarth Thummar&#39;s website.">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<h1 style="text-align:center;"><a href="/">ht.xyz</a></h1>
+	
+	<nav>
+		<ul id="navbar" style="text-align:center; list-style-type: none; padding: 0px; margin: 0px ;">
+			
+			<li><a href="/">Home</a></li>
+			
+			<li><a href="/projects/">Projects</a></li>
+			
+			<li><a href="/posts/">Writings</a></li>
+			
+			<li><a href="/mahabharat/">Mahabharat</a></li>
+			
+			<li><a href="/poems/">Poetry</a></li>
+			
+		</ul>
+	</nav>
+	
+	<link rel="stylesheet" href="/css/comments.css"/>
+</header>
+
+	
+	<main>
+		<article>
+			<div id="pagetitlecontainer">
+			<h1 id="pagetitle">[Development] My own commenting engine!</h1>
+			<h5 id="pagedate"><time>Thursday, May 27, 2021</time></h5>
+			</div>
+			<div>
+				<p><del>Update: I don&rsquo;t use this anymore because frankly it is kind of hacky. I hope people might find better use for this.</del></p>
+<h1 id="how-i-made-my-own-commenting-engine">How I made my own commenting engine</h1>
+<p>Well, before you go on, you might be wondering, what is a commenting engine? A commenting engine is a piece of code that handles comments on a website or app and the likes. On this website, before this point, there was no option for comments. After that I tried messing with some commenting engines such as <a href="https://blog.disqus.com/">Disqus</a> and <a href="https://staticman.net">Staticman</a> and many more. My core issue with most of these was that either they were hosted by third party, or they needed some sort of hosting by the site owner. I was looking for a free solution (free as in both free speech and free food), that could handle comments. Then I found <a href="https://utteranc.es/">utterances!</a> It was everything I needed. It wasn&rsquo;t hosted by some shady third party, it was free and didn&rsquo;t require me to host anything. Yet, there was one <em><strong>issue</strong></em>. Yes, I made that pun. <em>utterances</em> used GitHub issues to act as storage for comments. It was a very intuitive interface, but its reliance on GitHub bugged me. Hence, I set out to make my own commenting engine that was <em><strong>A FREE/Libre commenting engine that is lightweight, serverless, and possibly <del>doesn&rsquo;t</del> requires wonky workarounds.</strong></em></p>
+<h2 id="in-the-beginning">in the beginning</h2>
+<p>I didn&rsquo;t know anything about how commenting engines worked, but I had a goal in mind, to have a commenting engine that supported the given definition. I made a repo and started working. Soon I realised that the engine has to be dependent on javascript since that was the only way to have it serverless. Initially the definition contained the phrase</p>
+<blockquote>
+<p>doesn&rsquo;t require wonky workarounds</p>
+</blockquote>
+<p>which had to be removed, because no way in hell was I going to make something that fit that definition without workarounds. Thus was born, <a href="https://github.com/gtlsgamr/comments">comments</a>.</p>
+<h2 id="how-it-works">how it works</h2>
+<p><em><strong>comments</strong></em> basically works as a middleman to help the commenter compose the comment and the site owner to have a nicely formatted json to add to the site.</p>
+<ol>
+<li>The Commenter enters the comment on a post.</li>
+<li><em><strong>comments</strong></em> takes the time, date, the post on which the comment was made, nickname for the commenter and creates a json object and passes it in a <code>mailto</code> link which will open the mail client of the commenter.</li>
+<li>It will have a preformatted email that the commenter just has to send.</li>
+<li>The site owner receives the mail and looks at the comment. They will then copy the json and paste it inside the <em>comments-data.json</em> file in their static site directory.</li>
+<li>Every time a page on the site loads, comments will parse that json file and display the comments accordingly!</li>
+</ol>
+<h2 id="how-you-can-help">how you can help!</h2>
+<p>It works fine by itself for now but I want to make it a bit more feature rich. Here are some things that might make this project a <em>little</em> bit better.</p>
+<ol>
+<li>A github pages or some kind of landing page.</li>
+<li>Nested comments and a show more button to hide comments if there are more than x amount of comments.</li>
+<li>✨ CSS Styles! ✨ Currently the default style is very basic looking (the way i prefer) but the project will be much more feature-rich if the users could have different theming options for their comments.</li>
+</ol>
+<p>Honestly, it was a lot of fun making this. I hope people use it to display comments on their websites and help improve this project!</p>
+
+			</div>
+			
+			<div>
+				<ul id="tags">
+					
+					<li><a href="/tags/tech">#Tech</a></li>
+					
+					<li><a href="/tags/technology">#technology</a></li>
+					
+					<li><a href="/tags/javascript">#javascript</a></li>
+					
+				</ul>
+			</div>
+			
+		</article>
+	</main>
+<form name="comments" class='comments-form'>
+	<div><h3>Post Comment</h3></div>
+	<div>
+		<input type="text" class='comment-field' name="alias" placeholder="Your Alias"  id="alias" style="" required />
+	</div>
+	<div>
+		<textarea type="text"  name="comment" placeholder="Enter your comment here"  id="comment" placeholder=" Enter comments" required > </textarea>
+	</div><div>    
+		<button type="button" onclick="postcomments()" id="comment-button">Comment</button>
+	</div>
+	<div><p style="color:green;font-size:smaller;">The comments in are mail-in form. The site will auto-generate a mail for you, after that you just have to press send. If you don't have a mail client on your computer, please use a phone. The comment will also be copied to your clipboard if you want to send it manually or via temporary email of your choice.</p></div>
+
+</form>
+<div id='solution'></div>
+<hr>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/poems/old/add.noise/">Add.noise</a></li>
+				
+				<li><a href="/poems/old/at_night/">at_night</a></li>
+				
+				<li><a href="/poems/old/convert/">convert</a></li>
+				
+				<li><a href="/poems/old/do_cavemen_dream/">Do_cavemen_dream</a></li>
+				
+				<li><a href="/poems/old/drive/">Drive</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<script src="/js/commentsdata.js"></script>
+<script src="/js/comments.js"></script>
+<footer style="text-align:center;">
+	<p style="margin:auto; text-align:center;">&copyopyleft | <a href="/">ht.xyz</a> | <a href="/index.xml">Subscribe</a></p>
+</footer>
+
+</body>
+</html>

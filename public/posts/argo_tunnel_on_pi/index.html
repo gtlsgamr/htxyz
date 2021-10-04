@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi</title>
+	<meta name="description" content="Hitarth Thummar&#39;s website.">
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<h1 style="text-align:center;"><a href="/">ht.xyz</a></h1>
+	
+	<nav>
+		<ul id="navbar" style="text-align:center; list-style-type: none; padding: 0px; margin: 0px ;">
+			
+			<li><a href="/">Home</a></li>
+			
+			<li><a href="/projects/">Projects</a></li>
+			
+			<li><a href="/posts/">Writings</a></li>
+			
+			<li><a href="/mahabharat/">Mahabharat</a></li>
+			
+			<li><a href="/poems/">Poetry</a></li>
+			
+		</ul>
+	</nav>
+	
+	<link rel="stylesheet" href="/css/comments.css"/>
+</header>
+
+	
+	<main>
+		<article>
+			<div id="pagetitlecontainer">
+			<h1 id="pagetitle">[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi</h1>
+			<h5 id="pagedate"><time>Wednesday, Jun 9, 2021</time></h5>
+			</div>
+			<div>
+				<h1 id="setting-up-cloudflare-argo-tunnel-on-my-raspberry-pi">Setting up Cloudflare Argo Tunnel on my Raspberry Pi</h1>
+<p>This is a way to set up cloudflare argo tunnel on your Raspberry Pi to host your own webserver without port forwarding.</p>
+<h3 id="keep-in-mind-that-this-is-not-recommended-for-sensitive-data-as-it-will-be-passing-through-cloudflare-servers">KEEP IN MIND THAT THIS IS NOT RECOMMENDED FOR SENSITIVE DATA AS IT WILL BE PASSING THROUGH CLOUDFLARE SERVERS.</h3>
+<h2 id="what-is-argo-tunnel">What is argo tunnel?</h2>
+<p>It is a tunneling service provided by Cloudflare to help users tunnel connections to their servers via the cloudflare network. It has multiple use cases but here we will only use it for one thing:</p>
+<h2 id="why-argo-tunnel">Why argo tunnel?</h2>
+<p>It is used to tunnel your webserver to the internet. Usually if you want your web app hosted on your PC to be accessible by the world, you need to have your ports open for incoming requests. If your ISP is restrictive like mine, they give you an in-network IP that is not accessible from anywhere else, so your regular port forwarding settings won&rsquo;t work. Think of it like your router is itself connected to a bigger router.</p>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li>A <a href="https://dash.cloudflare.com/sign-up/">cloudflare</a> account.</li>
+<li>A domain name, it&rsquo;s nameservers pointing to cloudflare (preferably the whole domain managed by cloudflare).</li>
+<li>A Raspberry Pi</li>
+<li>A webpage/site/server that you want to open to the world.</li>
+</ol>
+<h2 id="how-to-set-up-one">How to set up one?</h2>
+<ol>
+<li>Download the latest binary of <code>cloudflared</code> tool for your device.
+<em><strong>Note: for the raspberry pi, the newer versions have trouble installing. I personally use an older version which is available at the following link.</strong></em></li>
+</ol>
+<p><code>wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-arm.tgz</code></p>
+<ol start="2">
+<li>
+<p>put the binary in your PATH so that it can be called upon.</p>
+</li>
+<li>
+<p>use the <code>cloudflared</code> binary to log in to your cloudflared account.</p>
+</li>
+<li>
+<p>type <code>cloudflared login</code>, and it will give you a link.</p>
+</li>
+<li>
+<p>Copy that link and open it in your browser to authorise the log in.</p>
+</li>
+<li>
+<p>Create a test tunnel by following this syntax:
+<code>cloudflared --hostname yourdomain.xyz --url http://localhost</code></p>
+</li>
+<li>
+<p>Once this is done, you can copy the cert file that is created <code># cp ~/.cloudflared/cert.pem /etc/cloudflared</code></p>
+</li>
+<li>
+<p>use your editor to create <code>/etc/cloudflared/config.yml</code></p>
+</li>
+<li>
+<p>You can fill it like this:</p>
+<pre tabindex="0"><code>hostname: your_domain.xyz
+url: http://localhost
+
+</code></pre></li>
+<li>
+<p>Install the cloudflared service</p>
+<p><code># cloudflared service install --legacy</code>
+(Make sure the legacy flag is active because we are using an older version of cloudflared)</p>
+</li>
+</ol>
+<p>Hope this tutorial helped you. Now your local webserver will be accessible from your domain!</p>
+<h2 id="done">Done</h2>
+
+			</div>
+			
+			<div>
+				<ul id="tags">
+					
+					<li><a href="/tags/cloudflare">#Cloudflare</a></li>
+					
+					<li><a href="/tags/self-hosting">#self hosting</a></li>
+					
+					<li><a href="/tags/linux">#linux</a></li>
+					
+				</ul>
+			</div>
+			
+		</article>
+	</main>
+<form name="comments" class='comments-form'>
+	<div><h3>Post Comment</h3></div>
+	<div>
+		<input type="text" class='comment-field' name="alias" placeholder="Your Alias"  id="alias" style="" required />
+	</div>
+	<div>
+		<textarea type="text"  name="comment" placeholder="Enter your comment here"  id="comment" placeholder=" Enter comments" required > </textarea>
+	</div><div>    
+		<button type="button" onclick="postcomments()" id="comment-button">Comment</button>
+	</div>
+	<div><p style="color:green;font-size:smaller;">The comments in are mail-in form. The site will auto-generate a mail for you, after that you just have to press send. If you don't have a mail client on your computer, please use a phone. The comment will also be copied to your clipboard if you want to send it manually or via temporary email of your choice.</p></div>
+
+</form>
+<div id='solution'></div>
+<hr>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/poems/old/add.noise/">Add.noise</a></li>
+				
+				<li><a href="/poems/old/at_night/">at_night</a></li>
+				
+				<li><a href="/poems/old/convert/">convert</a></li>
+				
+				<li><a href="/poems/old/do_cavemen_dream/">Do_cavemen_dream</a></li>
+				
+				<li><a href="/poems/old/drive/">Drive</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<script src="/js/commentsdata.js"></script>
+<script src="/js/comments.js"></script>
+<footer style="text-align:center;">
+	<p style="margin:auto; text-align:center;">&copyopyleft | <a href="/">ht.xyz</a> | <a href="/index.xml">Subscribe</a></p>
+</footer>
+
+</body>
+</html>
