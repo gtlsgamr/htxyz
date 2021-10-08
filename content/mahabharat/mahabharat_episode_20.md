@@ -62,8 +62,11 @@ Not much to discuss in this episode, other than a few points that I think are wo
 ## Notable dialogue:
 
 > Baalak! Brahman ne to keval ek mutthi anaaj manga tha
+>
 > Meri mutthi chhoti hai Maharaj
+>
 > Var maang!
+>
 > Maangna mujhe achha nahi lagta Maharaj
 
 
