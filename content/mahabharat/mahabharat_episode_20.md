@@ -61,13 +61,13 @@ Not much to discuss in this episode, other than a few points that I think are wo
 
 ## Notable dialogue:
 
-> Baalak! Brahman ne to keval ek mutthi anaaj manga tha
+> Baalak! Brahman ne to keval ek mutthi anaaj manga tha    
 >
-> Meri mutthi chhoti hai Maharaj
+> Meri mutthi chhoti hai Maharaj    
 >
-> Var maang!
+> Var maang!    
 >
-> Maangna mujhe achha nahi lagta Maharaj
+> Maangna mujhe achha nahi lagta Maharaj    
 
 
 > Ghar ki baat ghar ke bahar nikalte hi parayi ho jaati hai
