@@ -16,7 +16,7 @@ at the Gurukul. Each side has started their own plays to get to the throne.
 
 ## Synopsis
 Dhritrashtra calls Guru on false pretenses to delay the education of Pandavs. 
-On Shakuni's advice, Yudhishthir tries to murder Bheem, who thankfully comes
+On Shakuni's advice, Duryodhan tries to murder Bheem, who thankfully comes
 back
 stronger than before. On the other hand, the child that Kunti drowned in the
 early episodes is seen to be raised by Adhirath, the Sarthee of Dhritrashtra. 
