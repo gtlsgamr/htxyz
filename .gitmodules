@@ -1,0 +1,3 @@
+[submodule "themes/hugo-htxyz"]
+	path = themes/hugo-htxyz
+	url = git@github.com:gtlsgamr/hugo-htxyz
