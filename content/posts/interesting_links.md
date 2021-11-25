@@ -30,6 +30,7 @@ This is a list of links that I keep and update regularly. It might be of use to 
 - https://keybr.com | Typing practice
 - https://monkeytype.com | same as above, but for improving speed imo
 - http://xahlee.info/ | Pretty cool website with LOTS of tutorials
+- http://linux.die.net/ | nice linux tutorials
 
 ## Other Stuff worth mentioning
 
