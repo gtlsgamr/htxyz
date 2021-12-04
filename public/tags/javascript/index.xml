@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on ht.xyz</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in javascript on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Development] My own commenting engine!</title>
+      <link>/posts/commenting_engine/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/commenting_engine/</guid>
+      <description>Update: I don&amp;rsquo;t use this anymore because frankly it is kind of hacky. I hope people might find better use for this.
+How I made my own commenting engine Well, before you go on, you might be wondering, what is a commenting engine? A commenting engine is a piece of code that handles comments on a website or app and the likes. On this website, before this point, there was no option for comments.</description>
+    </item>
+    
+    <item>
+      <title>comments.js, a lightweight serverless commenting engine</title>
+      <link>/projects/commenting_engine/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/commenting_engine/</guid>
+      <description>How I made my own commenting engine Well, before you go on, you might be wondering, what is a commenting engine? A commenting engine is a piece of code that handles comments on a website or app and the likes. On this website, before this point, there was no option for comments. After that I tried messing with some commenting engines such as Disqus and Staticman and many more. My core issue with most of these was that either they were hosted by third party, or they needed some sort of hosting by the site owner.</description>
+    </item>
+    
+  </channel>
+</rss>
