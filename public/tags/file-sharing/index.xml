@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>file sharing on ht.xyz</title>
+    <link>/tags/file-sharing/</link>
+    <description>Recent content in file sharing on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/file-sharing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Development] ul.dl, the no-bullshit file hosting service</title>
+      <link>/posts/uldl_file_sharing_service/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/uldl_file_sharing_service/</guid>
+      <description>ul.dl, the no-bullshit file hosting service You might have heard of 0x0, the no-bullshit file hosting service. It is a service for quickly sharing files right from your command line without having to point or click anywhere. What you do is, you send a POST request to the site with the file and the site will respond with a url that has the raw content of that file.
+For example,</description>
+    </item>
+    
+    <item>
+      <title>ul.dl, the no-bullshit file hosting service</title>
+      <link>/projects/uldl_file_sharing_service/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/uldl_file_sharing_service/</guid>
+      <description>ul.dl, the no-bullshit file hosting service You might have heard of 0x0, the no-bullshit file hosting service. It is a service for quickly sharing files right from your command line without having to point or click anywhere. What you do is, you send a POST request to the site with the file and the site will respond with a url that has the raw content of that file.
+For example,</description>
+    </item>
+    
+  </channel>
+</rss>

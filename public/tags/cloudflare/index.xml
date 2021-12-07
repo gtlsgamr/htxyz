@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudflare on ht.xyz</title>
+    <link>/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on ht.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi</title>
+      <link>/posts/argo_tunnel_on_pi/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/argo_tunnel_on_pi/</guid>
+      <description>Setting up Cloudflare Argo Tunnel on my Raspberry Pi This is a way to set up cloudflare argo tunnel on your Raspberry Pi to host your own webserver without port forwarding.
+KEEP IN MIND THAT THIS IS NOT RECOMMENDED FOR SENSITIVE DATA AS IT WILL BE PASSING THROUGH CLOUDFLARE SERVERS. What is argo tunnel? It is a tunneling service provided by Cloudflare to help users tunnel connections to their servers via the cloudflare network.</description>
+    </item>
+    
+  </channel>
+</rss>
