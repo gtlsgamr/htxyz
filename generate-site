@@ -1,4 +1,13 @@
 #!/bin/bash
+# :::    :::  ::::::::   ::::::::   ::::::::  
+# :+:    :+: :+:    :+: :+:    :+: :+:    :+: 
+# +:+    +:+ +:+        +:+        +:+        
+# +#+    +:+ +#++:++#++ +#++:++#++ :#:        
+# +#+    +#+        +#+        +#+ +#+   +#+# 
+# #+#    #+# #+#    #+# #+#    #+# #+#    #+# 
+#  ########   ########   ########   ########
+# Untitled Static Site Generator-------------
+
 makepage() {
 . ./config
 filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension
@@ -21,8 +30,6 @@ done
 tempsource=$(mktemp)
 cat "$1" > $tempsource
 tempfile=$(mktemp)
-tempnav=$(mktemp)
-tempindex=$(mktemp)
 #------------------------------------------------------------------------------------------------------------------------------------#
 sed -e "s/{{title}}/$title/g" \
 	-e "s/{{description}}/$sitedescription/g" \
