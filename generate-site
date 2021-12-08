@@ -46,7 +46,6 @@ then
 		var+=$(printf  "%s\n\n" "[$title](/$(dirname $path)/$(basename "$path" | cut -f 1 -d .).html) - \&thinsp;$date")
 	done
 sed -in "s|{{listindex}}|$var|g" "$tempsource"
-cat $tempsource > ~/tempsourcesample
 fi
 #----------------------------------------------------- MAIN CONTENT ---------------------------------------------------------------------#
 # Replace global site variables, and post data in site layout file
