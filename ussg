@@ -1,0 +1,85 @@
+#!/bin/bash
+makepage() {
+. ./config
+filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension
+pathname="$(dirname "$1")" # path to the file, which will serve as a URL slug as well
+destpath="./public/$pathname/$filename.html" # Destination path with filename.html where the final html is stored
+
+# Case to check if current page is title page
+
+printf  "%s" "Working on $filename"
+
+[ ! -d "./public/$pathname" ] && mkdir -p "./public/$pathname" # Check if destpath exists, if not then make it
+
+# Read the frontmatter for the file
+for line in "$(head -3 $1)"
+do
+	eval "$line"
+done
+
+# Create initial temp files
+tempsource=$(mktemp)
+cat "$1" > $tempsource
+tempfile=$(mktemp)
+tempnav=$(mktemp)
+tempindex=$(mktemp)
+#------------------------------------------------------------------------------------------------------------------------------------#
+sed -e "s/{{title}}/$title/g" \
+	-e "s/{{description}}/$sitedescription/g" \
+	-e "s/{{date}}/$date/g" \
+	-e "s/{{sitetitle}}/$sitetitle/g" \
+	-e "s/{{sitedesc}}/$sitedesc/g" \
+	-e "s/{{sitename}}/$sitename/g" \
+	./templates/layout.html >> "$tempfile"
+#----------------------------------------------------- INDEX --------------------------------------------------------------------------#
+# Check if there is index in there
+if  grep -q "{{listindex}}" $tempsource
+then
+	sed -i '/<hr>/d' "$tempfile"
+	for path in $(find "$pathname" -type f -not -name "*index*" -name "*md" -exec ls -t {} + | sed "s|^\./||")
+	do
+		for line in "$(head -3 $path)"
+		do
+			eval "$line"
+		done
+		var+="\n\n"
+		var+=$(printf  "%s\n\n" "[$title](/$(dirname $path)/$(basename "$path" | cut -f 1 -d .).html) - \&thinsp;$date")
+	done
+sed -in "s|{{listindex}}|$var|g" "$tempsource"
+cat $tempsource > ~/tempsourcesample
+fi
+#----------------------------------------------------- MAIN CONTENT ---------------------------------------------------------------------#
+# Replace global site variables, and post data in site layout file
+
+markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  # Append main markdown content to the temp file
+
+#----------------------------------------------------- FOOTER ---------------------------------------------------------------------#
+sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" # Edit the footer to have the footer
+
+#----------------------------------------------------- NAVBAR ---------------------------------------------------------------------#
+IFS=, read  -a arr <<< "$navkeys"
+IFS=, read  -a arr2 <<< "$navvals"
+for (( i=0;i<${#arr};i++ ));
+do
+	navlist+=$(printf "%s" "<a href='${arr2[$i]}'>${arr[$i]}</a>")
+done
+
+sed -i "s|{{nav}}|$navlist|g" "$tempfile"
+
+#----------------------------------------------------- FINAL EXPORT ---------------------------------------------------------------------#
+mv "$tempfile" "$destpath"			  # Move the final html to $destpath
+
+cp -r ./static ./public/static			# copy the static folder to the public folder
+printf "%s\n"  "...Done!"
+unset var 
+unset navlist
+unset title
+unset date
+unset description
+}
+
+for file in $(find * -name "*md")
+do
+	makepage "$file"
+done
+
