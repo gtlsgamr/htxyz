@@ -9,10 +9,10 @@
 - **Artwork**: [@addnoiseoriginal](https://www.instagram.com/addnoiseoriginal) on
   instagram. (migrating them here soon.)
 
-- **Posts**: 
+- **Site Navigation**: 
 	* [writings](/posts/writings)
 	* [poetry](/posts/poems)
-	* [Mahabharat TV Show reviews](/posts/mahabharat)
+	* [mahabharat TV show reviews](/posts/mahabharat)
 
 - **list of links worth sharing**: [Here](/posts/writings/interesting_links)
 
