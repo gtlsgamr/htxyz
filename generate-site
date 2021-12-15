@@ -88,6 +88,7 @@ unset navlist
 unset title
 unset date
 unset description
+rm $tempnames $tempdates $tempsource
 }
 #----------------		RUNNER 		---------------------#
 
