@@ -38,7 +38,7 @@ While watching this episode, I never thought that this is the episode where we w
 **Other notable dialogue:**
 
 >"Tum nitipati nahi pratinidhi ho, nitipati to keval ishwar hai."
-
+<!-- -->
 >"Chinta ki rekhayien, pita ke mathe par hai ya Raja ke mathe par?"
 >
 >"Dono ke Mathe par"

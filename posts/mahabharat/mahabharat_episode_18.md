@@ -60,9 +60,9 @@ Overall, it was a very good episode, closed many plot points and established new
 
 ## Notable dialogue:
 > God ka mahatva kokh se adhik hota hai Yashoda
-
+<!-- -->
 > Bharat Varsh ki, Jay!
-
+<!-- -->
 > Bachcho ko hath karne ka adhikaar hai
 
 ## To be continued

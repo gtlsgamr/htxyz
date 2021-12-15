@@ -76,17 +76,17 @@ people and learn to live better lives. Until next time!
 ## Notable dialogue:
 
 > Aap Dhritrashtra se chhote avashya hai, parantu ye Raj Singhasan, Bhishma aur Dhritrashtra dono se hi bada hai.
-
+<!-- -->
 > Gotiya bairi lagne lagi hai, aur paase shatru.
-
+<!-- -->
 > Naa jaane kyun chausar ke paaso me mujhe bure bhavishy ke lakshan dikhai de rahe hai.
-
+<!-- -->
 > Bhagya rekha ya to baan ki nok se khichi jaati hai, ya to buddhi ki nok se.
-
+<!-- -->
 > Karma rekha ko bhagya rekha se adhik gehra hona chahiye rajan.
-
+<!-- -->
 > Naari to prithvi hai.
-
+<!-- -->
 > Yadi avashthao se yuddh karne ki shakti na ho bhrata Shakuni, to un se sandhi kar lene me hi bhalai hai.
 
 ## To be continued
