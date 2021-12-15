@@ -68,17 +68,8 @@ markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  # Append main markdown
 #---------------------- FOOTER -------------------------#
 sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" # Edit the footer to have the footer
 
-#---------------------- NAVBAR --------------------------#
-IFS=, read  -a arr <<< "$navkeys"
-IFS=, read  -a arr2 <<< "$navvals"
-for (( i=0;i<${#arr};i++ ));
-do
-	navlist+=$(printf "%s" "<a href='${arr2[$i]}'>${arr[$i]}</a>")
-done
-
-sed -i "s|{{nav}}|$navlist|g" "$tempfile"
-
 #------------------- FINAL EXPORT -----------------------#
+sed -i "s|{{nav}}|$navlist|g" "$tempfile"
 mv "$tempfile" "$destpath"			  # Move the final html to $destpath
 
 cp -r ./static ./public/static			# copy the static folder to the public folder
@@ -90,9 +81,18 @@ unset date
 unset description
 rm $tempnames $tempdates $tempsource
 }
-#----------------		RUNNER 		---------------------#
 
+
+#=========================================================#
 . ./config
+#---------------------- NAVBAR --------------------------#
+IFS=, read  -ra keyarr <<< "$navkeys"
+IFS=, read  -ra valarr <<< "$navvals"
+for (( i=0;i<${#keyarr[@]};i++ ));
+do
+	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>")
+done
+
 for file in $(find * -name "*md")
 do
 	makepage "$file"
