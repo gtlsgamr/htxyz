@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 2 - Ganga reveals the Truth"
+title="Mahabharat - Episode 02 - Ganga reveals the Truth"
 description=""
 date="2021-12-08"
 +++

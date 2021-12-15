@@ -9,7 +9,6 @@
 # Untitled Static Site Generator-------------
 
 makepage() {
-. ./config
 filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension
 pathname="$(dirname "$1")" # path to the file, which will serve as a URL slug as well
 destpath="./public/$pathname/$filename.html" # Destination path with filename.html where the final html is stored
@@ -30,7 +29,9 @@ done
 tempsource=$(mktemp)
 cat "$1" > $tempsource
 tempfile=$(mktemp)
-#------------------------------------------------------------------------------------------------------------------------------------#
+tempdates=$(mktemp)
+tempnames=$(mktemp)
+#----------------------------------------------------------------#
 sed -e "s/{{title}}/$title/g" \
 	-e "s/{{description}}/$sitedescription/g" \
 	-e "s/{{date}}/$date/g" \
@@ -38,31 +39,36 @@ sed -e "s/{{title}}/$title/g" \
 	-e "s/{{sitedesc}}/$sitedesc/g" \
 	-e "s/{{sitename}}/$sitename/g" \
 	./templates/layout.html >> "$tempfile"
-#----------------------------------------------------- INDEX --------------------------------------------------------------------------#
+#--------------------- INDEX ------------------------------------#
 # Check if there is index in there
 if  grep -q "{{listindex}}" $tempsource
 then
 	sed -i '/<hr>/d' "$tempfile"
-	for path in $(find "$pathname" -type f -not -name "*index*" -name "*md" -exec ls -t {} + | sed "s|^\./||")
+	for path in $(find "$pathname" -type f -not -name "*index*" -name "*md" | sed "s|^\./||")
 	do
 		for line in "$(head -3 $path)"
 		do
 			eval "$line"
 		done
-		var+="\n\n"
-		var+=$(printf  "%s\n\n" "[$title](/$(dirname $path)/$(basename "$path" | cut -f 1 -d .).html) - \&thinsp;$date")
+		echo -e "$date\t$title" >> $tempdates
 	done
-sed -in "s|{{listindex}}|$var|g" "$tempsource"
+sort -nr -o $tempdates $tempdates 
+while IFS=$'\t' read -r date name
+do
+	printf  "%s\n\n" "[$name](/$(dirname $path)/$(basename "$path" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+done < $tempdates
+sed -i "/{{listindex}}/r $tempnames" "$tempsource"
+sed -i "/{{listindex}}/d" "$tempsource"
 fi
-#----------------------------------------------------- MAIN CONTENT ---------------------------------------------------------------------#
+#--------------------- MAIN CONTENT -----------------------#
 # Replace global site variables, and post data in site layout file
 
 markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  # Append main markdown content to the temp file
 
-#----------------------------------------------------- FOOTER ---------------------------------------------------------------------#
+#---------------------- FOOTER -------------------------#
 sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" # Edit the footer to have the footer
 
-#----------------------------------------------------- NAVBAR ---------------------------------------------------------------------#
+#---------------------- NAVBAR --------------------------#
 IFS=, read  -a arr <<< "$navkeys"
 IFS=, read  -a arr2 <<< "$navvals"
 for (( i=0;i<${#arr};i++ ));
@@ -72,7 +78,7 @@ done
 
 sed -i "s|{{nav}}|$navlist|g" "$tempfile"
 
-#----------------------------------------------------- FINAL EXPORT ---------------------------------------------------------------------#
+#------------------- FINAL EXPORT -----------------------#
 mv "$tempfile" "$destpath"			  # Move the final html to $destpath
 
 cp -r ./static ./public/static			# copy the static folder to the public folder
@@ -83,7 +89,9 @@ unset title
 unset date
 unset description
 }
+#----------------		RUNNER 		---------------------#
 
+. ./config
 for file in $(find * -name "*md")
 do
 	makepage "$file"

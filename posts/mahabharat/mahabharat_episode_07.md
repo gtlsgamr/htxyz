@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 7 - The birth of Karn"
+title="Mahabharat - Episode 07 - The birth of Karn"
 date="2021-12-08"
 description=""
 +++ 

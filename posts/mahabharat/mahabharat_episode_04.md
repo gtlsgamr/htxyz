@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 4 - Ichchha Mrityu"
+title="Mahabharat - Episode 04 - Ichchha Mrityu"
 description=""
 date="2021-12-08"
 +++

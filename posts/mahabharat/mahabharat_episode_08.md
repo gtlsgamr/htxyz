@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 8 - Madri"
+title="Mahabharat - Episode 08 - Madri"
 date="2021-12-08"
 description=""
 +++ 

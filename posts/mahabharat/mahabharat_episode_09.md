@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 9 - Dhritrashtra is king"
+title="Mahabharat - Episode 09 - Dhritrashtra is king"
 date="2021-12-08"
 description=""
 +++ 

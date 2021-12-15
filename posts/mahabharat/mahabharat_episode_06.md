@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 6 - The birth of Pandu, Dhritrashtra and Vidur"
+title="Mahabharat - Episode 06 - The birth of Pandu, Dhritrashtra and Vidur"
 date="2021-12-08"
 description=""
 +++ 

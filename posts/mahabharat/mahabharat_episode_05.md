@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 5 - Amba, Ambika, Ambalika"
+title="Mahabharat - Episode 05 - Amba, Ambika, Ambalika"
 description=""
 date="2021-12-08"
 +++

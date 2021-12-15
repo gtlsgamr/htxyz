@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 1, part 1 - The story of king Bharat"
+title="Mahabharat - Episode 01, part 1 - The story of king Bharat"
 description=""
 date="2021-12-08"
 +++

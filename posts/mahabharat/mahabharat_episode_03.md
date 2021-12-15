@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 3 - The Vow (Bhishma Pratigya)"
+title="Mahabharat - Episode 03 - The Vow (Bhishma Pratigya)"
 description=""
 date="2021-12-08"
 +++
