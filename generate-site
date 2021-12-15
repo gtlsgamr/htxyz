@@ -50,12 +50,12 @@ then
 		do
 			eval "$line"
 		done
-		echo -e "$date\t$title" >> $tempdates
+		echo -e "$date\t$title\t$path" >> $tempdates
 	done
 sort -nr -o $tempdates $tempdates 
-while IFS=$'\t' read -r date name
+while IFS=$'\t' read -r date name finpath
 do
-	printf  "%s\n\n" "[$name](/$(dirname $path)/$(basename "$path" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+	printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 done < $tempdates
 sed -i "/{{listindex}}/r $tempnames" "$tempsource"
 sed -i "/{{listindex}}/d" "$tempsource"
@@ -77,7 +77,7 @@ unset var
 unset title
 unset date
 unset description
-rm "$tempnames" "$tempdates" "$tempsource"
+rm "$tempnames" "$tempdates" "$tempsource" 
 }
 
 
