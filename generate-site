@@ -24,7 +24,8 @@ destpath="./public/$pathname/$filename.html" # Destination path with filename.ht
 
 printf  "%s" "Working on $filename"
 
-[ ! -d "./public/$pathname" ] && mkdir -p "./public/$pathname" # Check if destpath exists, if not then make it
+mkdir -p "./public/$pathname" # Check if destpath exists, if not then make it
+mkdir -p "./public/static" # Check if destpath exists, if not then make it
 
 # Read the frontmatter for the file
 for line in "$(head -3 $1)"
@@ -97,7 +98,7 @@ for (( i=0;i<${#keyarr[@]};i++ ));
 do
 	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>")
 done
-for file in $(find * -name "*md")
+for file in $(find * -name "*md" -not -name "*README*")
 do
 	makepage "$file"
 done
