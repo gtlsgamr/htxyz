@@ -15,13 +15,13 @@
   --line-height: 1.618;
 
   /* Default (light) theme */
-  --bg: #FFF;
-  --accent-bg: #F5F7FF;
-  --text: #212121;
-  --text-light: #585858;
-  --border: #D8DAE1;
-  --accent: #0D47A1;
-  --accent-light: #90CAF9;
+  --bg: #e8e9ec;
+  --accent-bg: #d2d4dd;
+  --text: #33374c;
+  --text-light: #33374c;
+  --border: #327698;
+  --accent: #3f89a6;
+  --accent-light: #E3C09F;
   --code: #D81B60;
   --preformatted: #444;
   --marked: #FFDD33;
@@ -31,12 +31,12 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #212121;
-    --accent-bg: #2B2B2B;
-    --text: #DCDCDC;
-    --text-light: #ABABAB;
+    --bg: #161821;
+    --accent-bg: #1e2132;
+    --text: #c6c8d1;
+    --text-light: #Ac6c8d;
     --border: #666;
-    --accent: #FFB300;
+    --accent: #e2a478;
     --accent-light: #FFECB3;
     --code: #F06292;
     --preformatted: #CCC;
@@ -91,7 +91,18 @@ header {
 header h1,
 header p {
   margin: 0;
+  font-family: var(--mono-font);
+  
 }
+@keyframes blinker {
+50% {
+opacity: 0;
+}
+}
+header p{
+	animation: blinker 1.5s step-start infinite;
+}
+
 
 /* Fix line height when title wraps */
 h1, h2, h3 {
@@ -103,6 +114,7 @@ nav {
   font-size: 1rem;
   line-height: 2;
   padding: 1rem 0;
+  font-family:var(--mono-font);
 }
 
 nav a {
@@ -113,7 +125,7 @@ nav a {
   display: inline-block;
   padding: .1rem 1rem;
   text-decoration: none;
-  transition: .4s;
+  transition: 0s;
 }
 
 nav a:hover {
