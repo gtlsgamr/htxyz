@@ -5,13 +5,13 @@ Each and every post in the *posts* folder contains 4 lines of front matter. It i
 
 The `config` file contains some standard site metadata that you may or may not want to change. I will try and explain them below.
 
-|---|---|
-|footer|contains the footer text for the website|
-|sitetitle|contains the site title that is shown in the tabs|
-|sitedesc|contains the blinking text in the header of the website|
-|navkeys|contains the names of the navigation bar buttons, in order and comma seperated|
-|navvals|contains the links of the navigation bar buttons, in order and comma seperated|
-|sitename|contains the site name, that is shown in the header, above sitedesc|
-|---|---|
+ | key | value | 
+ | --- | --- | 
+ | footer | contains the footer text for the website | 
+ | sitetitle | contains the site title that is shown in the tabs | 
+ | sitedesc | contains the blinking text in the header of the website | 
+ | navkeys | contains the names of the navigation bar buttons, in order and comma seperated | 
+ | navvals | contains the links of the navigation bar buttons, in order and comma seperated | 
+ | sitename | contains the site name, that is shown in the header, above sitedesc | 
 
 This script/site comes with no warranty and is for my personal use. If you feel like using it for your own personal use, make sure you check the script for something that might mess your system up.
