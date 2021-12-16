@@ -2,7 +2,6 @@ title="tidytilde, A script to make your \$HOME clean and tidy."
 description="A script to make your $HOME clean and tidy. ✨"
 date="2021-12-08"
 +++
-# tidytilde, a script to make your $HOME clean and tidy.
 Sometimes your $HOME directory gets too cluttered with .dotfiles and it just
 looks very unclean. Fortunately the archwiki has a nice
 [article](https://wiki.archlinux.org/title/XDG_Base_Directory) on how to make

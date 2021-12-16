@@ -2,8 +2,6 @@ title="ul.dl, the no-bullshit file hosting service"
 description="Creating and hosting your own cli based file hosting service!"
 date="2021-12-08"
 +++
-# ul.dl, the no-bullshit file hosting service
-
 You might have heard of [0x0](https://0x0.st), the no-bullshit file hosting service. It is a service for quickly sharing files right from your command line without having to point or click anywhere. What you do is, you send a POST request to the site with the file and the site will respond with a url that has the raw content of that file. 
 
 For example, 

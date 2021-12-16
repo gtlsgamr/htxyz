@@ -2,15 +2,13 @@ title="Time In TTY, a CLI timetracking script"
 description="A command line time tracking shell script."
 date="2021-12-08"
 +++
-# Ti-tty a command line time tracking shell script
-
 This is a time tracking shell script, used to track time for ongoing projects or some other task that needs time tracking. It uses unix timestamp and the `date` utility that comes with most unix-like operating systems. It is lightweight, and does one thing well, track time. It is similar to [Timewarrior](https://timewarrior.net/) but the difference is in the implementation, as in timewarrior is too complex for my use case. This is just so very usable. Its data is stored in plaintext, it is easily modifiable and it is modular. Here are instructions on how to use [titty](https://github.com/gtlsgamr/ti-tty).
 
 
-## Installation:
+#### Installation:
 Just copy the titty file to your path
 
-## Usage:
+#### Usage:
 
 ```titty start [taskname]```
 
