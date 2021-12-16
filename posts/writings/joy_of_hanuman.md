@@ -15,60 +15,69 @@ This brings me to a bhajan of Bajrangbali, that has made it's place in my heart 
 
 #### Bharat Bhai
 
-```
-भरतभाई! कपि से उरिन हम नाही ||
-Bharat bhai, kapi se urin hum naahi
-```
+> भरतभाई! कपि से उरिन हम नाही ||
+
+> Bharat bhai, kapi se urin hum naahi
+
 **Bharat, my brother, we will never be able to repay the debt of kapi (monkey, shree hanuman)**
 
-```
-एठो खाय अछूत खवावत | हाथ धोवत टक माहि || १ ||
-etho khhay, achhoot khavaavat. Haath dhovat, tak maahi
-```
+
+>एठो खाय अछूत खवावत | हाथ धोवत टक माहि || १ ||
+
+>etho khhay, achhoot khavaavat. Haath dhovat, tak maahi
+
 **He is so innocent and child-like, that he doesn't wash hands after eating at the designated place, but in his plate(tak) itself**
 
-```
-सौ योजन मर्याद सिंधू की | लांग गयो पल माहि |
-Sau yojan maryaad sindhu ki, laangh gayo pal maahi
-```
+
+>सौ योजन मर्याद सिंधू की | लांग गयो पल माहि |
+
+>Sau yojan maryaad sindhu ki, laangh gayo pal maahi
+
 **The length of the sea was 1200 kilimetres, and yet he jumped it over in a moment**
 
-```
-लंका जाय सिया सोधी लाये | गर्ब नाहि मन माहि || २ ||
-Lanka jaay, siya sodhi laaye, garb nahi man maahi
-```
+
+>लंका जाय सिया सोधी लाये | गर्ब नाहि मन माहि || २ ||
+
+>Lanka jaay, siya sodhi laaye, garb nahi man maahi
+
 **He went to the lanka, and found Siya mata, and yet he didn't get pride in his mind**
 
-```
-शती बाण लग्यो लछमन के | शोर भयो दल माहि |
-shati baan lagyo, lachman (laxman) ko, shor bhayo dal maahi
-```
+
+>शती बाण लग्यो लछमन के | शोर भयो दल माहि |
+
+>shati baan lagyo, lachman (laxman) ko, shor bhayo dal maahi
+
 **Laxman got shot by a hundred arrows, and the whole army was in chaos with shouts and cries**
 
-```
-द्रोणागिरी पर्वत ले आयो | भोर होने नहि पायी || ३ ||
-DronaGiri Parbat le aayo, bhor hone nahi paayi
-```
+
+>द्रोणागिरी पर्वत ले आयो | भोर होने नहि पायी || ३ ||
+
+>DronaGiri Parbat le aayo, bhor hone nahi paayi
+
 **But Hanuman carried a whole mountain(Dronagiri) where the medicine grew, to save laxman before the sun could rise**
 
-```
-अहि रावण की भुजा उखाडी | बैठ रह्यो मठ माहि |
-Ahiraavan ki bhuja ukhaadi, baith rahyo math maahi
-```
+
+>अहि रावण की भुजा उखाडी | बैठ रह्यो मठ माहि |
+
+>Ahiraavan ki bhuja ukhaadi, baith rahyo math maahi
+
 **When the demon ahiraavan secretly carried away Shri Ram and Laxman to nether world, Hanumanji tore off his limbs and brought them back. Even after saving their lives, he sat quietly in the math(the place where they stayed). Hanumanji does not have any pride.**
 
-```
-या पर भरत जो हनुमत ना होते | को ल्यावत जग माहि || ४ ||
-Yaa par bharat jo hanumat naa hote, ko lyaavat jag maahi
-```
+
+>या पर भरत जो हनुमत ना होते | को ल्यावत जग माहि || ४ ||
+
+>Yaa par bharat jo hanumat naa hote, ko lyaavat jag maahi
+
 **Oh bharat, if hanuman wasn't there. Who would've brought us back from the underworld?**
 
-```
-तुलसीदास मारुतसुत महिमा | प्रभु अपने मुख से गायी |
-Tulsidas maarutsut mahima, prabhu apne mukh se gaayi
-```
+
+>तुलसीदास मारुतसुत महिमा | प्रभु अपने मुख से गायी |
+
+>Tulsidas maarutsut mahima, prabhu apne mukh se gaayi
+
 **The glory of lord hanuman is sung by Shri Ram himself**
-भरतभाई! कपि से उरिन हम नाही || ५ ||
+
+>भरतभाई! कपि से उरिन हम नाही || ५ ||
 
 ***Here is a picture of the gate of Hanuman mandir where I go to pray in my village***
 ![Vanar](/static/images/HAN.jpg)
