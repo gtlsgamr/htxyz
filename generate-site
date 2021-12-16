@@ -6,7 +6,14 @@
 # +#+    +#+        +#+        +#+ +#+   +#+# 
 # #+#    #+# #+#    #+# #+#    #+# #+#    #+# 
 #  ########   ########   ########   ########
-# Untitled Static Site Generator-------------
+# Untitled Static Site Generator------------->
+# Copyleft? by Hitarth Thummar
+# Use this at your own risk.
+#
+# Usage instructions in the README.md file at
+# httos://github.com/gtlsgamr/htxyz
+# 
+#
 
 makepage() {
 filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension

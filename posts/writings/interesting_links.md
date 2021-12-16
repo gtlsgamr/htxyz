@@ -1,4 +1,4 @@
-title="Things that I find worth sharing"S
+title="Things that I find worth sharing"
 description="This is a list of links and stuff that I felt was worth sharing"
 date="2021-12-08"
 +++

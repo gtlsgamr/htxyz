@@ -1,9 +1,6 @@
-footer="footer"
-languageCode="en-us"
 sitetitle="ht's website."
 sitedesc="Hitarth Thummar's personal website."
 navkeys="home,projects,writings,poetry,mahabharat reviews"
 navvals="/,/posts/projects,/posts/writings,/posts/poems,/posts/mahabharat"
-dateformat='+%B %d, %Y'
 sitename="ht.xyz"
 footer="Copyleft 4ever"
