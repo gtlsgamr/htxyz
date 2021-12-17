@@ -18,6 +18,8 @@ This is a list of links that I keep and update regularly. It might be of use to 
 - [https://monkeytype.com](https://monkeytype.com) | same as above, but for improving speed imo
 - [http://xahlee.info/](http://xahlee.info/) | Pretty cool website with LOTS of tutorials
 - [http://linux.die.net/](http://linux.die.net/) | nice linux tutorials
+- [https://explainshell.com/](https://explainshell.com/) | Explains any shell command you want, interactively! 
+- [https://plainjs.com/](https://plainjs.com/) - How to do things in plainjs and ditch jQuery for good!
 
 #### Other Stuff worth mentioning
 

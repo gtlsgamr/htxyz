@@ -15,7 +15,7 @@
 	* [projects](/posts/projects)
 	* [mahabharat TV show reviews](/posts/mahabharat)
 
-- **list of links worth sharing**: [Here](/posts/writings/interesting_links)
+- **list of links worth sharing**: [Here](/posts/writings/interesting_links.html)
 
 Learn more and contribute on [GitHub](https://github.com/gtlsgamr).
 
