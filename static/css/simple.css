@@ -6,7 +6,7 @@
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-  --base-fontsize: 1.15rem;
+  --base-fontsize: 1rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
   --header-scale: 1.25;
@@ -76,7 +76,7 @@ header {
   background: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 2rem .5rem;
+  padding: 0.4rem .5rem;
   width: 100vw;
   position: relative;
   box-sizing: border-box;
@@ -92,6 +92,7 @@ header h1,
 header p {
   margin: 0;
   font-family: var(--mono-font);
+  padding-top:0.4rem;
   
 }
 @keyframes blinker {
@@ -101,6 +102,7 @@ opacity: 0;
 }
 header p{
 	animation: blinker 1.5s step-start infinite;
+	font-size:0.9rem;
 }
 
 
@@ -113,7 +115,7 @@ h1, h2, h3 {
 nav {
   font-size: 1rem;
   line-height: 2;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   font-family:var(--mono-font);
 }
 
