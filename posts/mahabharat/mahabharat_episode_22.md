@@ -46,11 +46,15 @@ he gave up the throne for Shantanu's offspring. That was the moment when
 merit died and and lineage won. I suspect this will go on for a few more
 episodes until the princes grow up. 
 
+![Arjun and Drona](/static/images/mahabharat/ep_22_3.webp)
+
 Gandhari seems to be aware of Shakuni's motives now. She is a virtuous woman
 and if she could see, I truly believe the course of history would have been
 different in this story. Shakuni is lying to himself when he says that he is
 against Gandhari for her own good. He is truly a personification of evil. True
 evil is not that which hurts, but one which makes others do the hurt for it. 
+
+![Shakuni manipulates Dhritrashtra](/static/images/mahabharat/ep_22_1.webp)
 
 The reviews are coming in late because of my personal reasons, but they will
 keep coming rest assured. Until then!
