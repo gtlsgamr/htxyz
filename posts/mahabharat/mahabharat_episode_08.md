@@ -5,7 +5,7 @@ description=""
 # Recap 
 We left the court of Hastinapur under the able leadership of Pandu when we last
 met. He married Kunti, and his blind brother Dhritrashtra was married to
-Gandhari. We also got to see the birth of Karn, the gifted son from Surya Dev to Kunti, who she had to abandon in the river.
+Gandhari. We also got to see the birth of Karna, the gifted son from Surya Dev to Kunti, who she had to abandon in the river.
 
 # Madri
 

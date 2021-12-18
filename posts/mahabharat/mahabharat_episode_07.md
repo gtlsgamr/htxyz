@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 07 - The birth of Karn"
+title="Mahabharat - Episode 07 - The birth of Karna"
 date="2021-12-08"
 description=""
 +++ 
@@ -8,9 +8,9 @@ Kauravas and Pandavs, and how the whole thing came to be. We saw
 Dhritrashtra give away his throne to his younger brother Pandu on
 Vidur's suggestion. 
 
-# The birth of Karn
+# The birth of Karna
 
-> Apna daan apni maa se aarambh karo daanveer Karn, apni maa ko kshama kar do.
+> Apna daan apni maa se aarambh karo daanveer Karna, apni maa ko kshama kar do.
 
 ## Synopsis
 
@@ -63,13 +63,13 @@ would birth a hundred sons, and that Bhishma chose her so that he would never
 have to go looking for someone to sit on the throne and Satyavati would stop pestering him for children to sit on the throne. 
 
 One thing that I would like to draw your attention to, is that the title of this
-episode is misleading. Instead of it being about the birth of Karn, in reality
+episode is misleading. Instead of it being about the birth of Karna, in reality
 it is about the insecurities of Dhritrashtra. It is about the seeds of envy and
 hate that will grow into trees whose roots will destroy the land of Hastinapur.
 It is about the fact that no matter how mature Dhritrashtra seemed when he gave
 the throne to Pandu before, a royal throne is a royal throne. Poor Gandhari tries so hard to make him *see* what he has and yet all he *sees* is the "injustice" that he faced by giving up the royal throne.
 
-Curiousity killed the cat. In this case, apparently it killed Karn. Kunti's
+Curiousity killed the cat. In this case, apparently it killed Karna. Kunti's
 utter curious nature led to the birth of a child with golden armor. The
 prodigal child of the sun god himself. Alas! This story involves a lot of
 babies being drowned in rivers, and a lot of undesired children! 
