@@ -28,3 +28,5 @@ from time to time. Currently I am working on Mahabharat(1988).
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ libera.chat
 	* [GitHub](https://github.com/gtlsgamr).
+
+- **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's**
