@@ -12,7 +12,6 @@
 #
 # Usage instructions in the README.md file at
 # httos://github.com/gtlsgamr/htxyz
-# 
 #
 
 makepage() {
@@ -20,12 +19,10 @@ filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension
 pathname="$(dirname "$1")" # path to the file, which will serve as a URL slug as well
 destpath="./public/$pathname/$filename.html" # Destination path with filename.html where the final html is stored
 
-# Case to check if current page is title page
-
 printf  "%s" "Working on $filename"
 
 mkdir -p "./public/$pathname" # Check if destpath exists, if not then make it
-mkdir -p "./public/static" # Check if destpath exists, if not then make it
+mkdir -p "./public/static" # Check if static path exists, if not then make it
 
 # Read the frontmatter for the file
 for line in "$(head -3 $1)"
@@ -34,12 +31,13 @@ do
 done
 
 # Create initial temp files
-tempsource=$(mktemp)
+tempsource=$(mktemp) # Source of the actual file
 cat "$1" > $tempsource
-tempfile=$(mktemp)
-tempdates=$(mktemp)
-tempnames=$(mktemp)
+tempfile=$(mktemp)  # Where all conversions are stored
+tempdates=$(mktemp) # A file to store names and dates of index
+tempnames=$(mktemp) # A file where the tempdates are sorted
 #----------------------------------------------------------------#
+# Replaces the metadeta pointer of the file with actual data from frontmatter
 sed -e "s/{{title}}/$title/g" \
 	-e "s/{{description}}/$sitedescription/g" \
 	-e "s/{{date}}/$date/g" \
@@ -48,7 +46,12 @@ sed -e "s/{{title}}/$title/g" \
 	-e "s/{{sitename}}/$sitename/g" \
 	./templates/layout.html >> "$tempfile"
 #--------------------- INDEX ------------------------------------#
-# Check if there is index in there
+# If it is home page, remove the <hr> tag at the beginning
+if grep -q "homepagepointer" "$tempsource"
+then
+	sed -i '/<hr>/d' "$tempfile"
+fi
+# Check if there is index in there, if there, form it.
 if  grep -q "{{listindex}}" $tempsource
 then
 	sed -i '/<hr>/d' "$tempfile"
@@ -58,25 +61,24 @@ then
 		do
 			eval "$line"
 		done
-		echo -e "$date\t$title\t$path" >> $tempdates
+		echo -e "$date\t$title\t$path" >> $tempdates 
 	done
-sort -nr -o $tempdates $tempdates 
+sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
 while IFS=$'\t' read -r date name finpath
 do
 	printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 done < $tempdates
-sed -i "/{{listindex}}/r $tempnames" "$tempsource"
-sed -i "/{{listindex}}/d" "$tempsource"
+sed -i "/{{listindex}}/r $tempnames" "$tempsource" # Actually inserts at listindex pointer with the $tempnames file
+sed -i "/{{listindex}}/d" "$tempsource" # deletes the pointer
 fi
 #--------------------- MAIN CONTENT -----------------------#
-# Replace global site variables, and post data in site layout file
 
 markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  # Append main markdown content to the temp file
 
-#---------------------- FOOTER -------------------------#
+#---------------------- FOOTER and NAVBAR-------------------------#
 sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" # Edit the footer to have the footer
 
-sed -i "s|{{nav}}|$navlist|g" "$tempfile"
+sed -i "s|{{nav}}|$navlist|g" "$tempfile" # Add the navbar
 #------------------- FINAL EXPORT -----------------------#
 cat "$tempfile" > "$destpath"			  # NOW CAT it because moving it creates permission issues for nginx... --~Move the final html to $destpath
 cp -r ./static/* ./public/static			# copy the static folder to the public folder
@@ -84,20 +86,22 @@ printf "%s\n"  "...Done!"
 unset var 
 unset title
 unset date
-unset description
-rm "$tempnames" "$tempdates" "$tempsource" "$tempfile"
+unset description # unsets all vars
+rm "$tempnames" "$tempdates" "$tempsource" "$tempfile" #remove the temp files
 }
 
 
-#=========================================================#
-. ./config
+#====================================================================================================================#
+. ./config # Source the site config metadata
 #---------------------- NAVBAR --------------------------#
 IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
 for (( i=0;i<${#keyarr[@]};i++ ));
 do
-	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>")
+	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>") # Create this once, use for all pages
 done
+
+#-------------------- MAIN RUNNER -----------------------#
 for file in $(find * -name "*md" -not -name "*README*")
 do
 	makepage "$file"

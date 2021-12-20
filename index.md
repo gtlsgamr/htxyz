@@ -3,7 +3,7 @@
 
 +++
 #### Hi, I am Hitarth Thummar.
-
+<!-- homepagepointer -->
 ![guycomputer](static/images/guycomputer.gif)
 
 Welcome to my website. This is a place where I plan to share everything that
