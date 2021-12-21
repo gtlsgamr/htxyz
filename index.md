@@ -31,4 +31,4 @@ generates static html pages from markdown files.
 	* IRC: gtlsgamr @ libera.chat
 	* [GitHub](https://github.com/gtlsgamr).
 
-- **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's**
+- **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
