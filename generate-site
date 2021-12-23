@@ -57,6 +57,7 @@ fi
 if  grep -q "{{listindex}}" $tempsource
 then
 	sed -i '/<hr>/d' "$tempfile"
+	sed -i '/<h3 /d' "$tempfile"
 	for path in $(find "$pathname" -type f -not -name "*index*" -name "*md" | sed "s|^\./||")
 	do
 		for line in "$(head -3 $path)"
