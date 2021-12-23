@@ -48,15 +48,18 @@
 	padding: 0;
 }
 
-@keyframes blinker {
+/*@keyframes blinker {
 	50% {
 		opacity: 0;
 	}
 }
 header h1{
 	animation: blinker 1.5s step-start infinite;
-}
+}*/
 
+nav a{
+	text-decoration: underline dashed red;
+}
 
 address,
 area,
