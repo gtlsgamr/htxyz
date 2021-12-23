@@ -50,7 +50,8 @@ sed -e "s/{{title}}/$title/g" \
 # If it is home page, remove the <hr> tag at the beginning
 if grep -q "homepagepointer" "$tempsource"
 then
-	sed -i '22,24d' "$tempfile"
+	sed -i '/<hr>/d' "$tempfile"
+	sed -i '/<h3 /d' "$tempfile"
 fi
 # Check if there is index in there, if there, form it.
 if  grep -q "{{listindex}}" $tempsource
