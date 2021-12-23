@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta name="generator" content="ussg" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>ht's website.</title>
+		<meta name="description" content="Hitarth Thummar's personal website.">
+		<link rel="stylesheet" href="/static/css/new.css">
+	</head>
+	<body>
+	<meta>
+	<header>
+		<h1><a href="/">ht.xyz</a></h1>
+		<nav>
+			<a href='/'>home</a> / <a href='/posts/projects'>projects</a> / <a href='/posts/writings'>writings</a> / <a href='/posts/poems'>poetry</a> / <a href='/posts/mahabharat'>mahabharat reviews</a> / 
+		</nav>
+</header>
+	<main>
+		<h3 id='articletitle'>Managing dotfiles</h3>
+		2021-12-23
+		<hr>
+<p>&ldquo;Dotfiles&rdquo; are a way to store configuration of various packages and programs on your system. They are named so because of the &lsquo;<em>.</em>&rsquo; that precedes their names to keep them hidden.</p>
+
+<p>These dot files make up the system of a user and in case the system crashes into an unrecoverable state, the user might lose all their configurations for all of their programs. This is an inconvenience and can be easily avoided by managing your dotfiles properly. Many users online suggest using tools like <a href="https://www.gnu.org/software/stow/">GNU stow</a> to manage and store the dotfiles but I personally prefer using the $HOME directory as a git repo. This is easier and doesn&rsquo;t require a special tool just to manage the dotfiles.</p>
+
+<p>One issue with this method is the vast amount of extra files that exist in the $HOME directory. We are not doing any linnking or copying, all the files will stay exactly where you want them to be. It can be solved by using a <code>gitignore</code> file which ignores everything. After that you can individually <code>git add</code> all the required files and once you add them manually, they will be tracked forever despite of the <code>gitignore</code> file.</p>
+
+<h2>Instructions</h2>
+
+<ul>
+<li>cd into your home directory.</li>
+<li>Create a new git repository <code>$ git init</code></li>
+<li>Create a git ignore file that ignores everything <code>$ echo '*' &gt; .gitignore</code></li>
+<li>Manually add all the files that you want to add to the repo by using <code>$ git add -f filename_or_directory_name</code>. (<strong>Note: You can also add entire directories like ~/.config but make sure you don&rsquo;t include any of your private key files or config files with plaintext passwords by mistake. One such example is irssi config which may contain a plaintext password.</strong>)</li>
+<li>Once that is done, commit your changes <code>$ git commit -m 'commit message'</code></li>
+<li>Add the remote origin url <code>$ git remote add origin http://yourgitrepo.com/username/reponame</code></li>
+<li>Push the committed changes and set the upstream branch <code>$ git push --set-upstream origin master</code></li>
+</ul>
+
+
+<p><strong>Congratulations!</strong> You managed to backup your dotfiles to a git repository. Now any time you update a dotfile, make sure you push the changes to the repo as well.</p>
+
+<p>If you need to restore your dotfiles to a fresh system follow the instructions below:</p>
+
+<ul>
+<li>cd into your home directory.</li>
+<li>Clone the dotfiles repository to any directory. <code>$ git clone http://yourgitrepo.com/username/reponame</code></li>
+<li>cd into that directory, and copy all the contents to the home directory. <code>$ cp -r .[!.]* $HOME/</code> (<strong>We are doing this so that any current dotfiles might be replaced</strong>)</li>
+<li>Done!</li>
+</ul>
+
+
+<p>It is not very ideal in terms of restoration, but it works and that&rsquo;s all that matters. No symlinking or hacky stuff. Just a repo to love and maintain. &lt;3</p>
+</main>
+ <footer>
+	 Copyleft 🄯 2021 - Hitarth Thummar 
+	 <br>
+Powered by <img src="/static/images/linux.gif" alt="linux badge"/> |
+<img src="/static/images/minimalist.gif" alt="minimalist"/>
+<img src="/static/images/gnulinuxindia.png" alt="gnulinuxindia" title="telegram group https://t.me/gnulinuxindia && matrix: #linuxindia:matrix.org"/>
+  </footer>
+</body>
+</html>
