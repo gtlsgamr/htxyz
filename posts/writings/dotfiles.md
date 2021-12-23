@@ -6,7 +6,7 @@ description="Managing dotfiles using a git repository"
 
 These dot files make up the system of a user and in case the system crashes into an unrecoverable state, the user might lose all their configurations for all of their programs. This is an inconvenience and can be easily avoided by managing your dotfiles properly. Many users online suggest using tools like [GNU stow](https://www.gnu.org/software/stow/) to manage and store the dotfiles but I personally prefer using the $HOME directory as a git repo. This is easier and doesn't require a special tool just to manage the dotfiles.
 
-One issue with this method is the vast amount of extra files that exist in the $HOME directory. We are not doing any linnking or copying, all the files will stay exactly where you want them to be. It can be solved by using a `gitignore` file which ignores everything. After that you can individually `git add` all the required files and once you add them manually, they will be tracked forever despite of the `gitignore` file.
+One issue with this method is the vast amount of extra files that exist in the $HOME directory. We are not doing any linking or copying, all the files will stay exactly where you want them to be. It can be solved by using a `gitignore` file which ignores everything. After that you can individually `git add` all the required files and once you add them manually, they will be tracked forever despite of the `gitignore` file.
 
 ## Instructions
 
