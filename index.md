@@ -11,7 +11,7 @@ Welcome to my website. This is a place where I plan to share everything that
 I find interesting, amusing, helpful or worth sharing. I am a software
 enthusiast who spends *a lot* of his time on a computer. I write software from
 time to time. It may or may not be your definition of "free" but yes most of
-the time it is GPL licensed. I write TV show reviews for old Indian TV shows
+the time it is GPL licensed. I write reviews for old Indian TV shows
 from time to time. Currently I am working on Mahabharat(1988). 
 This website is generated using a [script](https://github.com/gtlsgamr/htxyz) that
 generates static html pages from markdown files.
