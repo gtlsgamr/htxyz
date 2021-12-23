@@ -36,3 +36,7 @@ generates static html pages from markdown files.
 > 															-- Paarthurnax 
 
 - **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
+
+---------------------------------------------
+##### Recent Posts
+{{listindex}}

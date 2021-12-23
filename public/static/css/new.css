@@ -48,6 +48,16 @@
 	padding: 0;
 }
 
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+header h1{
+	animation: blinker 1.5s step-start infinite;
+}
+
+
 address,
 area,
 article,
@@ -69,7 +79,6 @@ ol,
 optgroup,
 option,
 output,
-p,
 pre,
 progress,
 ruby,
@@ -80,6 +89,10 @@ ul,
 video {
 	/* Margins for most elements */
 	margin-bottom: 1rem;
+}
+
+p {
+	margin-bottom:0.2rem;
 }
 
 html,input,select,button {
@@ -451,13 +464,16 @@ input {
 
 img {
 	max-width: 100%;
+	margin:1rem;
 }
 
 footer {
-  color: var(--nc-tx-2);
-  font-size: .9rem;
-  text-align: center;
-  border-top: 1px solid black;
+	padding: 1rem;
+	margin-top: 1rem;
+	color: var(--nc-tx-2);
+	font-size: .9rem;
+	text-align: center;
+	border-top: 1px solid black;
 }
 footer img{
 	margin-bottom:0px;

@@ -47,13 +47,32 @@ sed -e "s/{{title}}/$title/g" \
 	-e "s/{{sitename}}/$sitename/g" \
 	./templates/layout.html >> "$tempfile"
 #--------------------- INDEX ------------------------------------#
-# If it is home page, remove the <hr> tag at the beginning
+# If it is home page, remove the <hr> tag at the beginning and display most recent 5 posts
 if grep -q "homepagepointer" "$tempsource"
 then
 	sed -i '/<hr>/d' "$tempfile"
 	sed -i '/<h3 /d' "$tempfile"
+	for path in $(find "$pathname" -type f -not -name "*index*" -name "*md" | sed "s|^\./||")
+	do
+		for line in "$(head -3 $path)"
+		do
+			eval "$line"
+		done
+		echo -e "$date\t$title\t$path" >> $tempdates 
+	done
+sort -nr -o $tempdates $tempdates   #sorts the index list by date in descending order
+while IFS=$'\t' read -r date name finpath
+do
+	printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+done < $tempdates
+head -n 9 "$tempnames" > "$tempdates" # ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
+sed -i "/{{listindex}}/r $tempdates" "$tempsource" # Actually inserts at listindex pointer with the $tempnames file (NOTICE THE $tempdates instead of $tempnames like below code. Here we reuse our tempfiles ;))
+sed -i "/{{listindex}}/d" "$tempsource" # deletes the pointer
 fi
-# Check if there is index in there, if there, form it.
+
+#---------------------------------------------
+
+# Check if there is index in other pages, if there, form it.
 if  grep -q "{{listindex}}" $tempsource
 then
 	sed -i '/<hr>/d' "$tempfile"
