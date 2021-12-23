@@ -2,9 +2,10 @@
 
 
 +++
-#### Hi, I am Hitarth Thummar.
+#### Hi, I am Hitarth Thummar. 
+
+![guycomputer](static/images/guycomputer.gif) 
 <!-- homepagepointer -->
-![guycomputer](static/images/guycomputer.gif)
 
 Welcome to my website. This is a place where I plan to share everything that
 I find interesting, amusing, helpful or worth sharing. I am a software
@@ -30,5 +31,8 @@ generates static html pages from markdown files.
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ libera.chat
 	* [GitHub](https://github.com/gtlsgamr).
+
+>"What is better- To be born good, or to overcome your evil nature through great effort?"
+> 															-- Paarthurnax 
 
 - **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**

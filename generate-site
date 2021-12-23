@@ -41,6 +41,7 @@ tempnames=$(mktemp) # A file where the tempdates are sorted
 sed -e "s/{{title}}/$title/g" \
 	-e "s/{{description}}/$sitedescription/g" \
 	-e "s/{{date}}/$date/g" \
+	-e "s/{{subtitle}}/$subtitle/g" \
 	-e "s/{{sitetitle}}/$sitetitle/g" \
 	-e "s/{{sitedesc}}/$sitedesc/g" \
 	-e "s/{{sitename}}/$sitename/g" \
@@ -49,7 +50,7 @@ sed -e "s/{{title}}/$title/g" \
 # If it is home page, remove the <hr> tag at the beginning
 if grep -q "homepagepointer" "$tempsource"
 then
-	sed -i '/<hr>/d' "$tempfile"
+	sed -i '22,24d' "$tempfile"
 fi
 # Check if there is index in there, if there, form it.
 if  grep -q "{{listindex}}" $tempsource
@@ -98,7 +99,7 @@ IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
 for (( i=0;i<${#keyarr[@]};i++ ));
 do
-	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>") # Create this once, use for all pages
+	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a> / ") # Create this once, use for all pages
 done
 
 #-------------------- MAIN RUNNER -----------------------#
@@ -106,4 +107,3 @@ for file in $(find * -name "*md" -not -name "*README*")
 do
 	makepage "$file"
 done
-

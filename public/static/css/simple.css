@@ -95,16 +95,6 @@ header p {
   padding-top:0.4rem;
   
 }
-@keyframes blinker {
-50% {
-opacity: 0;
-}
-}
-header p{
-	animation: blinker 1.2s step-start infinite;
-	font-size:0.9rem;
-}
-
 
 /* Fix line height when title wraps */
 h1, h2, h3 {
