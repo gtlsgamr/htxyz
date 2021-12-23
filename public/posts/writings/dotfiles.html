@@ -25,18 +25,42 @@
 
 <p>These dot files make up the system of a user and in case the system crashes into an unrecoverable state, the user might lose all their configurations for all of their programs. This is an inconvenience and can be easily avoided by managing your dotfiles properly. Many users online suggest using tools like <a href="https://www.gnu.org/software/stow/">GNU stow</a> to manage and store the dotfiles but I personally prefer using the $HOME directory as a git repo. This is easier and doesn&rsquo;t require a special tool just to manage the dotfiles.</p>
 
-<p>One issue with this method is the vast amount of extra files that exist in the $HOME directory. We are not doing any linking or copying, all the files will stay exactly where you want them to be. It can be solved by using a <code>gitignore</code> file which ignores everything. After that you can individually <code>git add</code> all the required files and once you add them manually, they will be tracked forever despite of the <code>gitignore</code> file.</p>
+<p>One issue with this method is the vast amount of extra files that exist in the $HOME directory. We are not doing any linking or copying, all the files will stay exactly where you want them to be. It can be solved by using a gitignore file which ignores everything. After that you can individually git add all the required files and once you add them manually, they will be tracked forever despite of the gitignore file.</p>
 
 <h2>Instructions</h2>
 
 <ul>
 <li>cd into your home directory.</li>
-<li>Create a new git repository <code>$ git init</code></li>
-<li>Create a git ignore file that ignores everything <code>$ echo '*' &gt; .gitignore</code></li>
-<li>Manually add all the files that you want to add to the repo by using <code>$ git add -f filename_or_directory_name</code>. (<strong>Note: You can also add entire directories like ~/.config but make sure you don&rsquo;t include any of your private key files or config files with plaintext passwords by mistake. One such example is irssi config which may contain a plaintext password.</strong>)</li>
-<li>Once that is done, commit your changes <code>$ git commit -m 'commit message'</code></li>
-<li>Add the remote origin url <code>$ git remote add origin http://yourgitrepo.com/username/reponame</code></li>
-<li>Push the committed changes and set the upstream branch <code>$ git push --set-upstream origin master</code></li>
+<li><p>Create a new git repository</p>
+
+<pre><code>  $ git init     
+</code></pre></li>
+<li><p>Create a git ignore file that ignores everything.</p>
+
+<pre><code>  $ echo '*' &gt; .gitignore     
+</code></pre></li>
+<li><p>Manually add all the files that you want to add to the repo by using.</p>
+
+<pre><code>  $ git add -f filename_or_directory_name     
+</code></pre></li>
+</ul>
+
+
+<p>(<strong>Note: You can also add entire directories like ~/.config but make sure you don&rsquo;t include any of your private key files or config files with plaintext passwords by mistake. One such example is irssi config which may contain a plaintext password.</strong>)</p>
+
+<ul>
+<li><p>Once that is done, commit your changes</p>
+
+<pre><code>  $ git commit -m 'commit message'    
+</code></pre></li>
+<li><p>Add the remote origin url.</p>
+
+<pre><code>  $ git remote add origin http://yourgitrepo.com/username/reponame    
+</code></pre></li>
+<li><p>Push the committed changes and set the upstream branch.</p>
+
+<pre><code>  $ git push --set-upstream origin master    
+</code></pre></li>
 </ul>
 
 
@@ -46,11 +70,19 @@
 
 <ul>
 <li>cd into your home directory.</li>
-<li>Clone the dotfiles repository to any directory. <code>$ git clone http://yourgitrepo.com/username/reponame</code></li>
-<li>cd into that directory, and copy all the contents to the home directory. <code>$ cp -r .[!.]* $HOME/</code> (<strong>We are doing this so that any current dotfiles might be replaced</strong>)</li>
-<li>Done!</li>
+<li><p>Clone the dotfiles repository to any directory.</p>
+
+<pre><code>  $ git clone http://yourgitrepo.com/username/reponame    
+</code></pre></li>
+<li><p>cd into that directory, and copy all the contents to the home directory.</p>
+
+<pre><code>  $ cp -r .[!.]* $HOME/     
+</code></pre></li>
 </ul>
 
+
+<p>(<strong>We are doing this so that any current dotfiles might be replaced</strong>)
+- Done!</p>
 
 <p>It is not very ideal in terms of restoration, but it works and that&rsquo;s all that matters. No symlinking or hacky stuff. Just a repo to love and maintain. &lt;3</p>
 </main>
