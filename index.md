@@ -8,7 +8,7 @@ Welcome to my personal webspace.
 ![guycomputer](static/images/guycomputer.gif) 
 <!-- homepagepointer -->
 
-Welcome to my website. This is a place where I plan to share everything that
+This is a place where I plan to share everything that
 I find interesting, amusing, helpful or worth sharing. I am a software
 enthusiast who spends *a lot* of his time on a computer. I write software from
 time to time. It may or may not be your definition of "free" but yes most of
