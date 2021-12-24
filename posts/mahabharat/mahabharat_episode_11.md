@@ -2,15 +2,15 @@ title="Mahabharat - Episode 11 - The Birth of Shri Krishna"
 date="2021-12-08"
 description=""
 +++
-# Recap 
+#### Recap 
 Kansa terrorizes Mathura, and is prophesied to be killed by the eighth son of his
 own sister. He imprisons them so that he can kill her children right when they're
 born.
 
-# Divine birth
+#### Divine birth
 > Meri aur yoon na dekho devaki, dekhna hai to uss brahma ki aur dekho. Jisne tumhari kokh ko meri aur uski ranbhoomi me badal diya hai.
 
-## Synopsis
+#### Synopsis
 Kansa kills six of Devaki's children one by one. Her seventh child is
 miraculously transferred to the womb of Rohini (Vasudev's second wife). Vasudev
 and Devaki get a divine intervention which guides Vasudev to leave the eighth
@@ -21,7 +21,7 @@ Vasudev crosses the Yamuna river in a violent thunderstorm, and delivers the
 child to Nandraj. Nandraj in turn gives his own daughter to Vasudev, so that
 she can be killed in place of Krishna. 
 
-## Discussion
+#### Discussion
 
 ![The wall of blood](/static/images/mahabharat/ep_11_3.webp)
 
@@ -58,12 +58,12 @@ What I have noticed is that these few episodes have a lot less to think about. H
 
 ![Krishna finds his second home](/static/images/mahabharat/ep_11_2.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 
 > Main kaun hota hoon kuch karne vala, jisne ye bediya kaati hai, vohi dwarpaal aur dwaar ko dekh lega.
 <!-- -->
 > Ye swaarth nahi, parmaarth hai.
 
-## To be continued
+#### To be continued
 

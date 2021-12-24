@@ -2,13 +2,13 @@ title="Mahabharat - Episode 02 - Ganga reveals the Truth"
 description=""
 date="2021-12-08"
 +++
-# Recap
+#### Recap
 
 In the previous episode, we had a brief look at the life of King Shantanu, and his river/wife/queen Ganga. We saw her kill their newborn babies one after another, while Shantanu watched helplessly. 
 While the reason is unknown, we can imagine that the heartless killings must have some substance to them. Why else would a mother kill seven of her newborns? 
 In this episode we will see Shantanu choose between his love for his wife and his love for his children that don't get to see a day of life.
 
-# Ganga reveals the truth
+#### Ganga reveals the truth
 
 >"Naath ke hote, koi anaath kaise ho sakta hai raajan?"
 
@@ -35,7 +35,7 @@ Shantanu, long waiting for Ganga to return, finds two infants abandoned in the f
 
 Rajguru tells Shantanu to keep the children to fulfill his child-less life. Shantanu gets triggered, telling him he's got a child and Ganga will bring him back (she will, right?) and tells Rajguru to raise them himself. Rajguru is to be blamed for his own downfall. How is he expected to raise two children on his own? We don't know what the poor man earns!
 
-### Sixteen years later
+#### Sixteen years later
 
 Shantanu has a beard now, and like sixteen years ago is still a sad sack. He is waiting for Ganga to give him back his child. Again, the special effect's age shows in this episode, as we see CGI arrows block the path of the mighty river. Shantanu goes to investigate and see who made this arrow dam/dam of arrows, whatever the thing was that had blocked the river.
 
@@ -54,5 +54,5 @@ The premise of this whole episode was to introduce the viewer to *Devvrat* or wh
 
 > Putra kuptra bhale hi ho, parantu mata kumata kabhi nahi hoti
 > (A son can be a bad son, but a mother can never be a bad mother)
-## To be continued
+#### To be continued
 

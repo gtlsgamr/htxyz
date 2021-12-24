@@ -2,13 +2,13 @@ title="Mahabharat - Episode 01, part 1 - The story of king Bharat"
 description=""
 date="2021-12-08"
 +++
-# Intro
+#### Intro
 
 This is the first of the many reviews I will be posting of the much loved Mahabharat television series that aired on DD National when I did not even exist. 
 
 I will try to post here weekly, and before each discussion, we will have a recap of what went on last time in this epic story and how things are looking for our characters in this game of dharma, karma, and glory.
 
-# The story of king Bharat
+#### The story of king Bharat
 
 >"Main Samay Hoon"
 
@@ -24,6 +24,6 @@ We see king Bharat go to Maharshi who is a father figure to Bharat's mother. Aft
 
 While the whole court is waiting eagerly to see who is chosen as the heir, we see how different king Bharat is from the rest of his counterparts. Instead of choosing his own sons as heir, he chooses someone else, someone more capable. The seeds of democracy are sown in BharatVarsh, and soon we will see them turn into a tree, and we will also see that tree turn to dust. This is the beauty of this story. You get hopeful that radical changes are welcome, and then see the same characters fall into old patterns. This is where king Bharat's story ends, and Shantanu's begins. Shantanu is the king of Hastinapur in the present, chosen democratically like the ones before him. We get to see how the story of Mahabharat unfolds and brings us to the battlefield of Kurukshetra in the end.
 
-## To be continued
+#### To be continued
 Since the episodes are long and the dialogue requires more discussion, I will be splitting episodes with longer content into multiple parts.
 Until next time!

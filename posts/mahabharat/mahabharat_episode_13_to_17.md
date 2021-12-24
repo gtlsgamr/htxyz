@@ -2,15 +2,15 @@ title="Mahabharat - Episode 13 to 17 - Krishna Leela"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 An infant krishna, who is growing up in Gokul brings death to the demoness Putana send by Kansa.
 
-# Krishna Leela
+#### Krishna Leela
 > Vo to iss jagat ka hai, use iss jagat me hi bat jaane do..
 
 I have decided to bunch these five episodes in one post because subjectively they don't have anything that can have long discussions. It is nothing but various leelas of shri krishna. I have added multiple shots from the episodes to let the reader familiarize themselves with the theme and tone of these episodes.
 
-## Discussion
+#### Discussion
 
 While these episodes may feel like filler episodes, it is definitely a visual
 and auditory treat. Multiple songs have been added to these episodes to reflect
@@ -51,7 +51,7 @@ it is welcome. No one likes too much seriousness. So after this episode we will
 be going back to the land of Hastinapur since we are now introduced to a major
 player in Mahabharat, or should I say, the only player. ;) Until next time!
 
-## Notable dialogue:
+#### Notable dialogue:
 
 >Nandgaon phaile, to trilok hai... aur simte to yashoda maiya ki aankhein
 <!-- -->
@@ -71,7 +71,7 @@ player in Mahabharat, or should I say, the only player. ;) Until next time!
 <!-- -->
 >Maya ko mohit kare, Mohan ki muskaan
 
-## Some screencaps from these episodes
+#### Some screencaps from these episodes
 
 ![](/static/images/mahabharat/krishnaleela_1.webp)
 ![](/static/images/mahabharat/krishnaleela_2.webp)

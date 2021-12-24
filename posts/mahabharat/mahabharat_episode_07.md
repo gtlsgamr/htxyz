@@ -2,17 +2,17 @@ title="Mahabharat - Episode 07 - The birth of Karna"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 Last we saw the beginnings of what would become the war between
 Kauravas and Pandavs, and how the whole thing came to be. We saw
 Dhritrashtra give away his throne to his younger brother Pandu on
 Vidur's suggestion. 
 
-# The birth of Karna
+#### The birth of Karna
 
 > Apna daan apni maa se aarambh karo daanveer Karna, apni maa ko kshama kar do.
 
-## Synopsis
+#### Synopsis
 
 In this episode, Bhishma arranges the marriage of the blind son Dhritrashtra
 with the princess of Gandhar, Gandhari. Gandhari takes a vow of staying
@@ -28,7 +28,7 @@ without giving her something, so he gives her a son. Fearing societal judgement
 of birthing a child before marriage, she puts the child in a box and puts it
 afloat in the river.
 
-## Discussion
+#### Discussion
 
 From this episode onwards there are two major changes in my discussions. One is
 the post structure, that we discussed previously. The other one is
@@ -81,10 +81,10 @@ makes her an aunt of lord Krishna himself! It was a good episode overall. The sp
 ![The child with the golden armor](/static/images/mahabharat/ep_7_2.webp)
 
 
-## Notable dialogue:
+#### Notable dialogue:
 > Sapno ke ankur, andhkaar ki kaali mitti se hi fut te hai.
 <!-- -->
 > Bhagya rekha me jakde hue vyakti ko kisi bhi vishay me koi chhut nahi hoti.
 
-## To be continued
+#### To be continued
 

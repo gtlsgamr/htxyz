@@ -2,14 +2,14 @@ title="Mahabharat - Episode 19 - An uncertain future"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 The story of Krishna ends and the focus comes back to Hastinapur. Pandu dies
 and Madri with him, while Kunti takes his five sons to Hastinapur.
 
-# An uncertain future 
+#### An uncertain future 
 > Mai shok mana raha hoon unn jeevan moolyo ka jinki mrityu meri aankhon ke saamne ho rahi hai. Main shok mana raha hoon uss ujli rekha ka jo hamare purvajo ne satya aur asatya ke beech kheechi thi maa. Mai ro raha hoon uss kathor sachchai par, ki maine pitashri ko jis singhasan ki raksha karne ka vachan diya tha, jis singhasan ko nishtha ki shapath di thi.. uss singhasan ko Dhritrashtra ka putra bahu apmaanit kar raha hai. Lobh ne uske vivek ki aankho par patti baandh dhi hai, aur abhimaan uske sar chad kar bol raha hai, aur meri vivashta ye hai ki mai pandu putro ko sneh ke alava kuch nahi de sakta.
 
-## Synopsis
+#### Synopsis
 Seeing Kunti come home with Pandavs, Dhritrashtra starts feeling the throne
 slip away from his grip once again. Maharshi Vyas visits Satyavati and takes
 her along with Amba and Ambalika to live an ascetic life, hinting that the
@@ -18,7 +18,7 @@ moves to make sure that Dhritrashtra's son gets the throne and not the rightful
 heir Yudhishthir.
 
 
-## Discussion
+#### Discussion
 
 ![Vyas meets Satyavati](/static/images/mahabharat/ep_19_1.webp)
 
@@ -65,7 +65,7 @@ this is a gem of an episode in this series and a must watch.
 
 ![Helpless Bhishma asks Vidur for advice](/static/images/mahabharat/ep_19_5.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 > Samay to ek nadi ki tarah behta rehta hai, aur shareer, nauka samaan sthir nahi reh sakta.. aur aatma ek yatri hai jo apne ghaat, apne lakshya ko nirantar khojta rehta hai.
 <!-- -->
@@ -84,5 +84,5 @@ this is a gem of an episode in this series and a must watch.
 > Itne dukhi naa ho putra
 > Dukh ki to koi seema hi nai maate. Ek kaaran ho to bataun.
 
-## To be continued
+#### To be continued
 

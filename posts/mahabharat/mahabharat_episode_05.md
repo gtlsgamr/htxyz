@@ -2,11 +2,11 @@ title="Mahabharat - Episode 05 - Amba, Ambika, Ambalika"
 description=""
 date="2021-12-08"
 +++
-# Recap
+#### Recap
 
 Now that the reign of Shantanu is over, we move on to bigger things. Things that will set in motion one of the biggest wars to take place in India. Bhishma, now the protector of the princes Chitrangad and Vichitravir as well as the kingdom, now holds the court by proxy. 
 
-# Amba, Ambika, Ambalika
+#### Amba, Ambika, Ambalika
 
 >Ghatnaao aur durghatnaao ke paas koi ichchhashakti nahi hoti
 
@@ -53,5 +53,5 @@ Shantanu is dead, both of his sons are dead. His only surviving son has taken a 
 
 >Ghayal Naagin, Ghayal Sherni, aur Apmaanit stree se darna sikho Gangaputra Bhishma.
 
-## To be continued
+#### To be continued
 

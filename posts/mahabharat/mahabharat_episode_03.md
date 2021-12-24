@@ -2,11 +2,11 @@ title="Mahabharat - Episode 03 - The Vow (Bhishma Pratigya)"
 description=""
 date="2021-12-08"
 +++
-# Recap
+#### Recap
 
 Back to the story after a very uneventful episode, this is a turning point in the story of Devvrat and Shantanu, and on a larger scale the kingdom of Hastinapur. We saw Ganga tell Shantanu why she did what she did (infanticide), which was merciful in a way. Shantanu waits for about 16 years for his son to get his training and come back, prepped to be heir in the democratic kingdom of Hastinapur. 
 
-# The Vow
+#### The Vow
 
 >"Ye meri akhand-pratigya hai."
 
@@ -19,7 +19,7 @@ It might seem like an idiotic thing for a king and his prince to do, but this st
 
 This incident leads to the king announcing Devvrat as heir to the throne. A seat which moves many gears in the wheel of this story.
 
-### Time Skip
+#### Time Skip
 
 Devvrat is not a kid anymore, he has turned into a fine young man. This is the first time we get to see Mukesh Khanna in his iconic role as Devvrat/Bhishma. 
 
@@ -52,5 +52,5 @@ I blame Shantanu for this, and although I know that these things play a larger p
 >"Mera tat to abhi tak nahi aaya."
 
 >"Lagta hai aap Raja Bhakt hai, Rajya Bhakt nahi."
-## To be continued
+#### To be continued
 

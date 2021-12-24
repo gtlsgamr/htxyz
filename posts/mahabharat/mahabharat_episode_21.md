@@ -2,20 +2,20 @@ title="Mahabharat - Episode 21 - Chivda"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 Internal politics continues as the children are pitted against each other fighting the previous generation's fights. 
 
-# Chivda
+#### Chivda
 > Hastinapur ab uss jheel ki tarah hai, jisme Shatabdiyon ka paani thehra hua hai aur ab jisme se durgandh aane lagi hai. 
 
-## Synopsis
+#### Synopsis
 Vidur and Bhishma find out who tried to kill Bheem and lament their fate.
 Bhishma tries to find comfort in the fact that he can still try and turn
 Duryodhan to the path of Dharma. In other parts of India, Krishna gets his
 training under rishi Sandipani and finds a true friend in Sudama. The Kuru sons
 encounter Drona.
 
-## Discussion
+#### Discussion
 Another brilliant performance by Mukesh Khanna as Bhishma in this show. At one
 point you forget that this is a TV show and are moved into the world of
 theater. It's as if Bhishma himself is there lamenting the loss of all that is
@@ -51,7 +51,7 @@ the end to witness the greatest battle in Bharatvarsh.
 
 ![Guru Drona](/static/images/mahabharat/ep_21_2.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 > Duryodhan to Dhritrashtra ka hastakshar hai Vidur. Uska apna to koi Vyaktitva hi nahi hoga. Dhritrashtra uski aankho se apne saare sapne dekhna chahte hai.
 <!-- -->
@@ -73,5 +73,5 @@ the end to witness the greatest battle in Bharatvarsh.
 <!-- -->
 > Shiksha Swarnmudrao se nahi toli jati Rajkumar Shakuni
 
-## To be continued
+#### To be continued
 

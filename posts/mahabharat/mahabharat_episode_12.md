@@ -2,13 +2,13 @@ title="Mahabharat - Episode 12 - PutanaVadh"
 date="2021-12-08"
 description=""
 +++
-# Recap 
+#### Recap 
 The eighth child of Devaki was saved by divine intervention. He is now the child of Yashoda and Nandraj from Gokul village.
 
-# Putana
+#### Putana
 > Vidhaata! Bhaagya! Likh!
 
-## Synopsis
+#### Synopsis
 Realizing that the eighth child is a girl and not a boy, Kansa tries to kill
 her, but the child flies away from his hand and screams from the sky that his
 destroyer is already born. Kansa sets on the
@@ -25,7 +25,7 @@ out of her. Nandraj and Yashoda find little Krishna playing on the dead body of 
 Kansa, due to misinformation assumes that the child has died.
 
 
-## Discussion
+#### Discussion
 
 ![Putana](/static/images/mahabharat/ep_12_1.webp)
 
@@ -47,12 +47,12 @@ Also, shoutout to the grandpa in green! That man has an amazing screen presence!
 A pained Devaki is seen in the end, taking care of a bundle of clothes(?) as her own child. It is unclear but it is clear that she is in pain, waiting for her child to rescue her from the clutches of demon Kansa.
 
 ![Devaki Grieves](/static/images/mahabharat/ep_12_3.webp)
-## Notable dialogue:
+#### Notable dialogue:
 
 > Yaha ka utsav Mathura ke dwaar khatkhataa rahi thi
 > Anand ka swar thoda dheema hona chahiye tha
 <!-- -->
 > Maa ka pyaar raj ke karbhaar kaise samjhe
 
-## To be continued
+#### To be continued
 

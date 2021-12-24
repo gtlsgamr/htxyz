@@ -2,22 +2,22 @@ title="Mahabharat - Episode 20 - How Bheem got his strength"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 The main story is now in focus again with the Kauravas and the Pandavs studying
 at the Gurukul. Each side has started their own plays to get to the throne.
 
-# How Bheem got his strength 
+#### How Bheem got his strength 
 > Tum chinta mat karo, Bheem hum dono se lad nahi sakta
 > (Bheem): Main to duryodhan ka sar tod dunga
 
-## Synopsis
+#### Synopsis
 Dhritrashtra calls Guru on false pretenses to delay the education of Pandavs. 
 On Shakuni's advice, Duryodhan tries to murder Bheem, who thankfully comes
 back
 stronger than before. On the other hand, the child that Kunti drowned in the
 early episodes is seen to be raised by Adhirath, the Sarthee of Dhritrashtra. 
 
-## Discussion
+#### Discussion
 Not much to discuss in this episode, other than a few points that I think are worth noting. 
 
 - Dhritrashtra, after realizing that the throne might slip again from under his
@@ -55,7 +55,7 @@ Not much to discuss in this episode, other than a few points that I think are wo
 
 ![Bheem in Naglok](/static/images/mahabharat/ep_20_1.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 > Baalak! Brahman ne to keval ek mutthi anaaj manga tha    
 >
@@ -68,5 +68,5 @@ Not much to discuss in this episode, other than a few points that I think are wo
 
 > Ghar ki baat ghar ke bahar nikalte hi parayi ho jaati hai
 
-## To be continued
+#### To be continued
 

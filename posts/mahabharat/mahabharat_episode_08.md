@@ -2,16 +2,16 @@ title="Mahabharat - Episode 08 - Madri"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 We left the court of Hastinapur under the able leadership of Pandu when we last
 met. He married Kunti, and his blind brother Dhritrashtra was married to
 Gandhari. We also got to see the birth of Karna, the gifted son from Surya Dev to Kunti, who she had to abandon in the river.
 
-# Madri
+#### Madri
 
 > Aap Chandravanshi hai aryaputra, katore me padi chandrama ki chhaya ko chandrama samaj lena aapko shobha nahi deta.
 
-## Synopsis
+#### Synopsis
 
 After winning over half the nation, Pandu encounters the king of *Madra* who
 instead of going to battle, befriends Pandu and gifts his sister *Madri*'s hand in marriage to him. He also gives his army and kingdom to Pandu. 
@@ -27,7 +27,7 @@ meets sage Kindama. Shakuni tries to exploit Dhritrashtra's love for the royal t
 Pandu seems drawn to the life of an ascetic.
 
 
-## Discussion
+#### Discussion
 
 Somehow the titles of these episodes are always misleading and miss the point.
 The official title of this episode is ***The gift of Madri, and sage Kindama's
@@ -73,7 +73,7 @@ people and learn to live better lives. Until next time!
 
 ![Shakuni sows the seeds of greed](/static/images/mahabharat/ep_8_2.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 > Aap Dhritrashtra se chhote avashya hai, parantu ye Raj Singhasan, Bhishma aur Dhritrashtra dono se hi bada hai.
 <!-- -->
@@ -89,5 +89,5 @@ people and learn to live better lives. Until next time!
 <!-- -->
 > Yadi avashthao se yuddh karne ki shakti na ho bhrata Shakuni, to un se sandhi kar lene me hi bhalai hai.
 
-## To be continued
+#### To be continued
 

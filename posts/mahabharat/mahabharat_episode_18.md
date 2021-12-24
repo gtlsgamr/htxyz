@@ -2,19 +2,19 @@ title="Mahabharat - Episode 18 - The Death of Pandu"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 Krishna spends his childhood in Vrindavan performing leelas and kills the evil king Kansa.
 
-# Pandu's death 
+#### Pandu's death 
 > Mera kanha kaha hai? Kaha hai mera Kanha? Bolte kyon nahi?
 >
 >Ab vo tumhari chhoti si godi me nahi sama sakta yashoda
 
-## Synopsis
+#### Synopsis
 After killing Kansa and fulfilling the prophecy, Krishna frees his biological parents Vasudev and Devaki from the palace dungeons as well as the former king Ugrasen. Ugrasen is crowned the king of Mathura again and Krishna and Balram are sent to sage sandipani for education. Yashoda is heartbroken at the non return of Krishna. In the other parts of the world, Pandu is living in the forest with his two wives Kunti and Madri, as well as his five children, the Pandavs. After seeing Madri bathe in the open, Pandu tries to get physical with her and dies due to Sage Kindama's curse. Madri who blamed herself for Pandu's death, dies on the pyre with Pandu,leaving Kunti to raise the five kids by herself. Kunti returns to Hastinapur where everyone express their pain at the loss of Pandu.
 
 
-## Discussion
+#### Discussion
 
 ![Yashoda learns the truth](/static/images/mahabharat/ep_18_1.webp)
 
@@ -58,12 +58,12 @@ Overall, it was a very good episode, closed many plot points and established new
 
 
 
-## Notable dialogue:
+#### Notable dialogue:
 > God ka mahatva kokh se adhik hota hai Yashoda
 <!-- -->
 > Bharat Varsh ki, Jay!
 <!-- -->
 > Bachcho ko hath karne ka adhikaar hai
 
-## To be continued
+#### To be continued
 

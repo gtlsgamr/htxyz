@@ -2,15 +2,15 @@ title="Mahabharat - Episode 10 - The prophecy"
 date="2021-12-08"
 description=""
 +++
-# Recap 
+#### Recap 
 Previously we saw the birth of the main players in this story, the Pandavs
 and Kauravs. Now we move on to the exploits of everyone's favorite
 little god, Shree Krishna. 
 
-# The Prophecy
+#### The Prophecy
 > Meri ladai to Brahma se hai
 
-## Synopsis
+#### Synopsis
 Taking a break from Hastinapur and the kuru vansh, we are introduced to
 Kansa, the prince of Mathura as he overthrows his father and takes over the
 royal throne. 
@@ -21,7 +21,7 @@ that the eighth child of Vasudev and Devaki will be the end of Kansa's
 tyranny. Naturally Kansa plans to kill them, but Vasudev convinces him to
 imprison both of them and kill their children one by one.
 
-## Discussion
+#### Discussion
 This episode was more like a prologue to the story of Shri Krishna. It does not
 have much in the name of content like the previous one but since I have started
 this series and plan to finish it, I will write a review for this one as well.
@@ -46,7 +46,7 @@ if there is nothing to squeeze it out of. Maybe I will merge a few episodes if n
 
 ![Vasudev and Devaki are imprisoned](/static/images/mahabharat/ep_10_2.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 
 > Aap ko raja banakar itihaas ne mathura ka apmaan kiya hai
 <!-- -->
@@ -58,5 +58,5 @@ if there is nothing to squeeze it out of. Maybe I will merge a few episodes if n
 >
 > Mitra ke liye Mitra ka sujaav bhi aadesh hi hota hai
 
-## To be continued
+#### To be continued
 

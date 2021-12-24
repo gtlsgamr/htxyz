@@ -2,11 +2,11 @@ title="Mahabharat - Episode 04 - Ichchha Mrityu"
 description=""
 date="2021-12-08"
 +++
-# Recap
+#### Recap
 
 After a two weeks of inactivity, here I am again. Two weeks ago we saw how Devvrat was ready to give up worldly pleasures just so his father can stay happy and in turn, the kingdom of Hastinapur can prosper. His vow of celibacy was called ***Bhishma*** or terrible. Moving on let's see how Shantanu tries to justify his son taking up celibacy for his father.
 
-# Ichchha Mrityu
+#### Ichchha Mrityu
 
 >"...shanti aur ashanti ke daurahe par khada ye Shantanu tumhe ye vardaan deta hai.. jab tak tum swayam ichchha na karo, mrityu lok ko nahi tyagoge.."
 
@@ -48,5 +48,5 @@ While watching this episode, I never thought that this is the episode where we w
 >"Pehle tum us nirbal vyakti se pucho, jo na pita ban saka na raja."
 
 
-## To be continued
+#### To be continued
 

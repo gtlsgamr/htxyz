@@ -1,43 +1,43 @@
 #!/bin/bash
-# :::    :::  ::::::::   ::::::::   ::::::::  
-# :+:    :+: :+:    :+: :+:    :+: :+:    :+: 
-# +:+    +:+ +:+        +:+        +:+        
-# +#+    +:+ +#++:++#++ +#++:++#++ :#:        
-# +#+    +#+        +#+        +#+ +#+   +#+# 
-# #+#    #+# #+#    #+# #+#    #+# #+#    #+# 
-#  ########   ########   ########   ########
-# Untitled Static Site Generator------------->
-# Copyleft? by Hitarth Thummar
-# Use this at your own risk.
+## :::    :::  ::::::::   ::::::::   ::::::::  
+## :+:    :+: :+:    :+: :+:    :+: :+:    :+: 
+## +:+    +:+ +:+        +:+        +:+        
+## +#+    +:+ +#++:++#++ +#++:++#++ :#:        
+## +#+    +#+        +#+        +#+ +#+   +#+## 
+## #+##    #+## #+##    #+## #+##    #+## #+##    #+## 
+##  #########   #########   #########   ########
+## Untitled Static Site Generator------------->
+## Copyleft? by Hitarth Thummar
+## Use this at your own risk.
 #
-# Usage instructions in the README.md file at
-# httos://github.com/gtlsgamr/htxyz
+## Usage instructions in the README.md file at
+## httos://github.com/gtlsgamr/htxyz
 #
 
 makepage() {
-filename="$(basename "$1" | cut -f 1 -d .)" # filename without extension
-pathname="$(dirname "$1")" # path to the file, which will serve as a URL slug as well
-destpath="./public/$pathname/$filename.html" # Destination path with filename.html where the final html is stored
+filename="$(basename "$1" | cut -f 1 -d .)" ## filename without extension
+pathname="$(dirname "$1")" ## path to the file, which will serve as a URL slug as well
+destpath="./public/$pathname/$filename.html" ## Destination path with filename.html where the final html is stored
 
 printf  "%s" "Working on $filename"
 
-mkdir -p "./public/$pathname" # Check if destpath exists, if not then make it
-mkdir -p "./public/static" # Check if static path exists, if not then make it
+mkdir -p "./public/$pathname" ## Check if destpath exists, if not then make it
+mkdir -p "./public/static" ## Check if static path exists, if not then make it
 
-# Read the frontmatter for the file
+## Read the frontmatter for the file
 for line in "$(head -3 $1)"
 do
 	eval "$line"
 done
 
-# Create initial temp files
-tempsource=$(mktemp) # Source of the actual file
+## Create initial temp files
+tempsource=$(mktemp) ## Source of the actual file
 cat "$1" > $tempsource
-tempfile=$(mktemp)  # Where all conversions are stored
-tempdates=$(mktemp) # A file to store names and dates of index
-tempnames=$(mktemp) # A file where the tempdates are sorted
+tempfile=$(mktemp)  ## Where all conversions are stored
+tempdates=$(mktemp) ## A file to store names and dates of index
+tempnames=$(mktemp) ## A file where the tempdates are sorted
 #----------------------------------------------------------------#
-# Replaces the metadeta pointer of the file with actual data from frontmatter
+## Replaces the metadeta pointer of the file with actual data from frontmatter
 sed -e "s/{{title}}/$title/g" \
 	-e "s/{{description}}/$sitedescription/g" \
 	-e "s/{{date}}/$date/g" \
@@ -47,7 +47,7 @@ sed -e "s/{{title}}/$title/g" \
 	-e "s/{{sitename}}/$sitename/g" \
 	./templates/layout.html >> "$tempfile"
 #--------------------- INDEX ------------------------------------#
-# If it is home page, remove the <hr> tag at the beginning and display most recent 5 posts
+## If it is home page, remove the <hr> tag at the beginning and display most recent 5 posts
 if grep -q "homepagepointer" "$tempsource"
 then
 	sed -i '/<hr>/d' "$tempfile"
@@ -65,14 +65,14 @@ while IFS=$'\t' read -r date name finpath
 do
 	printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 done < $tempdates
-head -n 9 "$tempnames" > "$tempdates" # ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
-sed -i "/{{listindex}}/r $tempdates" "$tempsource" # Actually inserts at listindex pointer with the $tempnames file (NOTICE THE $tempdates instead of $tempnames like below code. Here we reuse our tempfiles ;))
-sed -i "/{{listindex}}/d" "$tempsource" # deletes the pointer
+head -n 9 "$tempnames" > "$tempdates" ## ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
+sed -i "/{{listindex}}/r $tempdates" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file (NOTICE THE $tempdates instead of $tempnames like below code. Here we reuse our tempfiles ;))
+sed -i "/{{listindex}}/d" "$tempsource" ## deletes the pointer
 fi
 
 #---------------------------------------------
 
-# Check if there is index in other pages, if there, form it.
+## Check if there is index in other pages, if there, form it.
 if  grep -q "{{listindex}}" $tempsource
 then
 	sed -i '/<hr>/d' "$tempfile"
@@ -90,37 +90,37 @@ while IFS=$'\t' read -r date name finpath
 do
 	printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 done < $tempdates
-sed -i "/{{listindex}}/r $tempnames" "$tempsource" # Actually inserts at listindex pointer with the $tempnames file
-sed -i "/{{listindex}}/d" "$tempsource" # deletes the pointer
+sed -i "/{{listindex}}/r $tempnames" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
+sed -i "/{{listindex}}/d" "$tempsource" ## deletes the pointer
 fi
 #--------------------- MAIN CONTENT -----------------------#
 
-markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  # Append main markdown content to the temp file
+markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  ## Append main markdown content to the temp file
 
 #---------------------- FOOTER and NAVBAR-------------------------#
-sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" # Edit the footer to have the footer
+sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" ## Edit the footer to have the footer
 
-sed -i "s|{{nav}}|$navlist|g" "$tempfile" # Add the navbar
+sed -i "s|{{nav}}|$navlist|g" "$tempfile" ## Add the navbar
 #------------------- FINAL EXPORT -----------------------#
-cat "$tempfile" > "$destpath"			  # NOW CAT it because moving it creates permission issues for nginx... --~Move the final html to $destpath
-cp -r ./static/* ./public/static			# copy the static folder to the public folder
+cat "$tempfile" > "$destpath"			  ## NOW CAT it because moving it creates permission issues for nginx... --~Move the final html to $destpath
+cp -r ./static/* ./public/static			## copy the static folder to the public folder
 printf "%s\n"  "...Done!"
 unset var 
 unset title
 unset date
-unset description # unsets all vars
+unset description ## unsets all vars
 rm "$tempnames" "$tempdates" "$tempsource" "$tempfile" #remove the temp files
 }
 
 
 #====================================================================================================================#
-. ./config # Source the site config metadata
+. ./config ## Source the site config metadata
 #---------------------- NAVBAR --------------------------#
 IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
 for (( i=0;i<${#keyarr[@]};i++ ));
 do
-	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a> / ") # Create this once, use for all pages
+	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a> / ") ## Create this once, use for all pages
 done
 
 #-------------------- MAIN RUNNER -----------------------#

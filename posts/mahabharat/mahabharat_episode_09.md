@@ -2,16 +2,16 @@ title="Mahabharat - Episode 09 - Dhritrashtra is king"
 date="2021-12-08"
 description=""
 +++ 
-# Recap 
+#### Recap 
 Last we saw Pandu in the woods, enjoying a well deserved vacation with his
 queens. His wives by his side, things look good for him. Meanwhile,
 Dhritrashtra seems to be ready to take over the  throne as king himself.
 
-# The blind king
+#### The blind king
 
 > Hatya tum kar nahi sakte, aur durghatna pe tumhara vash nahi.
 
-## Synopsis
+#### Synopsis
 Satyavati calls for Pandu's return to the royal court. Before returning, Madri
 asks Pandu to hunt a tiger for her. While hunting the tiger, Pandu accidentally
 shoots sage kindama and his wife who were making love. Kindama curses Pandu
@@ -28,7 +28,7 @@ children as a blessing from the gods. Madri gives birth to Nakul and Sahdev.
 
 ***Vasudev is born.***
 
-## Discussion
+#### Discussion
 
 Plot-wise and content-wise this episode was very bland. Not a lot to write
 about honestly. One thing I have noticed about Dhritrashtra is that he is not
@@ -64,7 +64,7 @@ Gokul-Mathura. Shree Krishna's story is starting to unfold.
 
 ![The blind king](/static/images/mahabharat/ep_9_2.webp)
 
-## Notable dialogue:
+#### Notable dialogue:
 > Mai darti hoon ki kahin aapko rajmukut ki aadat na pad jaaye.
 > Maine dekhne ko tyaga hai aryaputra, sochne ko nahi.
 > Bahot si baatein bhulne yogya hi hoti hai aryaputra
@@ -85,5 +85,5 @@ Gokul-Mathura. Shree Krishna's story is starting to unfold.
 > Mai apne saare aashirvaad tumhe de chuki hoon Gangaputra.
 
 
-## To be continued
+#### To be continued
 

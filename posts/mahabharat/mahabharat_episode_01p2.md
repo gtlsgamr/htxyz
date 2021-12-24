@@ -2,11 +2,11 @@ title="Mahabharat - Episode 01, part 2 - The wedding of Shantanu"
 description=""
 date="2021-12-08"
 +++
-# Recap
+#### Recap
 
 Last we saw king Bharat establish a new trend of choosing the ruler by merit and not by right of birth. Many years have passed since then and now we look at another king of Hastinapur, Shantanu. 
 
-# The wedding of Shantanu
+#### The wedding of Shantanu
 
 >To ek vachan dijiye.
 

@@ -2,13 +2,13 @@ title="Mahabharat - Episode 22 - Drona and Karna"
 date="2021-12-18"
 description="Guru Drona meets Karna."
 +++ 
-# Recap 
+#### Recap 
 Dronacharya becomes the new Guru of the princes, and is instantly a thorn in the side of Shakuni. 
 
-# Chivda
+#### Chivda
 > Mai hastinapur ki aankhon me aankhein mila kar nahi dekh sakta.
 
-## Synopsis
+#### Synopsis
 While the princes train under Drona, Shakuni worries about Duryodhan's place
 on the royal throne. Drona's son Ashwathama joins the princes as a pupil.
 Adhirath brings Karna to Drona on his request to learn shashtra vidya. Drona
@@ -17,7 +17,7 @@ points out that Drona is a hypcrite since he is teaching his own son who is
 also not a Kshatriya. Drona performs a test to measure the courage of the
 princes and Arjun is the only one who passes.
 
-## Discussion
+#### Discussion
 
 These episodes act as a character foundation for the Kauravs and the Pandavs.
 One thing I would like to get out of the way before I begin any discussion is
@@ -59,7 +59,7 @@ evil is not that which hurts, but one which makes others do the hurt for it.
 The reviews are coming in late because of my personal reasons, but they will
 keep coming rest assured. Until then!
 
-## Notable dialogue:
+#### Notable dialogue:
 
 
 > Jo brahman Sashtradhaari ho, uspe vishwas hi nahi karna chahiye
@@ -72,5 +72,5 @@ keep coming rest assured. Until then!
 > Jab mann bhatakne lagta hai, to itihas ke marg par chala jaata hoon. Poorvajo se puchta hoon ki iss vyuh se nikalne ka upay kya hai. Itihas to ateet ki jeevan katha hai. [...] Jay aur parajay, dono se seekhna chahiye.
 <!-- -->
 
-## To be continued
+#### To be continued
 

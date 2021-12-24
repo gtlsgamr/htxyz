@@ -2,18 +2,18 @@ title="Mahabharat - Episode 06 - The birth of Pandu, Dhritrashtra and Vidur"
 date="2021-12-08"
 description=""
 +++ 
-## NOTE: 
+#### NOTE: 
 ***I have added a commenting functionality to the site, it is for mail-in comments so it may or may not be up your lane. Try it if you feel like!***
 
 After feedback from the exactly three people that read this website, I have discovered that the series seems like a story retelling and not a discussion. So after this one, all the episdode discussions that are posted on this site will have three sections, viz. Synopsis, Discussion, and dialogue. I will not follow the story scene by scene but rather give a short synopsis of that episode and then the discussion section will have the questions that arise in the audience's minds. It will also feature tidbits about the production quality of the show. The extras section will have notable dialogue and scenes, if any.
 
-# Recap
+#### Recap
 
 In the previous episode we left our major character Bhishma at a dilemma,
 to keep his vow or to obey his mother. Now the story will move on much
 quickly as the foundations for the battle have been set. 
 
-# The birth of Pandu, Dhritrashtra and Vidur
+#### The birth of Pandu, Dhritrashtra and Vidur
 
 >..pratigya me hi Kshatriya ke praan hote hai..
 
@@ -45,5 +45,5 @@ Its as if Vidur is speaking the audience's mind, he questions the eligibility of
 <!-- -->
 >Muje na jaane ye kya ho gaya hai, jo jaanti hoon, use hi jaan ne ka prayatna kar rahi hoon
 
-## To be continued
+#### To be continued
 
