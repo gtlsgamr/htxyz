@@ -30,7 +30,7 @@ generates static html pages from markdown files.
 
 - **Contact**: 
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
-	* IRC: gtlsgamr @ libera.chat
+	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 	* [GitHub](https://github.com/gtlsgamr).
 
 >"What is better- To be born good, or to overcome your evil nature through great effort?"
