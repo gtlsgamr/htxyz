@@ -102,7 +102,7 @@ then
 	echo -e "<div id='gallery'>" >> $tempdates 
 	for image in $(find "./static/images/artwork" -type f -not -name "*index*" -name "*webp" -printf "%f\n")
 	do
-		echo "<a href='"/static/images/artwork/$image"'><image src='"/static/images/artwork/$image"' alt='"$image"'/></a>" >> $tempdates
+		echo "<a href='"/static/images/artwork/$image"'><image src='"/static/images/artwork/thumbs/$image"' alt='"$image"'/></a>" >> $tempdates
 	done
 
 	echo -e "</div>" >> $tempdates 
