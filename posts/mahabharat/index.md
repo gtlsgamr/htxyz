@@ -4,7 +4,7 @@
 +++
 ##### Mahabharat
 <details>
-<summary>This is a review series for the hit TV show <a href="https://www.imdb.com/title/tt0158417/">Mahabharat</a>.
+<summary>This is a review series for the hit TV show <a href="https://www.imdb.com/title/tt0158417/">Mahabharat</a> 
 </summary>
 <p>
 It is close to my heart as

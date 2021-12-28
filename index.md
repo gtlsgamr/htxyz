@@ -17,12 +17,10 @@ from time to time. Currently I am working on Mahabharat(1988).
 This website is generated using a [script](https://github.com/gtlsgamr/htxyz) that
 generates static html pages from markdown files.
 
-- **Artwork**: [@addnoiseoriginal](https://www.instagram.com/addnoiseoriginal) on
-  instagram. (migrating them here soon.)
-
 - **Site Navigation**: 
 	* [writings](/posts/writings)
 	* [poetry](/posts/poems)
+	* [artwork](/posts/artwork)
 	* [projects](/posts/projects)
 	* [mahabharat TV show reviews](/posts/mahabharat)
 

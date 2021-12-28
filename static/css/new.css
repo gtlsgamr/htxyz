@@ -48,6 +48,14 @@
 	padding: 0;
 }
 
+gallery {
+	padding: 0;
+}
+
+gallery img{
+	width: 10%;
+}
+
 /*@keyframes blinker {
 	50% {
 		opacity: 0;
