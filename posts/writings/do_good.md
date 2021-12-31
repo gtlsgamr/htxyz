@@ -30,7 +30,7 @@ post is an end and a beginning.
 I want to do good. In each and every way possible. To those who need it the
 most, and are afraid to ask for it. I will try to _be good_. That is all, I
 guess. I hope this year breaks the streak of the pandemic and we get to return
-to normal soon. Or maybe not, I don't know. Staying and home is also heaven in
+to normal soon. Or maybe not, I don't know. Staying at home is also heaven in
 itself. Until then, stay safe, see you again.
 
  ~ Hitarth
