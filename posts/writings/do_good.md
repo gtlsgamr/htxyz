@@ -33,5 +33,5 @@ guess. I hope this year breaks the streak of the pandemic and we get to return
 to normal soon. Or maybe not, I don't know. Staying and home is also heaven in
 itself. Until then, stay safe, see you again.
 
-- Hitarth
+ ~ Hitarth
 
