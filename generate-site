@@ -132,8 +132,6 @@ makepage() {
 	unset sitedescription
 	unset date
 	unset subtitle
-	unset sitetitle
-	unset sitename
 	rm "$tempnames" "$tempdates" "$tempsource" "$tempfile" #remove the temp files
 }
 

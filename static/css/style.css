@@ -1,0 +1,130 @@
+body {
+	margin:40px auto;
+	max-width:950px;
+	line-height:1.4;
+	font-size:18px;
+	color:#444;
+	padding:0 10px
+}
+
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+	color: #0070f3;
+}
+code {background: lightgrey;}
+
+pre {
+	padding: 5px;
+	background: lightgrey;
+    overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	}
+pre code{
+	background: none;
+	color: #444;
+}
+
+@media (prefers-color-scheme: dark) {
+	body{
+		color:white;
+		background-color: #111111;
+	}
+	code{
+		background-color:#444;
+		color:lightgrey;
+	}
+	pre {
+		padding: 5px;
+		background: #444;
+		overflow-x: auto;
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap;
+		white-space: -pre-wrap;
+		white-space: -o-pre-wrap;
+		word-wrap: break-word;
+	}
+	pre code{
+		background: none;
+		color:lightgrey;
+	}
+	a:link {
+		color: gold;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+	a:visited {
+		color: darkgoldenrod;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: palegoldenrod;
+		background-color: transparent;
+		text-decoration:underline;
+	}
+}
+
+img {max-width:100%;}
+
+h1,h2,h3
+{line-height:1.2}
+
+/* image gallery css*/
+
+#gallery {
+	line-height:0;
+	-webkit-column-count:3; /* split it into 5 columns */
+	-webkit-column-gap:5px; /* give it a 5px gap between columns */
+	-moz-column-count:3;
+	-moz-column-gap:5px;
+	column-count:3;
+	column-gap:5px;
+}
+
+#gallery img {
+	width: 100% !important;
+	height: auto !important;
+	margin-bottom:5px; /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+	#gallery {
+		-moz-column-count:    3;
+		-webkit-column-count: 3;
+		column-count:         3;
+	}
+}
+
+@media (max-width: 1000px) {
+	#gallery {
+		-moz-column-count:    3;
+		-webkit-column-count: 3;
+		column-count:         3;
+	}
+}
+
+@media (max-width: 800px) {
+	#gallery {
+		-moz-column-count:    2;
+		-webkit-column-count: 2;
+		column-count:         2;
+	}
+}
+
+@media (max-width: 400px) {
+	#gallery {
+		-moz-column-count:    1;
+		-webkit-column-count: 1;
+		column-count:         1;
+	}
+}
+
