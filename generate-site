@@ -119,6 +119,9 @@ makepage() {
 
 	markdown -s "$(tail -n +5 "$tempsource")" >> "$tempfile"  ## Append main markdown content to the temp file
 
+	#------------------- Convert all images to figures --------------------#
+	sed -i 's/.*img src=\("[^"]*"\) alt="\([^"]*\)".*/<figure><img src=\1 alt="\2"\/><figcaption>\2<\/figcaption><\/figure>/g' "$tempfile"
+
 	#---------------------- FOOTER and NAVBAR-------------------------#
 
 	sed -e "s/{{footer}}/$footer/g" ./templates/footer.html >> "$tempfile" ## Edit the footer to have the footer

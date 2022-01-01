@@ -5,7 +5,7 @@
 #### Hi, I am Hitarth Thummar. 
 Welcome to my personal webspace.
 
-![guycomputer](static/images/guycomputer.gif) 
+![](static/images/guycomputer.gif) 
 <!-- homepagepointer -->
 
 This is a place where I plan to share everything that
