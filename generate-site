@@ -34,7 +34,7 @@ makepage() {
 	#----------------------------------------------------------------#
 	## Replaces the metadeta pointer of the file with actual data from frontmatter
 	sed -e "s/{{title}}/$title/g" \
-		-e "s/{{sitedescription}}/$sitedescription/g" \
+		-e "s/{{description}}/$description/g" \
 		-e "s/{{date}}/$date/g" \
 		-e "s/{{subtitle}}/$subtitle/g" \
 		-e "s/{{sitetitle}}/$sitetitle/g" \
