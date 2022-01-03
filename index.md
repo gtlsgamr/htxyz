@@ -18,7 +18,7 @@ This website is generated using a [script](https://github.com/gtlsgamr/htxyz) th
 generates static html pages from markdown files.
 
 - **Site Navigation**: 
-	* [archives](/posts/archive)
+	* [archives](/posts/archive.html)
 	* [writings](/posts/writings)
 	* [poetry](/posts/poems)
 	* [artwork](/posts/artwork)
