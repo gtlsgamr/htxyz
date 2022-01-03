@@ -35,6 +35,7 @@ points that I think are worth marking:
 - Speaking of friends, in this episode we witness the beginning of a lifelong
   friendship. Duryodhan and Karna's friendship is pretty famous for being 
   unquestioningly loyal.
+- Kunti realised who Karna was the moment she saw him and fainted. 
 - Karna being denied a fair chance at the competition was a bit sad but I think
   it was done for the greater good, since a non kshatriya winning that
   competition would bring about some massive civil revolts that would be hard
