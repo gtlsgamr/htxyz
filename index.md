@@ -19,7 +19,7 @@ generates static html pages from markdown files.
 
 - **Site Navigation**: 
 	* [archives](/posts/archive.html)
-	* [writings](/posts/writings)
+	* [blog](/posts/blog)
 	* [poetry](/posts/poems)
 	* [artwork](/posts/artwork)
 	* [projects](/posts/projects)
