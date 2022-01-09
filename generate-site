@@ -131,6 +131,35 @@ makepage() {
 	rm "$tempnames" "$tempdates" "$tempsource" "$tempfile" #remove the temp files
 }
 
+#---------------- CReATE RSS FEED ---------------------------##
+makerss(){
+temprss=$(mktemp)
+rssfinal=$(mktemp)
+cat ./templates/rss.xml > $rssfinal
+tempdates=$(mktemp)
+for path in $(find "." -type f -not -name "*index*" -not -name "*archive*" -name "*md" | sed "s|^\./||")
+do
+	for line in "$(head -3 $path)"
+	do
+		eval "$line"
+	done
+	echo -e "$date\t$title\t$path\t$description" >> "$tempdates"
+done
+sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
+while IFS=$'\t' read -r date name finpath description
+do
+	printf  "%s\n\n" "<item><title>$name</title><link>https://hitarththummar.xyz/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html</link><pubDate>$date</pubDate><description>$description</description></item>" >> $temprss		
+done < $tempdates
+sed -i "/{{rssfeed}}/r $temprss" "$rssfinal" ## Actually inserts at listindex pointer with the $tempnames file
+sed -i "/{{rssfeed}}/d" "$rssfinal" ## deletes the pointer
+cat $rssfinal > ./public/rss.xml
+rm "$temprss"
+rm "$rssfinal"
+rm "$tempdates"
+unset temprss
+unset rssfinal
+unset tempdates
+}
 #====================================================================================================================#
 
 . ./config ## Source the site config metadata
@@ -149,4 +178,5 @@ for file in $(find * -name "*md" )
 do
 	makepage "$file"
 done
+makerss
 cp -r ./static/* ./public/static			## copy the static folder to the public folder
