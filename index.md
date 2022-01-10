@@ -14,7 +14,7 @@ enthusiast who spends *a lot* of his time on a computer. I write software from
 time to time. It may or may not be your definition of "free" but yes most of
 the time it is licensed under a copyleft license. I write reviews for old Indian TV shows
 from time to time. Currently I am working on Mahabharat(1988). 
-This website is generated using a [script](https://github.com/gtlsgamr/htxyz) that
+This website is generated using a [script](https://gitlab.com/gtlsgamr/htxyz) that
 generates static html pages from markdown files.
 
 - **Site Navigation**: 
@@ -30,7 +30,7 @@ generates static html pages from markdown files.
 - **Contact**: 
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
-	* [GitHub](https://github.com/gtlsgamr).
+	* [Gitlab](https://gitlab.com/gtlsgamr)
 
 >  "When I do not know who I am, I serve You and when I do know who I am, You and I are One.” 
 
