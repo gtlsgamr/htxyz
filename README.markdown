@@ -1,6 +1,7 @@
-||=======|| ||ht.xyz || ||=======||
+ht.xyz
+======
 
-This is my website https://hitarththummar.xyz, which uses a custom shell script
+This is my website [ht.xyz](https://hitarththummar.xyz), which uses a custom shell script
 to generate pages. There are no "categories" and "tags" on my website because I
 don't need them. The css very minimal on a _must need_ basis. You need the
 [discount](https://www.pell.portland.or.us/~orc/Code/discount/) package to make
