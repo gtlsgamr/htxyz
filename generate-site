@@ -170,7 +170,7 @@ IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
 for (( i=0;i<${#keyarr[@]};i++ ));
 do
-	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>") ## Create this once, use for all pages
+	navlist+=$(printf "%s" "\&nbsp;<a href='${valarr[$i]}'>${keyarr[$i]}</a>\&nbsp;") ## Create this once, use for all pages
 done
 
 #-------------------- MAIN RUNNER -----------------------#

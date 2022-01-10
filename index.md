@@ -23,7 +23,7 @@ generates static html pages from markdown files.
 	* [poetry](/posts/poems)
 	* [artwork](/posts/artwork)
 	* [projects](/posts/projects)
-	* [mahabharat TV show reviews](/posts/mahabharat)
+	* [**mahabharat TV show reviews**](/posts/mahabharat)
 
 - **list of links worth sharing**: [Here](/posts/writings/interesting_links.html)
 
