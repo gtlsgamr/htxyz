@@ -32,8 +32,7 @@ generates static html pages from markdown files.
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 	* [GitHub](https://github.com/gtlsgamr).
 
->"What is better- To be born good, or to overcome your evil nature through great effort?"
-> 															-- Paarthurnax 
+>  "When I do not know who I am, I serve You and when I do know who I am, You and I are One.” 
 
 - **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
 
