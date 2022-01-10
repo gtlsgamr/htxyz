@@ -1,6 +1,6 @@
 sitetitle="ht's website."
 subtitle="y? zxht?"
-navkeys="home,projects,blog,artwork,poetry"
-navvals="/,/posts/projects,/posts/blog,/posts/artwork,/posts/poems"
+navkeys="home,projects,blog,artwork,poetry,archives"
+navvals="/,/posts/projects,/posts/blog,/posts/artwork,/posts/poems,/posts/archive.html"
 sitename="ht.xyz"
 footer="Copyleft 🄯 2021 - Hitarth Thummar"
