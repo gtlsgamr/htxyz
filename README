@@ -1,4 +1,6 @@
-ht.xyz
+||=======||
+||ht.xyz ||
+||=======||
 
 This is my website https://hitarththummar.xyz, which uses a custom shell script to generate pages. There are no "categories" and "tags" on my website because I don't need them. The css very minimal on a _must need_ basis. You need the [discount](https://www.pell.portland.or.us/~orc/Code/discount/) package to make this script work if you plan to modify this for your own use. You can always replace the `markdown` command in the script with pandoc or the likes, but it is up to you.
 
