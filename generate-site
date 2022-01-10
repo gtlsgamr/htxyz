@@ -131,7 +131,7 @@ makepage() {
 	rm "$tempnames" "$tempdates" "$tempsource" "$tempfile" #remove the temp files
 }
 
-#---------------- CReATE RSS FEED ---------------------------##
+#---------------- CREATE RSS FEED ---------------------------##
 makerss(){
 temprss=$(mktemp)
 rssfinal=$(mktemp)
@@ -148,7 +148,7 @@ done
 sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
 while IFS=$'\t' read -r date name finpath description
 do
-	printf  "%s\n\n" "<item><title>$name</title><link>https://hitarththummar.xyz/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html</link><pubDate>$date</pubDate><description>$description</description></item>" >> $temprss		
+	printf  "\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n" "<item>" "<title>$name</title>" "<link>https://hitarththummar.xyz/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html</link>" "<pubDate>$date</pubDate>" "<description>$description</description>" "</item>" >> $temprss		
 done < $tempdates
 sed -i "/{{rssfeed}}/r $temprss" "$rssfinal" ## Actually inserts at listindex pointer with the $tempnames file
 sed -i "/{{rssfeed}}/d" "$rssfinal" ## deletes the pointer
