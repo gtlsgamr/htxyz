@@ -32,7 +32,9 @@ generates static html pages from markdown files.
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 	* [Gitlab](https://gitlab.com/gtlsgamr)
 
->  "When I do not know who I am, I serve You and when I do know who I am, You and I are One.” 
+>'What is sorrow?'
+>
+>'To long for the past.'
 
 - **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
 
