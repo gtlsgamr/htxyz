@@ -25,7 +25,7 @@ generates static html pages from markdown files.
 	* [projects](/posts/projects)
 	* [**mahabharat TV show reviews**](/posts/mahabharat)
 
-- **list of links worth sharing**: [Here](/posts/writings/interesting_links.html)
+- **list of links worth sharing**: [Here](/posts/blog/interesting_links.html)
 
 - **Contact**: 
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
