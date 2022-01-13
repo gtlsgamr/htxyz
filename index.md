@@ -5,7 +5,6 @@ description="Hitarth Thummar's personal webspace. A place to share everything th
 #### Hi, I am Hitarth Thummar. 
 Welcome to my personal webspace.
 
-![](static/images/guycomputer.gif) 
 <!-- homepagepointer -->
 
 This is a place where I plan to share everything that
@@ -24,20 +23,19 @@ generates static html pages from markdown files.
 	* [artwork](/posts/artwork)
 	* [projects](/posts/projects)
 	* [**mahabharat TV show reviews**](/posts/mahabharat)
-
-- **list of links worth sharing**: [Here](/posts/blog/interesting_links.html)
-- **Internet quotes that I collect**: [Here](/static/internet_quotes.txt)
+	* [list of links worth sharing](/posts/blog/interesting_links.html)
+	* [Collection of quotes from the internet](/static/internet_quotes.txt)
 
 - **Contact**: 
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 	* [Gitlab](https://gitlab.com/gtlsgamr)
 
->'What is sorrow?'
->
->'To long for the past.'
+>'What is sorrow?' 'To long for the past.'
 
 - **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
+
+![](static/images/guycomputer.gif) 
 
 ---------------------------------------------
 ##### Recent Posts
