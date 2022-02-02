@@ -176,7 +176,7 @@ done
 #-------------------- MAIN RUNNER -----------------------#
 for file in $(find * -name "*md" )
 do
-	makepage "$file"
+	makepage "$file" 
 done
 makerss
 cp -r ./static/* ./public/static			## copy the static folder to the public folder

@@ -23,5 +23,5 @@ The `config` file contains some standard site metadata that you may or may not
 want to change.
 
 This script/site comes with no warranty and is for my personal use. If you feel
-like using it for your own personal use, make sure you check the script for
-something that might mess your system up.
+like using it for yourself, make sure you check the script for
+something that might mess up your system.
