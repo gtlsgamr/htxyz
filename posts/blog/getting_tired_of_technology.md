@@ -1,4 +1,4 @@
-title="The dying joy of learning"
+title="Where did the joy of learning things go?"
 description="The effect of media saturation on the natural urge to learn things."
 date="2022-02-15"
 +++
