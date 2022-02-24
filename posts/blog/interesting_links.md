@@ -20,6 +20,7 @@ This is a list of links that I keep and update regularly. It might be of use to 
 - [http://linux.die.net/](http://linux.die.net/) | nice linux tutorials
 - [https://explainshell.com/](https://explainshell.com/) | Explains any shell command you want, interactively! 
 - [https://plainjs.com/](https://plainjs.com/) - How to do things in plainjs and ditch jQuery for good!
+- [https://graphics.stanford.edu/~seander/bithacks.html](https://graphics.stanford.edu/~seander/bithacks.html) | Bit twiddling hacks
 
 #### Other Stuff worth mentioning
 
