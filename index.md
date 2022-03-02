@@ -33,7 +33,7 @@ generates static html pages from markdown files.
 
 >'What is sorrow?' 'To long for the past.'
 
-- **Disclaimer: The views and opinions expressed on this website are purely mine and do not represent my employer's.**
+**The views and opinions expressed in this page are strictly those of the page author. The contents of this page have not been reviewed nor approved by the author's employer.**
 
 ![](static/images/guycomputer.gif) 
 

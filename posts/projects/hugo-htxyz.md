@@ -6,7 +6,4 @@ date="2021-12-08"
 
 Hugo has multiple themes that can be used to generate static sites. The sites can be minimal or pretty much full fledged, depending on the templates and the build time is *FAST*. Since I have been using a hugo for a while, I thought I should make my own theme. Thus was born, [hugo-htxyz](https://github.com/gtlsgamr/hugo-htxyz). It also supports ✨ dark mode ✨ (using media-prefers-dark-scheme).
 
-Here is what it looks like: 
-![image](/images/hugohtxyz.png)
-
 As always you are free to use it and contribute to it.
