@@ -11,6 +11,8 @@ body {
 }
 
 main{
+word-wrap: break-word;
+word-break: normal;
 background-color: white;
 padding: 10px;
 border: 5px solid black;
@@ -168,9 +170,6 @@ body {
 
 main{
 background-color: #222;
-padding: 10px;
-border: 5px solid black;
-margin-bottom: 5em;
 filter: drop-shadow(0.60em 0.60em 0.0em #2c5459);
 }
 	nav a {
