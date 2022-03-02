@@ -167,10 +167,12 @@ unset tempdates
 
 IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
+navlist+="<ul>"
 for (( i=0;i<${#keyarr[@]};i++ ));
 do
-	navlist+=$(printf "%s" "<a href='${valarr[$i]}'>${keyarr[$i]}</a>\&nbsp;") ## Create this once, use for all pages
+	navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a></li>\&nbsp;") ## Create this once, use for all pages
 done
+navlist+='</ul>'
 
 #-------------------- MAIN RUNNER -----------------------#
 for file in $(find * -name "*md" )

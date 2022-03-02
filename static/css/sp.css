@@ -1,13 +1,40 @@
 body {
+	font-size: 18px;
+    font-family: Verdana;
+    font-weight: 500;
+    background-color: rgb(134, 167, 209);
 	color: #333;
-	font-family: serif;
 	line-height: 1.5;
 	margin: 0 auto;
 	max-width: 40em;
 	padding: 0 1em;
 }
-footer,
-header {
+
+main{
+background-color: white;
+padding: 10px;
+border: 5px solid black;
+margin-bottom: 5em;
+filter: drop-shadow(0.60em 0.60em 0.0em rgb(52,110,163));
+}
+nav ul{
+	word-wrap: break-word;
+	word-break: normal;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+	 display: inline;
+}
+header h1 {
+background-color: black;
+color: white;
+text-decoration:none;
+padding: 0px 10px;
+}
+footer
+{
 	text-align: center;
 }
 h1,
@@ -20,8 +47,9 @@ h6 {
 	line-height: 1.2;
 }
 nav a {
-	background-color: #f2f2f2;
-
+	font-weight: 700;
+	padding: 0px 4px;
+	text-decoration: underline;
 }
 a:link {
 	color: #00e;
@@ -35,6 +63,23 @@ a:hover {
 }
 a:active {
 	color: #e00;
+}
+header a:link {
+	color: white;
+text-decoration:none;
+}
+header a:visited {
+	color: white;
+text-decoration:none;
+}
+header a:focus,
+header a:hover {
+	color: white;
+text-decoration:none;
+}
+header a:active {
+	color: white;
+text-decoration:none;
 }
 h1 a:empty:before,
 h2 a:empty:before,
@@ -109,10 +154,25 @@ th {
 	text-align: left;
 }
 @media (prefers-color-scheme: dark) {
-	body {
-		background: #111;
-		color: #bbb;
-	}
+body {
+	font-size: 18px;
+    font-family: Verdana;
+    font-weight: 500;
+    background-color: #446f75;
+	color: #fff;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 40em;
+	padding: 0 1em;
+}
+
+main{
+background-color: #222;
+padding: 10px;
+border: 5px solid black;
+margin-bottom: 5em;
+filter: drop-shadow(0.60em 0.60em 0.0em #2c5459);
+}
 	nav a {
 		background-color: #212121;
 	}
