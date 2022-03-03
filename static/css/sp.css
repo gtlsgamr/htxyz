@@ -9,6 +9,30 @@ body {
 	max-width: 40em;
 	padding: 0 1em;
 }
+input{
+filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
+margin: 10px 0px;
+width:95%;
+height: 2em;
+font-family:monospace;font-weight:500;
+}
+
+textarea{
+filter: drop-shadow(0.30em 0.30em 0.0em #000);
+margin: 10px 0px;
+width:95%;
+height: 10em;
+font-weight:500;
+}
+
+button{
+filter: drop-shadow(0.30em 0.30em 0.0em #000);
+margin: 10px 0px;
+background-color: white;
+height: 3em;
+font-weight:500;
+font-family: monospace;
+}
 
 main{
 word-wrap: break-word;
