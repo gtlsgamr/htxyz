@@ -1,6 +1,17 @@
- <footer>
-	 {{footer}} | <a href="/rss.xml">Subscribe via RSS</a>
-  </footer>
+<form name="comments" action="/cgi-bin/addcomment.cgi">
+	<div><h3>Post Comment</h3></div>
+	<div>
+		<input type="text" class='comment-field' name="alias" placeholder="Your Alias"  id="alias" required />
+	</div>
+	<div>
+		<textarea type="text"  name="comment" placeholder="Enter your comment here"  id="comment" placeholder=" Enter comments" required > </textarea>
+	</div><div>    
+		<button type="submit"  id="comment-button">Comment</button>
+	</div>
+</form>
+<footer>
+	{{footer}} | <a href="/rss.xml">Subscribe via RSS</a>
+</footer>
 </main>
 </body>
 </html>
