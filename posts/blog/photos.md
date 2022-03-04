@@ -1,6 +1,6 @@
 title="Photographs from 2014"
 description="Some photos I took at my school in 2014"
-date=2022-03-30
+date=2022-03-03
 +++
 These are some photos I clicked when I was in 12th grade in Delhi Public School
 Rajkot. The pigeons loved the terrace of our school and I had a lot of free
