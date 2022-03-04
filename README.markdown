@@ -22,6 +22,8 @@ list of the posts in that particular folder will be shown there.
 The `config` file contains some standard site metadata that you may or may not
 want to change.
 
-This script/site comes with no warranty and is for my personal use. If you feel
-like using it for yourself, make sure you check the script for
-something that might mess up your system.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+**This script/site comes with no warranty and is for my personal use. If you feel**
+**like using it for yourself, make sure you check the script for**
+**something that might mess up your system.**
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
