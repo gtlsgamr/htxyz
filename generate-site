@@ -15,7 +15,6 @@ makepage() {
 	printf  "%s\n" "Working on $filename..."
 
 	mkdir -p "./public/$pathname" ## Check if destpath exists, if not then make it
-	mkdir -p "./public/static" ## Check if static path exists, if not then make it
 
 	## Read the frontmatter for the file
 	for line in "$(head -3 $1)"
@@ -180,4 +179,4 @@ do
 	makepage "$file" &
 done
 makerss
-cp -r ./static/* ./public/static			## copy the static folder to the public folder
+ln -rs ./static ./public/
