@@ -12,7 +12,7 @@ makepage() {
 	pathname="$(dirname "$1")" ## path to the file, which will serve as a URL slug as well
 	destpath="./public/$pathname/$filename.html" ## Destination path with filename.html where the final html is stored
 
-	printf  "%s" "Working on $filename"
+	printf  "%s\n" "Working on $filename..."
 
 	mkdir -p "./public/$pathname" ## Check if destpath exists, if not then make it
 	mkdir -p "./public/static" ## Check if static path exists, if not then make it
@@ -122,7 +122,6 @@ makepage() {
 
 	#------------------- FINAL EXPORT -----------------------#
 	cat "$tempfile" > "$destpath"  ## cat instead of mv because mv creates permission issues for nginx... --~Move the final html to $destpath
-	printf "%s\n"  "...Done!"
 	unset title
 	unset sitedescription
 	unset date
@@ -159,12 +158,10 @@ unset temprss
 unset rssfinal
 unset tempdates
 }
-#====================================================================================================================#
-
-. ./config ## Source the site config metadata
+#=================================================================================================#
 
 #---------------------- NAVBAR --------------------------#
-
+navbar(){
 IFS=, read  -ra keyarr <<< "$navkeys"
 IFS=, read  -ra valarr <<< "$navvals"
 navlist+="<ul>"
@@ -173,11 +170,14 @@ do
 	navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a></li>\&nbsp;") ## Create this once, use for all pages
 done
 navlist+='</ul>'
+}
 
 #-------------------- MAIN RUNNER -----------------------#
+. ./config ## Source the site config metadata
+navbar
 for file in $(find * -name "*md" )
 do
-	makepage "$file" 
+	makepage "$file" &
 done
 makerss
 cp -r ./static/* ./public/static			## copy the static folder to the public folder
