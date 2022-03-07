@@ -173,6 +173,7 @@ navlist+='</ul>'
 
 #-------------------- MAIN RUNNER -----------------------#
 . ./config ## Source the site config metadata
+rm -rf ./public
 navbar
 for file in $(find * -name "*md" )
 do
