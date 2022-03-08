@@ -53,14 +53,14 @@ makepage() {
 			done
 			echo -e "$date\t$title\t$path" >> $tempdates 
 		done
-	sort -nr -o $tempdates $tempdates   #sorts the index list by date in descending order
-	while IFS=$'\t' read -r date name finpath
-	do
-		printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
-	done < $tempdates
+		sort -nr -o $tempdates $tempdates   #sorts the index list by date in descending order
+		while IFS=$'\t' read -r date name finpath
+		do
+			printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+		done < $tempdates
 
-	head -n 9 "$tempnames" > "$tempdates" ## ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
-	sed -i "/{{listindex}}/r $tempdates" "$tempsource" 
+		head -n 9 "$tempnames" > "$tempdates" ## ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
+		sed -i "/{{listindex}}/r $tempdates" "$tempsource" 
 
 	## ^^^^  Actually inserts at listindex pointer with the $tempnames file 
 	## (NOTICE THE $tempdates instead of $tempnames like below code. Here we reuse our tempfiles ;))
@@ -81,13 +81,13 @@ makepage() {
 			done
 			echo -e "$date\t$title\t$path" >> $tempdates 
 		done
-	sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
-	while IFS=$'\t' read -r date name finpath
-	do
-		printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
-	done < $tempdates
-	sed -i "/{{listindex}}/r $tempnames" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
-	sed -i "/{{listindex}}/d" "$tempsource" ## deletes the pointer
+		sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
+		while IFS=$'\t' read -r date name finpath
+		do
+			printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+		done < $tempdates
+		sed -i "/{{listindex}}/r $tempnames" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
+		sed -i "/{{listindex}}/d" "$tempsource" ## deletes the pointer
 	fi
 
 	## Check if there is art index in other pages, if there, form it.
@@ -102,8 +102,8 @@ makepage() {
 		done
 
 		echo -e "</div>" >> $tempdates 
-	sed -i "/{{imageindex}}/r $tempdates" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
-	sed -i "/{{imageindex}}/d" "$tempsource" ## deletes the pointer
+		sed -i "/{{imageindex}}/r $tempdates" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
+		sed -i "/{{imageindex}}/d" "$tempsource" ## deletes the pointer
 	fi
 
 	#--------------------- MAIN CONTENT -----------------------#
@@ -130,45 +130,45 @@ makepage() {
 
 #---------------- CREATE RSS FEED ---------------------------##
 makerss(){
-temprss=$(mktemp)
-rssfinal=$(mktemp)
-cat ./templates/rss.xml > $rssfinal
-tempdates=$(mktemp)
-for path in $(find "." -type f -not -name "*index*" -not -name "*archive*" -name "*md" | sed "s|^\./||")
-do
-	for line in "$(head -3 $path)"
+	temprss=$(mktemp)
+	rssfinal=$(mktemp)
+	cat ./templates/rss.xml > $rssfinal
+	tempdates=$(mktemp)
+	for path in $(find "." -type f -not -name "*index*" -not -name "*archive*" -name "*md" | sed "s|^\./||")
 	do
-		eval "$line"
+		for line in "$(head -3 $path)"
+		do
+			eval "$line"
+		done
+		echo -e "$date\t$title\t$path\t$description" >> "$tempdates"
 	done
-	echo -e "$date\t$title\t$path\t$description" >> "$tempdates"
-done
-sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
-while IFS=$'\t' read -r date name finpath description
-do
-	printf  "\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n" "<item>" "<title>$name</title>" "<link>https://hitarththummar.xyz/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html</link>" "<pubDate>$date</pubDate>" "<description>$description</description>" "</item>" >> $temprss		
-done < $tempdates
-sed -i "/{{rssfeed}}/r $temprss" "$rssfinal" ## Actually inserts at listindex pointer with the $tempnames file
-sed -i "/{{rssfeed}}/d" "$rssfinal" ## deletes the pointer
-cat $rssfinal > ./public/rss.xml
-rm "$temprss"
-rm "$rssfinal"
-rm "$tempdates"
-unset temprss
-unset rssfinal
-unset tempdates
+	sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
+	while IFS=$'\t' read -r date name finpath description
+	do
+		printf  "\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n\t\t\t\t%s\n" "<item>" "<title>$name</title>" "<link>https://hitarththummar.xyz/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html</link>" "<pubDate>$date</pubDate>" "<description>$description</description>" "</item>" >> $temprss		
+	done < $tempdates
+	sed -i "/{{rssfeed}}/r $temprss" "$rssfinal" ## Actually inserts at listindex pointer with the $tempnames file
+	sed -i "/{{rssfeed}}/d" "$rssfinal" ## deletes the pointer
+	cat $rssfinal > ./public/rss.xml
+	rm "$temprss"
+	rm "$rssfinal"
+	rm "$tempdates"
+	unset temprss
+	unset rssfinal
+	unset tempdates
 }
 #=================================================================================================#
 
 #---------------------- NAVBAR --------------------------#
 navbar(){
-IFS=, read  -ra keyarr <<< "$navkeys"
-IFS=, read  -ra valarr <<< "$navvals"
-navlist+="<ul>"
-for (( i=0;i<${#keyarr[@]};i++ ));
-do
-	navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a></li>\&nbsp;") ## Create this once, use for all pages
-done
-navlist+='</ul>'
+	IFS=, read  -ra keyarr <<< "$navkeys"
+	IFS=, read  -ra valarr <<< "$navvals"
+	navlist+="<ul>"
+	for (( i=0;i<${#keyarr[@]};i++ ));
+	do
+		navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a></li>\&nbsp;") ## Create this once, use for all pages
+	done
+	navlist+='</ul>'
 }
 
 #-------------------- MAIN RUNNER -----------------------#
