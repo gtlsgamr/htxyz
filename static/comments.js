@@ -13,4 +13,8 @@ var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_e
 {"alias": ["neovoid"], "url": ["/posts/artwork/"], "time": ["Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)"], "body": [" amazing artworks. Loved em. "]},
 
 {"alias": ["relejek"], "url": ["/"], "time": ["Tue Mar 08 2022 01:01:54 GMT 0530 (India Standard Time)"], "body": [" wow! seems like you've made this comment feature work finnaly. great job dost."]},
+
+{"alias": ["Glizzster"], "url": ["/"], "time": ["Tue Mar 08 2022 18:05:56 GMT 0530 (India Standard Time)"], "body": [" Pretty awesome website bro.\r\n"]},
+
+{"alias": ["theo"], "url": ["/posts/blog/photos.html"], "time": ["Tue Mar 08 2022 23:34:36 GMT 0530 (India Standard Time)"], "body": ["nice photos, man!\r\nand that reddit guy is right!"]},
 ]
