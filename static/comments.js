@@ -17,4 +17,8 @@ var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_e
 {"alias": ["Glizzster"], "url": ["/"], "time": ["Tue Mar 08 2022 18:05:56 GMT 0530 (India Standard Time)"], "body": [" Pretty awesome website bro.\r\n"]},
 
 {"alias": ["theo"], "url": ["/posts/blog/photos.html"], "time": ["Tue Mar 08 2022 23:34:36 GMT 0530 (India Standard Time)"], "body": ["nice photos, man!\r\nand that reddit guy is right!"]},
+
+{"alias": ["Arya"], "url": ["/posts/blog/photos.html"], "time": ["Wed Mar 09 2022 20:21:30 GMT 0530 (India Standard Time)"], "body": [" Hello, Can you see this comment?"]},
+
+{"alias": ["narendranath344"], "url": ["/"], "time": ["Wed Mar 09 2022 20:25:55 GMT 0530 (India Standard Time)"], "body": ["Waiting for the marriage blog\ud83d\ude00\ud83d\ude00"]},
 ]
