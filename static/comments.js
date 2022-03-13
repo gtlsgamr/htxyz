@@ -1,4 +1,4 @@
-var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_episode_25.html"], "time": ["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "comment": ["Your comment!"]},
+var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_episode_25.html"], "time": ["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "body": ["Your comment!"]},
 {"alias": ["Hitarth (-_- not me)"], "url": ["/"], "time": ["Fri Mar 04 2022 01:47:59 GMT 0530 (IST)"], "body": [" Nice website buddy!"]},
 {"alias": ["pero"], "url": ["/"], "time": ["Fri Mar 04 2022 02:18:01 GMT 0530 (India Standard Time)"], "body": [" sup"]},
 {"alias": ["Bravo"], "url": ["/"], "time": ["Fri Mar 04 2022 09:34:57 GMT 0530 (India Standard Time)"], "body": [" Damn G. Nice work. \ud83d\udc4d"]},
