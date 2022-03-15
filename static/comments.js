@@ -1,4 +1,5 @@
-var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_episode_25.html"], "time": ["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "body": ["Your comment!"]},
+
+var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_episode_25.html"], "time": ["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "comment": ["Your comment!"]},
 {"alias": ["Hitarth (-_- not me)"], "url": ["/"], "time": ["Fri Mar 04 2022 01:47:59 GMT 0530 (IST)"], "body": [" Nice website buddy!"]},
 {"alias": ["pero"], "url": ["/"], "time": ["Fri Mar 04 2022 02:18:01 GMT 0530 (India Standard Time)"], "body": [" sup"]},
 {"alias": ["Bravo"], "url": ["/"], "time": ["Fri Mar 04 2022 09:34:57 GMT 0530 (India Standard Time)"], "body": [" Damn G. Nice work. \ud83d\udc4d"]},
@@ -21,4 +22,8 @@ var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_e
 {"alias": ["Arya"], "url": ["/posts/blog/photos.html"], "time": ["Wed Mar 09 2022 20:21:30 GMT 0530 (India Standard Time)"], "body": [" Hello, Can you see this comment?"]},
 
 {"alias": ["narendranath344"], "url": ["/"], "time": ["Wed Mar 09 2022 20:25:55 GMT 0530 (India Standard Time)"], "body": ["Waiting for the marriage blog\ud83d\ude00\ud83d\ude00"]},
+
+{"alias": ["Not Web 1.5"], "url": ["/posts/blog/photos.html"], "time": ["Mon Mar 14 2022 18:28:05 GMT 0530 (India Standard Time)"], "body": ["From site owner: Yes, and yet you made a comment :) "]},
+
+{"alias": ["mxbl"], "url": ["/"], "time": ["Mon Mar 14 2022 18:47:46 GMT 0000 (Coordinated Universal Time)"], "body": ["this is indeed a very nice looking website, great work."]},
 ]
