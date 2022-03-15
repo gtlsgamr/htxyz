@@ -23,7 +23,7 @@ var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_e
 
 {"alias": ["narendranath344"], "url": ["/"], "time": ["Wed Mar 09 2022 20:25:55 GMT 0530 (India Standard Time)"], "body": ["Waiting for the marriage blog\ud83d\ude00\ud83d\ude00"]},
 
-{"alias": ["Not Web 1.5"], "url": ["/posts/blog/photos.html"], "time": ["Mon Mar 14 2022 18:28:05 GMT 0530 (India Standard Time)"], "body": ["From site owner: Yes, and yet you made a comment :) "]},
+{"alias": ["Not Web 1.5"], "url": ["/posts/blog/photos.html"], "time": ["Mon Mar 14 2022 18:28:05 GMT 0530 (India Standard Time)"], "body": ["From site owner: No sir! :) "]},
 
 {"alias": ["mxbl"], "url": ["/"], "time": ["Mon Mar 14 2022 18:47:46 GMT 0000 (Coordinated Universal Time)"], "body": ["this is indeed a very nice looking website, great work."]},
 ]
