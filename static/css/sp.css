@@ -1,66 +1,68 @@
 body {
 	font-size: 18px;
-    font-family: Verdana;
-    font-weight: 500;
-    background-color: rgb(134, 167, 209);
+	font-family: Verdana;
+	font-weight: 500;
 	color: #333;
 	line-height: 1.5;
 	margin: 0 auto;
 	max-width: 40em;
 	padding: 0 1em;
+	background:
+	radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+	radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+	background-color: slategray;
+	background-size:75px 100px;
 }
-input{
-filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
-margin: 10px 0px;
-width:95%;
-height: 2em;
-font-family:monospace;font-weight:500;
+input {
+	filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
+	margin: 10px 0;
+	width: 95%;
+	height: 2em;
+	font-family: monospace;
+	font-weight: 500;
 }
-
-textarea{
-filter: drop-shadow(0.30em 0.30em 0.0em #000);
-margin: 10px 0px;
-width:95%;
-height: 10em;
-font-weight:500;
+textarea {
+	filter: drop-shadow(0.30em 0.30em 0.0em #000);
+	margin: 10px 0;
+	width: 95%;
+	height: 10em;
+	font-weight: 500;
 }
-
-button{
-filter: drop-shadow(0.30em 0.30em 0.0em #000);
-margin: 10px 0px;
-background-color: white;
-height: 3em;
-font-weight:500;
-font-family: monospace;
+button {
+	filter: drop-shadow(0.30em 0.30em 0.0em #000);
+	margin: 10px 0;
+	background-color: white;
+	height: 3em;
+	font-weight: 500;
+	font-family: monospace;
 }
-
-main{
-word-wrap: break-word;
-word-break: normal;
-background-color: white;
-padding: 10px;
-border: 5px solid black;
-margin-bottom: 5em;
-filter: drop-shadow(0.60em 0.60em 0.0em rgb(52,110,163));
-}
-nav ul{
+main {
 	word-wrap: break-word;
 	word-break: normal;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	background-color: white;
+	padding: 10px;
+	border: 5px solid black;
+	margin-bottom: 5em;
+	border-radius: 25px;
 }
-nav li{
-	 display: inline;
+nav ul {
+	word-wrap: break-word;
+	word-break: normal;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
 }
 header h1 {
-background-color: black;
-color: white;
-text-decoration:none;
-padding: 0px 10px;
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
 }
-footer
-{
+footer {
 	text-align: center;
 }
 h1,
@@ -74,7 +76,7 @@ h6 {
 }
 nav a {
 	font-weight: 700;
-	padding: 0px 4px;
+	padding: 0 4px;
 	text-decoration: underline;
 }
 a:link {
@@ -92,20 +94,20 @@ a:active {
 }
 header a:link {
 	color: white;
-text-decoration:none;
+	text-decoration: none;
 }
 header a:visited {
 	color: white;
-text-decoration:none;
+	text-decoration: none;
 }
 header a:focus,
 header a:hover {
 	color: white;
-text-decoration:none;
+	text-decoration: none;
 }
 header a:active {
 	color: white;
-text-decoration:none;
+	text-decoration: none;
 }
 h1 a:empty:before,
 h2 a:empty:before,
@@ -180,22 +182,25 @@ th {
 	text-align: left;
 }
 @media (prefers-color-scheme: dark) {
-body {
-	font-size: 18px;
-    font-family: Verdana;
-    font-weight: 500;
-    background-color: #446f75;
-	color: #fff;
-	line-height: 1.5;
-	margin: 0 auto;
-	max-width: 40em;
-	padding: 0 1em;
-}
+	body {
+		font-size: 18px;
+		font-family: Verdana;
+		font-weight: 500;
+		color: #fff;
+		line-height: 1.5;
+		margin: 0 auto;
+		max-width: 40em;
+		padding: 0 1em;
+		background:
+		radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+		radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+		background-color: slategray;
+		background-size:75px 100px;
 
-main{
-background-color: #222;
-filter: drop-shadow(0.60em 0.60em 0.0em #2c5459);
-}
+	}
+	main {
+		background-color: #222;
+	}
 	nav a {
 		background-color: #212121;
 	}
@@ -275,4 +280,3 @@ filter: drop-shadow(0.60em 0.60em 0.0em #2c5459);
 		column-count: 1;
 	}
 }
-
