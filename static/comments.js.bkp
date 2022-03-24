@@ -28,4 +28,10 @@ var comments = [{"alias": ["Your_Name"], "url": ["/posts/mahabharat/mahabharat_e
 {"alias": ["mxbl"], "url": ["/"], "time": ["Mon Mar 14 2022 18:47:46 GMT 0000 (Coordinated Universal Time)"], "body": ["this is indeed a very nice looking website, great work."]},
 
 {"alias": ["Kaushal"], "url": ["/"], "time": ["Wed Mar 23 2022 13:32:17 GMT 0530 (India Standard Time)"], "body": [" Nice site buddy"]},
+
+{"alias": ["\u8c22\u8c22"], "url": ["/"], "time": ["Fri Mar 25 2022 01:17:50 GMT 0700 ( 07)"], "body": [" \u8c22\u8c22\ud83d\ude4f"]},
+
+{"alias": ["ramram"], "url": ["/posts/blog/getting_old.html"], "time": ["Sat Mar 26 2022 21:59:57 GMT 0530 (India Standard Time)"], "body": ["I want this to end in a brisk of moment, Lucky are those who gets no time to reconcile those memories. My heart breaks even to think about how it's gonna be after I'm gone, maybe it is because of that movie i saw (Ee.Ma.Yau)"]},
+
 ]
+

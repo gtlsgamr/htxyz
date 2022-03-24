@@ -1,4 +1,4 @@
-title="Mahabharat - Episode 26 - Yuvraj Yudhishthir"
+title="Mahabharat - Episode 27 - Yuvraj Yudhishthir"
 date="2022-03-24"
 description="Yudhishthir is crowned as the heir apparent."
 +++ 
