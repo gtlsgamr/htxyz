@@ -24,7 +24,7 @@ Karna is learning under the watchful eye of Parshuram, the same Parshuram who
 we shall meet again when I review Ramayan. He is a legend in Hindu epics, and
 for good reason. 
 
-![Eklavya meets Drona](awd/images/mahabharat/ep_23_2.webp)
+![Eklavya meets Drona](/static/images/mahabharat/ep_23_2.webp)
 
 Speaking of legends, we will now be able to witness one of the most legendary
 performances in Indian TV history by Nitish Bhardwaj. The iconic role of Shri
@@ -41,7 +41,7 @@ Shakuni keeps playing him for ulterior motives. Dhritrashtra chooses to remain
 in the dark because he knows that he is not strong enough to bear the truth. His
 love for his son is stronger than his morality.
 
-![Nitish Bhardwaj as Shri Krishna](awd/images/mahabharat/ep_23_5.webp)
+![Nitish Bhardwaj as Shri Krishna](/static/images/mahabharat/ep_23_5.webp)
 
 Another big topic in this episode was Guru Dakshina. We witness three
 Dakshinas, two to Dronacharya and one to Guru Sandipani. First is obviously by
@@ -58,7 +58,7 @@ Dakshina's are given with different motives. All three are taken with different
 feelings. But in the end, all three are Dakshinas, and a shiksha is not over
 until the student gives his Dakshina. 
 
-![Blind man and the snake in a dark room](awd/images/mahabharat/ep_23_6.webp)
+![Blind man and the snake in a dark room](/static/images/mahabharat/ep_23_6.webp)
 
 In the end, the princes are due to return, and I suspect they will be all grown up
 in the next episode. Everyone is ready to see them display their skill and prowess 

@@ -80,6 +80,6 @@ This brings me to a bhajan of Bajrangbali, that has made it's place in my heart 
 >भरतभाई! कपि से उरिन हम नाही || ५ ||
 
 ***Here is a picture of the gate of Hanuman mandir where I go to pray in my village***
-![Vanar](awd/images/HAN.jpg)
+![Vanar](/static/images/HAN.jpg)
 
 

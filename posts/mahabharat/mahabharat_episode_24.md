@@ -43,9 +43,9 @@ points that I think are worth marking:
   facade to hide the fact that him winning would bring about a storm of chaos
   in Hastinapur, which already very volatile. 
 
-![Yudishthir fights the princes](awd/images/mahabharat/ep_24_1.webp) 
+![Yudishthir fights the princes](/static/images/mahabharat/ep_24_1.webp) 
 
-![Karna and Duryodhan](awd/images/mahabharat/ep_24_3.webp)
+![Karna and Duryodhan](/static/images/mahabharat/ep_24_3.webp)
 
 #### Notable dialogue:
 

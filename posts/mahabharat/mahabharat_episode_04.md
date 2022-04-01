@@ -20,12 +20,12 @@ For all future purposes, I will now be referring to Bhishma as Bhishma beacuse e
 
 Meanwhile, Shantanu, not sure whether to be happy or ashamed, gives a boon of *ichchha mrityu* to Bhishma. It means wishful death. Bhishma cannot die, unless he wishes so himself. Does that boon equate to the sacrifice that Bhishma gave to please his father? I don't think so, but it can be a coping mechanism by Shantanu to console himself that what his son did was not his fault, and he did it as a form of worship to his father. How long will this coping last though? 
 
-![Bhishma and Shantanu](awd/images/mahabharat/ep_4_1.webp)
+![Bhishma and Shantanu](/static/images/mahabharat/ep_4_1.webp)
 
 While watching this episode, I never thought that this is the episode where we will say goodbye to a major character. Shantanu, the Shantanu who was plagued by guilt as much as he was plagued by unfound love, succumbs to death. It is death by grief it seems. Grief caused by bad decisions, by a weak will, and a sense of responsibility to the events that might happen in the future. It is indeed a tragic life that he lived, even though he had everything. A loving wife, an obedient son who worshipped him like a god, and a kingdom that believed in him.
 
 
-![Shantanu says goodbye](awd/images/mahabharat/ep_4_2.webp)
+![Shantanu says goodbye](/static/images/mahabharat/ep_4_2.webp)
 
 **Some notable points:**
 

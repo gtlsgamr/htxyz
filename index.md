@@ -17,17 +17,17 @@ This website is generated using a [script](https://gitlab.com/gtlsgamr/htxyz) th
 generates static html pages from markdown files.
 
 - **Site Navigation**: 
-	* [archives](./posts/archive.html)
-	* [blog](./posts/blog)
-	* [poetry](./posts/poems)
-	* [artwork](./posts/artwork)
-	* [projects](./posts/projects)
-	* [**mahabharat TV show reviews**](./posts/mahabharat)
-	* [list of links worth sharing](./posts/blog/interesting_links.html)
-	* [Collection of quotes from the internet](./static/internet_quotes.txt)
+	* [archives](/posts/archive.html)
+	* [blog](/posts/blog)
+	* [poetry](/posts/poems)
+	* [artwork](/posts/artwork)
+	* [projects](/posts/projects)
+	* [**mahabharat TV show reviews**](/posts/mahabharat)
+	* [list of links worth sharing](/posts/blog/interesting_links.html)
+	* [Collection of quotes from the internet](/static/internet_quotes.txt)
 
 - **Contact**: 
-	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](./static/key.txt)
+	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 	* [Gitlab](https://gitlab.com/gtlsgamr)
 

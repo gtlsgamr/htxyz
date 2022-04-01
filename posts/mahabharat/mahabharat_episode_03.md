@@ -15,7 +15,7 @@ We saw Devvrat destroy a whole army with his divine arrows in the last episode. 
 It might seem like an idiotic thing for a king and his prince to do, but this story is set in a different time. A time when friendship was stronger than familial bonds. A time when vows had more value than one's life. A time when people had honor.
 
 
-![Devvrat is announced future king](awd/images/mahabharat/ep3_1.webp)
+![Devvrat is announced future king](/static/images/mahabharat/ep3_1.webp)
 
 This incident leads to the king announcing Devvrat as heir to the throne. A seat which moves many gears in the wheel of this story.
 
@@ -27,7 +27,7 @@ Shantanu will never learn. Women near rivers are no good for him. It's like we a
 
 Again, Shantanu has some poetic lines when it comes to women he falls in love with. I am planning to make a seperate post about it at some point. 
 
-![Satyavati](awd/images/mahabharat/ep3_2.webp)
+![Satyavati](/static/images/mahabharat/ep3_2.webp)
 
 Shantanu goes to her father *Dashraj* to ask her hand in marriage. After some back to back lines shrouded in vague definitions with her father, Shantanu asks for her hand. Her father reveals that in reality, he knew that Shantanu would come because her kundli predicted her rule over a kingdom. Other than that, Dashraj had one more condition. Satyavati's children should rule the kingdom. Yes, the democratic kingdom of Hastinapur, instead of the heir to the throne. 
 
@@ -41,7 +41,7 @@ Dashraj pulls out another ace. At this point it might seem like Dashraj might ha
 
 He takes a Bhishma Pratigya(terrible vow). A vow of celibacy. 
 
-![Bhishma Pratigya](awd/images/mahabharat/ep3_3.webp)
+![Bhishma Pratigya](/static/images/mahabharat/ep3_3.webp)
 
 Imagine that. A son taking a vow of celibacy just so his dad could get married to a fisherwoman he met a few days ago. Although indirectly, this happened so that Shantanu could stay happy and in turn, the kingdom of Hastinapur could flourish. I truly believe that if Bhishma was given rule over the kingdom, the whole story might have been a happier one.
 

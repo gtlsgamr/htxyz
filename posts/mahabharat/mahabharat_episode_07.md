@@ -43,7 +43,7 @@ kauravas, and brother to Gandhari, who is not so happy about his sister being
 married off to a blind guy. The iconic character is played by Gufi Paintal and
 it shows why the role is considered **iconic**.
 
-![Mama Shakuni](awd/images/mahabharat/ep_7_1.webp)
+![Mama Shakuni](/static/images/mahabharat/ep_7_1.webp)
 
 After doing some research online, I realised that some circles interpret that
 the act of vowing to stay blind her whole life for her husband was not an act
@@ -78,7 +78,7 @@ A thing to note in this episode, is that during Kunti's swayamvar, we come to
 know that she was the daughter of yadu king, and was adopted by Kuntibhoj. This
 makes her an aunt of lord Krishna himself! It was a good episode overall. The speed at which some parts are being skipped is understandable since the source material is too large to fit into a TV show format, but some quality episodes make up for the lack of extensive detailing.
 
-![The child with the golden armor](awd/images/mahabharat/ep_7_2.webp)
+![The child with the golden armor](/static/images/mahabharat/ep_7_2.webp)
 
 
 #### Notable dialogue:

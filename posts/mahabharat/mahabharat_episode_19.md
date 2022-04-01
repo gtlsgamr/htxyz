@@ -20,7 +20,7 @@ heir Yudhishthir.
 
 #### Discussion
 
-![Vyas meets Satyavati](awd/images/mahabharat/ep_19_1.webp)
+![Vyas meets Satyavati](/static/images/mahabharat/ep_19_1.webp)
 
 Maharshi Vyas was trikal gyaani. He knew the past, present and the future. He
 knew what was about to come and how it would shape the future of Bharatvarsh,
@@ -57,13 +57,13 @@ this is a gem of an episode in this series and a must watch.
 
 **Here's to hoping I write more frequently!**
 
-![Satyavati leaves with Amba and Ambalika](awd/images/mahabharat/ep_19_2.webp)
+![Satyavati leaves with Amba and Ambalika](/static/images/mahabharat/ep_19_2.webp)
 
-![Dhritrashtra and his crown](awd/images/mahabharat/ep_19_3.webp)
+![Dhritrashtra and his crown](/static/images/mahabharat/ep_19_3.webp)
 
-![Shakuni conspires against Pandavs](awd/images/mahabharat/ep_19_4.webp)
+![Shakuni conspires against Pandavs](/static/images/mahabharat/ep_19_4.webp)
 
-![Helpless Bhishma asks Vidur for advice](awd/images/mahabharat/ep_19_5.webp)
+![Helpless Bhishma asks Vidur for advice](/static/images/mahabharat/ep_19_5.webp)
 
 #### Notable dialogue:
 

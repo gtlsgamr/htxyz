@@ -40,7 +40,7 @@ to be king.
 
 Little tidbit: Dhritrashtra has such powerful hearing that he can recognize who enters a room just by listening to the footsteps.
 
-![Pandu kills kindama](awd/images/mahabharat/ep_9_1.webp)
+![Pandu kills kindama](/static/images/mahabharat/ep_9_1.webp)
 
 The story of sage Kindama has many variants. In this one they were in human
 form, but in many other versions, they were making love as a deer and a doe and
@@ -62,7 +62,7 @@ few episodes from now will focus less on Hastinapur and more on
 Gokul-Mathura. Shree Krishna's story is starting to unfold. 
 
 
-![The blind king](awd/images/mahabharat/ep_9_2.webp)
+![The blind king](/static/images/mahabharat/ep_9_2.webp)
 
 #### Notable dialogue:
 > Mai darti hoon ki kahin aapko rajmukut ki aadat na pad jaaye.

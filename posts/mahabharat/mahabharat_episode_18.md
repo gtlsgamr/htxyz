@@ -16,7 +16,7 @@ After killing Kansa and fulfilling the prophecy, Krishna frees his biological pa
 
 #### Discussion
 
-![Yashoda learns the truth](awd/images/mahabharat/ep_18_1.webp)
+![Yashoda learns the truth](/static/images/mahabharat/ep_18_1.webp)
 
 This episode, while titled about the death of Pandu focuses on motherhood. What
 makes a mother? Is it the right of giving birth that makes a mother or is it
@@ -40,7 +40,7 @@ actors, it was a very fresh scene from the usual humdrum acting of this show.
 Although it may or may not be shown in the show, Krishna will meet Yashoda once
 again when she is on her death bed.
 
-![Kunti and the Pandavs](awd/images/mahabharat/ep_18_2.webp)
+![Kunti and the Pandavs](/static/images/mahabharat/ep_18_2.webp)
 
 This brings me back to the original topic, what makes a mother, a mother? If we
 say Yashoda, then is Devaki's life spent in the dungeons wasted? Is her love

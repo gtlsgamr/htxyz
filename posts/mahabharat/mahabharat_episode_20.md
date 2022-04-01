@@ -34,7 +34,7 @@ Not much to discuss in this episode, other than a few points that I think are wo
   version of Yudhishthir is also a pansy. He is "too well-mannered", so to
   speak.
 
-![Yudhishthir](awd/images/mahabharat/ep_20_3.webp)
+![Yudhishthir](/static/images/mahabharat/ep_20_3.webp)
 
 - Now talking about the main part of this story, Shakuni is actually the true
   evil. He is the personification of the evils of society, gambling, envy,
@@ -46,14 +46,14 @@ Not much to discuss in this episode, other than a few points that I think are wo
   music!". I truly wish that things could turn out different and the brothers
   lived in peace, but we all know how this turns out. At least some of us do.
 
-![Duryodhan's devious act](awd/images/mahabharat/ep_20_4.webp)
+![Duryodhan's devious act](/static/images/mahabharat/ep_20_4.webp)
 
 - This arc's comic relief is Bheem by a huge margin. Every word that kid speaks
   is comedy gold (by this show's standards) and I hope it stays that way. I
   remember the older Bheem also keeps this streak of humor as the episodes
   progress.
 
-![Bheem in Naglok](awd/images/mahabharat/ep_20_1.webp)
+![Bheem in Naglok](/static/images/mahabharat/ep_20_1.webp)
 
 #### Notable dialogue:
 

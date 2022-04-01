@@ -27,7 +27,7 @@ Kansa, due to misinformation assumes that the child has died.
 
 #### Discussion
 
-![Putana](awd/images/mahabharat/ep_12_1.webp)
+![Putana](/static/images/mahabharat/ep_12_1.webp)
 
 The next few episodes are going to be focused on adventures and childhood of Shri Krishna, so
 do not expect very insightful discussions.
@@ -42,11 +42,11 @@ Some aspects of this story that this show did not touch upon:
 
 Also, shoutout to the grandpa in green! That man has an amazing screen presence! Very energetic and hoping to see more of this guy.
 
-![Grandpa in green](awd/images/mahabharat/ep_12_2.webp)
+![Grandpa in green](/static/images/mahabharat/ep_12_2.webp)
 
 A pained Devaki is seen in the end, taking care of a bundle of clothes(?) as her own child. It is unclear but it is clear that she is in pain, waiting for her child to rescue her from the clutches of demon Kansa.
 
-![Devaki Grieves](awd/images/mahabharat/ep_12_3.webp)
+![Devaki Grieves](/static/images/mahabharat/ep_12_3.webp)
 #### Notable dialogue:
 
 > Yaha ka utsav Mathura ke dwaar khatkhataa rahi thi
