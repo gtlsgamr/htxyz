@@ -166,7 +166,7 @@ navbar(){
 	navlist+="<ul>"
 	for (( i=0;i<${#keyarr[@]};i++ ));
 	do
-		navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a></li>\&nbsp;") ## Create this once, use for all pages
+		navlist+=$(printf "%s" "<li><a href='${valarr[$i]}'>${keyarr[$i]}</a>\&nbsp;</li>") ## Create this once, use for all pages
 	done
 	navlist+='</ul>'
 }
