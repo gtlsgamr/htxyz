@@ -30,7 +30,7 @@ get introduced to Sudama, played by the familiar face of Sumeet Raghavan. It
 took me a while to recognize him but once you do, all you can see is Sahil
 Sarabhai. 
 
-![Sumeet Raghavan as Sudama](/static/images/mahabharat/ep_21_1.webp)
+![Sumeet Raghavan as Sudama](awd/images/mahabharat/ep_21_1.webp)
 
 The chivda story is a close to my heart. Krishna and Sudama are sent to the
 forest to gather firewood and Gurumaa (The wife of Guru) sends with them some
@@ -43,13 +43,13 @@ not we share it with the god, who resides in every one of us. Even if you don't
 share fruits of your labor, only god forgives your acts, like Krishna forgave
 Sudama.  
 
-![Krishna and Sudama](/static/images/mahabharat/ep_21_4.webp)
+![Krishna and Sudama](awd/images/mahabharat/ep_21_4.webp)
 
 In the end we get introduced to a significantly important character, Guru
 Drona. The one who made Arjun who he was, and the one who will be there until
 the end to witness the greatest battle in Bharatvarsh.
 
-![Guru Drona](/static/images/mahabharat/ep_21_2.webp)
+![Guru Drona](awd/images/mahabharat/ep_21_2.webp)
 
 #### Notable dialogue:
 

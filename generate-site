@@ -56,7 +56,7 @@ makepage() {
 		sort -nr -o $tempdates $tempdates   #sorts the index list by date in descending order
 		while IFS=$'\t' read -r date name finpath
 		do
-			printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+			printf  "%s\n\n" "[$name](./$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 		done < $tempdates
 
 		head -n 9 "$tempnames" > "$tempdates" ## ONLY FOR HOMEPAGE WE SHOW MOST RECENT 5 POSTS. HEAD 9 to include blank lines, 
@@ -84,7 +84,7 @@ makepage() {
 		sort -nr -o $tempdates $tempdates  #sorts the index list by date in descending order
 		while IFS=$'\t' read -r date name finpath
 		do
-			printf  "%s\n\n" "[$name](/$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
+			printf  "%s\n\n" "[$name](./$(dirname $finpath)/$(basename "$finpath" | cut -f 1 -d .).html) - &thinsp;$date" >> $tempnames
 		done < $tempdates
 		sed -i "/{{listindex}}/r $tempnames" "$tempsource" ## Actually inserts at listindex pointer with the $tempnames file
 		sed -i "/{{listindex}}/d" "$tempsource" ## deletes the pointer
@@ -98,7 +98,7 @@ makepage() {
 		echo -e "<div id='gallery'>" >> $tempdates 
 		for image in $(find "./static/images/artwork" -type f -not -name "*index*" -not -name "*archive*" -name "*webp" -printf "%f\n")
 		do
-			echo "<a href='"/static/images/artwork/$image"'><image src='"/static/images/thumbs/$image"' alt='"$image"'/></a>" >> $tempdates
+			echo "<a href='"./static/images/artwork/$image"'><image src='"./static/images/thumbs/$image"' alt='"$image"'/></a>" >> $tempdates
 		done
 
 		echo -e "</div>" >> $tempdates 
@@ -180,4 +180,4 @@ do
 	makepage "$file" &
 done
 makerss
-ln -rs ./static ./public/
+rsync -r static public/

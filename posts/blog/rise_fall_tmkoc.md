@@ -11,7 +11,7 @@ over the period of TEN long years, it has simmered down into a hot pile of
 monotonous episodes that are more predictable than the direction of a turtle's 
 movement. 
 
-![Taarak mehta ka ooltah Chashma](/static/images/tmkoc.webp)
+![Taarak mehta ka ooltah Chashma](awd/images/tmkoc.webp)
 
 After rewatching some initial episodes, the stark difference between the old
 TMKOC and the new one is painfully obvious. The old one can be described as a

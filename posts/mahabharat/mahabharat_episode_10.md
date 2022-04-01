@@ -30,7 +30,7 @@ does not have any justification of it's actions other than the fact that it
 just is. Even though on some occasions we see the human side of him, it is
 quickly covered up by his immeasurable cruelty. 
 
-![Kansa](/static/images/mahabharat/ep_10_1.webp)
+![Kansa](awd/images/mahabharat/ep_10_1.webp)
 
 He imprisons the same sister that he just happily married to his best friend
 without second thought. Kansa is comically evil, almost as if he is a satirical
@@ -44,7 +44,7 @@ The past two episodes have been lackluster and I sincerely hope that future
 ones come up to be better than what we got here. It gets hard to squeeze out content
 if there is nothing to squeeze it out of. Maybe I will merge a few episodes if need be.
 
-![Vasudev and Devaki are imprisoned](/static/images/mahabharat/ep_10_2.webp)
+![Vasudev and Devaki are imprisoned](awd/images/mahabharat/ep_10_2.webp)
 
 #### Notable dialogue:
 

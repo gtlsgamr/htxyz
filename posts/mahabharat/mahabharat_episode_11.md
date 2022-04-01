@@ -23,14 +23,14 @@ she can be killed in place of Krishna.
 
 #### Discussion
 
-![The wall of blood](/static/images/mahabharat/ep_11_3.webp)
+![The wall of blood](awd/images/mahabharat/ep_11_3.webp)
 
 Kansa is still ambigiously evil. On one hand he feels remorse for inprisoning his sister and his friend 
 for no good reason. In the next moment he calls for the execution of a sage. The blood curdling screams of Devaki
 were too real. One by one six of her children are killed and see can do nothing to stop it. The "wall of blood" that
 Kansa has so mercilessly created is nothing but salt on her wounds. Unfortunately, the only consolation they have is that the eighth child will be the end of this.
 
-![Divine Intervention](/static/images/mahabharat/ep_11_4.webp)
+![Divine Intervention](awd/images/mahabharat/ep_11_4.webp)
 
 The story of Balram's birth is told in one of the *dohas* that are scattered throughout the series. 
 
@@ -44,7 +44,7 @@ sky speaks of miraculous womb transfer from Devaki to Rohini. In the show it
 has been skipped, possibly due to timing issues. 
 
 
-![Vasudev crosses Yamuna](/static/images/mahabharat/ep_11_1.webp)
+![Vasudev crosses Yamuna](awd/images/mahabharat/ep_11_1.webp)
 
 When Krishna is born, guards fall. The music, the storm everything is just
 perfect. Even the Yamuna crossing scene is shot perfectly. 
@@ -56,7 +56,7 @@ the start of miracles. Krishna leela has just started.
 
 What I have noticed is that these few episodes have a lot less to think about. Hard moral decisions, grey areas between good and evil, they all come once Krishna has grown up. Maybe this has to with innocence of a child. I don't know, but once we go back to Hastinapur this show will be back on track with its moments that make you question your own beliefs. Until then, let's enjoy Krishna-Leela.
 
-![Krishna finds his second home](/static/images/mahabharat/ep_11_2.webp)
+![Krishna finds his second home](awd/images/mahabharat/ep_11_2.webp)
 
 #### Notable dialogue:
 

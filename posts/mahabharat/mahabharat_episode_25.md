@@ -26,7 +26,7 @@ weapon, the Sudarshan Chakra.
   aired. Granted, it feels a bit dated now that we have seen newer, more modern
   cgi effects.
 
-![magic arrows!](/static/images/mahabharat/ep_25_arrow.gif)
+![magic arrows!](awd/images/mahabharat/ep_25_arrow.gif)
 
 - In the final talk with Ashwatthama, Guru Drona explains why he did what he
   did to
@@ -50,11 +50,11 @@ weapon, the Sudarshan Chakra.
   ego trip. While the other (Krishna) treats Sudama as his kin. There is a
   reason Krishna-Sudama friendship is so beloved by all.
 
-![Arjun takes Drupad as hostage](/static/images/mahabharat/ep_25_1.webp)
+![Arjun takes Drupad as hostage](awd/images/mahabharat/ep_25_1.webp)
 
-![Drona mocks Drupad](/static/images/mahabharat/ep_25_2.webp)
+![Drona mocks Drupad](awd/images/mahabharat/ep_25_2.webp)
 
-![Shri Krishna leaves for Mathura](/static/images/mahabharat/ep_25_3.webp)
+![Shri Krishna leaves for Mathura](awd/images/mahabharat/ep_25_3.webp)
 
 #### Notable dialogue:
 

@@ -47,7 +47,7 @@ Kindama. This does not bode well for the future of Hastinapur. A capable king
 wanting to be an ascetic, and an uncapable one wanting to be king? That's a recipe
 for disaster.
 
-![Kunti, Pandu and Madri](/static/images/mahabharat/ep_8_1.webp)
+![Kunti, Pandu and Madri](awd/images/mahabharat/ep_8_1.webp)
 
 Some references might be minor spoilers for first time viewers. Kunti says that
 she doesn't want to play dice anymore. Dice make her anxious for her future,
@@ -71,7 +71,7 @@ before, Mahabharat is a story of tragedy. It is not going to end well for any
 of the characters. Our purpose is to learn lessons from the mistakes of these
 people and learn to live better lives. Until next time!
 
-![Shakuni sows the seeds of greed](/static/images/mahabharat/ep_8_2.webp)
+![Shakuni sows the seeds of greed](awd/images/mahabharat/ep_8_2.webp)
 
 #### Notable dialogue:
 

@@ -18,7 +18,7 @@ He stops her.
 The moment that we waited for arrives, and like most of the stories during that time, this has a link to previous birth. Ganga tells Shantanu how both of them are living out a curse, and how she is freeing those babies from that curse. We get a flashback scene in Lord Indra's heavenly court. The effect of the heavens reflecting on the floor where the apsaras are dancing is so beautiful, I had to do a double take to see how they did it.
 
 
-![Heavenly Skies](/static/images/mahabharat/ep2_2.webp)
+![Heavenly Skies](awd/images/mahabharat/ep2_2.webp)
 
 The cred that the producers get from that scene is lost in the next scene where we see Brahma the creator, with three cardboard heads. I wonder if the special effects were outsourced to different contractors.
 
@@ -31,7 +31,7 @@ Since our king stopped her from killing the child, she asks him to let her keep 
 
 Shantanu, long waiting for Ganga to return, finds two infants abandoned in the forest by a sage.He says it is a blessing by the 'kripa' (blessing) of the sage and takes them in. He names them *kripa* and *kripi*. (more on them later).
 
-![infants](/static/images/mahabharat/ep2_5.webp)
+![infants](awd/images/mahabharat/ep2_5.webp)
 
 Rajguru tells Shantanu to keep the children to fulfill his child-less life. Shantanu gets triggered, telling him he's got a child and Ganga will bring him back (she will, right?) and tells Rajguru to raise them himself. Rajguru is to be blamed for his own downfall. How is he expected to raise two children on his own? We don't know what the poor man earns!
 
@@ -43,7 +43,7 @@ Here we are again, at the banks of Ganga. Shantanu with a bow in his hand, and G
 
 We get to see *Dev-vrat*, the long lost son of Shantanu, a legend in making.
 
-![devvrat](/static/images/mahabharat/ep2_7.webp)
+![devvrat](awd/images/mahabharat/ep2_7.webp)
 
 It is evident by the ***long*** conversation between *Devvrat* and Shantanu that he is a gentleman and a scholar. *Devvrat* was trained well by Guru Vashishth. After testing his son on various philosophical and moral lessons, he is at peace. He knows he finally has someone who can be the heir to the throne. But this is Mahabharat and it is a tragedy, so we can never expect good things to happen can we?
 

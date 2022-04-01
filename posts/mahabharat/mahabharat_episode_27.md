@@ -35,26 +35,26 @@ Yudhishthir displays his excellent decision making skills. You could
 practically hear the pain when he asked Bhishma to blow the conch that will
 crown Yudhishthir as heir-apparent.
 
-![Dhritrashtra crowns Yudhishthir as Yuvraj](/static/images/mahabharat/ep_27_2.webp)
+![Dhritrashtra crowns Yudhishthir as Yuvraj](awd/images/mahabharat/ep_27_2.webp)
 
 Meanwhile on the other front, Rukmani writes a letter to Shri Krishna, asking
 him to rescue her, which is shown in a song format. The song is nice, but it
 gets repetitive after a while. 
 
-![Rukmani and Krishna](/static/images/mahabharat/ep_27_4.webp)
+![Rukmani and Krishna](awd/images/mahabharat/ep_27_4.webp)
 
 Now that Yudhishthir has been crowned heir-apparent, we should see some more
 movement from what I like to call the three musketeers. Duryodhan, Dushasan and
 Karna, lead by MamaShri Shakuni. Karna's belief in making Duryodhan king is
 steadfast as ever, and he will try his very best to fulfill that wish.
 
-![Shakuni, Dushasan, Duryodhan and Karna talk about heir-apparent](/static/images/mahabharat/ep_27_1.webp)
+![Shakuni, Dushasan, Duryodhan and Karna talk about heir-apparent](awd/images/mahabharat/ep_27_1.webp)
 
 We also get to meet a grown up Eklavya, who bears nothing but devotion for his
 Guru Dronacharya. He is now a sidekick of Jarasandh, and tirelessly works for him. 
 That is all for today, lets hope that I can continue this series until the end!
 
-![Eklavya and Rukmi](/static/images/mahabharat/ep_27_3.webp)
+![Eklavya and Rukmi](awd/images/mahabharat/ep_27_3.webp)
 
 <!-- #### Notable dialogue: -->
 

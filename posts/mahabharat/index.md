@@ -29,5 +29,5 @@ riding on the success of the original.**
 {{listindex}}
 
 -----
-![Mahabharat 1988 TV show box cover](/static/images/mahabharat_index.webp)
+![Mahabharat 1988 TV show box cover](awd/images/mahabharat_index.webp)
 

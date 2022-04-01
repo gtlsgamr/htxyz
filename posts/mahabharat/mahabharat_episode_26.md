@@ -22,7 +22,7 @@ is now up to Dhritrashtra to choose who to please, his city.. or his ego.
   Mathura and Jarasandh. One scene worth noting is a horse getting shot by an
   arrow. I hope the stuntman was safe, and the horse as well.
 
-![Horse falls down!](/static/images/mahabharat/ep_26_horse.gif)
+![Horse falls down!](awd/images/mahabharat/ep_26_horse.gif)
 
 - In this episode we witness a rare thing. We get to see Dhritrashtra's spine!
   I think this is the first time that the blind king stood up to Shakuni. When
@@ -38,11 +38,11 @@ is now up to Dhritrashtra to choose who to please, his city.. or his ego.
   not too happy with it, but such is Balram. Whether as an elder to Krishna, or
   a younger to Shri Ram. Always ready for war.
 
-![Krishna uses Sudarshan Chakra Against Jarasandh](/static/images/mahabharat/ep_26_1.webp)
+![Krishna uses Sudarshan Chakra Against Jarasandh](awd/images/mahabharat/ep_26_1.webp)
 
-![Krishna and Balram discuss war](/static/images/mahabharat/ep_26_2.webp)
+![Krishna and Balram discuss war](awd/images/mahabharat/ep_26_2.webp)
 
-![Bhishma tries to change Dhritrashtra's mind, while Shakuni insults him](/static/images/mahabharat/ep_26_3.webp)
+![Bhishma tries to change Dhritrashtra's mind, while Shakuni insults him](awd/images/mahabharat/ep_26_3.webp)
 
 #### Notable dialogue:
 
