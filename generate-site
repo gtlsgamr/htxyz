@@ -180,4 +180,4 @@ do
 	makepage "$file" &
 done
 makerss
-ln -rs ./static ./public/
+rsync -r ./static ./public/
