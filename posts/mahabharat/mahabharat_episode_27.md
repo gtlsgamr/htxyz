@@ -9,7 +9,7 @@ description="Yudhishthir is crowned as the heir apparent."
 #### Synopsis 
 The court meets to name the Heir Apparent to the throne of Hastinapur.
 Jarasandh asks Bheeshmak to invite Shishupal, the Chedi King, to marry his
-daughter Rukmani and make Shishupal his ally. Rukmani sends a letter to Shri Krishna
+daughter Rukmini and make Shishupal his ally. Rukmini sends a letter to Shri Krishna
 whom she loves, to rescue her.
 
 #### Discussion 
@@ -22,13 +22,13 @@ if you usually skip those... you might be clueless in the latter half of the
 episode. 
 
 
-- **Bhishmak**: The king of _Vidarbh_ kingdom and the father of Rukmani. He is
+- **Bhishmak**: The king of _Vidarbh_ kingdom and the father of Rukmini. He is
   friends with Magadh-Naresh Jarasandh. 
-- **Rukmi**: Brother of Rukmani and son of Bhishmak. He wants to marry Rukmani
+- **Rukmi**: Brother of Rukmini and son of Bhishmak. He wants to marry Rukmini
   to his friend Shishupal.
-- **Rukmani**: Daughter of Bhishmak. She loves Shri Krishna and is opposed to
+- **Rukmini**: Daughter of Bhishmak. She loves Shri Krishna and is opposed to
   marrying Shishupal.
-- **Shishupal**: _Chedi_ king. Friend of Rukmi and wants to marry Rukmani.
+- **Shishupal**: _Chedi_ king. Friend of Rukmi and wants to marry Rukmini.
 
 Dhritrashtra takes the safe route and crowns Yudhishthir as heir-apparent after
 Yudhishthir displays his excellent decision making skills. You could
@@ -37,11 +37,11 @@ crown Yudhishthir as heir-apparent.
 
 ![Dhritrashtra crowns Yudhishthir as Yuvraj](/static/images/mahabharat/ep_27_2.webp)
 
-Meanwhile on the other front, Rukmani writes a letter to Shri Krishna, asking
+Meanwhile on the other front, Rukmini writes a letter to Shri Krishna, asking
 him to rescue her, which is shown in a song format. The song is nice, but it
 gets repetitive after a while. 
 
-![Rukmani and Krishna](/static/images/mahabharat/ep_27_4.webp)
+![Rukmini and Krishna](/static/images/mahabharat/ep_27_4.webp)
 
 Now that Yudhishthir has been crowned heir-apparent, we should see some more
 movement from what I like to call the three musketeers. Duryodhan, Dushasan and
