@@ -7,11 +7,7 @@ body {
 	margin: 0 auto;
 	max-width: 40em;
 	padding: 0 1em;
-	background:
-	radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
-	radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
-	background-color: #d47d28;
-	background-size:75px 100px;
+	background: #f8f8ff;
 }
 input {
 	filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
@@ -41,7 +37,7 @@ main {
 	word-break: normal;
 	background-color: white;
 	padding: 10px;
-	border: 5px solid black;
+	border: 2px solid black;
 	margin-bottom: 5em;
 	border-radius: 25px;
 }
@@ -191,11 +187,7 @@ th {
 		margin: 0 auto;
 		max-width: 40em;
 		padding: 0 1em;
-		background:
-		radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
-		radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
 		background-color: #252c3f;
-		background-size:75px 100px;
 
 	}
 	main {
