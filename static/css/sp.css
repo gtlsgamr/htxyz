@@ -7,8 +7,7 @@ body {
 	margin: 0 auto;
 	max-width: 40em;
 	padding: 0 1em;
-	background-color: #fff;
-    background-image: url(/static/images/45degreee_fabric.webp);
+	background-color: #f7f7f7;
 }
 input {
 	filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
@@ -36,10 +35,8 @@ button {
 main {
 	word-wrap: break-word;
 	word-break: normal;
-	background-color: white;
 	padding: 10px;
 	margin-bottom: 5em;
-	filter: drop-shadow(10px 10px #000);
 }
 nav ul {
 	word-wrap: break-word;
@@ -52,8 +49,7 @@ nav li {
 	display: inline;
 }
 header h1 {
-	background-color: black;
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding: 0 10px;
 }
@@ -75,33 +71,34 @@ nav a {
 	text-decoration: underline;
 }
 a:link {
-	color: #00e;
+	color: #457ab7;
 }
 a:visited {
-	color: #518;
+	color: #7f79ce;
 }
 a:focus,
 a:hover {
-	color: #03f;
+	color: #3c6593;
 }
 a:active {
-	color: #e00;
+	font-size:135%;
+	text-decoration:underline;
 }
 header a:link {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 header a:visited {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 header a:focus,
 header a:hover {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 header a:active {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 h1 a:empty:before,
@@ -143,7 +140,7 @@ code,
 kbd,
 pre,
 samp {
-	color: #009;
+	color: #ea4f41;
 	font-family: monospace, monospace;
 }
 pre kbd {
@@ -181,34 +178,27 @@ th {
 		font-size: 18px;
 		font-family: Verdana;
 		font-weight: 500;
-		color: #fff;
+		color: #eee;
 		line-height: 1.5;
 		margin: 0 auto;
 		max-width: 40em;
 		padding: 0 1em;
-		background-color: hsl(206deg 11% 31%);
-    	background-blend-mode: color-burn;
-    	background-image: url(/static/images/45degreee_fabric.png);
+		background-color: #111e28;
 
 	}
-	main {
-		background-color: #222;
-	}
-	nav a {
-		background-color: #212121;
-	}
 	a:link {
-		color: #9bf;
+		color: #519667;
 	}
 	a:visited {
-		color: #caf;
+		color: #4b9170;
 	}
 	a:focus,
 	a:hover {
-		color: #9cf;
+		color: #6ac486;
 	}
 	a:active {
-		color: #faa;
+		font-size:135%;
+		text-decoration:underline;
 	}
 	code,
 	kbd,
@@ -221,15 +211,26 @@ th {
 	}
 	blockquote,
 	pre {
-		background: #000;
+		background: #24323d;
 	}
 	blockquote {
-		border-color: #333;
+		border-color: #24323d;
 	}
 	td,
 	th {
 		border-color: #666;
 	}
+	textarea, input, button{
+		background-color:#4a4b4c;
+		color:#cccdce;
+		filter: drop-shadow(0.30em 0.30em 0.0em #000);
+	}
+header a:link ,header a:visited ,header a:focus,
+header a:hover ,header a:active {
+	color: #eee;
+	text-decoration: none;
+}
+	
 }
 #gallery {
 	line-height: 0;
