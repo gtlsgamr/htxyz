@@ -7,7 +7,8 @@ body {
 	margin: 0 auto;
 	max-width: 40em;
 	padding: 0 1em;
-	background: #f8f8ff;
+	background-color: #fff;
+    background-image: url(/static/images/45degreee_fabric.webp);
 }
 input {
 	filter: drop-shadow(0.30em 0.30em 0.0em rgb(0,0,0));
@@ -37,9 +38,8 @@ main {
 	word-break: normal;
 	background-color: white;
 	padding: 10px;
-	border: 2px solid black;
 	margin-bottom: 5em;
-	border-radius: 25px;
+	filter: drop-shadow(10px 10px #000);
 }
 nav ul {
 	word-wrap: break-word;
@@ -186,7 +186,9 @@ th {
 		margin: 0 auto;
 		max-width: 40em;
 		padding: 0 1em;
-		background-color: #252c3f;
+		background-color: hsl(206deg 11% 31%);
+    	background-blend-mode: color-burn;
+    	background-image: url(/static/images/45degreee_fabric.png);
 
 	}
 	main {
