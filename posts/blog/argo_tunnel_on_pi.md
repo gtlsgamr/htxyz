@@ -1,9 +1,7 @@
-title="[Development] Setting up Cloudflare Argo Tunnel on Raspberry Pi"
+title="Setting up Cloudflare Argo Tunnel on Raspberry Pi"
 description="Quick tutorial to setting up argo tunnel to host your website locally from your Raspberry Pi"
 date="2021-12-08"
 +++
-### Setting up Cloudflare Argo Tunnel on my Raspberry Pi
-
 This is a way to set up cloudflare argo tunnel on your Raspberry Pi to host your own webserver without port forwarding.
 
 ##### KEEP IN MIND THAT THIS IS NOT RECOMMENDED FOR SENSITIVE DATA AS IT WILL BE PASSING THROUGH CLOUDFLARE SERVERS.

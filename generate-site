@@ -43,7 +43,6 @@ makepage() {
 	## If it is home page, remove the <hr tag at the beginning and display most recent 5 posts
 	if grep -q "homepagepointer" "$tempsource"
 	then
-		sed -i '/<hr/d' "$tempfile"
 		sed -i '/<h3 /d' "$tempfile"
 		for path in $(find "$pathname" -type f -not -name "*index*" -not -name "*archive*" -name "*md" | sed "s|^\./||")
 		do
@@ -71,7 +70,6 @@ makepage() {
 	## Check if there is index in other pages, if there, form it.
 	if  grep -q "{{listindex}}" $tempsource
 	then
-		sed -i '/<hr/d' "$tempfile"
 		sed -i '/<h3 /d' "$tempfile"
 		for path in $(find "$pathname" -type f -not -name "*index*" -not -name "*archive*" -name "*md" | sed "s|^\./||")
 		do
