@@ -1,6 +1,6 @@
 title="Setting up znc with a subdomain using NGINX"
 description="Quick tutorial on setting up ZNC - IRC bouncer with an nginx reverse proxy"
-date="2022-16-09"
+date="2022-06-10"
 +++
 This post covers ubuntu/debian and systemd based operating systems. Although
 minor differences may exist, similar principle can be applied to other systems
