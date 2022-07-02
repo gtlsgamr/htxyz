@@ -239,6 +239,19 @@ th {
         color: #eee;
         text-decoration: none;
     }
+main {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 15px;
+    background-color: #0d1214;
+	word-wrap: break-word;
+	word-break: normal;
+	padding: 10px;
+	margin-bottom: 5em;
+}
+main:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 }
 #gallery {
     line-height: 0;
@@ -282,4 +295,3 @@ th {
         column-count: 1;
     }
 }
-</style>
