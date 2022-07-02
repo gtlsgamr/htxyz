@@ -55,8 +55,9 @@ website to Gemini soon, so stay tuned for that!
 I have shared some sites below for further reference. See you in space!
 
 References
-* [Gemini FAQ](https://gemini.circumlunar.space/docs/faq.html)
-* [Gemini Quickstart Guide](http://geminiquickst.art/)
+
+- [Gemini FAQ](https://gemini.circumlunar.space/docs/faq.html)
+- [Gemini Quickstart Guide](http://geminiquickst.art/)
 
 Some Gemini sites (credits to respective owners): 
 
