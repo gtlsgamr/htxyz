@@ -29,7 +29,7 @@ generates static html pages from markdown files.
 - **Contact**: 
 	* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
 	* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
-	* [Gitlab](https://gitlab.com/gtlsgamr)
+	* [Git](https://git.hitarththummar.xyz), [Gitlab](https://gitlab.com/gtlsgamr)
 
 >'What is sorrow?' 'To long for the past.'
 
