@@ -59,6 +59,8 @@ I don′t care 'cause all my friends are gonna be there<br>
 Everybody come and play<br>
 Throw every last care away<br>
 Let′s go to the mall, today<br>
-`]}
+`]},
 
+
+{alias: [`ᓚᘏᗢ`], url: [`/`], time: [`Sun Jul 03 2022 19:48:27 GMT+0530 (India Standard Time)`], body: [`Nice CSS Buddy. 😍`]}
 ]
