@@ -25,19 +25,19 @@
 		var url = window.location.pathname;
 		var commentslist = document.getElementById("solution");
 		commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
-		for(let i=0;i<comments.length;i++){
-			if(comments[i].url== url){
+			comments.forEach(value => {
+			if(value.url== url){
 				var txt = `
 				<div>
-					<small>	<b>${comments[i].alias}</b>&nbsp;
-						${comments[i].time}</small>
+					<small>	<b>${value.alias}</b>&nbsp;
+						${value.time}</small>
 				<br>
 				<div>
-					${comments[i].body}				</div>
+					${value.body}				</div>
 				</div>`;
 				commentslist.insertAdjacentHTML("beforeend",txt);
 			}
-		}
+		})
 	}
 window.onload = displaycomments();
 </script>
