@@ -67,4 +67,10 @@ Let′s go to the mall, today<br>
 {alias: [`Monkey Typr`], url: [`/posts/blog/interesting_links.html`], time: [`Thu Jul 07 2022 13:40:38 GMT+0530 (India Standard Time)`], body: [`The 10 finger technique is a really well-known technique for using your computer keyboard successfully. You can type "blindly" on the keyboard with a few methods as well as the right finger settings. If you have less, you can dramatically reduce your error rate as well as speed up your typing. You can also increase your typing speed. Typing speed with monkey type tool. https://monkey-type.org
 `]},
 
+{alias: [`hello`], url: [`/`], time: [`Mon Jul 18 2022 10:43:13 GMT+0530 (India Standard Time)`], body: [`helo from idewa`]},
+
+{alias: [`theo`], url: [`/posts/blog/getting_old.html`], time: [`Wed Jul 20 2022 23:31:19 GMT+0530 (India Standard Time)`], body: [`my thoughts exactly, but written more beautifully. i always tell my parents that i want to die like abdul kalam, to just faint and die while doing something i love and enjoy. just lose conscience, falter down, die in an instant. no regrets. no second thoughts. no being a burden to anyone.`]},
+
+	{alias: [`theo`], url: [`/`], time: [`Wed Jul 20 2022 23:34:47 GMT+0530 (India Standard Time)`], body: [`ayo, this website is so elegant and good looking! the font, the colorscheme! and your blogs and poetry are so beautifully written! umm, how do i say this, but it feels so comforting to read something this good! keep up the good work, sir! love from kerala! <br> <b>> Hitarth:</b> Thanks a lot theo. It feels good to be appreciated.`]},
+
 ]

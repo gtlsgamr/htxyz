@@ -96,9 +96,6 @@ header a:link {
 	color: #000;
 	text-decoration: none;
 }
-header h1{
-	text-decoration: underline wavy #3e8495;
-}
 header a:visited {
 	color: #000;
 	text-decoration: none;
@@ -239,6 +236,9 @@ th {
 	td,
 	th {
 		border-color: #666;
+	}
+	header h1{
+		text-decoration: underline wavy #3e8495;
 	}
 	button,
 	input,
