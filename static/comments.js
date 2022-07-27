@@ -71,6 +71,10 @@ Let′s go to the mall, today<br>
 
 {alias: [`theo`], url: [`/posts/blog/getting_old.html`], time: [`Wed Jul 20 2022 23:31:19 GMT+0530 (India Standard Time)`], body: [`my thoughts exactly, but written more beautifully. i always tell my parents that i want to die like abdul kalam, to just faint and die while doing something i love and enjoy. just lose conscience, falter down, die in an instant. no regrets. no second thoughts. no being a burden to anyone.`]},
 
-	{alias: [`theo`], url: [`/`], time: [`Wed Jul 20 2022 23:34:47 GMT+0530 (India Standard Time)`], body: [`ayo, this website is so elegant and good looking! the font, the colorscheme! and your blogs and poetry are so beautifully written! umm, how do i say this, but it feels so comforting to read something this good! keep up the good work, sir! love from kerala! <br> <b>> Hitarth:</b> Thanks a lot theo. It feels good to be appreciated.`]},
+{alias: [`theo`], url: [`/`], time: [`Wed Jul 20 2022 23:34:47 GMT+0530 (India Standard Time)`], body: [`ayo, this website is so elegant and good looking! the font, the colorscheme! and your blogs and poetry are so beautifully written! umm, how do i say this, but it feels so comforting to read something this good! keep up the good work, sir! love from kerala! <br> <b>> Hitarth:</b> Thanks a lot theo. It feels good to be appreciated.`]},
+
+{alias: [`Abhay `], url: [`/posts/poems/Maa.html`], time: [`Sun Jul 24 2022 16:03:05 GMT+0530 (India Standard Time)`], body: [`Accha hai bro`]},
+
+{alias: [`anon`], url: [`/posts/blog/malls.html`], time: [`Mon Jul 25 2022 07:50:12 GMT+0530 (India Standard Time)`], body: [`time in the world.`]},
 
 ]
