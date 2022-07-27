@@ -50,7 +50,7 @@ nav ul{
 	display:flex;
 	flex-shrink: 0;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	margin: 0;
 	padding: 0;
@@ -74,7 +74,6 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 1.25em 0 0.5em;
 	line-height: 1.2;
 }
 nav a {
