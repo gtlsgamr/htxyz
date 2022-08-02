@@ -14,7 +14,7 @@ I write reviews for old Indian TV shows
 from time to time.
 
 Currently I am working on Mahabharat(1988). 
-This website is made using a [script](https://gitlab.com/gtlsgamr/htxyz) that
+This website is made using a [script](https://git.hitarththummar.xyz/htxyz/about/) that
 generates static html pages from markdown files.
 
 ### Site Navigation

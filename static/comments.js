@@ -77,4 +77,6 @@ Let′s go to the mall, today<br>
 
 {alias: [`anon`], url: [`/posts/blog/malls.html`], time: [`Mon Jul 25 2022 07:50:12 GMT+0530 (India Standard Time)`], body: [`time in the world.`]},
 
+	{alias: [`nvpie`], url: [`/`], time: [`Thu Jul 28 2022 11:24:59 GMT+0530 (India Standard Time)`], body: [`nice color scheme but in android it still old white 🤔<br> <blockquote>> It is based on device colorscheme. If your phone has darkmode on it will show the dark scheme. </blockquote>`]},
+
 ]

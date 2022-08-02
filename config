@@ -1,6 +1,6 @@
 sitetitle="ht's website."
 subtitle="y? zxht?"
-navkeys="home,about,projects,blog,artwork,poetry"
-navvals="/,/about.html,/posts/projects,/posts/blog,/posts/artwork,/posts/poems"
+navkeys="home,projects,blog,artwork,poetry"
+navvals="/,/posts/projects,/posts/blog,/posts/artwork,/posts/poems"
 sitename="ht.xyz"
 footer="Copyright © 2022 - Hitarth Thummar"
