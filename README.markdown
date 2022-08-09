@@ -1,10 +1,10 @@
 # ht.xyz
 
-This is my website [ht.xyz](https://hitarththummar.xyz), which uses a custom shell script
-to generate pages.
+This is my website [ht.xyz](https://hitarththummar.xyz), which uses a custom
+shell script to generate pages.
 
-There are no "categories" and "tags" on my website because I
-don't need them. You will need the
+There are no "categories" and "tags" on my website because I don't need them.
+You will need the
 [discount](https://www.pell.portland.or.us/~orc/Code/discount/) package to make
 this script work if you plan to modify this for your own use. You can always
 replace the `markdown` command in the script with pandoc or the likes, but it
@@ -16,11 +16,11 @@ define various variables within each page that are replaced by the script. The
 fourth line is just a visual seperator and can be anything, since it won't be
 used anyway. 
 
-You can write the posts/pages in standard markdown format and they
-will be converted to html. For pages that act as index pages to sub-folders, a
+You can write the posts/pages in standard markdown format and they will be
+converted to html. For pages that act as index pages to sub-folders, a
 `{{listindex}}` pointer has been added. Just add that anywhere in the index
-page within a comment and a date-wise sorted list of the posts in that particular folder will be
-shown there.
+page within a comment and a date-wise sorted list of the posts in that
+particular folder will be shown there.
 
 The `config` file contains some standard site metadata that you may or may not
 want to change.

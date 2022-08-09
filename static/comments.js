@@ -79,4 +79,7 @@ Let′s go to the mall, today<br>
 
 	{alias: [`nvpie`], url: [`/`], time: [`Thu Jul 28 2022 11:24:59 GMT+0530 (India Standard Time)`], body: [`nice color scheme but in android it still old white 🤔<br> <blockquote>> It is based on device colorscheme. If your phone has darkmode on it will show the dark scheme. </blockquote>`]},
 
+
+{alias: [`jb`], url: [`/`], time: [`Tue Aug 09 2022 13:34:14 GMT+0530 (India Standard Time)`], body: [`noice!`]},
+
 ]

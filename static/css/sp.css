@@ -1,6 +1,6 @@
 body {
 	font-size: 1em;
-	font-family: opensans, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
 	color: #333;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -11,7 +11,7 @@ body {
 input {
 	margin: 10px 0;
 	width: 95%;
-	font-family:opensans,sans-serif;
+	font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
 	height: 2em;
 	outline:none;
 }
@@ -24,7 +24,7 @@ textarea {
 button {
 	margin: 10px 0;
 	outline:none;
-	font-family:opensans,sans-serif;
+	font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
 	background-color: #fff;
 	height: 3em;
 }
@@ -32,6 +32,7 @@ main {
 	word-wrap: break-word;
 	word-break: normal;
 	margin-bottom: 5em;
+	line-height: 1.5;
 }
 nav ul{
 	display:flex;
@@ -137,7 +138,11 @@ pre {
 	overflow: auto;
 }
 blockquote {
+	background:#fff;
 	border-left: medium solid #ccc;
+	padding: 0.5em 0.5em;
+	font-style:italic;
+	font-family:serif;
 	margin: 1em 0;
 }
 blockquote:first-child {
@@ -190,7 +195,7 @@ th {
 	}
 	blockquote {
 		border-color: #d8d8d8;
-		background:#24323d;
+		background-color:#141414;
 	}
 	td,
 	th {
