@@ -25,23 +25,24 @@
 	function displaycomments(){
 		var url = window.location.pathname;
 		var commentslist = document.getElementById("solution");
-			if(comments){
-				commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
-				comments.forEach(value => {
-				if(value.url== url){
-					var txt = `
-					<div>
-						<small>	<b>${value.alias}</b>&nbsp;
-							${value.time}</small>
-					<br>
-					<div>
-						${value.body}				</div>
-					</div>`;
-				commentslist.insertAdjacentHTML("beforeend",txt);
-			}
-		})
+			const current_comments = comments.filter(c=>c.url===url)
+			if(current_comments.length>0){
+					commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
+					comments.forEach(value => {
+							if(value.url== url){
+									var txt = `
+										   <div>
+										   <small>	<b>${value.alias}</b>&nbsp;
+										   ${value.time}</small>
+										   <br>
+										   <div>
+										   ${value.body}				</div>
+										   </div>`;
+									commentslist.insertAdjacentHTML("beforeend",txt);
+								}
+						})
 				}
-	}
+		}
 window.onload = displaycomments();
 </script>
 <footer>
