@@ -1,6 +1,6 @@
 body {
 	font-size: 1em;
-	font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
+	font-family: sans-serif;
 	color: #333;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -11,7 +11,7 @@ body {
 input {
 	margin: 10px 0;
 	width: 95%;
-	font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
+	font-family:sans-serif;
 	height: 2em;
 	outline:none;
 }
@@ -24,7 +24,7 @@ textarea {
 button {
 	margin: 10px 0;
 	outline:none;
-	font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,    "Helvetica Neue", sans-serif;
+	font-family:sans-serif;
 	background-color: #fff;
 	height: 3em;
 }
