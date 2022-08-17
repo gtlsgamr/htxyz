@@ -5,19 +5,74 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{{title}} - {{sitetitle}}</title>
+		<title>$title$ - $sitetitle$</title>
 		<link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon.ico">
-		<meta name="description" content="{{description}}">
+		<meta name="description" content="$description$">
+		<meta name="description" content="$description$">
 <link rel="stylesheet" type="text/css" href="/static/css/sp.css"/>
 	</head>
 	<body>
 		<header>
-			<h1><a href="/">{{sitename}}</a></h1>
-		</header>
-		<main>
+			<h1><a href="/">$sitename$</a></h1>
 			<nav>
-				{{nav}}
+				$navbar$
 			</nav>
 			<hr>
-			<h3 id='articletitle'>{{title}}</h3>
-			{{date}}
+		</header>
+		<main>
+			<h3 id='articletitle'>$title$</h3>
+			<small>$date$</small>
+			$mdtext$
+			
+<form name="comments" id='formcomments' method='POST' action='/cgi-bin/addcomment.cgi'>
+	<div><h3>Post a Comment</h3></div>
+	<div>
+		<input type="text" class='comment-field' name="alias" placeholder="Your Alias"  id="alias" required />
+		<input type="hidden" id='texturl'  name="url"/>
+		<input type="hidden" id='textdate' name="time"/>
+	</div>
+	<div>
+		<textarea maxlength=500 name="body" placeholder="Enter your comment here (Max 500 words)"  id="comment" required ></textarea>
+	</div><div>    
+		<button type="button" onclick="tesubmit()"  id="comment-button">Comment</button>
+	</div>
+</form>
+<div id='solution' class='commentslist'></div>
+<script src="/static/comments.js"></script>
+<script>
+	function tesubmit(){
+		document.getElementById('texturl').setAttribute('value',window.location.pathname);
+		document.getElementById('texturl').value = window.location.pathname;
+		document.getElementById('textdate').setAttribute('value',new Date().toString());
+		document.getElementById('formcomments').submit();
+	}
+
+	function displaycomments(){
+		var url = window.location.pathname;
+		var commentslist = document.getElementById("solution");
+			const current_comments = comments.filter(c=>c.url[0]===url)
+			if(current_comments.length>0){
+					commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
+					comments.forEach(value => {
+							if(value.url[0]== url){
+									var txt = `
+										   <div>
+										   <small>	<b>${value.alias[0]}</b>&nbsp;
+										   ${value.time[0]}</small>
+										   <br>
+										   <div>
+										   ${value.body[0]}				</div>
+										   </div>`;
+									commentslist.insertAdjacentHTML("beforeend",txt);
+								}
+						})
+				}
+		}
+window.onload = displaycomments();
+</script>
+</main>
+<footer>
+	$footer$ <br> <a href="/rss.xml">Subscribe via RSS</a>
+</footer>
+</body>
+</html>

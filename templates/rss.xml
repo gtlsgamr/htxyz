@@ -4,6 +4,6 @@
 		<title>ht.xyz</title>
 		<link>https://www.hitarththummar.xyz</link>
 		<description>Hitarth Thummar's personal webspace.</description>
-			{{rssfeed}}
+			$rssfeed$
 	</channel>
 </rss>
