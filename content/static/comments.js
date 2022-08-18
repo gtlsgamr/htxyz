@@ -14,7 +14,7 @@ var comments = [{"alias":["Your_Name"], "url":["/mahabharat/mahabharat_episode_2
 
 {"alias":["neovoid"], "url":["/"], "time":["Fri Mar 04 2022 20:20:45 GMT 0530 (India Standard Time)"], "body":[" whoa :0 Nice comments engine. "]},
 
-{"alias":["neovoid"], "url":["/artwork/"], "time":["Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)"], "body":[" amazing artworks. Loved em. "]},
+{"alias":["neovoid"], "url":["/artwork"], "time":["Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)"], "body":[" amazing artworks. Loved em. "]},
 
 {"alias":["relejek"], "url":["/"], "time":["Tue Mar 08 2022 01:01:54 GMT 0530 (India Standard Time)"], "body":[" wow! seems like you've made this comment feature work finnaly. great job dost."]},
 
@@ -38,7 +38,7 @@ var comments = [{"alias":["Your_Name"], "url":["/mahabharat/mahabharat_episode_2
 
 {"alias":["narendranath344"], "url":["/"], "time":["Tue Mar 29 2022 16:54:02 GMT 0530 (India Standard Time)"], "body":[" This CSS looks good"]},
 
-{'alias':['Theboywhoforgothismatrixpassword'], 'url': ['/blog/getting_old'], 'time': ['Tue Apr 12 2022 16:44:46 GMT+0530 (India Standard Time)'], 'body': ["Don't be doomer and inhale copium, i suggest you ask your grandparents about what they thought when they were your age, just enjoy life for now and hope that mangoes you planted ,hopefully will be enjoyed by you and your future generations .<br>(Ps which font is used in comment box ?)"]},
+{'alias':['Theboywhoforgothismatrixpassword'], 'url': '/blog/getting_old', 'time': 'Tue Apr 12 2022 16:44:46 GMT+0530 (India Standard Time)', 'body': "Don't be doomer and inhale copium, i suggest you ask your grandparents about what they thought when they were your age, just enjoy life for now and hope that mangoes you planted ,hopefully will be enjoyed by you and your future generations .<br>(Ps which font is used in comment box ?)"},
 
 {alias: [`anon`], url: [`/blog/malls`], time: [`Mon Jun 20 2022 21:49:06 GMT+0530 (India Standard Time)`], body: [`good`]},
 
@@ -87,4 +87,9 @@ Let′s go to the mall, today<br>
 
 {alias: [`someone`], url: [`/projects/commenting_engine`], time: [`Mon Aug 15 2022 19:46:00 GMT+0000 (Coordinated Universal Time)`], body: [`Oh hi! It seems to work! Nice!`]},
 
+{alias: [`cmccabe`], url: [`/`], time: [`Wed Aug 17 2022 06:24:07 GMT-0400 (Eastern Daylight Time)`], body: [`Hey hitarth. Nice website!`]},
+
+{alias: [`pystardust`], url: [`/`], time: [`Thu Aug 18 2022 03:12:58 GMT+0530 (India Standard Time)`], body: [`awesome, keep doing your thing buddy`]},
+
+{alias: [`Mudskipper875`], url: [`/blog/phase_two_digital_detox`], time: [`Thu Aug 18 2022 08:04:49 GMT+0530 (India Standard Time)`], body: [`You should also try a minimal launcher like olauncher. It's like dmenu for your phone. No distracting app icons or widgets on your home screen.`]},
 ]

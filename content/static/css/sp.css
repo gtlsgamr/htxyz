@@ -1,6 +1,6 @@
 body {
-	font-size: 1.05em;
-	font-family: sans-serif;
+	font-size: 1.1em;
+	font-family: -apple-system,BlinkMacSystemFont,sans-serif;
 	color: #333;
 	margin: 0 auto;
 	max-width: 40em;
@@ -14,24 +14,27 @@ input {
 	height: 2em;
 	outline:none;
 }
+button {
+	align-items: center;
+	padding: 6px 14px;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	border-radius: 6px;
+	color: #3D3D3D;
+	background: #f2f2f2;
+	border: none;
+	box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+}
 textarea {
 	margin: 10px 0;
 	width: 95%;
 	height: 10em;
 	outline:none;
 }
-button {
-	margin: 10px 0;
-	outline:none;
-	font-family:sans-serif;
-	background-color: #fff;
-	height: 3em;
-}
 main {
 	word-wrap: break-word;
 	word-break: normal;
 	margin-bottom: 5em;
-	line-height: 1.25;
+	line-height: 1.5;
 }
 nav ul{
 	display:flex;
@@ -164,9 +167,8 @@ th {
 #solution div div {
 	padding: 0.3em;
 	margin: 0.5em;
-	background: #f4f4f4;
-	font-family:monospace,sans-serif;
 	font-size:0.9em;
+	font-family:monospace;
 	line-height:1.5em;
 }
 @media (prefers-color-scheme:dark) {
@@ -183,6 +185,10 @@ th {
 	a:focus,
 	a:hover {
 		color: #b0dffb;
+	}
+	button{
+		color:#fff;
+		background:#3d3d3d;
 	}
 	samp,
 	code,
@@ -212,16 +218,16 @@ th {
 		border:none;
 		outline:none;
 	}
-	header a:active,
-	header a:focus,
-	header a:hover,
-	header a:link,
-	header a:visited {
+	header h1 a:active,
+	header h1 a:focus,
+	header h1 a:hover,
+	header h1 a:link,
+	header h1 a:visited {
 		color: #eee;
 		text-decoration: none;
 	}
 	#solution div div {
-		background: #262626;
+		background: #141414;
 	}
 }
 #gallery {

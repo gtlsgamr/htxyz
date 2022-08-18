@@ -24,6 +24,7 @@ This is a list of links that I keep and update regularly. It might be of use to 
 
 #### Other Stuff worth mentioning
 
+- [https://nosignup.tools/](https://nosignup.tools) | A collection of tools that don't require sign ups
 - [https://www.redditdiscuss.com/](https://www.redditdiscuss.com/) | A place to find reddit discussions of episodes and TV series
 - [http://68k.news/index.php?section=nation&loc=IN](http://68k.news/index.php?section=nation&loc=IN) | **Headlines from the future** HTML no bullshit news site
 - [https://textfiles.com](https://textfiles.com) | **HUGE** Collection of text files
