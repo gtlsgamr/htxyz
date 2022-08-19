@@ -15,8 +15,8 @@ sitetitle = "ht's website."
 sitename = "ht.xyz"
 siteurl = "https://hitarththummar.xyz"
 footer = "Copyright © 2022 - Hitarth Thummar"
-css = compress(open(CSS_FILE,'r').read())
-sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer,"css":css}
+css = compress(open(CSS_FILE, "r").read())
+sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer, "css": css}
 NAV_BAR_VALUES = {
     "home": "/",
     "projects": "/projects",
@@ -62,8 +62,9 @@ def generate_layout(var):
 
 
 init_dir_structure()
-sitevars['navbar'] = gen_navbar(NAV_BAR_VALUES)
+sitevars["navbar"] = gen_navbar(NAV_BAR_VALUES)
 master_layout = generate_layout(sitevars)
+
 
 def get_sorted_index(path):
     """
@@ -99,31 +100,32 @@ def read_vars(text):
         v = textarr[i].split("=")
         variables[v[0]] = v[1].replace('"', "")
         i += 1
-    text = "\n".join(textarr[i + 1 :])  # This gives the text without the front matter
+    text = "\n".join(textarr[i + 1:])  # This gives the text without the front matter
     return variables, text
 
 
 def generate_home_page():
     """
-    special function to generate the home page because we only want to show the first five items
+    special function to generate the home page because we only want to show the
+    first five items
     """
     homepage = os.path.join(CONTENT_DIR, "home.md")
 
-    variables , markdowntext = read_vars(open(homepage,'r').read())
+    variables, markdowntext = read_vars(open(homepage, "r").read())
     htmltext = markdown.markdown(markdowntext)
-    layout = master_layout.replace("<h3 id='articletitle'>$title$</h3>", "")  ## if it is the home page, remove the title and date, edge case
+    layout = master_layout.replace(
+        "<h3 id='articletitle'>$title$</h3>", ""
+    )  # if it is the home page, remove the title and date, edge case
     layout = layout.replace("<small>$date$</small>", "")
 
     template = Template(layout)
-    layout = template.safe_substitute({"mdtext":htmltext}, **variables) 
+    layout = template.safe_substitute({"mdtext": htmltext}, **variables)
 
     homeindex = ""
     index_dict = get_sorted_index(CONTENT_DIR)
     for i in index_dict[0:5]:
-        htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
-        homeindex += (
-            f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
-        )
+        htmllink = "/".join(i[0].replace(".md", ".html").split("/")[2:])
+        homeindex += f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
     layout = layout.replace(f"$listindex$", homeindex)
 
     with open(os.path.join(PUBLIC_DIR, "index.html"), "w") as f:
@@ -138,11 +140,11 @@ def generate_page(path):
         generate_home_page()
         return
 
-    variables, markdowntext = read_vars(open(path,'r').read())
+    variables, markdowntext = read_vars(open(path, "r").read())
     htmltext = markdown.markdown(markdowntext)
 
     template = Template(layout)
-    layout = template.safe_substitute({"mdtext":htmltext}, **variables) 
+    layout = template.safe_substitute({"mdtext": htmltext}, **variables)
 
     ## if it is an index page, remove the date and create index
 
@@ -151,21 +153,27 @@ def generate_page(path):
         index_list = get_sorted_index(os.path.dirname(path))
         index_html = ""
         for i in index_list:
-            htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
-            index_html += (
-                f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
-            )
+            htmllink = "/".join(i[0].replace(".md", ".html").split("/")[2:])
+            index_html += f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
         layout = layout.replace(f"$listindex$", index_html)
 
-    output_name = path.replace("./content", "./public").replace(".md",".html")
+    output_name = path.replace("./content", "./public").replace(".md", ".html")
     with open(output_name, "w") as w:
         w.write(layout)
+
 
 def generate_rss():
     feed = ""
     for i in get_sorted_index(CONTENT_DIR):
-        link = i[0].replace("./content/","")
-        feed += f"\n\t\t<item>\n\t\t\t<title>{i[2]}</title>\n\t\t\t<link>{siteurl}/{link}</link>\n\t\t\t<pubDate>{i[1]}</pubDate>\n\t\t\t<description>{i[3]}</description>\n\t\t</item>"
+        link = i[0].replace("./content/", "")
+        feed += f"""
+            <item>
+                <title>{i[2]}</title>
+                <link>{siteurl}/{link}</link>
+                <pubDate>{i[1]}</pubDate>
+                <description>{i[3]}</description>
+            </item>
+        """
     rsslayout = open("./templates/rss.xml", "r").read().replace("$rssfeed$", feed)
     with open("./public/rss.xml", "w") as w:
         w.write(rsslayout)
@@ -175,7 +183,7 @@ if __name__ == "__main__":
     filelist = []
     for root, dirs, files in os.walk("./content", topdown=False):
         for name in files:
-            if name.endswith((".md",".html")):
+            if name.endswith((".md", ".html")):
                 generate_page(os.path.join(root, name))
     shutil.copytree("./content/static", "./public/static", dirs_exist_ok=True)
     generate_rss()
