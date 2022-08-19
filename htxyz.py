@@ -5,6 +5,7 @@ import shutil
 from html import escape
 from datetime import date
 from csscompressor import compress
+from string import Template
 
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
@@ -55,8 +56,8 @@ def generate_layout(var):
     TEMPLATE_FILE = "./templates/layout.html"
     with open(TEMPLATE_FILE, "r") as f:
         master_layout = f.read()
-    for var_key, var_value in var.items():
-        master_layout = master_layout.replace(f"${var_key}$", var_value)
+    template = Template(master_layout)
+    master_layout = template.safe_substitute(var)
     return master_layout
 
 
@@ -113,10 +114,8 @@ def generate_home_page():
     layout = master_layout.replace("<h3 id='articletitle'>$title$</h3>", "")  ## if it is the home page, remove the title and date, edge case
     layout = layout.replace("<small>$date$</small>", "")
 
-    for key, value in variables.items():
-        layout = layout.replace(f"${key}$", value)
-
-    layout = layout.replace(f"$mdtext$", htmltext)
+    template = Template(layout)
+    layout = template.safe_substitute({"mdtext":htmltext}, **variables) 
 
     homeindex = ""
     index_dict = get_sorted_index(CONTENT_DIR)
@@ -141,7 +140,9 @@ def generate_page(path):
 
     variables, markdowntext = read_vars(open(path,'r').read())
     htmltext = markdown.markdown(markdowntext)
-    layout = layout.replace(f"$mdtext$", htmltext)
+
+    template = Template(layout)
+    layout = template.safe_substitute({"mdtext":htmltext}, **variables) 
 
     ## if it is an index page, remove the date and create index
 
@@ -155,9 +156,6 @@ def generate_page(path):
                 f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
             )
         layout = layout.replace(f"$listindex$", index_html)
-
-    for i in variables.items():
-        layout = layout.replace(f"${i[0]}$", i[1])
 
     output_name = path.replace("./content", "./public").replace(".md",".html")
     with open(output_name, "w") as w:
