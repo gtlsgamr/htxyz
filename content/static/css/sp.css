@@ -59,6 +59,7 @@ header h1 {
 footer {
 	text-align: center;
 	font-family: monospace;
+	margin-bottom: 1em;
 }
 h1,
 h2,
@@ -69,7 +70,7 @@ h6 {
 	line-height: 1.2;
 }
 nav a {
-	font-weight: 700;
+	font-weight: 500;
 	padding: 0 5px;
 	text-decoration: none;
 }

@@ -4,9 +4,11 @@ import markdown
 import shutil
 from html import escape
 from datetime import date
+from csscompressor import compress
 
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
+CSS_FILE = "./content/static/css/sp.css"
 
 sitetitle = "ht's website."
 sitename = "ht.xyz"
@@ -105,28 +107,28 @@ def generate_home_page():
     """
     homepage = os.path.join(CONTENT_DIR, "home.md")
 
-    with open(homepage, "r") as f:
+    variables , markdowntext = read_vars(open(homepage,'r').read())
+    htmltext = markdown.markdown(markdowntext)
+    layout = master_layout.replace("<h3 id='articletitle'>$title$</h3>", "")  ## if it is the home page, remove the title and date, edge case
+    layout = layout.replace("<small>$date$</small>", "")
 
-        variables, markdowntext = read_vars(f.read())
-        htmltext = markdown.markdown(markdowntext)
+    for key, value in variables.items():
+        layout = layout.replace(f"${key}$", value)
 
-        layout = master_layout.replace("<h3 id='articletitle'>$title$</h3>", "")  ## if it is the home page, remove the title and date, edge case
-        layout = layout.replace("<small>$date$</small>", "")
+    layout = layout.replace(f"$mdtext$", htmltext)
 
-        for key, value in variables.items():
-            layout = layout.replace(f"${key}$", value)
+    homeindex = ""
+    index_dict = get_sorted_index(CONTENT_DIR)
+    for i in index_dict[0:5]:
+        htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
+        homeindex += (
+            f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
+        )
+    layout = layout.replace(f"$listindex$", homeindex)
 
-        layout = layout.replace(f"$mdtext$", htmltext)
-
-        homeindex = ""
-        index_dict = get_sorted_index(CONTENT_DIR)
-        for i in index_dict[0:5]:
-            htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
-            homeindex += (
-                f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
-            )
-        layout = layout.replace(f"$listindex$", homeindex)
-
+    css = compress(open(CSS_FILE,'r').read())
+    layout = layout.replace(f"$css$", css)
+    
     with open(os.path.join(PUBLIC_DIR, "index.html"), "w") as f:
         f.write(layout)
 
@@ -139,34 +141,35 @@ def generate_page(path):
         generate_home_page()
         return
 
-    with open(path, "r") as f:
-        variables, markdowntext = read_vars(f.read())
-        htmltext = markdown.markdown(markdowntext)
-        layout = layout.replace(f"$mdtext$", htmltext)
+    variables, markdowntext = read_vars(open(path,'r').read())
+    htmltext = markdown.markdown(markdowntext)
+    layout = layout.replace(f"$mdtext$", htmltext)
 
-        ## if it is an index page, remove the date and create index
+    ## if it is an index page, remove the date and create index
 
-        if os.path.basename(path) == "index.md":
-            layout = layout.replace("<small>$date$</small>", "")
-            index_list = get_sorted_index(os.path.dirname(path))
-            index_html = ""
-            for i in index_list:
-                htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
-                index_html += (
-                    f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
-                )
-            layout = layout.replace(f"$listindex$", index_html)
+    if os.path.basename(path) == "index.md":
+        layout = layout.replace("<small>$date$</small>", "")
+        index_list = get_sorted_index(os.path.dirname(path))
+        index_html = ""
+        for i in index_list:
+            htmllink = '/'.join(i[0].replace(".md",".html").split("/")[2:])
+            index_html += (
+                f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
+            )
+        layout = layout.replace(f"$listindex$", index_html)
 
-        ## Update the site variables 
+    ## Update the site variables 
 
-        for i in variables.items():
-            layout = layout.replace(f"${i[0]}$", i[1])
+    for i in variables.items():
+        layout = layout.replace(f"${i[0]}$", i[1])
 
-        output_name = path.replace("./content", "./public").replace(".md",".html")
+    css = compress(open(CSS_FILE,'r').read())
+    layout = layout.replace(f"$css$", css)
+
+    output_name = path.replace("./content", "./public").replace(".md",".html")
 
     with open(output_name, "w") as w:
         w.write(layout)
-
 
 def generate_rss():
     feed = ""

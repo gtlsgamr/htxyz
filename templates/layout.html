@@ -8,7 +8,7 @@
 		<title>$title$ - $sitetitle$</title>
 		<link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon.ico">
 		<meta name="description" content="$description$">
-<link rel="stylesheet" type="text/css" href="/static/css/sp.css"/>
+<style>$css$</style>
 	</head>
 	<body>
 		<header>
@@ -37,8 +37,8 @@
 	</div>
 </form>
 <div id='solution' class='commentslist'></div>
-<script src="/static/comments.js"></script>
-<script>
+<script defer src="/static/comments.js"></script>
+<script defer>
 	function tesubmit(){
 		document.getElementById('texturl').setAttribute('value',window.location.pathname);
 		document.getElementById('texturl').value = window.location.pathname;
