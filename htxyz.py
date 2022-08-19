@@ -14,7 +14,8 @@ sitetitle = "ht's website."
 sitename = "ht.xyz"
 siteurl = "https://hitarththummar.xyz"
 footer = "Copyright © 2022 - Hitarth Thummar"
-sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer}
+css = compress(open(CSS_FILE,'r').read())
+sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer,"css":css}
 NAV_BAR_VALUES = {
     "home": "/",
     "projects": "/projects",
@@ -126,9 +127,6 @@ def generate_home_page():
         )
     layout = layout.replace(f"$listindex$", homeindex)
 
-    css = compress(open(CSS_FILE,'r').read())
-    layout = layout.replace(f"$css$", css)
-    
     with open(os.path.join(PUBLIC_DIR, "index.html"), "w") as f:
         f.write(layout)
 
@@ -158,16 +156,10 @@ def generate_page(path):
             )
         layout = layout.replace(f"$listindex$", index_html)
 
-    ## Update the site variables 
-
     for i in variables.items():
         layout = layout.replace(f"${i[0]}$", i[1])
 
-    css = compress(open(CSS_FILE,'r').read())
-    layout = layout.replace(f"$css$", css)
-
     output_name = path.replace("./content", "./public").replace(".md",".html")
-
     with open(output_name, "w") as w:
         w.write(layout)
 
