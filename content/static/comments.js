@@ -1,4 +1,4 @@
-var comments = [{"alias":["Your_Name"], "url":["/mahabharat/mahabharat_episode_25"], "time":["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "body":["Your comment!"]},
+var all_comments = [{"alias":["Your_Name"], "url":["/mahabharat/mahabharat_episode_25"], "time":["Fri Mar 04 2022 01:04:18 GMT 0530 (India Standard Time)"], "body":["Your comment!"]},
 
 {"alias":["Hitarth (-_- not me)"], "url":["/"], "time":["Fri Mar 04 2022 01:47:59 GMT 0530 (IST)"], "body":[" Nice website buddy!"]},
 
@@ -92,4 +92,7 @@ Let′s go to the mall, today<br>
 {alias: [`pystardust`], url: [`/`], time: [`Thu Aug 18 2022 03:12:58 GMT+0530 (India Standard Time)`], body: [`awesome, keep doing your thing buddy`]},
 
 {alias: [`Mudskipper875`], url: [`/blog/phase_two_digital_detox`], time: [`Thu Aug 18 2022 08:04:49 GMT+0530 (India Standard Time)`], body: [`You should also try a minimal launcher like olauncher. It's like dmenu for your phone. No distracting app icons or widgets on your home screen.`]},
+
+{alias: [`Lille`], url: [`/blog/malls`], time: [`Wed Aug 24 2022 20:20:14 GMT+0200 (Central European Summer Time)`], body: [`Wow, I was surprised at the price markup for books! Where I live, laws prohibit book stores from adding own markup to books, which means they are the same price on Amazon as on local bookstore.  <br>  This helps banish the power of monopolies like Amazon, who can afford to push prices down¹, and is supposed to help local bookstores, though it sadly isn’t enough: Bookstores are dying.<br>¹ They do that for foreign books where the laws don’t apply!`]}
+
 ]

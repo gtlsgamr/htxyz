@@ -37,8 +37,8 @@
 	</div>
 </form>
 <div id='solution' class='commentslist'></div>
-<script defer src="/static/comments.js"></script>
-<script defer>
+<script src="/static/comments.js"></script>
+<script>
 	function tesubmit(){
 		document.getElementById('texturl').setAttribute('value',window.location.pathname);
 		document.getElementById('texturl').value = window.location.pathname;
@@ -49,11 +49,10 @@
 	function displaycomments(){
 		var url = window.location.pathname;
 		var commentslist = document.getElementById("solution");
-			const current_comments = comments.filter(c=>c.url[0]===url)
+			const current_comments = all_comments.filter(c=>c.url[0]===url)
 			if(current_comments.length>0){
 					commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
-					comments.forEach(value => {
-							if(value.url[0]== url){
+					current_comments.forEach(value => {
 									var txt = `
 										   <div>
 										   <b>${value.alias[0]}</b>&nbsp;
@@ -62,7 +61,6 @@
 										   ${value.body[0]}				</div>
 										   </div>`;
 									commentslist.insertAdjacentHTML("beforeend",txt);
-								}
 						})
 				}
 		}
