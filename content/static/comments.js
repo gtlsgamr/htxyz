@@ -93,6 +93,11 @@ Let′s go to the mall, today<br>
 
 {alias: [`Mudskipper875`], url: [`/blog/phase_two_digital_detox`], time: [`Thu Aug 18 2022 08:04:49 GMT+0530 (India Standard Time)`], body: [`You should also try a minimal launcher like olauncher. It's like dmenu for your phone. No distracting app icons or widgets on your home screen.`]},
 
-{alias: [`Lille`], url: [`/blog/malls`], time: [`Wed Aug 24 2022 20:20:14 GMT+0200 (Central European Summer Time)`], body: [`Wow, I was surprised at the price markup for books! Where I live, laws prohibit book stores from adding own markup to books, which means they are the same price on Amazon as on local bookstore.  <br>  This helps banish the power of monopolies like Amazon, who can afford to push prices down¹, and is supposed to help local bookstores, though it sadly isn’t enough: Bookstores are dying.<br>¹ They do that for foreign books where the laws don’t apply!`]}
+{alias: [`Lille`], url: [`/blog/malls`], time: [`Wed Aug 24 2022 20:20:14 GMT+0200 (Central European Summer Time)`], body: [`Wow, I was surprised at the price markup for books! Where I live, laws prohibit book stores from adding own markup to books, which means they are the same price on Amazon as on local bookstore.
+  This helps banish the power of monopolies like Amazon, who can afford to push prices down¹, and is supposed to help local bookstores, though it sadly isn’t enough: Bookstores are dying.
+
+¹ They do that for foreign books where the laws don’t apply!`]},
+
+	{alias: [`tester`], url: [`/`], time: [`Mon Sep 12 2022 05:20:31 GMT+0000 (Coordinated Universal Time)`], body: [`Testing for XSS vulnerability <br> > It won't work. This is a passive commenting system. ;)`]}
 
 ]
