@@ -98,11 +98,9 @@ Let′s go to the mall, today<br>
 
 ¹ They do that for foreign books where the laws don’t apply!`]},
 
-	{alias: [`tester`], url: [`/`], time: [`Mon Sep 12 2022 05:20:31 GMT+0000 (Coordinated Universal Time)`], body: [`Testing for XSS vulnerability <br> > It won't work. This is a passive commenting system. ;)`]}
+	{alias: [`tester`], url: [`/`], time: [`Mon Sep 12 2022 05:20:31 GMT+0000 (Coordinated Universal Time)`], body: [`Testing for XSS vulnerability <br> > It won't work. This is a passive commenting system. ;)`]},
 
 {alias: [`test`], url: [`/blog/small_web`], time: [`Sun Oct 30 2022 22:38:07 GMT+5.5-30 (India Standard Time)`], body: [`test`]},
 
-{alias: [`bugswriter`], url: [`/blog/cities`], time: [`Sun Oct 30 2022 22:59:58 GMT+0530 (India Standard Time)`], body: [`I just visited bangalore, Exact same feelings. <br>
-EXACT!!!`]}
+{alias: [`bugswriter`], url: [`/blog/cities`], time: [`Sun Oct 30 2022 22:59:58 GMT+0530 (India Standard Time)`], body: [`I just visited bangalore, Exact same feelings. <br>EXACT!!!`]},
 ]
-===============================
