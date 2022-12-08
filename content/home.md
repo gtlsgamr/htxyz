@@ -18,14 +18,12 @@ generates static html pages from markdown files.
 
 ### Site Navigation
 
- [blog](/blog)  ------
+ [blog](/blog)  
  [poetry](/poems)  
-
- [artwork](/artwork) ------
- [projects](/projects) ------
+ [artwork](/artwork)  
+ [projects](/projects)  
  [**mahabharat TV show reviews**](/mahabharat)  
-
- [list of links worth sharing](/blog/interesting_links.html) ------
+ [list of links worth sharing](/blog/interesting_links.html)  
  [Collection of quotes from the internet](/static/internet_quotes.txt)
 
 ### Contact
