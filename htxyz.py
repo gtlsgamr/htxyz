@@ -116,7 +116,7 @@ def generate_home_page():
     layout = master_layout.replace(
         "<h3 id='articletitle'>${title}</h3>", ""
     )  # if it is the home page, remove the title and date, edge case
-    layout = layout.replace("<small>${date}</small>", "")
+    layout = layout.replace('<small id="date">${date}</small>', "")
 
     template = Template(layout)
     layout = template.safe_substitute({"mdtext": htmltext}, **variables)
@@ -148,7 +148,7 @@ def generate_page(path):
 
     ## if it is an index page, remove the date and create index
     if os.path.basename(path) == "index.md":
-        layout = layout.replace("<small>${date}</small>", "")
+        layout = layout.replace('<small id="date">${date}</small>', "")
         index_list = get_sorted_index(os.path.dirname(path))
         index_html = ""
         for i in index_list:
