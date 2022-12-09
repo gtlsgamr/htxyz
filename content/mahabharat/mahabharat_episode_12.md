@@ -1,5 +1,5 @@
 title="Mahabharat - Episode 12 - PutanaVadh"
-date="2021-12-08"
+date="2021-12-20"
 description=""
 +++
 #### Recap 

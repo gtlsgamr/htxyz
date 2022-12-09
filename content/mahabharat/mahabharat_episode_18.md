@@ -1,5 +1,5 @@
 title="Mahabharat - Episode 18 - The Death of Pandu"
-date="2021-12-08"
+date="2021-12-22"
 description=""
 +++
 #### Recap 
