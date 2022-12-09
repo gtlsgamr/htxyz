@@ -59,19 +59,19 @@ weapon, the Sudarshan Chakra.
 #### Notable dialogue:
 
 > Bachpan to nasamaj hota hai
-<!-- -->
+<div></div>
 > Abhimaan veer purush ka sabse bada shatru hai.
-<!-- -->
+<div></div>
 > Tum kaal nahi ho, tum sirf ek rajkumaar ho.
-<!-- -->
+<div></div>
 > Vidya par kisi jaati ka adhikaar nahi hai.
-<!-- -->
+<div></div>
 > Yadi kahi mujhe mera Bhagya mil jaaye, to use me apni in bhujaaon me jakad kar maar daaloon.
-<!-- -->
+<div></div>
 > Na tum deenheen ho, aur naa mai rajkumar. Tum Sudama ho, mere mitra. Aur main Krishna... Tumhara mitra.
-<!-- -->
+<div></div>
 > Ab leelayein chhodo Vasudev. Sambhalo apna Shashtra, aur sambhalo apne yug ko!
-<!-- -->
+<div></div>
 
 
 #### To be continued

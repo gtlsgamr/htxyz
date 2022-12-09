@@ -56,7 +56,6 @@ That is all for today, lets hope that I can continue this series until the end!
 
 ![Eklavya and Rukmi](/static/images/mahabharat/ep_27_3.webp)
 
-<!-- #### Notable dialogue: -->
 
 
 

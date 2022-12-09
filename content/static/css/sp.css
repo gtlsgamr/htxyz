@@ -75,10 +75,11 @@ a:link {
 	color: #457ab7;
 }
 a:visited {
-	color: #a28eed;
+	color: #60289b;
 }
 a:focus,
 a:hover {
+	font-style:italic;
 	color: #3c6593;
 }
 h1 a:link, h1 a:visited, h1 a:focus, h1 a:hover, h1 a:active {

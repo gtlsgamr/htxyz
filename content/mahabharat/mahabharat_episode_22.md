@@ -63,14 +63,15 @@ keep coming rest assured. Until then!
 
 
 > Jo brahman Sashtradhaari ho, uspe vishwas hi nahi karna chahiye
-<!-- -->
+<div></div>
 > Dron: Tumhari pehchaan kya hai Arjun?
+>
 > Arjun: Meri keval ek hi pehchaan hai gurudev, ki main aap ka Shishya hoon.
-<!-- -->
+<div></div>
 > Maa saraswati kya pita ka naam puchke pravesh karti hai? 
-<!-- -->
+<div></div>
 > Jab mann bhatakne lagta hai, to itihas ke marg par chala jaata hoon. Poorvajo se puchta hoon ki iss vyuh se nikalne ka upay kya hai. Itihas to ateet ki jeevan katha hai. [...] Jay aur parajay, dono se seekhna chahiye.
-<!-- -->
+<div></div>
 
 #### To be continued
 

@@ -72,23 +72,23 @@ this epic series.
 
 
 > Mujhe guru dakshina me tumhare dahine haath ka angutha chahiye
-<!-- -->
+<div></div>
 > Ye gurukul hai, ghar ka aangan nahi. 
-<!-- -->
+<div></div>
 > Arjun to vo nar hai Ashwathhama, jiske kaaran hame narayan ke darshan honge.
-<!-- -->
+<div></div>
 > Arjun, kya dikhai de raha hai?
 >
 > Mujhe to keval pakshi ki aankh dikhai de rahi hai gurudev
-<!-- -->
+<div></div>
 > Dhanurdhar ko uske lakshya ke atirikt aur kuch nahi dikhna chahiye
-<!-- -->
+<div></div>
 > Drona ke uttaradikari tum ho, parantu Dronacharya ka sarvashreshth dhanurdhar Arjun hai.
-<!-- -->
+<div></div>
 > Guru Dakshina diye bagair, shishya ka vidya par koi adhikaar hi nahi hota.
-<!-- -->
+<div></div>
 > Maa ke hriday ki peeda to swayam narayan bhi nahi samajh sakte, kyunki ve param pita hai, param maata to nahi hai na?
-<!-- -->
+<div></div>
 
 #### To be continued
 

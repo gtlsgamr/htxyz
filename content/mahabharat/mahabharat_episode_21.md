@@ -54,23 +54,23 @@ the end to witness the greatest battle in Bharatvarsh.
 #### Notable dialogue:
 
 > Duryodhan to Dhritrashtra ka hastakshar hai Vidur. Uska apna to koi Vyaktitva hi nahi hoga. Dhritrashtra uski aankho se apne saare sapne dekhna chahte hai.
-<!-- -->
+<div></div>
 > Manushya ko shapath lete samay bahot savdhaan rehna chahiye, kyunki Shapath ki gaanth na to toot sakti hai, naa hi khul sakti hai.
-<!-- -->
+<div></div>
 > Mere ye chaude kandhe meri hi li hui shapath ke bojh ke tale toot rahe hai.
-<!-- -->
+<div></div>
 > Mai vartmaan ki lambi hoti parchaiyon se darr raha hoon, mai Dhritrashtra ki uchakansha se darr raha hoon, mai iss soch se darr raha hoon ki ye VishVriksh bada hoga tab kya hoga.
-<!-- -->
+<div></div>
 > (Shakuni about Gandhari) Kabhi kabhi muje uski Achhai se bada darr lagta hai
-<!-- -->
+<div></div>
 > Vo to baalak hai. Uske saamne bhi vahi neeti aur parampara ka Rakshas muh faade khada hai jo meri uchakanshao ko nigal chuka hai.
-<!-- -->
+<div></div>
 > Main bhi dekhta hoon, ki vidur Neeti ka kaunsa panna khol kar sunate hai.
-<!-- -->
+<div></div>
 > Nandgaon ke saath saath mera maakhan bhi chhoot gaya maa.
-<!-- -->
+<div></div>
 > Guru machhera nahi hota, ki shishya ko shiksha ke jaal me fasa le. 
-<!-- -->
+<div></div>
 > Shiksha Swarnmudrao se nahi toli jati Rajkumar Shakuni
 
 #### To be continued

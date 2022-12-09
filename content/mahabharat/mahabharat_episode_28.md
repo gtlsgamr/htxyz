@@ -69,16 +69,16 @@ On a lighter note, there were two funny moments in this episode:
 
 #### Notable dialogue
 > Sanjay, tum meri aankhe ban jao
-<!------!>
+<div></div>
 > Maine tumhe satya bolne ki aagya di hai Sanjay, prashn karne ki nahi.
 
-<!------!>
+<div></div>
 > Main to aapka saarthi hoon Maharaj, main to keval yahi chahta hoon ki aapke rath ko keval unn patho par lekar jaaun, jo aapke suraksha ke path ho.
 
-<!------!>
+<div></div>
 > Rajneeti ka pehla niyam yeh hai, ki Raja ke mann ki avastha ka uske mann ke atirikt kisi ko gyaan hi nahi hona chahiye. Aur tumhara mukh mandal to bhoj patra ki bhaanti koi bhi padh sakta hai.
 
-<!------!>
+<div></div>
 
 
 #### To be continued

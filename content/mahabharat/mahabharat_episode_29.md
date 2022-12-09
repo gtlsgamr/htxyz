@@ -46,31 +46,21 @@ unbalanced. ;)
 
 #### Notable dialogue
 > Lokpriyata raja ka sabse shaktishaali shashtra hai.
-
-<!------!>
-
+<div></div>
 > Baar baar mujhe ang raaj keh kar mera apmaan na kijiye! Duryodhan aur meri mitrata ka aadhar ye mukut nahi hai!
-
-<!------!>
-
+<div></div>
 > Mai tumhari vo parchayi hoon, jo andhkaar me bhi tumhara sath nahi chhodegi. Mera bhagya tumhare bhagyase juda hua hai mitra.
-
-<!------!>
-
+<div></div>
 > Antaraatma rann bhoomi nahi hai mitra, jisse koi bhaag sake.
-
-<!------!>
-
+<div></div>
 > iss dasi putra ko bhai mat kahiye maharaj. 
 >
 > Ganga jal to ganga jal hi rehta hai Vidur, Gagar chahe sone ki ho ya mitti ki.
 >
 > Maa gagar nahi hoti Bhratashri. Beej apne aap me kuch bhi nahi hota jab tak use bhoomi ka sneh na mile. Beej Antriksh me nahi panap sakta. 
-
-<!------!>
-
+<div></div>
 > Raja ka dharm logo se darna nahi hai Dhritrashtra, raja ka dharm logo se prem karna hai.
-<!------!>
+<div></div>
 
 
 #### To be continued

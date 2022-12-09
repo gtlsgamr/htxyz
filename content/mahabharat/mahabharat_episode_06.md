@@ -38,11 +38,11 @@ Its as if Vidur is speaking the audience's mind, he questions the eligibility of
 >Koi vachan maa, aur maatrabhumi se bada nahi hota sakta gangaputra
 >
 >Ye nirnay to vachanbaddh hone vale ko hi lena chaiye na munivar
-<!-- -->
+<div></div>
 >Manushya swayam kabhi apne aap ko nahi pehchaan sakta
-<!-- -->
+<div></div>
 >Itihaas tumhaari pratiksha kar raha hai
-<!-- -->
+<div></div>
 >Muje na jaane ye kya ho gaya hai, jo jaanti hoon, use hi jaan ne ka prayatna kar rahi hoon
 
 #### To be continued

@@ -50,8 +50,9 @@ A pained Devaki is seen in the end, taking care of a bundle of clothes(?) as her
 #### Notable dialogue:
 
 > Yaha ka utsav Mathura ke dwaar khatkhataa rahi thi
+>
 > Anand ka swar thoda dheema hona chahiye tha
-<!-- -->
+<div></div>
 > Maa ka pyaar raj ke karbhaar kaise samjhe
 
 #### To be continued

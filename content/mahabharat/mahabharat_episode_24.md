@@ -50,9 +50,9 @@ points that I think are worth marking:
 #### Notable dialogue:
 
 > Ye samaroh nahin, Hastinapur ke rajkumaron ke liye Pariksha ka aangan hai
-<!-- -->
+<div></div>
 > Ye khel me gadaon ke takraane ki dhwani nahi hai!
-<!-- -->
+<div></div>
 > Kya hua?
 >
 > Acharya Dron ne pratiyogita rukva di hai Maharaj.
@@ -60,7 +60,7 @@ points that I think are worth marking:
 > Bhaari kaun pad raha tha?
 >
 > Ye yaa to Acharya Dron jaane, ya to Tat shri.
-<!-- -->
+<div></div>
 > Maharaj ko apna parichay do Kuntinandan
 >
 > Acharya Dron ka shishya Arjun, Maharaj ko pranam karta hai
@@ -68,19 +68,19 @@ points that I think are worth marking:
 > Kya iske alava tumhara koi parichay nahi hai vats?
 >
 > Nahi Maharaj, Bhakt ka parichay keval bhagwan hai. Aur shishya ka parichay keval guru..
-<!-- -->
+<div></div>
 > Aaj Arjun jaisa shreshth dhanurdhar aur koi nahin hai
 >
 > Hai Acharya, hai
-<!-- -->
+<div></div>
 > Ang raaj Karna ki jay!
-<!-- -->
+<div></div>
 > Parantu yadi kabhi yudhbhumi me arjun aur mera saamna ho gaya, to aap mere aur arjun ke beech apne ye shabdon ki dhaal nahin rakh paenge.
-<!-- -->
+<div></div>
 > Yaad rahe! Main Brahmastra tak tumhara pichha nahin chhodunga.
-<!-- -->
+<div></div>
 > Rishiyon ke Gotra, aur nadiyon ke Strot ko kaun dekhta hai bheem?
-<!-- -->
+<div></div>
 
 
 #### To be continued

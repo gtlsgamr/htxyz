@@ -68,20 +68,20 @@ Gokul-Mathura. Shree Krishna's story is starting to unfold.
 > Mai darti hoon ki kahin aapko rajmukut ki aadat na pad jaaye.
 > Maine dekhne ko tyaga hai aryaputra, sochne ko nahi.
 > Bahot si baatein bhulne yogya hi hoti hai aryaputra
-<!-- -->
+<div></div>
 > Bhishma: Matashri ka sandesh hai ki Pandu ko bulva liya jaaye
 > Dhritrashtra: Ye, Sandesh hai ki aadesh?
 > Bhishma: Bado ka sandesh bhi aadesh hi hota hai.
-<!-- -->
+<div></div>
 > Mann koi mrig thodi hai, jo baan chala ke maar loon.
-<!-- -->
+<div></div>
 > Tumne apne adhikaro ki seema ka ullanghan kiya hai.
 > Meri vansh rekha kaatne vaale rajan, mai tumhe shraap deta hoon.
-<!-- -->
+<div></div>
 > Kehna mera karm nahi hai.
-<!-- -->
+<div></div>
 > Mamta ko itna nirbal nahi hona chahiye.
-<!-- -->
+<div></div>
 > Mai apne saare aashirvaad tumhe de chuki hoon Gangaputra.
 
 

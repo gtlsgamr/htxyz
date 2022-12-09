@@ -36,20 +36,20 @@ Shantanu is dead, both of his sons are dead. His only surviving son has taken a 
 >
 >Karta hai putra, bahot vivash karta hai.
 
-<!-- -->
+<div></div>
 
 >Mai koi rajya nahi hoon, jo ladai me jeeti ya haari ja saku, ya daan me di jaa saku.
-<!-- -->
+<div></div>
 
 >Savdhaan! 
 >
 >Ye sabha Keval Atithiyo ke liye hai
 >
 >Jaanta hoon, isliye mai aapke iss sabhagrih me aapke in atithiyo ki zabaan kat kar aapka apmaan nahi karna chaahta.
-<!-- -->
+<div></div>
 
 >Rajkumariyo ka swayamvar racha kar aapne Hastinapur ka jo apmaan kiya hai, mai aapko uske liye kshama karta hoon.
-<!-- -->
+<div></div>
 
 >Ghayal Naagin, Ghayal Sherni, aur Apmaanit stree se darna sikho Gangaputra Bhishma.
 

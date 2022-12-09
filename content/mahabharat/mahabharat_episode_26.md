@@ -47,13 +47,13 @@ is now up to Dhritrashtra to choose who to please, his city.. or his ego.
 #### Notable dialogue:
 
 > Veer purush ko yuddh ke liye utavala nahi hona chahiye!
-<!-- -->
+<div></div>
 > Krodh ki kataar, krodhi ki buddhi ko kaat sakti hai
-<!-- -->
+<div></div>
 > Yuddh keval tabhi hona chahiye, jab yuddh na karne ke saare marg bandh ho chuke ho.
-<!-- -->
+<div></div>
 > Har gardan sudarshan chakra ke yogya nahi hai!
-<!-- -->
+<div></div>
 
 #### To be continued
 

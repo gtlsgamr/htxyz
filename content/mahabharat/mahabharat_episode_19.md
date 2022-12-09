@@ -68,20 +68,23 @@ this is a gem of an episode in this series and a must watch.
 #### Notable dialogue:
 
 > Samay to ek nadi ki tarah behta rehta hai, aur shareer, nauka samaan sthir nahi reh sakta.. aur aatma ek yatri hai jo apne ghaat, apne lakshya ko nirantar khojta rehta hai.
-<!-- -->
+<div></div>
 > Dhritrashtra Netraheen hai maata, vo to dekh hi nahi sakega. Aur aap se dekha na jayega
-<!-- -->
+<div></div>
 > Sanyaas apne aap se bhaagne ka naam nahi hai, sanyaas apne aap apne aham ka saamna karne ka naam hai.
-<!-- -->
+<div></div>
 > Rajneeti netraheen ho gai hai. 
-<!-- -->
+<div></div>
 > Jab kisaan apne hi khet ke ankuro se shatruta kar baithem to uss khet pe kya beetegi
-<!-- -->
+<div></div>
 > Mai vartamaan se asantusht, aur bhavishy se atyant chintit hoon
-<!-- -->
+<div></div>
 > Aayushmaan bhava!
+>
 > ye aashirwaad na dijiye maate. Mai pehle hi se pitashri ke vardaan ki dor me jakda hua hoon
+>
 > Itne dukhi naa ho putra
+>
 > Dukh ki to koi seema hi nai maate. Ek kaaran ho to bataun.
 
 #### To be continued
