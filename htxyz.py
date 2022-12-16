@@ -19,10 +19,11 @@ css = compress(open(CSS_FILE, "r").read())
 sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer, "css": css}
 NAV_BAR_VALUES = {
     "home": "/",
-    "projects": "/projects",
+    "git": "https://git.hitarththummar.xyz",
     "blog": "/blog",
     "artwork": "/artwork",
     "poems": "/poems",
+    "projects": "/projects",
 }
 
 

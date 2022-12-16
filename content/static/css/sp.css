@@ -1,5 +1,5 @@
 body {
-	font-size: 1em;
+	font-size: 0.9em;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	margin: 0 auto;
 	max-width: 40em;
@@ -32,7 +32,7 @@ textarea {
 main {
 	word-wrap: break-word;
 	word-break: normal;
-	margin-bottom: 5em;
+	margin-bottom: 1em;
 	line-height: 1.5;
 }
 nav ul {
@@ -42,7 +42,7 @@ nav ul {
 	align-items: center;
 	margin: 0;
 	padding: 0;
-	font-size: 1.2em;
+	font-size: 1.08em;
 }
 nav li {
 	display: inline;
@@ -51,7 +51,7 @@ header h1 {
 	color: #000;
 	font-family: sans-serif;
 	margin-bottom: 0.1em;
-	font-size: 2.7em !important;
+	font-size: 2.43em !important;
 }
 footer {
 	text-align: center;
@@ -170,7 +170,6 @@ th {
 #solution div div {
 	padding: 0.3em;
 	margin: 0.5em;
-	font-size: 0.9em;
 	font-family: monospace;
 	line-height: 1.5em;
 }
@@ -278,7 +277,7 @@ th {
 }
 #date {
 	font-family: monospace;
-	font-size: 1.2em;
+	font-size: 1.08em;
 	color: gray;
 	margin-top: 0px;
 }
