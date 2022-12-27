@@ -100,7 +100,16 @@ Let′s go to the mall, today<br>
 
 	{alias: [`tester`], url: [`/`], time: [`Mon Sep 12 2022 05:20:31 GMT+0000 (Coordinated Universal Time)`], body: [`Testing for XSS vulnerability <br> > It won't work. This is a passive commenting system. ;)`]},
 
+
+
 {alias: [`test`], url: [`/blog/small_web`], time: [`Sun Oct 30 2022 22:38:07 GMT+5.5-30 (India Standard Time)`], body: [`test`]},
 
 {alias: [`bugswriter`], url: [`/blog/cities`], time: [`Sun Oct 30 2022 22:59:58 GMT+0530 (India Standard Time)`], body: [`I just visited bangalore, Exact same feelings. <br>EXACT!!!`]},
+
+{alias: [`missionDosa`], url: [`/`], time: [`Thu Nov 24 2022 19:23:13 GMT+0530 (India Standard Time)`], body: [`nice website!<br>
+ps: My mission is to ~make dosa universal~ eat dosa.`]},
+
+{alias: [`ag`], url: [`/blog/`], time: [`Tue Dec 20 2022 16:12:07 GMT+0530 (India Standard Time)`], body: [`cool site ~`]},
+
+{alias: [`ahwx.org`], url: [`/`], time: [`Tue Dec 20 2022 23:00:22 GMT+0100 (GMT+01:00)`], body: [`nice website`]}
 ]

@@ -27,7 +27,7 @@ generates static html pages from markdown files.
  [Collection of quotes from the internet](/static/internet_quotes.txt)
 
 ### Contact
-* Email: hitarth [dot] thummar [at] protonmail [dot] com / [pgp](/static/key.txt)
+* Email: hittarth91 [at] gmail [dot] com / [pgp](/static/key.txt)
 * IRC: gtlsgamr @ #gnulinuxindia:libera.chat
 * [Git](https://git.hitarththummar.xyz), [Gitlab](https://gitlab.com/gtlsgamr)
 
