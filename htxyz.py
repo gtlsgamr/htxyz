@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import html
 import markdown
 import shutil
 from html import escape
@@ -173,10 +174,13 @@ def generate_rss():
         feed += f"""
             <entry>
                 <title>{i[2]}</title>
-                <link href='{siteurl}/{link}/'/>
+                <link href='{siteurl}/{link}'/>
                 <id>{siteurl}/{link}</id>
                 <updated>{datetime.strptime(i[1],"%Y-%m-%d").isoformat()}Z</updated>
                 <summary>"{i[3]}"</summary>
+                <content type="html">
+                    {html.escape(markdown.markdown(markdowntext))}
+                </content>
             </entry>
         """
     rsslayout = open("./templates/atom.xml", "r").read().replace("$rssfeed$", feed)
