@@ -4,6 +4,7 @@ import markdown
 import shutil
 from html import escape
 from datetime import date
+from datetime import datetime
 from csscompressor import compress
 from string import Template
 
@@ -166,16 +167,20 @@ def generate_rss():
     feed = ""
     for i in get_sorted_index(CONTENT_DIR):
         link = i[0].replace("./content/", "")
+        with open(f"./content/{link}.md", "r") as scan:
+            z = scan.read()
+            variables, markdowntext = read_vars(z)
         feed += f"""
-            <item>
+            <entry>
                 <title>{i[2]}</title>
-                <link>{siteurl}/{link}</link>
-                <pubDate>{i[1]}</pubDate>
-                <description>{i[3]}</description>
-            </item>
+                <link href='{siteurl}/{link}/'/>
+                <id>{siteurl}/{link}</id>
+                <updated>{datetime.strptime(i[1],"%Y-%m-%d").isoformat()}Z</updated>
+                <summary>"{i[3]}"</summary>
+            </entry>
         """
-    rsslayout = open("./templates/rss.xml", "r").read().replace("$rssfeed$", feed)
-    with open("./public/rss.xml", "w") as w:
+    rsslayout = open("./templates/atom.xml", "r").read().replace("$rssfeed$", feed)
+    with open("./public/atom.xml", "w") as w:
         w.write(rsslayout)
 
 
