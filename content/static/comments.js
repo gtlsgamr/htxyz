@@ -111,5 +111,12 @@ ps: My mission is to ~make dosa universal~ eat dosa.`]},
 
 {alias: [`ag`], url: [`/blog/`], time: [`Tue Dec 20 2022 16:12:07 GMT+0530 (India Standard Time)`], body: [`cool site ~`]},
 
-{alias: [`ahwx.org`], url: [`/`], time: [`Tue Dec 20 2022 23:00:22 GMT+0100 (GMT+01:00)`], body: [`nice website`]}
+{alias: [`ahwx.org`], url: [`/`], time: [`Tue Dec 20 2022 23:00:22 GMT+0100 (GMT+01:00)`], body: [`nice website`]},
+
+{alias: [`Abhi`], url: [`/`], time: [`Sat Dec 31 2022 15:37:06 GMT+0000 (Coordinated Universal Time)`], body: [`I love your website so much ! <br>  <b>hitarth:</b> Thanks a lot abhi!`]},
+
+{alias: [`guy_frm_irc`], url: [`/blog/do_well`], time: [`Sat Dec 31 2022 15:50:03 GMT+0530 (India Standard Time)`], body: [`good to hear that. Happy New Year in advance btw <br> <b>hitarth:</b> You too friend!`]},
+
+{alias: [`Anon_caller`], url: [`/blog/do_well`], time: [`Sun Jan 01 2023 01:29:54 GMT+0530 (India Standard Time)`], body: [`Happy new year to Thummar family and this year goes much better than previous year <br>
+*<]:)`]},
 ]

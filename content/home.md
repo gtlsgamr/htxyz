@@ -13,8 +13,8 @@ I write reviews for old Indian TV shows
 from time to time.
 
 Currently I am working on Mahabharat(1988). 
-This website is made using a [script](https://git.hitarththummar.xyz/htxyz/about/) that
-generates static html pages from markdown files.
+
+I also hang around at [~tildevarsh](https://tildevarsh.in)
 
 ### Site Navigation
 
@@ -29,7 +29,7 @@ generates static html pages from markdown files.
 ### Contact
 * Email: hittarth91 [at] gmail [dot] com / [pgp](/static/key.txt)
 * IRC: gtlsgamr @ #gnulinuxindia:libera.chat
-* [Git](https://git.hitarththummar.xyz), [Gitlab](https://gitlab.com/gtlsgamr)
+* [Github](https://github.com/gtlsgamr), [Gitlab](https://gitlab.com/gtlsgamr)
 
 >'What is sorrow?' 'To long for the past.'
 
