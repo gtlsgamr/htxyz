@@ -9,12 +9,8 @@ Welcome to my personal webspace.
 This is a place where I plan to share everything that
 I find interesting, amusing, helpful or worth sharing. 
 
-I write reviews for old Indian TV shows
-from time to time.
+You can find me hanging around over at [~tildevarsh](https://tildevarsh.in).
 
-Currently I am working on Mahabharat(1988). 
-
-I also hang around at [~tildevarsh](https://tildevarsh.in)
 
 ### Site Navigation
 
