@@ -163,6 +163,7 @@ def generate_page(path):
         w.write(layout)
 
 
+# Generate RSS
 def generate_rss():
     feed = ""
     date = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -170,19 +171,22 @@ def generate_rss():
         link = i[0].replace("./content/", "")
         with open(f"./content/{link}.md", "r") as scan:
             z = scan.read()
-            variables, markdowntext = read_vars(z)
-        feed += f"""
-            <entry>
-                <title>{i[2]}</title>
-                <link href='{siteurl}/{link}'/>
-                <id>{siteurl}/{link}</id>
-                <updated>{datetime.strptime(i[1],"%Y-%m-%d").isoformat()}Z</updated>
-                <summary>"{i[3]}"</summary>
-                <content type="html">
-                    {html.escape(markdown.markdown(markdowntext))}
-                </content>
-            </entry>
-        """
+            markdowntext = read_vars(z)[1]
+        feed = "".join([
+            feed,
+            f"""
+                <entry>
+                    <title>{i[2]}</title>
+                    <link href='{siteurl}/{link}'/>
+                    <id>{siteurl}/{link}</id>
+                    <updated>{datetime.strptime(i[1],"%Y-%m-%d").isoformat()}Z</updated>
+                    <summary>"{i[3]}"</summary>
+                    <content type="html">
+                        {html.escape(markdown.markdown(markdowntext))}
+                    </content>
+                </entry>
+            """
+        ])
     rsslayout = open("./templates/atom.xml", "r").read().replace("$rssfeed$", feed).replace("$updated$",date)
     with open("./public/atom.xml", "w") as w:
         w.write(rsslayout)
