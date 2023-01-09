@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-import os
-import html
-import markdown
-import shutil
-from html import escape
-from datetime import date
-from datetime import datetime
+import os,html,markdown,shutil
+from datetime import date, datetime
 from csscompressor import compress
 from string import Template
 
@@ -19,6 +14,7 @@ siteurl = "https://hitarththummar.xyz"
 footer = "Copyright © 2022 - Hitarth Thummar"
 css = compress(open(CSS_FILE, "r").read())
 sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer, "css": css}
+
 NAV_BAR_VALUES = {
     "home": "/",
     "blog": "/blog",
@@ -41,15 +37,10 @@ def gen_navbar(nav_bar_items):
     """
     generates the html code for the navbar
     """
-    navbar_html = []
-    navbar_html.append("<ul>")
-    for link_name, link_path in nav_bar_items.items():
-        navbar_html.append(
-            f"\t\t\t\t\t<li> <a href='{escape(link_path)}'>{escape(link_name)}</a></li>"
-        )
+    navbar_html = ["<ul>"]
+    navbar_html += [f"\t\t\t\t\t<li> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
     navbar_html.append("\t\t\t\t</ul>")
     return "\n".join(navbar_html)
-
 
 def generate_layout(var):
     """
