@@ -165,6 +165,7 @@ def generate_page(path):
 
 def generate_rss():
     feed = ""
+    date = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     for i in get_sorted_index(CONTENT_DIR):
         link = i[0].replace("./content/", "")
         with open(f"./content/{link}.md", "r") as scan:
@@ -182,7 +183,7 @@ def generate_rss():
                 </content>
             </entry>
         """
-    rsslayout = open("./templates/atom.xml", "r").read().replace("$rssfeed$", feed)
+    rsslayout = open("./templates/atom.xml", "r").read().replace("$rssfeed$", feed).replace("$updated$",date)
     with open("./public/atom.xml", "w") as w:
         w.write(rsslayout)
 
