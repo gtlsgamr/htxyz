@@ -8,12 +8,12 @@ CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
 CSS_FILE = "./content/static/css/sp.css"
 
-sitetitle = "ht's website."
-sitename = "ht.xyz"
+sitetitle = "personal website and blog"
+sitename = "Hitarth Thummar"
 siteurl = "https://hitarththummar.xyz"
 footer = "Copyright © 2022 - Hitarth Thummar"
-css = compress(open(CSS_FILE, "r").read())
-sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer, "css": css}
+#css = compress(open(CSS_FILE, "r").read())
+sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer}
 
 NAV_BAR_VALUES = {
     "home": "/",
@@ -38,7 +38,7 @@ def gen_navbar(nav_bar_items):
     generates the html code for the navbar
     """
     navbar_html = ["<ul>"]
-    navbar_html += [f"\t\t\t\t\t<li> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
+    navbar_html += [f"\t\t\t\t\t<li class='card'> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
     navbar_html.append("\t\t\t\t</ul>")
     return "\n".join(navbar_html)
 
