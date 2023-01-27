@@ -258,11 +258,11 @@ nav .card{
 }
 .cmntcard {
 	grid-area: cmntcard;
-	place-self:start;
+	align-self:start;
 }
 .maincard {
 	grid-area: maincard;
-	place-self:start;
+	align-self:start;
 }
 .headername{
 	grid-area:headername;
