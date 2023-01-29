@@ -38,7 +38,7 @@ def gen_navbar(nav_bar_items):
     generates the html code for the navbar
     """
     navbar_html = ["<ul>"]
-    navbar_html += [f"\t\t\t\t\t<li class='card'> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
+    navbar_html += [f"\t\t\t\t\t<li> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
     navbar_html.append("\t\t\t\t</ul>")
     return "\n".join(navbar_html)
 

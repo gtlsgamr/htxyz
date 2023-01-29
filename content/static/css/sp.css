@@ -4,7 +4,7 @@ body {
 	margin: 0 auto;
 	max-width: 70em;
 	padding: 0 1em;
-	background-color: #393840;
+	background-color: #B7C4CF;
 }
 input {
 	margin: 10px 0;
@@ -47,8 +47,7 @@ nav ul {
 }
 nav li {
 	display: inline;
-	background-color: #FEFFD7;
-	padding: 0.6em;
+	padding: 0px 0.6em;
 }
 header h1 {
 	font-family: sans-serif;
@@ -77,15 +76,14 @@ nav a {
 	text-decoration: none;
 }
 a:link {
-	color: #457ab7;
+	color: #7D5C50;
 }
 a:visited {
-	color: #60289b;
+	color: #A49285;
 }
 a:focus,
 a:hover {
 	font-style: italic;
-	color: #3c6593;
 }
 h1 a:link,
 h1 a:visited,
@@ -150,12 +148,10 @@ pre {
 	overflow: auto;
 }
 blockquote {
-	background: #fff;
-	border-left: medium solid #ccc;
-	padding: 0.5em 0.5em;
-	font-style: italic;
-	font-family: serif;
-	margin: 1em 0;
+	background: #D7C0AE;
+font-family: serif;
+margin: 1em 0;
+border: 3px solid black;
 }
 blockquote:first-child {
 	margin-top: 0;
@@ -241,14 +237,14 @@ th {
 	text-align: center;
 }
 .card{
-	background-color: #F6F5E8;
+	background-color: #EEE3CB;
 	padding: 0.6em;
 	/*	box-shadow: 5px 5px 5px rgb(0 0 0);*/
 	border: 2px solid black;
 }
 
 header h1 a{
-	color: #E1D564 !important;
+	color: #2B2B2B !important;
 }
 
 nav .card{
@@ -256,10 +252,12 @@ nav .card{
 	margin: 0px 2px;
 	border-radius: 14px;
 }
+
 .cmntcard {
 	grid-area: cmntcard;
 	align-self:start;
 }
+
 .maincard {
 	grid-area: maincard;
 	align-self:start;
@@ -287,6 +285,10 @@ nav .card{
 	grid-template-areas:
 	"maincard"
 	"cmntcard";
+}
+
+nav li a{
+	color: #2B2B2B !important;
 }
 
 @media (min-width: 800px) {

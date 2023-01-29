@@ -14,7 +14,7 @@ var all_comments = [{"alias":["Your_Name"], "url":["/mahabharat/mahabharat_episo
 
 {"alias":["neovoid"], "url":["/"], "time":["Fri Mar 04 2022 20:20:45 GMT 0530 (India Standard Time)"], "body":[" whoa :0 Nice comments engine. "]},
 
-{"alias":["neovoid"], "url":["/artwork"], "time":["Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)"], "body":[" amazing artworks. Loved em. "]},
+{"alias":["neovoid"], "url":["/artwork/"], "time":["Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)"], "body":[" amazing artworks. Loved em. "]},
 
 {"alias":["relejek"], "url":["/"], "time":["Tue Mar 08 2022 01:01:54 GMT 0530 (India Standard Time)"], "body":[" wow! seems like you've made this comment feature work finnaly. great job dost."]},
 
