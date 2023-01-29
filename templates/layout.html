@@ -24,7 +24,7 @@
 		<div class="wrapper">
 			<div class="cmntcard card">
 
-<div id='solution' class='commentslist'></div>
+				<div id='solution' class='commentslist'>$comments$</div>
 <form name="comments" id='formcomments' method='POST' action='/cgi-bin/addcomment.cgi'>
 	<div><h3>Post a Comment</h3></div>
 	<div>
@@ -44,34 +44,6 @@
 			<h3 id='articletitle'>${title}</h3>
 			<small id="date">${date}</small>
 			${mdtext}
-<script src="/static/comments.js"></script>
-<script>
-	function tesubmit(){
-		document.getElementById('texturl').setAttribute('value',window.location.pathname);
-		document.getElementById('texturl').value = window.location.pathname;
-		document.getElementById('textdate').setAttribute('value',new Date().toString());
-		document.getElementById('formcomments').submit();
-	}
-
-	function displaycomments(){
-		var url = window.location.pathname;
-		var commentslist = document.getElementById("solution");
-			const current_comments = all_comments.filter(c=>c.url[0]===url)
-			if(current_comments.length>0){
-					commentslist.insertAdjacentHTML("beforeend","<h3>Comments 👇</h3>");
-					current_comments.forEach(value => {
-									var txt = `
-										   <div>
-							<span style="font-family:monospace; font-weight:bold;">${value.alias[0]}: </span>
-							${value.body[0]}
-										   </div>`;
-									commentslist.insertAdjacentHTML("beforeend",txt);
-						})
-				}
-		}
-window.onload = displaycomments();
-</script>
-			
 		</div>			
 		</div>			
 </main>

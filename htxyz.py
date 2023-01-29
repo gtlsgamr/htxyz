@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os,html,markdown,shutil
+import os,html,markdown,shutil,json
 from datetime import date, datetime
 from csscompressor import compress
 from string import Template
@@ -7,6 +7,8 @@ from string import Template
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
 CSS_FILE = "./content/static/css/sp.css"
+COMMENTS_FILE = "./content/static/comments.json"
+comments = json.loads(open(COMMENTS_FILE).read())
 
 sitetitle = "personal website and blog"
 sitename = "Hitarth Thummar"
@@ -120,7 +122,8 @@ def generate_home_page():
         htmllink = "/".join(i[0].replace(".md", ".html").split("/")[2:])
         homeindex += f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
     layout = layout.replace(f"$listindex$", homeindex)
-
+    c = [f"<div><span style='font-family:monospace; font-weight:bold;'>{x['alias']}:</span>{x['body']}</div>" for x in comments if x['url'] == "/"]
+    layout = layout.replace("$comments$","\n".join(c))
     with open(os.path.join(PUBLIC_DIR, "index.html"), "w") as f:
         f.write(layout)
 
@@ -133,6 +136,7 @@ def generate_page(path):
         generate_home_page()
         return
 
+    filename = os.path.basename(path).replace(".md","")
     variables, markdowntext = read_vars(open(path, "r").read())
     htmltext = markdown.markdown(markdowntext)
 
@@ -150,6 +154,8 @@ def generate_page(path):
         layout = layout.replace(f"$listindex$", index_html)
 
     output_name = path.replace("./content", "./public").replace(".md", ".html")
+    c = [f"<div><span style='font-family:monospace; font-weight:bold;'>{x['alias']}:</span>{x['body']}</div>" for x in comments if filename in x['url']]
+    layout = layout.replace("$comments$","\n".join(c))
     with open(output_name, "w") as w:
         w.write(layout)
 
