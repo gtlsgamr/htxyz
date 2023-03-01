@@ -108,10 +108,11 @@ def generate_home_page():
 
     variables, markdowntext = read_vars(open(homepage, "r").read())
     htmltext = markdown.markdown(markdowntext)
-    layout = master_layout.replace(
-        "<h3 id='articletitle'>${title}</h3>", ""
-    )  # if it is the home page, remove the title and date, edge case
-    layout = layout.replace('<small id="date">${date}</small>', "")
+
+
+    layout = master_layout.replace('					<h3 id="articletitle">${title}</h3>', "")  
+    # if it is the home page, remove the title and date, edge case
+    layout = layout.replace('					<small id="date">${date}</small>', "")
 
     template = Template(layout)
     layout = template.safe_substitute({"mdtext": htmltext}, **variables)
@@ -123,6 +124,7 @@ def generate_home_page():
         homeindex += f"<p> <a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]} </p>\n"
     layout = layout.replace(f"$listindex$", homeindex)
     c = [f"<div><span style='font-family:monospace; font-weight:bold;'>{x['alias']}:</span>{x['body']}</div>" for x in comments if x['url'] == "/"]
+
     layout = layout.replace("$comments$","\n".join(c))
     with open(os.path.join(PUBLIC_DIR, "index.html"), "w") as f:
         f.write(layout)

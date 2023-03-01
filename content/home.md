@@ -1,4 +1,4 @@
-title="Home"
+title=""
 description="Hitarth Thummar's personal webspace. A place to share everything that he finds worth sharing."
 +++
 

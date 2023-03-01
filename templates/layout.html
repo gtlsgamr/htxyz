@@ -2,53 +2,98 @@
 <html lang="en-us">
 	<head>
 		<meta name="generator" content="ussg" />
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>${title} - ${sitetitle}</title>
-		<link rel="icon" type="image/x-icon" href="/static/images/favicon/favicon.ico">
-  <link rel="alternate" type="application/atom+xml" href="https://hitarththummar.xyz/atom.xml" title="Hitarth Thummar's ATOM Feed" />
-		<meta name="description" content="${description}">
-		<link rel="stylesheet" type="text/css" href="/static/css/sp.css"/>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/static/images/favicon/favicon.ico"
+		/>
+		<link
+			rel="alternate"
+			type="application/atom+xml"
+			href="https://hitarththummar.xyz/atom.xml"
+			title="Hitarth Thummar's ATOM Feed"
+		/>
+		<meta name="description" content="${description}" />
+		<link rel="stylesheet" type="text/css" href="/static/css/sp.css" />
 	</head>
 	<body>
 		<main>
-		<header>
-			<div class="headerwrapper">
-			<h1 class="headername"><a href="/">${sitename}</a></h1>
-			<nav class="navmenu">
-				${navbar}
-			</nav>
+			<header>
+				<div class="headerwrapper">
+					<h1 class="headername"><a href="/">${sitename}</a></h1>
+					<nav class="navmenu">${navbar}</nav>
+				</div>
+			</header>
+			<div class="wrapper">
+				<div class="cmntcard card">
+					<form
+						name="comments"
+						id="formcomments"
+						method="POST"
+						action="/cgi-bin/addcomment.cgi"
+					>
+						<div><h3>Post a Comment</h3></div>
+						<div>
+							<input
+								type="text"
+								class="comment-field"
+								name="alias"
+								placeholder="Your Alias"
+								id="alias"
+								required
+							/>
+							<input type="hidden" id="texturl" name="url" />
+							<input type="hidden" id="textdate" name="time" />
+						</div>
+						<div>
+							<textarea
+								maxlength="500"
+								name="body"
+								placeholder="Enter your comment here (Max 500 words)"
+								id="comment"
+								required
+							></textarea>
+						</div>
+						<div>
+							<button
+								type="button"
+								onclick="tesubmit()"
+								id="comment-button"
+							>
+								Comment
+							</button>
+						</div>
+					</form>
+					<div id="solution" class="commentslist">$comments$</div>
+				</div>
+				<div class="maincard card">
+					<h3 id="articletitle">${title}</h3>
+					<small id="date">${date}</small>
+					${mdtext}
+				</div>
 			</div>
-		</header>
-		<div class="wrapper">
-			<div class="cmntcard card">
-
-				<div id='solution' class='commentslist'>$comments$</div>
-<form name="comments" id='formcomments' method='POST' action='/cgi-bin/addcomment.cgi'>
-	<div><h3>Post a Comment</h3></div>
-	<div>
-		<input type="text" class='comment-field' name="alias" placeholder="Your Alias"  id="alias" required />
-		<input type="hidden" id='texturl'  name="url"/>
-		<input type="hidden" id='textdate' name="time"/>
-	</div>
-	<div>
-		<textarea maxlength=500 name="body" placeholder="Enter your comment here (Max 500 words)"  id="comment" required ></textarea>
-	</div><div>    
-		<button type="button" onclick="tesubmit()"  id="comment-button">Comment</button>
-	</div>
-</form>
-			</div>
-			<div class="maincard card">
-
-			<h3 id='articletitle'>${title}</h3>
-			<small id="date">${date}</small>
-			${mdtext}
-		</div>			
-		</div>			
-</main>
-<footer>
-	${footer} | Proudly hosted on <a href="https://tildevarsh.in">~tildevarsh</a><br> <a href="/atom.xml">Subscribe via Atom</a>
-</footer>
-</body>
+			<script>
+				function tesubmit() {
+					document
+						.getElementById("texturl")
+						.setAttribute("value", window.location.pathname);
+					document.getElementById("texturl").value =
+						window.location.pathname;
+					document
+						.getElementById("textdate")
+						.setAttribute("value", new Date().toString());
+					document.getElementById("formcomments").submit();
+				}
+			</script>
+		</main>
+		<footer>
+			${footer} | Proudly hosted on
+			<a href="https://tildevarsh.in">~tildevarsh</a><br />
+			<a href="/atom.xml">Subscribe via Atom</a>
+		</footer>
+	</body>
 </html>
