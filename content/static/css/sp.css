@@ -76,7 +76,7 @@ footer {
 	text-align: center;
 	font-family: monospace;
 	margin-bottom: 1em;
-	color: white;
+	color: var(--color);
 }
 footer a {
 	color: inherit !important;
