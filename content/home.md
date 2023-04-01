@@ -13,6 +13,8 @@ I find interesting, amusing, helpful or worth sharing.
 
 You can find me hanging around over at [~tildevarsh](https://tildevarsh.in).
 
+[Subscribe to my posts via Atom](/atom.xml)
+
 
 ### Site Navigation
 
