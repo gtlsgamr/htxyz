@@ -23,12 +23,13 @@
 		<meta name="description" content="${description}" />
 		<link rel="stylesheet" type="text/css" href="/static/css/sp.css" />
 	</head>
-	<body>
+	<body theme="light">
 		<main>
 			<header>
 				<div class="headerwrapper">
-					<h1 class="headername"><a href="/">${sitename}</a></h1>
-					<nav class="navmenu">${navbar}</nav>
+					<h1 class="headername">  <a href="/">${sitename}</a></h1>
+
+					<nav class="navmenu">${navbar}</label></nav>
 				</div>
 			</header>
 			<div class="wrapper">
@@ -91,6 +92,10 @@
 						.setAttribute("value", new Date().toString());
 					document.getElementById("formcomments").submit();
 				}
+				document.getElementById('theme-toggle').addEventListener('click', (e) => {
+					const checked = e.target.checked;
+					document.body.setAttribute('theme', checked ? 'dark' : 'light');
+				});
 			</script>
 		</main>
 		<footer>
