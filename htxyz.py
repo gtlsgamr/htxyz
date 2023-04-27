@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
 import os,html,markdown,shutil,json
 from datetime import date, datetime
-from csscompressor import compress
 from string import Template
 
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
 CSS_FILE = "./content/static/css/sp.css"
 COMMENTS_FILE = "./content/static/comments.json"
-comments = json.loads(open(COMMENTS_FILE).read())
 
+comments = json.loads(open(COMMENTS_FILE).read())
 sitetitle = "personal website and blog"
-sitename = "Hitarth Thummar"
+sitename = "ht.xyz"
 siteurl = "https://hitarththummar.xyz"
 footer = "Copyright © 2022 - Hitarth Thummar"
-#css = compress(open(CSS_FILE, "r").read())
 sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer}
 
 NAV_BAR_VALUES = {
@@ -22,7 +20,6 @@ NAV_BAR_VALUES = {
     "blog": "/blog",
     "artwork": "/artwork",
     "poems": "/poems",
-    "projects": "/projects",
 }
 
 
@@ -110,7 +107,7 @@ def generate_home_page():
     htmltext = markdown.markdown(markdowntext)
 
 
-    layout = master_layout.replace('					<h3 id="articletitle">${title}</h3>', "")  
+    layout = master_layout.replace('					<h1 id="articletitle">${title}</h1>', "")  
     # if it is the home page, remove the title and date, edge case
     layout = layout.replace('					<small id="date">${date}</small>', "")
 
@@ -145,6 +142,9 @@ def generate_page(path):
     template = Template(layout)
     layout = template.safe_substitute({"mdtext": htmltext}, **variables)
 
+    if os.path.basename(path) == "artwork.md":
+        layout = layout.replace('<small id="date">${date}</small>', "")
+
     ## if it is an index page, remove the date and create index
     if os.path.basename(path) == "index.md":
         layout = layout.replace('<small id="date">${date}</small>', "")
@@ -152,7 +152,7 @@ def generate_page(path):
         index_html = ""
         for i in index_list:
             htmllink = "/".join(i[0].replace(".md", ".html").split("/")[2:])
-            index_html += f"<p><a href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
+            index_html += f"<p><a id='listitems' href='/{htmllink}'>{i[2]}</a> -  &thinsp;{i[1]}</p>\n"
         layout = layout.replace(f"$listindex$", index_html)
 
     output_name = path.replace("./content", "./public").replace(".md", ".html")

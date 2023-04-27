@@ -1,5 +1,5 @@
 :root {
-	--background: #d8edff;
+	--background: #fff;
 	--card-background: #fff;
 	--color: #000;
 	--button-color: #3d3d3d;
@@ -16,13 +16,17 @@
 }
 
 body {
-	font-size: 1em;
+	font-size: 1.05em;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	margin: 0 auto;
 	color: var(--color);
-	max-width: 70em;
+	max-width: 90em;
 	padding: 0 1em;
 	background-color: var(--background);
+}
+p{
+	font-size: 1.1em;
+	text-align: justify;
 }
 input {
 	margin: 10px 0;
@@ -60,7 +64,7 @@ nav ul {
 	align-items: center;
 	margin: 0.5em;
 	padding: 0;
-	font-size: 1.08em;
+	font-size: 1.3em;
 	justify-content: center;
 }
 nav li {
@@ -70,7 +74,7 @@ nav li {
 header h1 {
 	font-family: sans-serif;
 	margin-bottom: 0.1em;
-	font-size: 2.43em !important;
+	font-size: 5.5em !important;
 }
 footer {
 	text-align: center;
@@ -90,7 +94,7 @@ h6 {
 	line-height: 1.2;
 }
 nav a {
-	font-weight: 500;
+	font-weight: 600;
 	text-decoration: none;
 }
 a:link {
@@ -164,13 +168,11 @@ pre {
 	padding: 0.5em;
 }
 blockquote {
-	background: var(--blockquote);
 	padding: 0.5em;
 	margin: 1em 0;
 	font-style: italic;
-	border-radius: 20px;
-	width: 40%;
 	text-align: center;
+	border-left:2px solid var(--blockquote)
 }
 blockquote:first-child {
 	margin-top: 0;
@@ -250,11 +252,17 @@ th {
 	background-color: var(--card-background);
 	padding: 0.6em;
 	border-radius: 20px;
-	filter: drop-shadow(0.2em 0.2em 0.25em rgba(0, 0, 0, 0.3));
+}
+
+header a:hover{
+	text-decoration: underline;
 }
 
 header h1 a {
 	color: var(--header-primary) !important;
+}
+header h1 a:hover{
+	text-decoration:none;
 }
 
 nav .card {
@@ -278,7 +286,7 @@ nav .card {
 }
 .navmenu {
 	grid-area: navmenu;
-	place-self: center;
+	place-self: baseline end;
 }
 
 .headerwrapper {
@@ -309,18 +317,18 @@ nav li a {
 	}
 	.wrapper {
 		gap: 10px;
-		grid-template-columns: 1fr 4fr;
-		grid-template-areas: "cmntcard maincard";
+		grid-template-columns: 2.5fr 1fr;
+		grid-template-areas: "maincard cmntcard";
 	}
 	.headername {
 		place-self: first baseline;
 	}
 	.navmenu {
-		place-self: end;
+		place-self: baseline end;
 	}
 	#solution {
 		max-height: 80vh;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 }
 @media (prefers-color-scheme: dark) {
@@ -340,4 +348,9 @@ nav li a {
 		--comments-border: #373737;
 		--nav-li: #9b9b9b;
 	}
+}
+
+#listitems{
+	font-weight:600;
+	font-size:1.1em;
 }

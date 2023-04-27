@@ -49,7 +49,7 @@
 	},
 	{
 		"alias": "neovoid",
-		"url": "/artwork",
+		"url": "/artwork/",
 		"time": "Fri Mar 04 2022 20:24:43 GMT 0530 (India Standard Time)",
 		"body": " amazing artworks. Loved em. "
 	},
@@ -334,5 +334,47 @@
 		"url": "/mahabharat/mahabharat_episode_33",
 		"time": "Tue Mar 28 2023 18:35:25 GMT+0530 (India Standard Time)",
 		"body": "👍👍"
+	},
+
+	{
+		"alias": "Ekalavya",
+		"url": "/mahabharat/mahabharat_episode_34_35",
+		"time": "Sun Apr 02 2023 12:37:08 GMT+0530 (India Standard Time)",
+		"body": "I did'nt know Shri Krishna INSTRUCTED Draupadi to deny Karna. Always thought it was her own decision becuz of Karna's cast. <br> <-- It wasn't at least according to the show. He glanced at her, signaling her not to do it."
+	},
+
+	{
+		"alias": "shlom",
+		"url": "/blog/fads",
+		"time": "Mon Apr 03 2023 01:33:27 GMT+0530 (India Standard Time)",
+		"body": "Actually, while I agree with the opinion that not everything needs cheese and orange sauce, and that there is no place anywhere for chocolate maggi, I will say that most of our most popular foods are not ingerently indian. For example, the only thing Indian about pav bhaaji is the spices used. Baking was introduced by the portuguese, tomatoes, cauliflower and potatoes were brought in from Mexico and Europe. All the other vegetables in it are a contribution of the western world."
+	},
+
+	{
+		"alias": "shlom",
+		"url": "/blog/fads",
+		"time": "Mon Apr 03 2023 01:37:13 GMT+0530 (India Standard Time)",
+		"body": "During the civil war, textile trade was halted between the british and the US and this gave the textile industry in India, specifically in Mumbai a huge boost. Pav bhaaji was made as a quick meal made of stale bread and a mash of fast expiring vegetables and indian spices to feed the thousands of textile workers. So in essence just like the humble and much loved pav bhaaji, a story of jugaad and western influence, we may see another creation that could be a staple of indian cuisine in the future"
+	},
+
+	{
+		"alias": "jpacheco",
+		"url": "/",
+		"time": "Thu Apr 20 2023 02:25:59 GMT-0500 (Central Daylight Time)",
+		"body": "nice web page."
+	},
+
+	{
+		"alias": "Hello",
+		"url": "/blog/rudimentary_encoding",
+		"time": "Fri Apr 21 2023 07:37:15 GMT+0530 (India Standard Time)",
+		"body": "Nice game.                I LOVE TILDEVARSH"
+	},
+
+	{
+		"alias": "( ´ ▽ ` )",
+		"url": "/blog/rudimentary_encoding",
+		"time": "Fri Apr 21 2023 12:46:56 GMT+0530 (India Standard Time)",
+		"body": "I LOVE TILDEVARSH!"
 	}
 ]

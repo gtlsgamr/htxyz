@@ -11,6 +11,9 @@
 			type="image/x-icon"
 			href="/static/images/favicon/favicon.ico"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 		<link
 			rel="alternate"
 			type="application/atom+xml"
@@ -36,7 +39,7 @@
 						method="POST"
 						action="/cgi-bin/addcomment.cgi"
 					>
-						<div><h3>Post a Comment</h3></div>
+						<div><h2>Post a Comment</h2></div>
 						<div>
 							<input
 								type="text"
@@ -71,7 +74,7 @@
 					<div id="solution" class="commentslist">$comments$</div>
 				</div>
 				<div class="maincard card">
-					<h3 id="articletitle">${title}</h3>
+					<h1 id="articletitle">${title}</h1>
 					<small id="date">${date}</small>
 					${mdtext}
 				</div>

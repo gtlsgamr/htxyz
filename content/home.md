@@ -1,18 +1,14 @@
-title=""
+title="Home"
 description="Hitarth Thummar's personal webspace. A place to share everything that he finds worth sharing."
 +++
-
-## I am Hitarth,
-Welcome to my personal webspace.
-
 <!-- homepagepointer -->
+I am Hitarth, Welcome to my personal webspace.
 
-
-This is a place where I plan to share everything that
-I find interesting, amusing, helpful or worth sharing. 
-
-You can find me hanging around over at [~tildevarsh](https://tildevarsh.in).
-
+This is a place where I plan to
+share everything thatI find interesting, amusing, helpful or worth sharing. You
+can find me hanging around over at
+[~tildevarsh](https://tildevarsh.in).       
+<!-- homepagepointer -->
 [Subscribe to my posts via Atom](/atom.xml)
 
 
@@ -21,7 +17,6 @@ You can find me hanging around over at [~tildevarsh](https://tildevarsh.in).
  [blog](/blog)  
  [poetry](/poems)  
  [artwork](/artwork)  
- [projects](/projects)  
  [**mahabharat TV show reviews**](/mahabharat)  
  [list of links worth sharing](/blog/interesting_links.html)  
  [Collection of quotes from the internet](/static/internet_quotes.txt)

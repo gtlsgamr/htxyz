@@ -145,6 +145,7 @@ Find out, in the next episode, of Mahabharat!
 ![](/static/images/mahabharat/ep_34_35_9.webp)
 ![](/static/images/mahabharat/ep_34_35_10.webp)
 ![](/static/images/mahabharat/ep_34_35_11.webp)
+![](/static/images/mahabharat/ep_34_35_12.webp)
 
 -------------------------
 
