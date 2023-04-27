@@ -89,13 +89,19 @@
 						.setAttribute("value", new Date().toString());
 					document.getElementById("formcomments").submit();
 				}
+
+				var checked = "light";
+
 				document.getElementById('theme-toggle').addEventListener('click', (e) => {
-					const checked = e.target.checked;
-					document.body.setAttribute('theme', checked ? 'dark' : 'light');
+					document.body.setAttribute('theme', checked==="light" ? 'dark' : 'light');
+					checked = (checked === "dark")?"light":"dark";
 				});
+
 			</script>
 		</main>
+		<hr>
 		<footer>
+			<hr>
 			${footer} | Proudly hosted on
 			<a href="https://tildevarsh.in">~tildevarsh</a><br />
 			<a href="/atom.xml">Subscribe via Atom</a>

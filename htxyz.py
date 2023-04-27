@@ -18,7 +18,7 @@ sitevars = {"sitetitle": sitetitle, "sitename": sitename, "footer": footer}
 NAV_BAR_VALUES = {
     "home": "/",
     "blog": "/blog",
-    "artwork": "/artwork",
+    "artwork": "/artwork.html",
     "poems": "/poems",
 }
 
@@ -38,7 +38,7 @@ def gen_navbar(nav_bar_items):
     """
     navbar_html = ["<ul>"]
     navbar_html += [f"\t\t\t\t\t<li> <a href='{html.escape(link_path)}'>{html.escape(link_name)}</a></li>" for link_name, link_path in nav_bar_items.items()]
-    navbar_html.append(' <li><input type="checkbox" id="theme-toggle">    <label for="theme-toggle"></label></li>')
+    navbar_html.append(' <li><div id="theme-toggle"></div></li>')
     navbar_html.append("\t\t\t\t</ul>")
     return "\n".join(navbar_html)
 
@@ -143,7 +143,7 @@ def generate_page(path):
     template = Template(layout)
     layout = template.safe_substitute({"mdtext": htmltext}, **variables)
 
-    if os.path.basename(path) == "artwork.md":
+    if os.path.basename(path) == "artwork.md" or os.path.basename(path) == "404.md":
         layout = layout.replace('<small id="date">${date}</small>', "")
 
     ## if it is an index page, remove the date and create index

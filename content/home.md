@@ -5,7 +5,7 @@ description="Hitarth Thummar's personal webspace. A place to share everything th
 I am Hitarth, Welcome to my personal webspace.
 
 This is a place where I plan to
-share everything thatI find interesting, amusing, helpful or worth sharing. You
+share everything that I find interesting, amusing, helpful or worth sharing. You
 can find me hanging around over at
 [~tildevarsh](https://tildevarsh.in).       
 <!-- homepagepointer -->
@@ -18,7 +18,6 @@ can find me hanging around over at
  [poetry](/poems)  
  [artwork](/artwork)  
  [**mahabharat TV show reviews**](/mahabharat)  
- [list of links worth sharing](/blog/interesting_links.html)  
  [Collection of quotes from the internet](/static/internet_quotes.txt)
 
 
