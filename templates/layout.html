@@ -20,13 +20,13 @@
 		<meta name="description" content="${description}" />
 		<link rel="stylesheet" type="text/css" href="/static/css/sp.css" />
 	</head>
-	<body theme="light">
+	<body>
 		<main>
 			<header>
 				<div class="headerwrapper">
-					<h1 class="headername">  <a href="/">${sitename}</a></h1>
+					<h1 class="headername"><a href="/">${sitename}</a></h1>
 
-					<nav class="navmenu">${navbar}</label></nav>
+					<nav class="navmenu">${navbar}</nav>
 				</div>
 			</header>
 			<div class="wrapper">
@@ -90,18 +90,31 @@
 					document.getElementById("formcomments").submit();
 				}
 
-				var checked = "light";
+				if (!localStorage.getItem("theme")) {
+					localStorage.setItem("theme", "light");
+					alert("done");
+				}
 
-				document.getElementById('theme-toggle').addEventListener('click', (e) => {
-					document.body.setAttribute('theme', checked==="light" ? 'dark' : 'light');
-					checked = (checked === "dark")?"light":"dark";
-				});
+				document.body.setAttribute("theme",localStorage.getItem("theme"))
 
+				document
+					.getElementById("theme-toggle")
+					.addEventListener("click", (e) => {
+						if (localStorage.getItem("theme") === "light") {
+							document.body.setAttribute("theme", "dark");
+							localStorage.removeItem("theme");
+							localStorage.setItem("theme", "dark");
+						} else {
+							document.body.setAttribute("theme", "light");
+							localStorage.removeItem("theme");
+							localStorage.setItem("theme", "light");
+						}
+					});
 			</script>
 		</main>
-		<hr>
+		<hr />
 		<footer>
-			<hr>
+			<hr />
 			${footer} | Proudly hosted on
 			<a href="https://tildevarsh.in">~tildevarsh</a><br />
 			<a href="/atom.xml">Subscribe via Atom</a>
