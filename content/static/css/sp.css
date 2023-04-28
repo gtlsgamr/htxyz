@@ -187,14 +187,14 @@ figcaption {
 pre {
 	color: var(--samp);
 	background: var(--pre-background);
-	overflow: scroll;
+	overflow-x: scroll;
 	max-width: 100%;
 	padding: 0.5em;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
 	white-space: -o-pre-wrap;
-	word-wrap: break-word;
+	word-wrap: break-all;
 }
 blockquote {
 	padding: 0.5em;
