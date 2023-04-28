@@ -1,5 +1,6 @@
 import { Handler } from '@netlify/functions';
 import { Octokit } from '@octokit/rest';
+import querystring from 'querystring';
 
 interface Comment {
 	alias: string;
@@ -10,10 +11,19 @@ interface Comment {
 
 const handler: Handler = async (event, context) => {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  console.log("event body---"+event.body)
-  const comment: Comment = JSON.parse(event.body);
 
-  console.log("COMMENT---"+comment)
+  // Parse the form data from the request body
+  const formData = querystring.parse(event.body) as Comment;
+
+  // Construct the comment object
+  const comment: Comment = {
+    alias: formData.alias,
+    url: formData.url,
+    time: formData.time,
+    body: formData.body,
+  };
+
+  console.log(comment)
   // Push comment to GitHub repo
   await octokit.repos.createOrUpdateFileContents({
     owner: 'gtlsgamr',
