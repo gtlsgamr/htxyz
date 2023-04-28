@@ -101,7 +101,7 @@ const handler: Handler = async (event, context) => {
   headers: {
     'Content-type': 'text/html; charset=UTF-8',
   },
-    body: 'Your comment has been posted!. <a href="javascript:history.back()">Go Back</a>',
+    body: 'Your comment has been posted! It will show up soon. :) <a href="javascript:history.back()">Go Back</a>',
 }
 };
 
