@@ -1,5 +1,6 @@
 import { Handler } from '@netlify/functions';
-import fetch from 'node-fetch';
+import querystring from 'querystring';
+import { Octokit } from '@octokit/rest';
 
 interface Comment {
   alias: string;
@@ -10,19 +11,13 @@ interface Comment {
 
 const handler: Handler = async (event, context) => {
   const formData = querystring.parse(event.body) as Comment;
-  const { alias, url, time, body } = {formData.alias, formData.url, formData.time, formData.body}
 
   // Get existing comments
   const response = await fetch('https://raw.githubusercontent.com/gtlsgamr/htxyz/main/content/static/comments.json');
   const existingComments: Comment[] = await response.json();
 
   // Add new comment
-  existingComments.push({
-    alias,
-    url,
-    time,
-    body,
-  });
+  existingComments.push(formData);
 
   // Update comments file on GitHub
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
@@ -37,7 +32,7 @@ const handler: Handler = async (event, context) => {
     owner: 'gtlsgamr',
     repo: 'htxyz',
     path: 'content/static/comments.json',
-    message: `Add new comment, by ${alias}`,
+    message: `Add new comment, by ${formData.alias}`,
     content,
     sha,
   });
