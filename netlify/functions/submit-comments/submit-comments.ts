@@ -2,9 +2,10 @@ import { Handler } from '@netlify/functions';
 import { Octokit } from '@octokit/rest';
 
 interface Comment {
-  name: string;
-  email: string;
-  message: string;
+	alias: string;
+	url: string;
+	time: string;
+	body: string;
 }
 
 const handler: Handler = async (event, context) => {
