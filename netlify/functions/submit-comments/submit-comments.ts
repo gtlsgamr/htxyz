@@ -10,8 +10,10 @@ interface Comment {
 
 const handler: Handler = async (event, context) => {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+  console.log("event body---"+event.body)
   const comment: Comment = JSON.parse(event.body);
 
+  console.log("COMMENT---"+comment)
   // Push comment to GitHub repo
   await octokit.repos.createOrUpdateFileContents({
     owner: 'gtlsgamr',
