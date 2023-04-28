@@ -25,8 +25,8 @@ body {
 }
 
 body[theme="dark"] {
-	--background: #000;
-	--card-background: #000;
+	--background: #1e1e1e;
+	--card-background: #1e1e1e;
 	--button-color: #e8e8e8;
 	--color: #cecece;
 	--button-background: #2b2424;
