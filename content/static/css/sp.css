@@ -184,7 +184,7 @@ figure {
 figcaption {
 	font-size: small;
 }
-pre code {
+pre{
 	color: var(--samp);
 	background: var(--pre-background);
 	overflow-x: auto;
