@@ -16,7 +16,7 @@ body {
 	--a-visited: #a49285;
 	--header-primary: #000;
 	--samp: #016e96;
-	--pre-background: #eee;
+	--pre-background: #f9f9f9;
 	--blockquote: #ececec;
 	--comments-border: #d2d2d2;
 	--nav-li: #2a2a2a;
@@ -33,8 +33,8 @@ body[theme="dark"] {
 	--a-link: #7d5c50;
 	--a-visited: #a49285;
 	--header-primary: #a2a2a2;
-	--samp: #016e96;
-	--pre-background: #d5d5d5;
+	--samp: #88ddfc;
+	--pre-background: #252525;
 	--blockquote: #646464;
 	--comments-border: #373737;
 	--nav-li: #9b9b9b;
@@ -184,17 +184,18 @@ figure {
 figcaption {
 	font-size: small;
 }
-pre {
+pre code {
 	color: var(--samp);
 	background: var(--pre-background);
-	overflow-x: scroll;
+	overflow-x: auto;
 	max-width: 100%;
 	padding: 0.5em;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
 	white-space: -o-pre-wrap;
-	word-wrap: break-all;
+	overflow-wrap:anywhere;
+	font-size:1em;
 }
 blockquote {
 	padding: 0.5em;
