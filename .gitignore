@@ -1,2 +1,5 @@
 public/*
 env/
+
+# Local Netlify folder
+.netlify
