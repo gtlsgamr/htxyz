@@ -28,8 +28,15 @@
 
 					<nav class="navmenu">${navbar}</nav>
 				</div>
+				<hr>
 			</header>
 			<div class="wrapper">
+				<div class="maincard card">
+					<h1 id="articletitle">${title}</h1>
+					<small id="date">${date}</small>
+					${mdtext}
+				</div>
+
 				<div class="cmntcard card">
 					<form
 						name="comments"
@@ -70,11 +77,6 @@
 						</div>
 					</form>
 					<div id="solution" class="commentslist">$comments$</div>
-				</div>
-				<div class="maincard card">
-					<h1 id="articletitle">${title}</h1>
-					<small id="date">${date}</small>
-					${mdtext}
 				</div>
 			</div>
 			<script>
