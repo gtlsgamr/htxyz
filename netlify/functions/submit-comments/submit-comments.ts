@@ -1,4 +1,5 @@
 import { Handler } from '@netlify/functions';
+import fetch from "node-fetch";
 import querystring from 'querystring';
 import { Octokit } from '@octokit/rest';
 
