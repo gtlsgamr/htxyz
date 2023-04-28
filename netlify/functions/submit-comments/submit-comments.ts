@@ -97,10 +97,12 @@ const handler: Handler = async (event, context) => {
   });
 
   return {
-    statusCode: 200,
+  statusCode: 200,
+  headers: {
+    'Content-type': 'text/html; charset=UTF-8',
+  },
     body: 'Your comment has been posted!. <a href="javascript:history.back()">Go Back</a>',
-	type: 'text/html'
-  };
+}
 };
 
 export { handler };
