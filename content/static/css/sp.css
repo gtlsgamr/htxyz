@@ -391,6 +391,7 @@ nav li a {
 	} /* Styles for mobile devices with screen width up to 600px */
 	.headername {
 		margin: 0.1em;
+		font-size:3.5em!important;
 	}
 	nav ul {
 		font-size: 1em;
