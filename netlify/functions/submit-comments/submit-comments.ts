@@ -40,7 +40,7 @@ const handler: Handler = async (event, context) => {
 
   return {
     statusCode: 200,
-    body: 'Comment submitted successfully!',
+    body: 'Your comment has been recorded for approval. <a href="javascript:history.back()">Go Back</a>',
   };
 };
 
