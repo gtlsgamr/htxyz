@@ -20,8 +20,8 @@ body {
 	--blockquote: #ececec;
 	--comments-border: #d2d2d2;
 	--nav-li: #2a2a2a;
-	--toggleshadow:none;
-	--togglecolor:gold;
+	--toggleshadow: none;
+	--togglecolor: gold;
 }
 
 body[theme="dark"] {
@@ -38,7 +38,7 @@ body[theme="dark"] {
 	--blockquote: #646464;
 	--comments-border: #373737;
 	--nav-li: #9b9b9b;
-	--togglecolor:transparent;
+	--togglecolor: transparent;
 	--toggleshadow: inset -3px -1px 1px 1px #fff;
 }
 
@@ -369,7 +369,7 @@ nav li a {
 	font-weight: 600;
 	font-size: 1.1em;
 }
-#theme-toggle{
+#theme-toggle {
 	cursor: pointer;
 	height: 31px;
 	width: 31px;
@@ -377,7 +377,7 @@ nav li a {
 	transition: all 0.3s ease-in-out;
 }
 
-#theme-toggle{
+#theme-toggle {
 	background-color: var(--togglecolor);
 	box-shadow: var(--toggleshadow);
 }
