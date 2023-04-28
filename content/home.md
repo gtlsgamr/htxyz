@@ -16,7 +16,7 @@ can find me hanging around over at
 
  [blog](/blog)  
  [poetry](/poems)  
- [artwork](/artwork)  
+ [artwork](/artwork.html)  
  [**mahabharat TV show reviews**](/mahabharat)  
  [Collection of quotes from the internet](/static/internet_quotes.txt)
 
