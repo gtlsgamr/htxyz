@@ -21,27 +21,6 @@
 		<link rel="stylesheet" type="text/css" href="/static/css/sp.css" />
 	</head>
 	<body>
-		<script>
-			if (!localStorage.getItem("theme")) {
-				localStorage.setItem("theme", "light");
-			}
-
-			document.body.setAttribute("theme", localStorage.getItem("theme"));
-
-			document
-				.getElementById("theme-toggle")
-				.addEventListener("click", (e) => {
-					if (localStorage.getItem("theme") === "light") {
-						document.body.setAttribute("theme", "dark");
-						localStorage.removeItem("theme");
-						localStorage.setItem("theme", "dark");
-					} else {
-						document.body.setAttribute("theme", "light");
-						localStorage.removeItem("theme");
-						localStorage.setItem("theme", "light");
-					}
-				});
-		</script>
 		<main>
 			<header>
 				<div class="headerwrapper">
@@ -49,7 +28,7 @@
 
 					<nav class="navmenu">${navbar}</nav>
 				</div>
-				<hr />
+				<hr>
 			</header>
 			<div class="wrapper">
 				<div class="maincard card">
@@ -112,6 +91,26 @@
 						.setAttribute("value", new Date().toString());
 					document.getElementById("formcomments").submit();
 				}
+
+				if (!localStorage.getItem("theme")) {
+					localStorage.setItem("theme", "light");
+				}
+
+				document.body.setAttribute("theme",localStorage.getItem("theme"))
+
+				document
+					.getElementById("theme-toggle")
+					.addEventListener("click", (e) => {
+						if (localStorage.getItem("theme") === "light") {
+							document.body.setAttribute("theme", "dark");
+							localStorage.removeItem("theme");
+							localStorage.setItem("theme", "dark");
+						} else {
+							document.body.setAttribute("theme", "light");
+							localStorage.removeItem("theme");
+							localStorage.setItem("theme", "light");
+						}
+					});
 			</script>
 		</main>
 		<hr />
