@@ -28,7 +28,7 @@ const handler: Handler = async (event, context) => {
   await octokit.repos.createOrUpdateFileContents({
     owner: 'gtlsgamr',
     repo: 'htxyz',
-    path: '/content/static/comments.json',
+    path: 'content/static/comments.json',
     message: 'Add new comment',
     content: Buffer.from(JSON.stringify(comment)).toString('base64'),
   });
