@@ -4,7 +4,7 @@ description="Pandavs, after being discovered as alive, plan to leave for Hastina
 +++
 
 #### Pandavs leave for Hastinapur
-> Mera hriday tumhare rajya jo vo bhaag hai, jise tum kabhi haar nahi sakte.
+> Mera hriday tumhare rajya ka vo bhaag hai, jise tum kabhi haar nahi sakte.
 
 #### Synopsis 
 After Arjun marries Draupadi, everyone comes to know that they are alive.
