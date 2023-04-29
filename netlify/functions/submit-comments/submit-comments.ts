@@ -81,6 +81,15 @@ const handler: Handler = async (event, context) => {
 	  }
   }
 
+  const origin = event.headers['origin'];
+  if (origin !== 'https://hitarththummar.xyz') {
+    return {
+      statusCode: 403,
+      body: "Access denied: origin is not allowed.",
+    };
+  }
+
+
   // Get existing comments
   const response = await fetch('https://raw.githubusercontent.com/gtlsgamr/htxyz/main/content/static/comments.json');
   const existingComments: Comment[] = await response.json();
