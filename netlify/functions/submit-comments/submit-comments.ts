@@ -71,6 +71,13 @@ const handler: Handler = async (event, context) => {
 	  };
   }
 
+  if(formData.url===""){
+	  return{
+		  statusCode: 400,
+		  body: "Invalid input",
+	  }
+  }
+
   // Get existing comments
   const response = await fetch('https://raw.githubusercontent.com/gtlsgamr/htxyz/main/content/static/comments.json');
   const existingComments: Comment[] = await response.json();
