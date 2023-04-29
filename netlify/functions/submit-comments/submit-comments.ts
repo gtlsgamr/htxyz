@@ -72,7 +72,9 @@ const handler: Handler = async (event, context) => {
 	  };
   }
 
-  if(event.headers.host!=="hitarththummar.xyz"){
+  console.log(event)
+
+  if(formData.url===""){
 	  return{
 		  statusCode: 400,
 		  body: "Invalid input",
