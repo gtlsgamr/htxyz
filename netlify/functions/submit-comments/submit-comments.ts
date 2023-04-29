@@ -64,6 +64,7 @@ function escapeHtml(unsafe: string): string {
 const handler: Handler = async (event, context) => {
   const formData = querystring.parse(event.body) as Comment;
 
+
   if(!validateInput(formData.alias) || !validateInput(formData.body)){
 	  return {
 		statusCode: 400,
@@ -71,7 +72,7 @@ const handler: Handler = async (event, context) => {
 	  };
   }
 
-  if(formData.url===""){
+  if(event.headers.host!=="tildevarsh.in"){
 	  return{
 		  statusCode: 400,
 		  body: "Invalid input",
