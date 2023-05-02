@@ -1,8 +1,8 @@
 title="A glimpse into the future with chatGPT"
 description="A story written by chatGPT about itself"
 date="2023-05-02"
-
 +++
+
 **Disclaimer: This story is written by chatGPT. It is an experiment. Two perspectives are shown, the good and the bad. Which one to believe is up to you.**
 
 ## The Laborer
