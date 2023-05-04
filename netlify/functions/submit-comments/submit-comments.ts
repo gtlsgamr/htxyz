@@ -72,8 +72,6 @@ const handler: Handler = async (event, context) => {
 	  };
   }
 
-  console.log(event)
-
   if(formData.url===""){
 	  return{
 		  statusCode: 400,
