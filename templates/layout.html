@@ -31,68 +31,12 @@
 				</div>
 				<hr>
 			</header>
-			<div class="wrapper">
 				<div class="maincard card">
 					<h1 id="articletitle">${title}</h1>
 					<small id="date">${date}</small>
 					${mdtext}
 				</div>
-
-							<div class="cmntcard card">
-					<!--	<form
-						name="comments"
-						id="formcomments"
-						action="/.netlify/functions/submit-comments"
-						method="POST"
-					>
-						<div><h2>Post a Comment</h2></div>
-						<div>
-							<input
-								type="text"
-								class="comment-field"
-								name="alias"
-								placeholder="Your Alias"
-								id="alias"
-								required
-							/>
-							<input type="hidden" id="texturl" name="url" />
-							<input type="hidden" id="textdate" name="time" />
-						</div>
-						<div>
-							<textarea
-								maxlength="500"
-								name="body"
-								placeholder="Enter your comment here (Max 500 words)"
-								id="comment"
-								required
-							></textarea>
-						</div>
-						<div>
-							<button
-								type="button"
-								id="comment-button"
-								onclick="tesubmit()"
-							>
-								Comment
-							</button>
-						</div>
-					</form>-->
-					<div id="solution" class="commentslist">$comments$</div>
-				</div>
-			</div>
 			<script>
-				function tesubmit() {
-					document
-						.getElementById("texturl")
-						.setAttribute("value", window.location.pathname);
-					document.getElementById("texturl").value =
-						window.location.pathname;
-					document
-						.getElementById("textdate")
-						.setAttribute("value", new Date().toString());
-					document.getElementById("formcomments").submit();
-				}
-
 				if (!localStorage.getItem("theme")) {
 					localStorage.setItem("theme", "light");
 				}
