@@ -52,6 +52,7 @@ body {
 	background-color: var(--background);
 	display: flex;
 	flex-direction: column;
+	width: 70%;
 
 	/* fallback height */
 	min-height: 100vh;
@@ -302,16 +303,6 @@ nav .card {
 	border-radius: 14px;
 }
 
-.cmntcard {
-	grid-area: cmntcard;
-	align-self: start;
-}
-
-.maincard {
-	grid-area: maincard;
-	overflow-wrap: break-word;
-	align-self: start;
-}
 .headername {
 	grid-area: headername;
 	place-self: center;
@@ -329,14 +320,6 @@ nav .card {
 		"navmenu";
 }
 
-.wrapper {
-	display: grid;
-	gap: 7px;
-	grid-template-areas:
-		"maincard"
-		"cmntcard";
-}
-
 nav li a {
 	color: var(--nav-li) !important;
 }
@@ -347,11 +330,6 @@ nav li a {
 		grid-template-columns: 4fr 4fr;
 		grid-template-areas: "headername navmenu";
 	}
-	.wrapper {
-		gap: 10px;
-		grid-template-columns: 2.5fr 1fr;
-		grid-template-areas: "maincard cmntcard";
-	}
 	.headername {
 		place-self: first baseline;
 	}
@@ -361,9 +339,6 @@ nav li a {
 	#solution {
 		max-height: 80vh;
 		overflow-y: scroll;
-	}
-	.maincard {
-		width: 70%;
 	}
 }
 #listitems {
@@ -401,5 +376,9 @@ nav li a {
 	}
 	.navmenu {
 		place-self: baseline center;
+	}
+
+	body{
+		width:90%;
 	}
 }

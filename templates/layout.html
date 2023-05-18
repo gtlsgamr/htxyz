@@ -22,7 +22,6 @@
 		<link rel="stylesheet" type="text/css" href="/static/css/sp.css" />
 	</head>
 	<body>
-		<main>
 			<header>
 				<div class="headerwrapper">
 					<h1 class="headername"><a href="/">${sitename}</a></h1>
@@ -31,11 +30,10 @@
 				</div>
 				<hr>
 			</header>
-				<div class="maincard card">
+		<main>
 					<h1 id="articletitle">${title}</h1>
 					<small id="date">${date}</small>
 					${mdtext}
-				</div>
 			<script>
 				if (!localStorage.getItem("theme")) {
 					localStorage.setItem("theme", "light");
