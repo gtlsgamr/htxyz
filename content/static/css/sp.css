@@ -1,11 +1,9 @@
-@import "../fonts/inter.css": root {
-	font-family: "Inter", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;800&display=swap');
+
+:root {
+	font-family: "Roboto Flex", sans-serif;
 }
-@supports (font-variation-settings: normal) {
-	:root {
-		font-family: "Inter var", sans-serif;
-	}
-}
+
 body {
 	--background: #fff;
 	--card-background: #fff;
@@ -43,7 +41,7 @@ body[theme="dark"] {
 }
 
 body {
-	font-size: 1.05em;
+	font-size: 1em;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	margin: 0 auto;
 	color: var(--color);
@@ -109,6 +107,7 @@ nav li {
 header h1 {
 	margin-bottom: 0.1em;
 	font-size: 3.5em !important;
+	font-weight:800;
 }
 footer {
 	text-align: center;
