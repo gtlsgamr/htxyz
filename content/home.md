@@ -1,34 +1,30 @@
 title="Home"
-description="Hitarth Thummar's personal webspace. A place to share everything that he finds worth sharing."
+description="Hitarth's website."
 +++
 <!-- homepagepointer -->
-I am Hitarth, Welcome to my personal webspace.
+Explore Hitarth's personal webspace, a digital haven brimming with an assortment of intriguing, amusing, and insightful gems. Join me on this virtual adventure as I uncover and share the things that pique my curiosity. Find me at [~tildevarsh](https://tildevarsh.in), where I'm always excited to connect and exchange thoughts.
 
-This is a place where I plan to
-share everything that I find interesting, amusing, helpful or worth sharing. You
-can find me hanging around over at
-[~tildevarsh](https://tildevarsh.in).       
 <!-- homepagepointer -->
-[Subscribe to my posts via Atom](/atom.xml)
+[Stay up-to-date with my latest posts by subscribing via Atom](/atom.xml)
 
 
-### Site Navigation
+### Explore the Site
 
- [blog](/blog)  
- [poetry](/poems)  
- [artwork](/artwork.html)  
- [**mahabharat TV show reviews**](/mahabharat)  
- [Collection of quotes from the internet](/static/internet_quotes.txt)
+- [Blog](/blog): Dive into my thoughts and musings on various topics.
+- [Poetry](/poems): Collection of poems that I wrote.
+- [Artwork](/artwork.html): Immerse yourself in the visual creations that inspire me.
+- [**Mahabharat TV Show Reviews**](/mahabharat): Join me as I delve into the captivating world of Mahabharat and share my reviews.
+- [Collection of Quotes from the Internet](/static/internet_quotes.txt): Some quotes that I found on the internet and felt like sharing.
 
 
-### Contact
-* Email: hittarth91 [at] gmail [dot] com / [pgp](/static/key.txt)
-* IRC: gtlsgamr @ #gnulinuxindia:libera.chat
-* [Github](https://github.com/gtlsgamr), [Gitlab](https://gitlab.com/gtlsgamr)
+### Get in Touch
 
->'What is sorrow?' 'To long for the past.'
+- Email: hittarth91 [at] gmail [dot] com / [PGP Key](/static/key.txt)
+- IRC: Find me as gtlsgamr @ #gnulinuxindia:libera.chat and @ #tildevarsh:libera.chat
+- Connect on [Github](https://github.com/gtlsgamr) and [Gitlab](https://gitlab.com/gtlsgamr)
 
-![](static/images/guycomputer.gif) 
+
+![Illustration of a person using a computer](static/images/guycomputer.gif)
 
 ---------------------------------------------
 ##### Recent Posts

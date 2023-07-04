@@ -7,17 +7,17 @@
 body {
 	--background: #fff;
 	--card-background: #fff;
-	--color: #000;
+	--color: #333;
 	--button-color: #3d3d3d;
 	--button-background: #f2f2f2;
 	--a-link: #7d5c50;
 	--a-visited: #a49285;
-	--header-primary: #000;
+	--header-primary: #333;
 	--samp: #016e96;
 	--pre-background: #f9f9f9;
 	--blockquote: #ececec;
 	--comments-border: #d2d2d2;
-	--nav-li: #2a2a2a;
+	--nav-li: #333;
 	--toggleshadow: none;
 	--togglecolor: gold;
 }
@@ -41,7 +41,7 @@ body[theme="dark"] {
 }
 
 body {
-	font-size: 1em;
+	font-size: 1.1em;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	margin: 0 auto;
 	color: var(--color);
@@ -88,7 +88,7 @@ main {
 	word-wrap: break-word;
 	word-break: normal;
 	margin-bottom: 1em;
-	line-height: 1.5;
+	line-height: 1.65;
 }
 nav ul {
 	display: flex;
@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: 1.2;
+	line-height: 1.65;
 }
 nav a {
 	font-weight: 600;
@@ -218,12 +218,6 @@ th {
 	border: thin solid #999;
 	padding: 0.3em 0.4em;
 	text-align: left;
-}
-#solution div {
-	padding: 0.9em;
-	margin: 0.5em;
-	line-height: 1.3em;
-	border-bottom: 1px solid var(--comments-border);
 }
 
 #gallery {
