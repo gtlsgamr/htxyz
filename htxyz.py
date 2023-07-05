@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-import os,html,markdown,shutil,json
+import os,html,markdown,shutil,json,time
 from datetime import date, datetime
 from string import Template
+import concurrent.futures
+
 
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
@@ -105,7 +107,7 @@ def generate_home_page():
     homepage = os.path.join(CONTENT_DIR, "home.md")
 
     variables, markdowntext = read_vars(open(homepage, "r").read())
-    htmltext = markdown.markdown(markdowntext)
+    htmltext = markdown.markdown(markdowntext, extensions=['markdown.extensions.extra'])
 
 
     layout = master_layout.replace('					<h1 id="articletitle">${title}</h1>', "")  
@@ -138,7 +140,7 @@ def generate_page(path):
 
     filename = os.path.basename(path).replace(".md","")
     variables, markdowntext = read_vars(open(path, "r").read())
-    htmltext = markdown.markdown(markdowntext)
+    htmltext = markdown.markdown(markdowntext, extensions=['markdown.extensions.extra'])
 
     template = Template(layout)
     layout = template.safe_substitute({"mdtext": htmltext}, **variables)
@@ -182,7 +184,7 @@ def generate_rss():
                     <updated>{datetime.strptime(i[1],"%Y-%m-%d").isoformat()}Z</updated>
                     <summary>"{i[3]}"</summary>
                     <content type="html">
-                        {html.escape(markdown.markdown(markdowntext))}
+                        {html.escape(markdown.markdown(markdowntext, extensions=['markdown.extensions.extra']))}
                     </content>
                 </entry>
             """
@@ -192,11 +194,31 @@ def generate_rss():
         w.write(rsslayout)
 
 
+def generate_all_pages():
+    page_count = 0
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        for root, dirs, files in os.walk(CONTENT_DIR, topdown=False):
+            for name in files:
+                if name.endswith((".md", ".html")):
+                    executor.submit(generate_page, os.path.join(root, name))
+                    page_count += 1
+    return page_count
+
+def count_static_files():
+    static_file_count = 0
+    for root, dirs, files in os.walk(CONTENT_DIR + "/static"):
+        static_file_count += len(files)
+    return static_file_count
+
 if __name__ == "__main__":
-    filelist = []
-    for root, dirs, files in os.walk("./content", topdown=False):
-        for name in files:
-            if name.endswith((".md", ".html")):
-                generate_page(os.path.join(root, name))
-    shutil.copytree("./content/static", "./public/static", dirs_exist_ok=True)
+    start_time = time.time()
+    page_count = generate_all_pages()
+    static_file_count = count_static_files()
+    shutil.copytree(CONTENT_DIR + "/static", PUBLIC_DIR + "/static", dirs_exist_ok=True)
     generate_rss()
+    end_time = time.time()
+
+    print("Start building sites …")
+    print(f"Pages            | {page_count}")
+    print(f"Static files     | {static_file_count}")
+    print(f"Total in {(end_time - start_time) * 1000} ms")

@@ -1,6 +1,8 @@
 title="Home"
 description="Hitarth's website."
 +++
+<div class="homepage" markdown="1">
+<div class="homepagecontent" markdown="1">
 <!-- homepagepointer -->
 Explore Hitarth's personal webspace, a digital haven brimming with an assortment of intriguing, amusing, and insightful gems. Join me on this virtual adventure as I uncover and share the things that pique my curiosity. Find me at [~tildevarsh](https://tildevarsh.in), where I'm always excited to connect and exchange thoughts.
 
@@ -25,7 +27,10 @@ Explore Hitarth's personal webspace, a digital haven brimming with an assortment
 
 
 ![Illustration of a person using a computer](static/images/guycomputer.gif)
+</div>
 
----------------------------------------------
-##### Recent Posts
+<div class="recentposts" markdown="1">
+### Recent Posts
 $listindex$
+</div>
+</div>
