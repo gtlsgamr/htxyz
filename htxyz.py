@@ -210,15 +210,23 @@ def count_static_files():
         static_file_count += len(files)
     return static_file_count
 
+def print_message(message, message_type="INFO"):
+    """
+    Print formatted messages with a consistent style.
+    """
+    print(f"[{message_type}] {message}")
+
 if __name__ == "__main__":
     start_time = time.time()
-    page_count = generate_all_pages()
-    static_file_count = count_static_files()
-    shutil.copytree(CONTENT_DIR + "/static", PUBLIC_DIR + "/static", dirs_exist_ok=True)
-    generate_rss()
-    end_time = time.time()
-
-    print("Start building sites …")
-    print(f"Pages            | {page_count}")
-    print(f"Static files     | {static_file_count}")
-    print(f"Total in {(end_time - start_time) * 1000} ms")
+    print_message("Start building sites …")
+    try:
+        page_count = generate_all_pages()
+        static_file_count = count_static_files()
+        shutil.copytree(CONTENT_DIR + "/static", PUBLIC_DIR + "/static", dirs_exist_ok=True)
+        generate_rss()
+        end_time = time.time()
+        print_message(f"Pages            | {page_count}")
+        print_message(f"Static files     | {static_file_count}")
+        print_message(f"Total in {(end_time - start_time) * 1000} ms")
+    except Exception as e:
+        print_message(f"An error occurred: {e}", "ERROR")
