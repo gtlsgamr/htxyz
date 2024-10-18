@@ -210,15 +210,31 @@ def count_static_files():
         static_file_count += len(files)
     return static_file_count
 
+def print_message(message, message_type="INFO"):
+    """
+    Print formatted messages with a consistent style.
+    """
+    color_codes = {
+        "INFO": "\033[94m",  # Blue
+        "SUCCESS": "\033[92m",  # Green
+        "WARNING": "\033[93m",  # Yellow
+        "ERROR": "\033[91m",  # Red
+        "ENDC": "\033[0m",  # Reset
+    }
+    color_code = color_codes.get(message_type, "\033[0m")
+    print(f"{color_code}[{message_type}] {message}{color_codes['ENDC']}")
+
 if __name__ == "__main__":
     start_time = time.time()
-    page_count = generate_all_pages()
-    static_file_count = count_static_files()
-    shutil.copytree(CONTENT_DIR + "/static", PUBLIC_DIR + "/static", dirs_exist_ok=True)
-    generate_rss()
-    end_time = time.time()
-
-    print("Start building sites …")
-    print(f"Pages            | {page_count}")
-    print(f"Static files     | {static_file_count}")
-    print(f"Total in {(end_time - start_time) * 1000} ms")
+    print_message("Start building sites …")
+    try:
+        page_count = generate_all_pages()
+        static_file_count = count_static_files()
+        shutil.copytree(CONTENT_DIR + "/static", PUBLIC_DIR + "/static", dirs_exist_ok=True)
+        generate_rss()
+        end_time = time.time()
+        print_message(f"Pages            | {page_count}", "SUCCESS")
+        print_message(f"Static files     | {static_file_count}", "SUCCESS")
+        print_message(f"Total in {(end_time - start_time) * 1000} ms", "SUCCESS")
+    except Exception as e:
+        print_message(f"An error occurred: {e}", "ERROR")
