@@ -3,7 +3,10 @@ import os,html,markdown,shutil,json,time
 from datetime import date, datetime
 from string import Template
 import concurrent.futures
+from colorama import init, Fore, Style
+from tqdm import tqdm
 
+init()
 
 CONTENT_DIR = "./content"
 PUBLIC_DIR = "./public"
@@ -215,13 +218,13 @@ def print_message(message, message_type="INFO"):
     Print formatted messages with a consistent style.
     """
     color_codes = {
-        "INFO": "\033[94m",  # Blue
-        "SUCCESS": "\033[92m",  # Green
-        "WARNING": "\033[93m",  # Yellow
-        "ERROR": "\033[91m",  # Red
-        "ENDC": "\033[0m",  # Reset
+        "INFO": Fore.BLUE,
+        "SUCCESS": Fore.GREEN,
+        "WARNING": Fore.YELLOW,
+        "ERROR": Fore.RED,
+        "ENDC": Style.RESET_ALL,
     }
-    color_code = color_codes.get(message_type, "\033[0m")
+    color_code = color_codes.get(message_type, Style.RESET_ALL)
     print(f"{color_code}[{message_type}] {message}{color_codes['ENDC']}")
 
 if __name__ == "__main__":
